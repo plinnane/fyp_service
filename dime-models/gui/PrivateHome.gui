@@ -1,0 +1,195 @@
+GUI _NGHA8F4TEear0NzybbrMtw {
+  title "PrivateHome"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  Template _NGNuoF4TEear0NzybbrMtw at 270,30 size 390,480  {
+  	blockName "body"
+  	Jumbotron _mBkmoF7cEeaOsfr6s-K4-Q at 10,30 size 370,420  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _mBnp8F7cEeaOsfr6s-K4-Q at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _mBoRAF7cEeaOsfr6s-K4-Q at 2,10 size 14,7  {
+  		}
+  		
+  		Row _6pGgwF7bEeaOsfr6s-K4-Q at 10,30 size 350,360  {
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveUp _6pIV8F7bEeaOsfr6s-K4-Q at 2,2 size 14,7  {
+  			}
+  			
+  			MoveDown _6pJkEF7bEeaOsfr6s-K4-Q at 2,10 size 14,7  {
+  			}
+  			
+  			Col _6pPDoF7bEeaOsfr6s-K4-Q at 10,30 size 320,310  {
+  				wideness Full
+  				layout Layout {
+  						size Default
+  						alignment Center
+  						offset None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveLeft _6pSG8F7bEeaOsfr6s-K4-Q at 2,2 size 7,14  {
+  				}
+  				
+  				MoveRight _6pT8IF7bEeaOsfr6s-K4-Q at 10,2 size 7,14  {
+  				}
+  				
+  				Headline _WUg1oF-REeakMeYoloYxpg at 10,90 size 300,50  {
+  					size Small
+  					content [ StaticContent {
+  							rawContent "This is the private area."
+  							maxChars 0
+  							html false
+  						} ]
+  					generalStyle GeneralStyling {
+  							marginTop Single
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _WUp_kF-REeakMeYoloYxpg at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _WUtp8F-REeakMeYoloYxpg at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Button _2eAhoF-REeakMeYoloYxpg at 10,150 size 200,60  {
+  					label "Logout"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Yellow
+  						}
+  					options ButtonOptions {
+  							staticURL "logout"
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon LogOut
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop Double
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _2eEzEF-REeakMeYoloYxpg at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _2eFaIF-REeakMeYoloYxpg at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Headline _QY1V8F4TEear0NzybbrMtw at 10,30 size 300,50  {
+  					size Big
+  					content [ StaticContent {
+  							rawContent "Welcome, {{currentUser.baseUser.firstName}} {{currentUser.baseUser.lastName}}."
+  							maxChars 0
+  							html false
+  						} ]
+  					generalStyle GeneralStyling {
+  							marginTop Triple
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _QY3yMF4TEear0NzybbrMtw at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _QY4ZQF4TEear0NzybbrMtw at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Button _4EuaQC82EeeRkP4audC_CA at 10,220 size 200,60  {
+  					label "Topics"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm false
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _4ExdkC82EeeRkP4audC_CA at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _4EyrsC82EeeRkP4audC_CA at 2,10 size 14,7  {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+  
+  DataContext _NGL5cF4TEear0NzybbrMtw at 10,30 size 200,410  {
+  	dfViewWorkaround true
+  	ComplexVariable _xgNCoF4XEea_oaWbSLmttQ at 20,110 size 140,25 index 1 {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput false
+  		-ComplexAttributeConnector-> _x83JcF4XEea_oaWbSLmttQ  decorate "Ellipse" at (0,0) {
+  			id _x9CIkF4XEea_oaWbSLmttQ
+  			associationName "baseUser"
+  		}
+  		
+  		-IF-> _QY1V8F4TEear0NzybbrMtw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _1nXTAF4cEeaWrbpuOrqSKA
+  			negate false
+  		}
+  	}
+  	
+  	ComplexVariable _x83JcF4XEea_oaWbSLmttQ at 20,170 size 140,25 index 0 {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  		-IF-> _QY1V8F4TEear0NzybbrMtw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _dO-vsF4YEea_oaWbSLmttQ
+  			negate false
+  		}
+  	}
+  }
+}

@@ -1,0 +1,130 @@
+GUI _LmrS0Ej8EeaK4_MRcoLfnw {
+  title "PublicHome"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _Lmz1sEj8EeaK4_MRcoLfnw at 10,30 size 200,410 {
+  	dfViewWorkaround true
+  }
+  
+  Template _Lm3gEEj8EeaK4_MRcoLfnw at 270,30 size 390,410 {
+  	blockName "body"
+  	Jumbotron _6CcloEmAEeaUSpYQeYyxnQ at 10,30 size 370,350 {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _6Cj6YEmAEeaUSpYQeYyxnQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _6ClvkEmAEeaUSpYQeYyxnQ at 2,10 size 14,7 {
+  		}
+  		
+  		Row _pqsksE_OEeauEZ95mLTQ7g at 10,30 size 350,290 {
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveUp _pq6nIE_OEeauEZ95mLTQ7g at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _pq7OME_OEeauEZ95mLTQ7g at 2,10 size 14,7 {
+  			}
+  			
+  			Col _prJ3sE_OEeauEZ95mLTQ7g at 10,30 size 320,240 {
+  				wideness Full
+  				layout Layout {
+  						size Default
+  						alignment Center
+  						offset None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveLeft _prX6IE_OEeauEZ95mLTQ7g at 2,2 size 7,14 {
+  				}
+  				
+  				MoveRight _prYhME_OEeauEZ95mLTQ7g at 10,2 size 7,14 {
+  				}
+  				
+  				Headline _uAT6EE_OEeauEZ95mLTQ7g at 10,30 size 300,50 {
+  					size Big
+  					content [ StaticContent {
+  							rawContent "Welcome."
+  							maxChars 0
+  							html false
+  						} ]
+  					generalStyle GeneralStyling {
+  							marginTop Triple
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _uAjxsE_OEeauEZ95mLTQ7g at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _uAk_0E_OEeauEZ95mLTQ7g at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _MF6_kE_LEeauEZ95mLTQ7g at 10,150 size 200,60 {
+  					label "Login"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Green
+  						}
+  					options ButtonOptions {
+  							isLink false
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon LogIn
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop Double
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _MGIa8E_LEeauEZ95mLTQ7g at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _MGJCAE_LEeauEZ95mLTQ7g at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Headline _rgv38F-TEea6DvTF5PmsmA at 10,90 size 300,50 {
+  					size Small
+  					content [ StaticContent {
+  							rawContent "This is the public area"
+  							maxChars 0
+  							html false
+  						} ]
+  					generalStyle GeneralStyling {
+  							marginTop Single
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _rg5o8F-TEea6DvTF5PmsmA at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _rg96YF-TEea6DvTF5PmsmA at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

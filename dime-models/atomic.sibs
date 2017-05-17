@@ -1,0 +1,147 @@
+sib TextEquals : info.scce.dime.examples.todo.sibs.Atomic#textEquals
+	a : text
+	b: text
+	-> true
+	-> false
+	-> noresult // not correct, must be "no result", but grammar is broken
+	
+sib TextAppend : info.scce.dime.examples.todo.sibs.Atomic#textAppend
+	a: text
+	b: text
+	-> success
+		result: text
+	-> noresult // not correct, must be "no result", but grammar is broken
+	
+sib TextJoin : info.scce.dime.examples.todo.sibs.Atomic#textJoin
+	prefix: text
+	suffix: text
+	infix: text
+	-> success
+		result: text
+	-> noresult // not correct, must be "no result", but grammar is broken
+
+sib textIsNull : info.scce.dime.examples.todo.sibs.Atomic#textIsNull
+	a : text
+	-> true
+	-> false
+	-> noresult // not correct, must be "no result", but grammar is broken
+	
+sib textLength : info.scce.dime.examples.todo.sibs.Atomic#textLength
+	a : text
+	-> success
+		length : integer
+	-> noresult // not correct, must be "no result", but grammar is broken
+	
+sib textToLowercase : info.scce.dime.examples.todo.sibs.Atomic#textToLowercase
+	a : text
+	-> success
+		result : text
+	-> noresult // not correct, must be "no result", but grammar is broken
+	
+sib textContains : info.scce.dime.examples.todo.sibs.Atomic#textContains
+	string : text
+	needle : text
+	-> true
+	-> false
+	-> noresult // not correct, must be "no result", but grammar is broken
+	
+sib booleanSwitch : info.scce.dime.examples.todo.sibs.Atomic#booleanSwitch
+	value : boolean
+	-> true
+	-> false
+	-> noresult // not correct, must be "no result", but grammar is broken
+
+sib IntegerGreater: info.scce.dime.examples.todo.sibs.Atomic#integerGreater
+	a : integer
+	b: integer
+	-> true
+	-> false
+	-> noresult // not correct, must be "no result", but grammar is broken
+	
+sib IntegerEquals: info.scce.dime.examples.todo.sibs.Atomic#integerEquals
+	a : integer
+	b: integer
+	-> true
+	-> false
+	-> noresult // not correct, must be "no result", but grammar is broken
+	
+sib Logout: info.scce.dime.examples.todo.sibs.Atomic#logout
+	-> success
+	
+sib LogDebugMessage: info.scce.dime.examples.todo.sibs.Atomic#logDebugMessage
+	message: text
+	-> success
+
+javaType Object : java.lang.Object
+javaType Long : java.lang.Long
+
+sib ObjectExists: info.scce.dime.examples.todo.sibs.Atomic#objectExists
+	object : Object
+	-> true
+	-> false
+	-> noresult
+
+sib ObjectEquals: info.scce.dime.examples.todo.sibs.Atomic#objectEquals
+	a: Object
+	b: Object
+	-> true
+	-> false
+	-> noresult
+	
+sib integerAdd: info.scce.dime.examples.todo.sibs.Atomic#integerAdd
+	a: integer
+	b: integer
+	-> success 
+		result : integer
+	-> noresult
+	
+sib intToReal: info.scce.dime.examples.todo.sibs.Atomic#intToReal
+	a: integer
+	-> success
+		result: real
+	-> noresult
+	
+sib intToLong: info.scce.dime.examples.todo.sibs.Atomic#intToLong
+	a: integer
+	-> success
+		result: Long
+	-> noresult
+	
+sib intToString: info.scce.dime.examples.todo.sibs.Atomic#integerToString
+	a: integer
+	-> success
+		result: text
+	-> noresult
+		
+sib realAdd: info.scce.dime.examples.todo.sibs.Atomic#realAdd
+	a: real
+	b: real
+	-> success 
+		result : real
+	-> noresult
+	
+sib realDiv: info.scce.dime.examples.todo.sibs.Atomic#realDiv
+	a: real
+	b: real
+	-> success 
+		result : real
+	-> noresult
+		
+sib sendMail: info.scce.dime.examples.todo.sibs.Atomic#sendMail
+	subject: text
+	body: text
+	-> true
+	-> false
+	-> noresult
+	
+sib uploadProjectResource:info.scce.dime.examples.todo.sibs.Atomic#uploadProjectResource
+	path: text
+	-> success
+		id : file
+	-> failure
+	
+sib convertToText: info.scce.dime.examples.todo.sibs.Atomic#convertToText
+	a: Object
+	-> success
+		result: text
+	-> noresult

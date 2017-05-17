@@ -1,0 +1,113 @@
+GUI _GonJMC8xEeeRkP4audC_CA {
+  title "TopicList"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _GoyIUC8xEeeRkP4audC_CA at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  }
+  
+  Template _Go2ZwC8xEeeRkP4audC_CA at 260,10 size 370,290  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _Go_jsC8xEeeRkP4audC_CA at 10,30 size 350,230  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _GpBY4C8xEeeRkP4audC_CA at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _GpCnAC8xEeeRkP4audC_CA at 2,10 size 14,7  {
+  		}
+  		
+  		Col _GpG4cC8xEeeRkP4audC_CA at 10,30 size 320,180  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _GpKi0C8xEeeRkP4audC_CA at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _GpM_EC8xEeeRkP4audC_CA at 10,2 size 7,14  {
+  			}
+  			
+  			Headline _dzcz8C84EeeRkP4audC_CA at 10,30 size 300,50  {
+  				size Big
+  				content [ StaticContent {
+  						rawContent "Topics"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _dzhscC84EeeRkP4audC_CA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _dzjhoC84EeeRkP4audC_CA at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Button _ytd9gC89EeeRkP4audC_CA at 10,90 size 200,60  {
+  				label "Create Topic"
+  				displayLabel ""
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _ythA0C89EeeRkP4audC_CA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _ytiO8C89EeeRkP4audC_CA at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

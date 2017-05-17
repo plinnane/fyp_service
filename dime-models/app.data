@@ -1,0 +1,331 @@
+Data _tH3fEMwMEeWZVvvwxpYu8A {
+  modelName "Data"
+  ConcreteType _dh6BYMwNEeWZVvvwxpYu8A at 316,270 size 111,73  {
+  	name "ConcreteUser"
+  	UserAttribute _fPY24MwNEeWZVvvwxpYu8A at 5,32 size 101,18  {
+  		oppositeAttribute _fOkXgMwNEeWZVvvwxpYu8A
+  		dataType _UdYs4MwNEeWZVvvwxpYu8A
+  		name "baseUser"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _Z-rJEDlwEeelR78gw15slQ at 5,50 size 101,18  {
+  		dataType Text
+  		name "email"
+  		isList false
+  	}
+  }
+  
+  UserType _UdYs4MwNEeWZVvvwxpYu8A at 300,50 size 143,145  {
+  	name "BaseUser"
+  	UserAttribute _fOkXgMwNEeWZVvvwxpYu8A at 5,32 size 133,18  {
+  		oppositeAttribute _fPY24MwNEeWZVvvwxpYu8A
+  		dataType _dh6BYMwNEeWZVvvwxpYu8A
+  		name "concreteUser"
+  		isList true
+  	}
+  	
+  	PrimitiveAttribute _YIIgUMwNEeWZVvvwxpYu8A at 5,50 size 133,18  {
+  		dataType Text
+  		name "password"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _3QnzMM46EeWKGIrSDzlNog at 5,68 size 133,18  {
+  		dataType File
+  		name "image"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _VE6ToM5BEeWKGIrSDzlNog at 5,86 size 133,18  {
+  		dataType Text
+  		name "firstName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _WYcYEM5BEeWKGIrSDzlNog at 5,104 size 133,18  {
+  		dataType Text
+  		name "lastName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _1aiCkG_QEeaqHezD6-M0AA at 5,122 size 133,18  {
+  		dataType Text
+  		name "username"
+  		isList false
+  	}
+  	-UserAssociation-> _dh6BYMwNEeWZVvvwxpYu8A  decorate "Text" at (4,-8) decorate "Text" at (12,-7) {
+  		id _fOZ_cMwNEeWZVvvwxpYu8A
+  		targetAttr _fOkXgMwNEeWZVvvwxpYu8A
+  		isHidden false
+  		sourceAttr _fPY24MwNEeWZVvvwxpYu8A
+  	}
+  }
+  
+  ConcreteType _k5NVsC84EeeRkP4audC_CA at 302,566 size 140,163  {
+  	name "Topic"
+  	PrimitiveAttribute _-sIhMC84EeeRkP4audC_CA at 5,32 size 130,18  {
+  		dataType Text
+  		name "title"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _BdSTYDlvEeelR78gw15slQ at 5,50 size 130,18  {
+  		dataType Text
+  		name "abstract"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _CuhRwDlvEeelR78gw15slQ at 5,68 size 130,18  {
+  		dataType Text
+  		name "keywords"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _FMZpcDlvEeelR78gw15slQ at 5,86 size 130,18  {
+  		dataType File
+  		name "file"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _leJdEDlwEeelR78gw15slQ at 5,104 size 130,18  {
+  		oppositeAttribute _lfF4QDlwEeelR78gw15slQ
+  		dataType _QCBvMDlvEeelR78gw15slQ
+  		name "supervisor"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _ZLhtgDlzEeelR78gw15slQ at 5,122 size 130,18  {
+  		oppositeAttribute _ZK2YEDlzEeelR78gw15slQ
+  		dataType _Nx1RYDlzEeelR78gw15slQ
+  		name "assignment"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _lqf6MDl0EeelR78gw15slQ at 5,140 size 130,18  {
+  		dataType _ceCKoDl0EeelR78gw15slQ
+  		name "category"
+  		isList false
+  	}
+  	-BidirectionalAssociation-> _QCBvMDlvEeelR78gw15slQ  decorate "Text" at (0,0) decorate "Text" at (0,0) {
+  		id _leIO8DlwEeelR78gw15slQ
+  		targetAttr _leJdEDlwEeelR78gw15slQ
+  		isHidden false
+  		sourceAttr _lfF4QDlwEeelR78gw15slQ
+  	}
+  	
+  	-Association-> _ceCKoDl0EeelR78gw15slQ  decorate "Text" at (0,0) decorate "Polyline" at (2,0) {
+  		id _lqc24Dl0EeelR78gw15slQ
+  		isHidden false
+  		sourceAttr _lqf6MDl0EeelR78gw15slQ
+  	}
+  }
+  
+  ConcreteType _eWeFMDlvEeelR78gw15slQ at 76,430 size 140,109 index 4 {
+  	name "Student"
+  	PrimitiveAttribute _er0DEDlvEeelR78gw15slQ at 5,32 size 130,18  {
+  		dataType Text
+  		name "studentId"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _OjCMMDlwEeelR78gw15slQ at 5,50 size 130,18  {
+  		dataType Text
+  		name "aboutMe"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _QMzmYDlwEeelR78gw15slQ at 5,68 size 130,18  {
+  		dataType Text
+  		name "course"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _YPKL4DlzEeelR78gw15slQ at 5,86 size 130,18  {
+  		oppositeAttribute _YOp1kDlzEeelR78gw15slQ
+  		dataType _Nx1RYDlzEeelR78gw15slQ
+  		name "assignment"
+  		isList false
+  	}
+  	-Inheritance-> _dh6BYMwNEeWZVvvwxpYu8A  decorate "Polygon" at (2,0) {
+  		id __xcnMDlvEeelR78gw15slQ
+  	}
+  }
+  
+  ConcreteType _pnmlwDlwEeelR78gw15slQ at 76,584 size 140,109 index 6 {
+  	name "Bidding"
+  	ComplexAttribute _vhcuADlwEeelR78gw15slQ at 5,32 size 130,18  {
+  		dataType _eWeFMDlvEeelR78gw15slQ
+  		name "student"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _0MrHADlwEeelR78gw15slQ at 5,50 size 130,18  {
+  		dataType _k5NVsC84EeeRkP4audC_CA
+  		name "topic"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _HT4BYDlxEeelR78gw15slQ at 5,68 size 130,18  {
+  		dataType _4lMmcDlwEeelR78gw15slQ
+  		name "biddingValue"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _tJ1g8DlxEeelR78gw15slQ at 5,86 size 130,18  {
+  		dataType Boolean
+  		name "final"
+  		isList false
+  	}
+  	-Association-> _eWeFMDlvEeelR78gw15slQ  decorate "Text" at (0,0) decorate "Polyline" at (2,0) {
+  		id _vhbf4DlwEeelR78gw15slQ
+  		isHidden false
+  		sourceAttr _vhcuADlwEeelR78gw15slQ
+  	}
+  	
+  	-Association-> _k5NVsC84EeeRkP4audC_CA  decorate "Text" at (0,0) decorate "Polyline" at (2,0) {
+  		id _0Mp44DlwEeelR78gw15slQ
+  		isHidden false
+  		sourceAttr _0MrHADlwEeelR78gw15slQ
+  	}
+  	
+  	-Association-> _4lMmcDlwEeelR78gw15slQ  decorate "Text" at (0,0) decorate "Polyline" at (2,0) {
+  		id _HT1lIDlxEeelR78gw15slQ
+  		isHidden false
+  		sourceAttr _HT4BYDlxEeelR78gw15slQ
+  	}
+  }
+  
+  EnumType _4lMmcDlwEeelR78gw15slQ at 76,720 size 140,109 index 7 {
+  	name "BiddingValue"
+  	EnumLiteral _71NlsDlwEeelR78gw15slQ at 5,32 size 130,18  {
+  		name "desired"
+  		isList false
+  	}
+  	
+  	EnumLiteral _9yX18DlwEeelR78gw15slQ at 5,50 size 130,18  {
+  		name "indifferent"
+  		isList false
+  	}
+  	
+  	EnumLiteral _-lt-cDlwEeelR78gw15slQ at 5,68 size 130,18  {
+  		name "rejected"
+  		isList false
+  	}
+  	
+  	EnumLiteral _a2ByYDlxEeelR78gw15slQ at 5,86 size 130,18  {
+  		name "undefined"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _4uASQDlyEeelR78gw15slQ at 300,760 size 140,73 index 8 {
+  	name "TransientTopic"
+  	ComplexAttribute _77-DEDlyEeelR78gw15slQ at 5,32 size 130,18  {
+  		dataType _k5NVsC84EeeRkP4audC_CA
+  		name "topic"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _9HgpIDlyEeelR78gw15slQ at 5,50 size 130,18  {
+  		dataType _pnmlwDlwEeelR78gw15slQ
+  		name "bidding"
+  		isList false
+  	}
+  	-Association-> _k5NVsC84EeeRkP4audC_CA  decorate "Text" at (16,-11) decorate "Polyline" at (2,0) {
+  		id _77808DlyEeelR78gw15slQ
+  		isHidden false
+  		sourceAttr _77-DEDlyEeelR78gw15slQ
+  	}
+  	
+  	-Association-> _pnmlwDlwEeelR78gw15slQ  decorate "Text" at (-57,-5) decorate "Polyline" at (2,0) {
+  		id _9HfbADlyEeelR78gw15slQ
+  		isHidden false
+  		sourceAttr _9HgpIDlyEeelR78gw15slQ
+  	}
+  }
+  
+  ConcreteType _fhd4sDlvEeelR78gw15slQ at 660,350 size 140,30 index 5 {
+  	name "Admin"
+  	-Inheritance-> _dh6BYMwNEeWZVvvwxpYu8A  decorate "Polygon" at (2,0) {
+  		id _-nofcDlvEeelR78gw15slQ
+  	}
+  }
+  
+  ConcreteType _QCBvMDlvEeelR78gw15slQ at 510,430 size 140,55 index 3 {
+  	name "Supervisor"
+  	BidirectionalAttribute _lfF4QDlwEeelR78gw15slQ at 5,32 size 130,18  {
+  		oppositeAttribute _leJdEDlwEeelR78gw15slQ
+  		dataType _k5NVsC84EeeRkP4audC_CA
+  		name "topic"
+  		isList true
+  	}
+  	-Inheritance-> _dh6BYMwNEeWZVvvwxpYu8A  decorate "Polygon" at (2,0) {
+  		id __JqOcDlvEeelR78gw15slQ
+  	}
+  }
+  
+  ConcreteType _Nx1RYDlzEeelR78gw15slQ at 302,412 size 140,91  {
+  	name "Assignment"
+  	PrimitiveAttribute _QaFGADlzEeelR78gw15slQ at 5,32 size 130,18  {
+  		dataType File
+  		name "file"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _YOp1kDlzEeelR78gw15slQ at 5,50 size 130,18  {
+  		oppositeAttribute _YPKL4DlzEeelR78gw15slQ
+  		dataType _eWeFMDlvEeelR78gw15slQ
+  		name "student"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _ZK2YEDlzEeelR78gw15slQ at 5,68 size 130,18  {
+  		oppositeAttribute _ZLhtgDlzEeelR78gw15slQ
+  		dataType _k5NVsC84EeeRkP4audC_CA
+  		name "topic"
+  		isList false
+  	}
+  	-BidirectionalAssociation-> _eWeFMDlvEeelR78gw15slQ  decorate "Text" at (0,0) decorate "Text" at (0,0) {
+  		id _YOoAYDlzEeelR78gw15slQ
+  		targetAttr _YOp1kDlzEeelR78gw15slQ
+  		isHidden false
+  		sourceAttr _YPKL4DlzEeelR78gw15slQ
+  	}
+  	
+  	-BidirectionalAssociation-> _k5NVsC84EeeRkP4audC_CA  decorate "Text" at (0,0) decorate "Text" at (0,0) {
+  		id _ZK0i4DlzEeelR78gw15slQ
+  		targetAttr _ZK2YEDlzEeelR78gw15slQ
+  		isHidden false
+  		sourceAttr _ZLhtgDlzEeelR78gw15slQ
+  	}
+  }
+  
+  EnumType _ceCKoDl0EeelR78gw15slQ at 540,630 size 140,127  {
+  	name "Category"
+  	EnumLiteral _yA0hMDl1EeelR78gw15slQ at 5,32 size 130,18  {
+  		name "literal1"
+  		isList false
+  	}
+  	
+  	EnumLiteral _yNaLsDl1EeelR78gw15slQ at 5,50 size 130,18  {
+  		name "literal2"
+  		isList false
+  	}
+  	
+  	EnumLiteral _yVP5EDl1EeelR78gw15slQ at 5,68 size 130,18  {
+  		name "literal3"
+  		isList false
+  	}
+  	
+  	EnumLiteral _yfASADl1EeelR78gw15slQ at 5,86 size 130,18  {
+  		name "literal4"
+  		isList false
+  	}
+  	
+  	EnumLiteral _ym9UIDl1EeelR78gw15slQ at 5,104 size 130,18  {
+  		name "literal5"
+  		isList false
+  	}
+  }
+}
