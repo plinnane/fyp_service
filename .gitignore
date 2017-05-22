@@ -5,6 +5,5 @@ _tmp/
 src/
 bin/
 .classpath
-.project
 .settings
 *.launch
