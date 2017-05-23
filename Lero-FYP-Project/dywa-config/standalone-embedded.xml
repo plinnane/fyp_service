@@ -140,7 +140,7 @@
         <subsystem xmlns="urn:jboss:domain:datasources:4.0">
             <datasources>
                 <datasource jndi-name="java:/DefaultDS" pool-name="DefaultDS_Pool" enabled="true" use-java-context="true">
-                    <connection-url>jdbc:h2:file:${jboss.home.dir}/standalone/data/dywa;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE</connection-url>
+                    <connection-url>jdbc:h2:file:${jboss.home.dir}/standalone/data/dywa;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE;MVCC=TRUE</connection-url>
                     <driver>h2</driver>
                     <security>
                         <user-name>sa</user-name>

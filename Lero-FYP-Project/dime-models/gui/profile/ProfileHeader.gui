@@ -1,0 +1,311 @@
+GUI _JtvgoD-kEee9IO1uJfVZdA {
+  title "ProfileHeader"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _Jt54sD-kEee9IO1uJfVZdA at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	PrimitiveVariable _O282ID-kEee9IO1uJfVZdA at 30,50 size 140,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "imagePath"
+  		isList false
+  		isInput true
+  		-IF-> _YsTKoD-kEee9IO1uJfVZdA  decorate "Polyline" at (2,0) decorate "Text" at (4,-11) {
+  			id _dGdBwD-kEee9IO1uJfVZdA
+  			negate false
+  		}
+  		
+  		-IF-> _MTNuED-kEee9IO1uJfVZdA  decorate "Polyline" at (2,0) decorate "Text" at (-4,-22) {
+  			id _emkwsD-kEee9IO1uJfVZdA
+  			negate true
+  		}
+  	}
+  	
+  	ComplexVariable _uvQrgD-kEee9IO1uJfVZdA at 20,200 size 160,51  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "displayedUser"
+  		isList false
+  		isInput true
+  		PrimitiveAttribute _vGqe4D-kEee9IO1uJfVZdA at 20,23 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _vbopUD-kEee9IO1uJfVZdA  decorate "Ellipse" at (0,0) {
+  			id _vbxMMD-kEee9IO1uJfVZdA
+  			associationName "baseUser"
+  		}
+  	}
+  	
+  	ComplexVariable _vbopUD-kEee9IO1uJfVZdA at 20,300 size 160,186  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _vb4g8D-kEee9IO1uJfVZdA at 20,23 size 120,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _vcHxgD-kEee9IO1uJfVZdA at 20,50 size 120,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _vcXpID-kEee9IO1uJfVZdA at 20,77 size 120,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _vcjPUD-kEee9IO1uJfVZdA at 20,104 size 120,25  {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _vcvckD-kEee9IO1uJfVZdA at 20,131 size 120,25  {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _vc8Q4D-kEee9IO1uJfVZdA at 20,158 size 120,25  {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			isLive false
+  		}
+  	}
+  	
+  	PrimitiveVariable _6rXRID-kEee9IO1uJfVZdA at 30,150 size 140,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "userRole"
+  		isList false
+  		isInput true
+  	}
+  }
+  
+  Template _Jt88AD-kEee9IO1uJfVZdA at 260,10 size 520,530  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _JuE30D-kEee9IO1uJfVZdA at 10,30 size 500,470  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _JuH7ID-kEee9IO1uJfVZdA at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _JuJwUD-kEee9IO1uJfVZdA at 2,10 size 14,7  {
+  		}
+  		
+  		Col _JuPP4D-kEee9IO1uJfVZdA at 10,30 size 140,420 index 3 {
+  			wideness Quarter
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _JuRsID-kEee9IO1uJfVZdA at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _JuUIYD-kEee9IO1uJfVZdA at 10,2 size 7,14  {
+  			}
+  			
+  			Thumbnail _MTNuED-kEee9IO1uJfVZdA at 10,30 size 120,175  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _MTVp4D-kEee9IO1uJfVZdA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _MTWQ8D-kEee9IO1uJfVZdA at 2,10 size 14,7  {
+  				}
+  				
+  				Image _MTez0D-kEee9IO1uJfVZdA at 10,55 size 100,90  {
+  					path "assets/defaultImage.png"
+  					dimensionX -1
+  					dimensionY -1
+  					styling ImageStyling {
+  							border Default
+  							responsive true
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _MTieMD-kEee9IO1uJfVZdA at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _MTjFQD-kEee9IO1uJfVZdA at 2,10 size 14,7  {
+  					}
+  				}
+  			}
+  			
+  			Thumbnail _YsTKoD-kEee9IO1uJfVZdA at 10,215 size 120,175  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _YsU_0D-kEee9IO1uJfVZdA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _YsWN8D-kEee9IO1uJfVZdA at 2,10 size 14,7  {
+  				}
+  				
+  				Image _Ysc7oD-kEee9IO1uJfVZdA at 10,55 size 100,90  {
+  					path "{{imagePath}}"
+  					dimensionX -1
+  					dimensionY -1
+  					styling ImageStyling {
+  							border Default
+  							responsive true
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _YsfX4D-kEee9IO1uJfVZdA at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _Ysf-8D-kEee9IO1uJfVZdA at 2,10 size 14,7  {
+  					}
+  				}
+  			}
+  		}
+  		
+  		Col _LFGVID-kEee9IO1uJfVZdA at 160,30 size 320,250 index 2 {
+  			wideness ThreeQuarter
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _LFHjQD-kEee9IO1uJfVZdA at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _LFIxYD-kEee9IO1uJfVZdA at 10,2 size 7,14  {
+  			}
+  			
+  			Text _r3fNID-kEee9IO1uJfVZdA at 10,90 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "{{displayedUser.email}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _r3mh4D-kEee9IO1uJfVZdA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _r3nI8D-kEee9IO1uJfVZdA at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Text _sKBHkD-kEee9IO1uJfVZdA at 10,160 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "{{userRole}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _sKDj0D-kEee9IO1uJfVZdA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _sKEK4D-kEee9IO1uJfVZdA at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Headline _saArYD-kEee9IO1uJfVZdA at 10,30 size 300,50  {
+  				size Big
+  				content [ StaticContent {
+  						rawContent "{{displayedUser.baseUser.firstName}} {{displayedUser.baseUser.lastName}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _saCgkD-kEee9IO1uJfVZdA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _saDHoD-kEee9IO1uJfVZdA at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

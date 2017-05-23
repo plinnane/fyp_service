@@ -1,6 +1,6 @@
 DAD _9G1SoMwLEeWZVvvwxpYu8A {
   appName "NewDIME App"
-  Start _9xD7YMwLEeWZVvvwxpYu8A at 30,60 size 30,30 {
+  Start _9xD7YMwLEeWZVvvwxpYu8A at 30,60 size 30,30  {
   	-StartupProcessPointer-> _e0kD8NvjEeWvrN7BnrpCFw  decorate "Polyline" at (2,0) {
   		id _fbjygNvjEeWvrN7BnrpCFw
   	}
@@ -10,19 +10,19 @@ DAD _9G1SoMwLEeWZVvvwxpYu8A {
   	}
   }
   
-  ProcessComponent _e0kD8NvjEeWvrN7BnrpCFw at 100,40 size 128,32 {
+  ProcessComponent _e0kD8NvjEeWvrN7BnrpCFw at 100,40 size 128,32  {
   	libraryComponentUID "_sA1GYNviEeWsF7MALrkAZQ"
   }
   
-  DataComponent _F_rGIMwNEeWZVvvwxpYu8A at 260,40 size 128,32 {
+  DataComponent _F_rGIMwNEeWZVvvwxpYu8A at 260,40 size 128,32  {
   	libraryComponentUID "_tH3fEMwMEeWZVvvwxpYu8A"
   }
   
-  SystemUser _DyCqAF4SEear0NzybbrMtw at 260,80 size 128,32 {
+  SystemUser _DyCqAF4SEear0NzybbrMtw at 260,80 size 128,32  {
   	libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
   }
   
-  ProcessComponent __TU1IF-UEea6DvTF5PmsmA at 100,80 size 128,32 {
+  ProcessComponent __TU1IF-UEea6DvTF5PmsmA at 100,80 size 128,32  {
   	libraryComponentUID "_LWgagF-SEeakMeYoloYxpg"
   }
 }
