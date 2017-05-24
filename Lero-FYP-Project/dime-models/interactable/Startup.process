@@ -7,7 +7,7 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   RetrieveOfTypeSIB _PXMhsNzNEeWtAOZsxPLKSA at 61,120 size 150,65  {
   	libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   	label "Retrieve all ConcreteUser"
-  	-BranchConnector-> _PXdncNzNEeWtAOZsxPLKSA   {
+  	-BranchConnector-> _PXdncNzNEeWtAOZsxPLKSA via (290,216)  {
   		id _PXmxYNzNEeWtAOZsxPLKSA
   		concurrent true
   	}
@@ -18,9 +18,9 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   }
   
-  Branch _PX0z0NzNEeWtAOZsxPLKSA at 86,210 size 100,25  {
+  Branch _PX0z0NzNEeWtAOZsxPLKSA at 240,140 size 100,25  {
   	name "none found"
-  	-ControlFlow-> _PssUwNzGEeW2rv4DARGjjw  decorate "Polyline" at (2,0) {
+  	-ControlFlow-> _FhpNcD_BEeeJvcjJaBrCJA  decorate "Polyline" at (2,0) {
   		id _DBcdMD-jEee9IO1uJfVZdA
   		concurrent true
   	}
@@ -156,7 +156,7 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   }
   
-  Branch _PXdncNzNEeWtAOZsxPLKSA at 240,140 size 100,50  {
+  Branch _PXdncNzNEeWtAOZsxPLKSA at 240,366 size 100,50  {
   	name "success"
   	ComplexOutputPort _PXn_gNzNEeWtAOZsxPLKSA at 5,27 size 90,18  {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -171,5 +171,88 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   
   EndSIB _sBOvANviEeWsF7MALrkAZQ at 240,912 size 100,65  {
   	branchName "success"
+  }
+  
+  CreateSIB _D26J8D_BEeeJvcjJaBrCJA at 679,90 size 120,126  {
+  	libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  	label "Create Supervisor"
+  	TextInputStatic _eQZmMD_BEeeJvcjJaBrCJA at 5,67 size 110,18  {
+  		value "supervisor"
+  		name "internalName"
+  	}
+  	
+  	TextInputStatic _ej0RcD_BEeeJvcjJaBrCJA at 5,85 size 110,18  {
+  		value "super@visor.fake"
+  		name "email"
+  	}
+  	
+  	ComplexInputPort _Sky6sD_BEeeJvcjJaBrCJA at 5,103 size 110,18  {
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "baseUser"
+  	}
+  	-BranchConnector-> _D3R9YD_BEeeJvcjJaBrCJA   {
+  		id _D3VAsD_BEeeJvcjJaBrCJA
+  		concurrent true
+  	}
+  }
+  
+  Branch _FiMnED_BEeeJvcjJaBrCJA at 550,128 size 120,50 index 14 {
+  	name "success"
+  	ComplexOutputPort _FiPqYD_BEeeJvcjJaBrCJA at 5,27 size 110,18  {
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "created"
+  		-ComplexDirectDataFlow-> _Sky6sD_BEeeJvcjJaBrCJA via (540,164) (540,202) decorate "Polyline" at (2,0) {
+  			id _XUIXoD_BEeeJvcjJaBrCJA
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  Branch _D3R9YD_BEeeJvcjJaBrCJA at 679,317 size 120,50 index 12 {
+  	name "success"
+  	ComplexOutputPort _D3VnwD_BEeeJvcjJaBrCJA at 5,27 size 110,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "created"
+  	}
+  	-ControlFlow-> _PssUwNzGEeW2rv4DARGjjw  decorate "Polyline" at (2,0) {
+  		id _jk0GID_BEeeJvcjJaBrCJA
+  		concurrent true
+  	}
+  }
+  
+  CreateUserSIB _FhpNcD_BEeeJvcjJaBrCJA at 380,72 size 120,162 index 13 {
+  	libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  	label "Create BaseUser"
+  	TextInputStatic _PUjR8D_BEeeJvcjJaBrCJA at 5,67 size 110,18  {
+  		value "supervisorbase"
+  		name "internalName"
+  	}
+  	
+  	TextInputStatic _P4N_sD_BEeeJvcjJaBrCJA at 5,85 size 110,18  {
+  		value "Super"
+  		name "firstName"
+  	}
+  	
+  	TextInputStatic _QJO3MD_BEeeJvcjJaBrCJA at 5,103 size 110,18  {
+  		value "Visor"
+  		name "lastName"
+  	}
+  	
+  	TextInputStatic _QZA_oD_BEeeJvcjJaBrCJA at 5,121 size 110,18  {
+  		value "super"
+  		name "password"
+  	}
+  	
+  	TextInputStatic _Qp-z0D_BEeeJvcjJaBrCJA at 5,139 size 110,18  {
+  		value "SuperVisor"
+  		name "username"
+  	}
+  	-BranchConnector-> _FiMnED_BEeeJvcjJaBrCJA   {
+  		id _FiPDUD_BEeeJvcjJaBrCJA
+  		concurrent true
+  	}
   }
 }

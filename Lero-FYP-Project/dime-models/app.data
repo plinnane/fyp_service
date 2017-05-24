@@ -62,7 +62,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _k5NVsC84EeeRkP4audC_CA at 302,566 size 140,163  {
+  ConcreteType _k5NVsC84EeeRkP4audC_CA at 302,548 size 140,181  {
   	name "Topic"
   	PrimitiveAttribute _-sIhMC84EeeRkP4audC_CA at 5,32 size 130,18  {
   		dataType Text
@@ -105,6 +105,12 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	ComplexAttribute _lqf6MDl0EeelR78gw15slQ at 5,140 size 130,18  {
   		dataType _ceCKoDl0EeelR78gw15slQ
   		name "category"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _RvOX4D-xEeerA7ElzRRObA at 5,158 size 130,18  {
+  		dataType Integer
+  		name "id"
   		isList false
   	}
   	-BidirectionalAssociation-> _QCBvMDlvEeelR78gw15slQ  decorate "Text" at (0,0) decorate "Text" at (0,0) {

@@ -1,0 +1,346 @@
+GUI _QnZeAEB-EeeqCfaxU6lZ7A {
+  title "UploadTopic"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _QouTsEB-EeeqCfaxU6lZ7A at 10,10 size 211,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _ZEMHUECCEeeqCfaxU6lZ7A at 10,40 size 191,213  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topic"
+  		isList false
+  		isInput true
+  		ComplexAttribute _aVORYECCEeeqCfaxU6lZ7A at 20,23 size 151,25  {
+  			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _aVk2sECCEeeqCfaxU6lZ7A at 20,50 size 151,25  {
+  			libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
+  			isLive false
+  			-FormSubmit-> _b9nykECCEeeqCfaxU6lZ7A  decorate "Polyline" at (2,0) {
+  				id _v0eBMECCEeeqCfaxU6lZ7A
+  			}
+  		}
+  		
+  		PrimitiveAttribute _aV0HQECCEeeqCfaxU6lZ7A at 20,77 size 151,25 index 3 {
+  			libraryComponentUID "_BdSTYDlvEeelR78gw15slQ"
+  			isLive false
+  			-FormSubmit-> _ws3BwECCEeeqCfaxU6lZ7A  decorate "Polyline" at (2,0) {
+  				id _ZAKtgECDEeeqCfaxU6lZ7A
+  			}
+  		}
+  		
+  		PrimitiveAttribute _aWCwwECCEeeqCfaxU6lZ7A at 20,104 size 151,25 index 2 {
+  			libraryComponentUID "_CuhRwDlvEeelR78gw15slQ"
+  			isLive false
+  			-FormSubmit-> _2EvFYECCEeeqCfaxU6lZ7A  decorate "Polyline" at (2,0) {
+  				id _YFMTAECDEeeqCfaxU6lZ7A
+  			}
+  		}
+  		
+  		PrimitiveAttribute _aWO-AECCEeeqCfaxU6lZ7A at 20,131 size 151,25  {
+  			libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _aWYH8ECCEeeqCfaxU6lZ7A at 20,158 size 151,25  {
+  			libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _lufaQECDEeeqCfaxU6lZ7A at 20,185 size 151,25  {
+  			libraryComponentUID "_leJdEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _JZCnoECDEeeqCfaxU6lZ7A  decorate "Ellipse" at (0,0) {
+  			id _JZHgIECDEeeqCfaxU6lZ7A
+  			associationName "category"
+  		}
+  		
+  		-AddComplexToSubmission-> _P8YY0ECDEeeqCfaxU6lZ7A  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _d7deoECKEeeqCfaxU6lZ7A
+  		}
+  	}
+  	
+  	ComplexVariable _JZCnoECDEeeqCfaxU6lZ7A at 10,280 size 191,25  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_ceCKoDl0EeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "category"
+  		isList false
+  		isInput false
+  	}
+  	
+  	ComplexVariable _j98psECDEeeqCfaxU6lZ7A at 20,330 size 171,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "submitter"
+  		isList false
+  		isInput true
+  	}
+  }
+  
+  Template _Qo22kEB-EeeqCfaxU6lZ7A at 240,10 size 370,630  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _QpDq4EB-EeeqCfaxU6lZ7A at 10,30 size 350,570  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _QpJxgEB-EeeqCfaxU6lZ7A at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _QpOC8EB-EeeqCfaxU6lZ7A at 2,10 size 14,7  {
+  		}
+  		
+  		Col _QpnrkEB-EeeqCfaxU6lZ7A at 10,30 size 320,520  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _Qpz40EB-EeeqCfaxU6lZ7A at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _Qp28IEB-EeeqCfaxU6lZ7A at 10,2 size 7,14  {
+  			}
+  			
+  			Headline _dnTtMECCEeeqCfaxU6lZ7A at 10,30 size 300,50  {
+  				size Big
+  				content [ StaticContent {
+  						rawContent "Sumit Topic"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _dnZz0ECCEeeqCfaxU6lZ7A at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _dnbB8ECCEeeqCfaxU6lZ7A at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Text _gY65MECCEeeqCfaxU6lZ7A at 10,90 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "Submit new topic for supervisor  {{submitter.baseUser.firstName}} {{submitter.baseUser.lastName}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _gZQ3cECCEeeqCfaxU6lZ7A at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _gZSFkECCEeeqCfaxU6lZ7A at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Form _P7tDYECDEeeqCfaxU6lZ7A at 10,160 size 220,330  {
+  				inline false
+  				errorMessage ""
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _P8LkgECDEeeqCfaxU6lZ7A at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _P8MyoECDEeeqCfaxU6lZ7A at 2,10 size 14,7  {
+  				}
+  				
+  				Field _2EvFYECCEeeqCfaxU6lZ7A at 10,170 size 200,60  {
+  					label "Keywords"
+  					isList false
+  					inputType Text
+  					styling FormFieldStyling {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					validation FormFieldValidation {
+  							required false
+  							min 0
+  							max -1
+  						}
+  					additionalOptions FormFieldAdditionalOptions {
+  							emptyValue "comma-separated keywords"
+  							readonly false
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _2EyvwECCEeeqCfaxU6lZ7A at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _2Ez94ECCEeeqCfaxU6lZ7A at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Field _ws3BwECCEeeqCfaxU6lZ7A at 10,100 size 200,60  {
+  					label "Abstract"
+  					isList false
+  					inputType TextArea
+  					styling FormFieldStyling {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					validation FormFieldValidation {
+  							required false
+  							min 0
+  							max -1
+  						}
+  					additionalOptions FormFieldAdditionalOptions {
+  							emptyValue "a short summary of the topic"
+  							readonly false
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _ws428ECCEeeqCfaxU6lZ7A at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _ws6FEECCEeeqCfaxU6lZ7A at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Field _b9nykECCEeeqCfaxU6lZ7A at 10,30 size 200,60 index 5 {
+  					label "Title"
+  					isList false
+  					inputType Text
+  					styling FormFieldStyling {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					validation FormFieldValidation {
+  							required false
+  							min 0
+  							max -1
+  						}
+  					additionalOptions FormFieldAdditionalOptions {
+  							emptyValue "the title of the topic"
+  							readonly false
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _b-i_oECCEeeqCfaxU6lZ7A at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _b-jmsECCEeeqCfaxU6lZ7A at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Button _P8YY0ECDEeeqCfaxU6lZ7A at 10,240 size 200,60 index 4 {
+  					label "Submit"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _P8kmEECDEeeqCfaxU6lZ7A at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _P8l0MECDEeeqCfaxU6lZ7A at 2,10 size 14,7  {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

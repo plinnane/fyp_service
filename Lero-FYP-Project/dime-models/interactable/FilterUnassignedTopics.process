@@ -1,0 +1,200 @@
+Process _sBDeMD-3EeeqK-VQZ1Mj7w {
+  modelName "FilterUnassignedTopics"
+  processType Interactable
+  description "FilterUnassignedTopics"
+  isStateful false
+  dataFlowView true
+  DataContext _sBdG0D-3EeeqK-VQZ1Mj7w at 40,50 size 190,651  {
+  	dfViewWorkaround true
+  	ComplexVariable _Dloi0D-4EeeqK-VQZ1Mj7w at 10,360 size 171,25  {
+  		expanded false
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "filteredTopics"
+  		isList true
+  		-ComplexRead-> _39NHID-3EeeqK-VQZ1Mj7w via (135,686) decorate "Polyline" at (2,0) {
+  			id _ZzBLAD-4EeeqK-VQZ1Mj7w
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexVariable _y2EOMD-3EeeqK-VQZ1Mj7w at 10,130 size 171,25  {
+  		expanded false
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "originalTopics"
+  		isList true
+  		-ComplexRead-> __jgKID-3EeeqK-VQZ1Mj7w via (135,246) decorate "Polyline" at (2,0) {
+  			id _byRtAD-4EeeqK-VQZ1Mj7w
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _sBfjED-3EeeqK-VQZ1Mj7w at 350,50 size 100,90  {
+  	ComplexOutputPort _xrkxAD-3EeeqK-VQZ1Mj7w at 5,67 size 90,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "topics"
+  		-ComplexUpdate-> _y2EOMD-3EeeqK-VQZ1Mj7w via (135,126) decorate "Polyline" at (2,0) {
+  			id _CcRuED-4EeeqK-VQZ1Mj7w
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> __jXAMD-3EeeqK-VQZ1Mj7w  decorate "Polyline" at (2,0) {
+  		id _CK4cED-4EeeqK-VQZ1Mj7w
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _sBj0gD-3EeeqK-VQZ1Mj7w at 319,611 size 161,90  {
+  	branchName "success"
+  	ComplexInputPort _39NHID-3EeeqK-VQZ1Mj7w at 5,67 size 151,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "unassignedTopics"
+  	}
+  }
+  
+  IterateSIB __jXAMD-3EeeqK-VQZ1Mj7w at 340,170 size 120,90  {
+  	libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  	label "Iterate Topics"
+  	ComplexInputPort __jgKID-3EeeqK-VQZ1Mj7w at 5,67 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "list"
+  	}
+  	-BranchConnector-> __kEx4D-3EeeqK-VQZ1Mj7w   {
+  		id __kKRcD-3EeeqK-VQZ1Mj7w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> __jxP4D-3EeeqK-VQZ1Mj7w   {
+  		id __j39kD-3EeeqK-VQZ1Mj7w
+  		concurrent true
+  	}
+  }
+  
+  Branch __kEx4D-3EeeqK-VQZ1Mj7w at 340,300 size 120,25 index 5 {
+  	name "exit"
+  	-ControlFlow-> _sBj0gD-3EeeqK-VQZ1Mj7w  decorate "Polyline" at (2,0) {
+  		id _BBpjID-4EeeqK-VQZ1Mj7w
+  		concurrent true
+  	}
+  }
+  
+  AtomicSIB _ktlbID-4EeeqK-VQZ1Mj7w at 660,170 size 120,90 index 6 {
+  	libraryComponentUID "common.ObjectExists"
+  	label "ObjectExists"
+  	ComplexInputPort _pwQjcD-7EeeJvcjJaBrCJA at 5,67 size 110,18  {
+  		libraryComponentUID "_Nx1RYDlzEeelR78gw15slQ"
+  		isList false
+  		name "object"
+  	}
+  	-BranchConnector-> _k091gD-4EeeqK-VQZ1Mj7w   {
+  		id _k1A40D-4EeeqK-VQZ1Mj7w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _k03H0D-4EeeqK-VQZ1Mj7w   {
+  		id _k06LID-4EeeqK-VQZ1Mj7w
+  		concurrent true
+  	}
+  }
+  
+  Branch _k091gD-4EeeqK-VQZ1Mj7w at 800,202 size 120,25 index 8 {
+  	name "false"
+  	-ControlFlow-> _prqesD-4EeeqK-VQZ1Mj7w  decorate "Polyline" at (2,0) {
+  		id _t5fKAD-4EeeqK-VQZ1Mj7w
+  		concurrent true
+  	}
+  }
+  
+  Branch _k03H0D-4EeeqK-VQZ1Mj7w at 660,280 size 120,25  {
+  	name "true"
+  	-ControlFlow-> __jXAMD-3EeeqK-VQZ1Mj7w via (719,338) (590,338) decorate "Polyline" at (2,0) {
+  		id _nY2HgD-4EeeqK-VQZ1Mj7w
+  		concurrent true
+  	}
+  }
+  
+  Branch _psCSID-4EeeqK-VQZ1Mj7w at 940,268 size 120,50 index 10 {
+  	name "success"
+  	ComplexOutputPort _psF8gD-4EeeqK-VQZ1Mj7w at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "out"
+  		-ComplexUpdate-> _Dloi0D-4EeeqK-VQZ1Mj7w via (909,304) (849,422) decorate "Polyline" at (2,0) {
+  			id _yWEDAD-4EeeqK-VQZ1Mj7w
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> __jXAMD-3EeeqK-VQZ1Mj7w via (999,339) (591,339) decorate "Polyline" at (2,0) {
+  		id _vqLEgD-4EeeqK-VQZ1Mj7w
+  		concurrent true
+  	}
+  }
+  
+  Branch __jxP4D-3EeeqK-VQZ1Mj7w at 490,190 size 120,50 index 4 {
+  	name "next"
+  	ComplexOutputPort __j5LsD-3EeeqK-VQZ1Mj7w at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "element"
+  		-ComplexUpdate-> _DfC9MD-5EeeqK-VQZ1Mj7w via (479,224) decorate "Polyline" at (2,0) {
+  			id _FgG2AD-5EeeqK-VQZ1Mj7w
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _ktlbID-4EeeqK-VQZ1Mj7w  decorate "Polyline" at (2,0) {
+  		id _6xy5MD-4EeeqK-VQZ1Mj7w
+  		concurrent true
+  	}
+  }
+  
+  PutComplexToContextSIB _prqesD-4EeeqK-VQZ1Mj7w at 940,170 size 120,90 index 9 {
+  	libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  	label "Put Topic"
+  	ComplexInputPort _pr4hID-4EeeqK-VQZ1Mj7w at 5,67 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "in"
+  	}
+  	-BranchConnector-> _psCSID-4EeeqK-VQZ1Mj7w   {
+  		id _psFVcD-4EeeqK-VQZ1Mj7w
+  		concurrent true
+  	}
+  }
+  
+  DataContext _CPhPAD-5EeeqK-VQZ1Mj7w at 701,440 size 240,361  {
+  	dfViewWorkaround true
+  	ComplexVariable _DfC9MD-5EeeqK-VQZ1Mj7w at 20,40 size 200,25 index 1 {
+  		expanded false
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "currentTopic"
+  		isList false
+  		-ComplexAttributeConnector-> _bxTKsD-6EeeqK-VQZ1Mj7w  decorate "Ellipse" at (0,0) {
+  			id _bxZRUD-6EeeqK-VQZ1Mj7w
+  			attributeName "assignment"
+  		}
+  		
+  		-ComplexRead-> _pr4hID-4EeeqK-VQZ1Mj7w  decorate "Polyline" at (2,0) {
+  			id _olICgD-6EeeqK-VQZ1Mj7w
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexVariable _bxTKsD-6EeeqK-VQZ1Mj7w at 20,90 size 200,25 index 0 {
+  		expanded false
+  		libraryComponentUID "_Nx1RYDlzEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "assignment"
+  		isList false
+  		-ComplexRead-> _pwQjcD-7EeeJvcjJaBrCJA via (637,543) (637,246) decorate "Polyline" at (2,0) {
+  			id _spSmED-7EeeJvcjJaBrCJA
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+}

@@ -142,7 +142,7 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   				}
   				
   				Image _MTez0D-kEee9IO1uJfVZdA at 10,55 size 100,90  {
-  					path "assets/defaultImage.png"
+  					path "{{imagePath}}"
   					dimensionX -1
   					dimensionY -1
   					styling ImageStyling {

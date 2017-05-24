@@ -3,9 +3,9 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  DataContext _Z8YdAD-lEee9IO1uJfVZdA at 10,10 size 200,1000  {
+  DataContext _Z8YdAD-lEee9IO1uJfVZdA at -50,10 size 260,1000  {
   	dfViewWorkaround true
-  	ComplexVariable _jNYHQD-lEee9IO1uJfVZdA at 20,50 size 160,78  {
+  	ComplexVariable _jNYHQD-lEee9IO1uJfVZdA at 70,50 size 160,51  {
   		isLive false
   		expanded true
   		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
@@ -13,12 +13,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		name "supervisor"
   		isList false
   		isInput true
-  		ComplexAttribute _jr-u0D-lEee9IO1uJfVZdA at 20,23 size 120,25  {
-  			libraryComponentUID "_lfF4QDlwEeelR78gw15slQ"
-  			isLive false
-  		}
-  		
-  		PrimitiveAttribute _jsBLED-lEee9IO1uJfVZdA at 20,50 size 120,25  {
+  		PrimitiveAttribute _GjQR4D-1EeeMOLoUoe1Q1Q at 20,23 size 120,25  {
   			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
   			isLive false
   		}
@@ -26,9 +21,14 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			id _6c7XED-lEee9IO1uJfVZdA
   			associationName "baseUser"
   		}
+  		
+  		-ComplexAttributeConnector-> _pT-boD-xEeerA7ElzRRObA via (-6,140) (-6,690) decorate "Ellipse" at (0,0) {
+  			id _pUFJUD-xEeerA7ElzRRObA
+  			associationName "topic"
+  		}
   	}
   	
-  	ComplexVariable _6c0pYD-lEee9IO1uJfVZdA at 20,170 size 160,159  {
+  	ComplexVariable _6c0pYD-lEee9IO1uJfVZdA at 70,130 size 160,159  {
   		isLive false
   		expanded true
   		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
@@ -36,27 +36,27 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		name "baseUser"
   		isList false
   		isInput false
-  		PrimitiveAttribute _6dFIED-lEee9IO1uJfVZdA at 20,23 size 120,25  {
+  		PrimitiveAttribute _G7QiMD-1EeeMOLoUoe1Q1Q at 20,23 size 120,25  {
   			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _6dGWMD-lEee9IO1uJfVZdA at 20,50 size 120,25  {
+  		PrimitiveAttribute _G7UMkD-1EeeMOLoUoe1Q1Q at 20,50 size 120,25  {
   			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _6dILYD-lEee9IO1uJfVZdA at 20,77 size 120,25  {
+  		PrimitiveAttribute _G7Wo0D-1EeeMOLoUoe1Q1Q at 20,77 size 120,25  {
   			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _6dIycD-lEee9IO1uJfVZdA at 20,104 size 120,25  {
+  		PrimitiveAttribute _G7ZFED-1EeeMOLoUoe1Q1Q at 20,104 size 120,25  {
   			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _6dKAkD-lEee9IO1uJfVZdA at 20,131 size 120,25  {
+  		PrimitiveAttribute _G7bhUD-1EeeMOLoUoe1Q1Q at 20,131 size 120,25  {
   			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
   			isLive false
   		}
@@ -66,18 +66,18 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		}
   	}
   	
-  	PrimitiveVariable _IaxK8D-mEee9IO1uJfVZdA at 20,590 size 140,25  {
+  	PrimitiveVariable _IaxK8D-mEee9IO1uJfVZdA at 80,620 size 140,25 index 4 {
   		dataType Text
   		dfViewWorkaround true
   		name "imagePath"
   		isList false
   		isInput true
-  		-PrimitiveRead-> _3DjngD-lEee9IO1uJfVZdA via (226,611) (226,175) decorate "Polyline" at (2,0) {
+  		-PrimitiveRead-> _3DjngD-lEee9IO1uJfVZdA via (226,643) (226,175) decorate "Polyline" at (2,0) {
   			id _J3dLYD-mEee9IO1uJfVZdA
   		}
   	}
   	
-  	ComplexVariable _K2osQD-tEee7xcq8Ff0UkA at 20,370 size 160,105  {
+  	ComplexVariable _K2osQD-tEee7xcq8Ff0UkA at 70,320 size 160,105 index 2 {
   		isLive false
   		expanded true
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -85,20 +85,20 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		name "concreteUser"
   		isList true
   		isInput false
-  		PrimitiveListAttribute _K3HNYD-tEee7xcq8Ff0UkA at 20,23 size 120,25  {
+  		PrimitiveListAttribute _HL0GsD-1EeeMOLoUoe1Q1Q at 20,23 size 120,25  {
   			attributeName size
   			primitiveType Integer
   			libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   			isLive false
   		}
   		
-  		ComplexListAttribute _K3PJMD-tEee7xcq8Ff0UkA at 20,50 size 120,25  {
+  		ComplexListAttribute _HL8pkD-1EeeMOLoUoe1Q1Q at 20,50 size 120,25  {
   			attributeName last
   			libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   			isLive false
   		}
   		
-  		ComplexListAttribute _K3TaoD-tEee7xcq8Ff0UkA at 20,77 size 120,25  {
+  		ComplexListAttribute _HMAT8D-1EeeMOLoUoe1Q1Q at 20,77 size 120,25  {
   			attributeName current
   			libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   			isLive false
@@ -109,7 +109,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		}
   	}
   	
-  	ComplexVariable _L1m18D-tEee7xcq8Ff0UkA at 20,500 size 160,78  {
+  	ComplexVariable _L1m18D-tEee7xcq8Ff0UkA at 70,450 size 160,78 index 3 {
   		isLive false
   		expanded true
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -117,22 +117,35 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		name "first"
   		isList false
   		isInput false
-  		ComplexAttribute _L2yhsD-tEee7xcq8Ff0UkA at 20,23 size 120,25  {
+  		ComplexAttribute _HwqgMD-1EeeMOLoUoe1Q1Q at 20,23 size 120,25  {
   			libraryComponentUID "_fPY24MwNEeWZVvvwxpYu8A"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _L21lAD-tEee7xcq8Ff0UkA at 20,50 size 120,25  {
+  		PrimitiveAttribute _HwruUD-1EeeMOLoUoe1Q1Q at 20,50 size 120,25  {
   			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
   			isLive false
   		}
-  		-ComplexRead-> _3DsxcD-lEee9IO1uJfVZdA via (241,548) (241,194) decorate "Polyline" at (2,0) {
+  		-ComplexRead-> _3DsxcD-lEee9IO1uJfVZdA via (241,499) (241,194) decorate "Polyline" at (2,0) {
   			id _OMOIAD-tEee7xcq8Ff0UkA
+  		}
+  	}
+  	
+  	ComplexVariable _pT-boD-xEeerA7ElzRRObA at 70,670 size 160,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topic"
+  		isList true
+  		isInput false
+  		-ComplexRead-> _dBojcD-1EeeMOLoUoe1Q1Q via (251,693) (251,311) decorate "Polyline" at (2,0) {
+  			id _eBlkkD-1EeeMOLoUoe1Q1Q
   		}
   	}
   }
   
-  Template _Z8ZrID-lEee9IO1uJfVZdA at 260,10 size 220,296  {
+  Template _Z8ZrID-lEee9IO1uJfVZdA at 260,10 size 220,396  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -140,7 +153,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _Z8dVgD-lEee9IO1uJfVZdA at 10,30 size 200,236  {
+  	Row _Z8dVgD-lEee9IO1uJfVZdA at 10,30 size 200,336  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -153,7 +166,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		MoveDown _Z8gY0D-lEee9IO1uJfVZdA at 2,10 size 14,7  {
   		}
   		
-  		Col _Z8i1ED-lEee9IO1uJfVZdA at 10,30 size 170,186  {
+  		Col _Z8i1ED-lEee9IO1uJfVZdA at 10,30 size 170,286  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -172,7 +185,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			MoveRight _Z8l4YD-lEee9IO1uJfVZdA at 10,2 size 7,14  {
   			}
   			
-  			GUISIB _3Ddg4D-lEee9IO1uJfVZdA at 10,30 size 150,126  {
+  			GUISIB _3Ddg4D-lEee9IO1uJfVZdA at 10,30 size 150,126 index 3 {
   				libraryComponentUID "_JtvgoD-kEee9IO1uJfVZdA"
   				label "ProfileHeader"
   				generalStyle GeneralStyling {
@@ -202,6 +215,28 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   				TextInputStatic _EtC8AD-mEee9IO1uJfVZdA at 5,103 size 90,18 index 3 {
   					value "Supervisor"
   					name "userRole"
+  				}
+  			}
+  			
+  			InteractionSIB _dBhOsD-1EeeMOLoUoe1Q1Q at 10,166 size 150,90 index 2 {
+  				libraryComponentUID "_uJLvsD-0EeerA7ElzRRObA"
+  				label "FilterUnassignedTopics"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _dBojcD-1EeeMOLoUoe1Q1Q at 5,67 size 90,18  {
+  					libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  					isList true
+  					name "topics"
+  				}
+  				
+  				MoveUp _dBv4MD-1EeeMOLoUoe1Q1Q at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _dBxGUD-1EeeMOLoUoe1Q1Q at 2,10 size 14,7  {
   				}
   			}
   		}

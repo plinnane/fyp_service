@@ -3,35 +3,35 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  Template _NGNuoF4TEear0NzybbrMtw at 270,30 size 390,410 {
+  Template _NGNuoF4TEear0NzybbrMtw at 270,30 size 390,550  {
   	blockName "body"
-  	Jumbotron _mBkmoF7cEeaOsfr6s-K4-Q at 10,30 size 370,350 {
+  	Jumbotron _mBkmoF7cEeaOsfr6s-K4-Q at 10,30 size 370,490  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
   				tallness Fitting
   				attributes [  ]
   			}
-  		MoveUp _mBnp8F7cEeaOsfr6s-K4-Q at 2,2 size 14,7 {
+  		MoveUp _mBnp8F7cEeaOsfr6s-K4-Q at 2,2 size 14,7  {
   		}
   		
-  		MoveDown _mBoRAF7cEeaOsfr6s-K4-Q at 2,10 size 14,7 {
+  		MoveDown _mBoRAF7cEeaOsfr6s-K4-Q at 2,10 size 14,7  {
   		}
   		
-  		Row _6pGgwF7bEeaOsfr6s-K4-Q at 10,30 size 350,290 {
+  		Row _6pGgwF7bEeaOsfr6s-K4-Q at 10,30 size 350,430  {
   			generalStyle GeneralStyling {
   					marginTop None
   					marginBottom None
   					tallness Fitting
   					attributes [  ]
   				}
-  			MoveUp _6pIV8F7bEeaOsfr6s-K4-Q at 2,2 size 14,7 {
+  			MoveUp _6pIV8F7bEeaOsfr6s-K4-Q at 2,2 size 14,7  {
   			}
   			
-  			MoveDown _6pJkEF7bEeaOsfr6s-K4-Q at 2,10 size 14,7 {
+  			MoveDown _6pJkEF7bEeaOsfr6s-K4-Q at 2,10 size 14,7  {
   			}
   			
-  			Col _6pPDoF7bEeaOsfr6s-K4-Q at 10,30 size 320,240 {
+  			Col _6pPDoF7bEeaOsfr6s-K4-Q at 10,30 size 320,380  {
   				wideness Full
   				layout Layout {
   						size Default
@@ -44,13 +44,13 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   						tallness Fitting
   						attributes [  ]
   					}
-  				MoveLeft _6pSG8F7bEeaOsfr6s-K4-Q at 2,2 size 7,14 {
+  				MoveLeft _6pSG8F7bEeaOsfr6s-K4-Q at 2,2 size 7,14  {
   				}
   				
-  				MoveRight _6pT8IF7bEeaOsfr6s-K4-Q at 10,2 size 7,14 {
+  				MoveRight _6pT8IF7bEeaOsfr6s-K4-Q at 10,2 size 7,14  {
   				}
   				
-  				Headline _WUg1oF-REeakMeYoloYxpg at 10,90 size 300,50 {
+  				Headline _WUg1oF-REeakMeYoloYxpg at 10,90 size 300,50  {
   					size Small
   					content [ StaticContent {
   							rawContent "This is the private area."
@@ -63,14 +63,14 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   							tallness Fitting
   							attributes [  ]
   						}
-  					MoveUp _WUp_kF-REeakMeYoloYxpg at 2,2 size 14,7 {
+  					MoveUp _WUp_kF-REeakMeYoloYxpg at 2,2 size 14,7  {
   					}
   					
-  					MoveDown _WUtp8F-REeakMeYoloYxpg at 2,10 size 14,7 {
+  					MoveDown _WUtp8F-REeakMeYoloYxpg at 2,10 size 14,7  {
   					}
   				}
   				
-  				Button _2eAhoF-REeakMeYoloYxpg at 10,150 size 200,60 {
+  				Button _2eAhoF-REeakMeYoloYxpg at 10,150 size 200,60  {
   					label "Logout"
   					displayLabel ""
   					styling ButtonStyling {
@@ -82,6 +82,7 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   					options ButtonOptions {
   							staticURL "logout"
   							isLink false
+  							submitsForm true
   						}
   					disabled false
   					icon Icon {
@@ -94,14 +95,14 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   							tallness Fitting
   							attributes [  ]
   						}
-  					MoveUp _2eEzEF-REeakMeYoloYxpg at 2,2 size 14,7 {
+  					MoveUp _2eEzEF-REeakMeYoloYxpg at 2,2 size 14,7  {
   					}
   					
-  					MoveDown _2eFaIF-REeakMeYoloYxpg at 2,10 size 14,7 {
+  					MoveDown _2eFaIF-REeakMeYoloYxpg at 2,10 size 14,7  {
   					}
   				}
   				
-  				Headline _QY1V8F4TEear0NzybbrMtw at 10,30 size 300,50 {
+  				Headline _QY1V8F4TEear0NzybbrMtw at 10,30 size 300,50  {
   					size Big
   					content [ StaticContent {
   							rawContent "Welcome, {{currentUser.baseUser.firstName}} {{currentUser.baseUser.lastName}}."
@@ -114,10 +115,72 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   							tallness Fitting
   							attributes [  ]
   						}
-  					MoveUp _QY3yMF4TEear0NzybbrMtw at 2,2 size 14,7 {
+  					MoveUp _QY3yMF4TEear0NzybbrMtw at 2,2 size 14,7  {
   					}
   					
-  					MoveDown _QY4ZQF4TEear0NzybbrMtw at 2,10 size 14,7 {
+  					MoveDown _QY4ZQF4TEear0NzybbrMtw at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Button _xgjoQD_BEeeJvcjJaBrCJA at 10,220 size 200,60  {
+  					label "Supervisor Profile"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _xgnSoD_BEeeJvcjJaBrCJA at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _xgogwD_BEeeJvcjJaBrCJA at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Button _demgYD_CEeeJvcjJaBrCJA at 10,290 size 200,60  {
+  					label "Upload a topic"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _depjsD_CEeeJvcjJaBrCJA at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _derY4D_CEeeJvcjJaBrCJA at 2,10 size 14,7  {
   					}
   				}
   			}
@@ -125,9 +188,10 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   	}
   }
   
-  DataContext _NGL5cF4TEear0NzybbrMtw at 10,30 size 200,410 {
+  DataContext _NGL5cF4TEear0NzybbrMtw at 10,30 size 200,410  {
   	dfViewWorkaround true
-  	ComplexVariable _xgNCoF4XEea_oaWbSLmttQ at 20,110 size 140,25 {
+  	ComplexVariable _xgNCoF4XEea_oaWbSLmttQ at 20,110 size 140,25 index 1 {
+  		isLive false
   		expanded true
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		dfViewWorkaround true
@@ -145,7 +209,8 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   		}
   	}
   	
-  	ComplexVariable _x83JcF4XEea_oaWbSLmttQ at 20,170 size 140,25 {
+  	ComplexVariable _x83JcF4XEea_oaWbSLmttQ at 20,170 size 140,25 index 0 {
+  		isLive false
   		expanded false
   		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
   		dfViewWorkaround true

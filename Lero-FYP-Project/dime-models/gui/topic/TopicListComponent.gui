@@ -1,0 +1,176 @@
+GUI _e1xpUD-vEeerA7ElzRRObA {
+  title "TopicListComponent"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _e35wQD-vEeerA7ElzRRObA at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _hHlecD-wEeerA7ElzRRObA at 20,40 size 160,105  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topics"
+  		isList true
+  		isInput true
+  		PrimitiveListAttribute _KfcXcD-xEeerA7ElzRRObA at 20,23 size 120,25  {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _Kfk6UD-xEeerA7ElzRRObA at 20,50 size 120,25  {
+  			attributeName first
+  			libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _KfnWkD-xEeerA7ElzRRObA at 20,77 size 120,25  {
+  			attributeName last
+  			libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  			isLive false
+  		}
+  		-TableLoad-> _aeuUED-wEeerA7ElzRRObA  decorate "Polyline" at (2,0) {
+  			id _Bpki8D-xEeerA7ElzRRObA
+  		}
+  		
+  		-ComplexListAttributeConnector-> _LMLhoD-xEeerA7ElzRRObA  decorate "Ellipse" at (0,0) {
+  			id _LMSPUD-xEeerA7ElzRRObA
+  			attributeName current
+  		}
+  	}
+  	
+  	ComplexVariable _LMLhoD-xEeerA7ElzRRObA at 20,190 size 160,240  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "current"
+  		isList false
+  		isInput false
+  		ComplexAttribute _VIARkD-xEeerA7ElzRRObA at 20,23 size 120,25  {
+  			libraryComponentUID "_leJdEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _VICGwD-xEeerA7ElzRRObA at 20,50 size 120,25  {
+  			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _VIEjAD-xEeerA7ElzRRObA at 20,77 size 120,25  {
+  			libraryComponentUID "_lqf6MDl0EeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _VIGYMD-xEeerA7ElzRRObA at 20,104 size 120,25  {
+  			libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _VIINYD-xEeerA7ElzRRObA at 20,131 size 120,25  {
+  			libraryComponentUID "_BdSTYDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _VIJbgD-xEeerA7ElzRRObA at 20,158 size 120,25  {
+  			libraryComponentUID "_CuhRwDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _VIKpoD-xEeerA7ElzRRObA at 20,185 size 120,25  {
+  			libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _VIVowD-xEeerA7ElzRRObA at 20,212 size 120,25  {
+  			libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _e4QVkD-vEeerA7ElzRRObA at 260,10 size 200,280  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _e4oJAD-vEeerA7ElzRRObA at 10,30 size 180,220  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _e4wr4D-vEeerA7ElzRRObA at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _e42ygD-vEeerA7ElzRRObA at 2,10 size 14,7  {
+  		}
+  		
+  		Col _e5GDED-vEeerA7ElzRRObA at 10,30 size 150,170  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _e5NX0D-vEeerA7ElzRRObA at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _e5UFgD-vEeerA7ElzRRObA at 10,2 size 7,14  {
+  			}
+  			
+  			Table _aeuUED-wEeerA7ElzRRObA at 10,30 size 130,110  {
+  				striped true
+  				bordered true
+  				hover false
+  				condensed true
+  				responsive true
+  				numbering false
+  				pagination 0
+  				choices NONE
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _aezMkD-wEeerA7ElzRRObA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _ae1BwD-wEeerA7ElzRRObA at 2,10 size 14,7  {
+  				}
+  				
+  				TableEntry _a5ztkD-wEeerA7ElzRRObA at 10,30 size 100,60  {
+  					label "Column"
+  					sortable false
+  					defaultSorting NONE
+  					fullTextSearch false
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _a57pYD-wEeerA7ElzRRObA at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _a583gD-wEeerA7ElzRRObA at 10,2 size 7,14  {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}
