@@ -2,8 +2,8 @@ refReg.rrg
 target/
 tmp/
 _tmp/
+src/
 bin/
 .classpath
-.settings
-*.launch
 .project
+.settings
