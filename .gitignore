@@ -1,4 +1,6 @@
 refReg.rrg
+META-INF/
+*.launch
 target/
 tmp/
 _tmp/
