@@ -3,9 +3,9 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  Template _NGNuoF4TEear0NzybbrMtw at 270,30 size 390,620  {
+  Template _NGNuoF4TEear0NzybbrMtw at 270,30 size 390,760  {
   	blockName "body"
-  	Jumbotron _mBkmoF7cEeaOsfr6s-K4-Q at 10,30 size 370,560  {
+  	Jumbotron _mBkmoF7cEeaOsfr6s-K4-Q at 10,30 size 370,700  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -18,7 +18,7 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   		MoveDown _mBoRAF7cEeaOsfr6s-K4-Q at 2,10 size 14,7  {
   		}
   		
-  		Row _6pGgwF7bEeaOsfr6s-K4-Q at 10,30 size 350,500  {
+  		Row _6pGgwF7bEeaOsfr6s-K4-Q at 10,30 size 350,640  {
   			generalStyle GeneralStyling {
   					marginTop None
   					marginBottom None
@@ -31,7 +31,7 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   			MoveDown _6pJkEF7bEeaOsfr6s-K4-Q at 2,10 size 14,7  {
   			}
   			
-  			Col _6pPDoF7bEeaOsfr6s-K4-Q at 10,30 size 320,450  {
+  			Col _6pPDoF7bEeaOsfr6s-K4-Q at 10,30 size 320,590  {
   				wideness Full
   				layout Layout {
   						size Default
@@ -123,7 +123,7 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   				}
   				
   				Button _xgjoQD_BEeeJvcjJaBrCJA at 10,220 size 200,60  {
-  					label "Supervisor Profile"
+  					label "Supervisor profile"
   					displayLabel ""
   					styling ButtonStyling {
   							fullWidth false
@@ -212,6 +212,68 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   					}
   					
   					MoveDown _WWwRUEUPEeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Button _7GuaYEUpEeeKqOBaOG4MmQ at 10,430 size 200,60  {
+  					label "View topics"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _7Gw2oEUpEeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _7GxdsEUpEeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Button _z8t1UEUqEeeKqOBaOG4MmQ at 10,500 size 200,60  {
+  					label "View all users"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _z8vDcEUqEeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _z8wRkEUqEeeKqOBaOG4MmQ at 2,10 size 14,7  {
   					}
   				}
   			}

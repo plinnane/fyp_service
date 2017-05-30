@@ -1,0 +1,140 @@
+GUI _KcEzwEUqEeeKqOBaOG4MmQ {
+  title "ViewAllTopics"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _KcJFMEUqEeeKqOBaOG4MmQ at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _MAArsEUqEeeKqOBaOG4MmQ at 20,50 size 160,132  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topic"
+  		isList true
+  		isInput true
+  		PrimitiveListAttribute _8pbGwEUqEeeKqOBaOG4MmQ at 20,23 size 120,25  {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _8pgmUEUqEeeKqOBaOG4MmQ at 20,50 size 120,25  {
+  			attributeName current
+  			libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _8pkQsEUqEeeKqOBaOG4MmQ at 20,77 size 120,25  {
+  			attributeName first
+  			libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _8pn7EEUqEeeKqOBaOG4MmQ at 20,104 size 120,25  {
+  			attributeName last
+  			libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  			isLive false
+  		}
+  		-ComplexRead-> _9hKAAEUqEeeKqOBaOG4MmQ via (231,235) decorate "Polyline" at (2,0) {
+  			id _-CzUgEUqEeeKqOBaOG4MmQ
+  		}
+  	}
+  }
+  
+  Template _KcJsQEUqEeeKqOBaOG4MmQ at 260,10 size 370,320  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _KcMIgEUqEeeKqOBaOG4MmQ at 10,30 size 350,260  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _KcMvkEUqEeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _KcNWoEUqEeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  		}
+  		
+  		Col _KcPL0EUqEeeKqOBaOG4MmQ at 10,30 size 320,210  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _KcQZ8EUqEeeKqOBaOG4MmQ at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _KcRBAEUqEeeKqOBaOG4MmQ at 10,2 size 7,14  {
+  			}
+  			
+  			Headline _WkUX8EUqEeeKqOBaOG4MmQ at 10,30 size 300,50  {
+  				size Big
+  				content [ StaticContent {
+  						rawContent "All topics ever"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _WkW0MEUqEeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _WkYCUEUqEeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			GUISIB _9gf4sEUqEeeKqOBaOG4MmQ at 10,90 size 150,90  {
+  				libraryComponentUID "_e1xpUD-vEeerA7ElzRRObA"
+  				label "TopicListComponent"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _9hKAAEUqEeeKqOBaOG4MmQ at 5,67 size 90,18  {
+  					libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  					isList true
+  					name "topics"
+  				}
+  				
+  				MoveUp _9hQtsEUqEeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _9hR70EUqEeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

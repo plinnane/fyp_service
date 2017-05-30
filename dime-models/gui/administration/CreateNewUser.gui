@@ -12,7 +12,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   		dfViewWorkaround true
   		name "newUser"
   		isList false
-  		isInput true
+  		isInput false
   		PrimitiveAttribute _65XvIEUOEeeKqOBaOG4MmQ at 20,23 size 120,25  {
   			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
   			isLive false

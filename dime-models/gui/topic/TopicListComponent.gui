@@ -52,6 +52,9 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		ComplexAttribute _VIARkD-xEeerA7ElzRRObA at 20,23 size 120,25  {
   			libraryComponentUID "_leJdEDlwEeelR78gw15slQ"
   			isLive false
+  			-TableColumnLoad-> _Amy7QEUrEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  				id _GjI94EUrEeeKqOBaOG4MmQ
+  			}
   		}
   		
   		ComplexAttribute _VICGwD-xEeerA7ElzRRObA at 20,50 size 120,25  {
@@ -67,6 +70,9 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		PrimitiveAttribute _VIGYMD-xEeerA7ElzRRObA at 20,104 size 120,25  {
   			libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
   			isLive false
+  			-TableColumnLoad-> _AL9ZYEUrEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  				id _Fe7u4EUrEeeKqOBaOG4MmQ
+  			}
   		}
   		
   		PrimitiveAttribute _VIINYD-xEeerA7ElzRRObA at 20,131 size 120,25  {
@@ -87,11 +93,14 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		PrimitiveAttribute _VIVowD-xEeerA7ElzRRObA at 20,212 size 120,25  {
   			libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
   			isLive false
+  			-TableColumnLoad-> _a5ztkD-wEeerA7ElzRRObA  decorate "Polyline" at (2,0) {
+  				id _GEZMYEUrEeeKqOBaOG4MmQ
+  			}
   		}
   	}
   }
   
-  Template _e4QVkD-vEeerA7ElzRRObA at 260,10 size 200,280  {
+  Template _e4QVkD-vEeerA7ElzRRObA at 260,10 size 420,280  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -99,7 +108,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _e4oJAD-vEeerA7ElzRRObA at 10,30 size 180,220  {
+  	Row _e4oJAD-vEeerA7ElzRRObA at 10,30 size 400,220  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -112,7 +121,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		MoveDown _e42ygD-vEeerA7ElzRRObA at 2,10 size 14,7  {
   		}
   		
-  		Col _e5GDED-vEeerA7ElzRRObA at 10,30 size 150,170  {
+  		Col _e5GDED-vEeerA7ElzRRObA at 10,30 size 370,170  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -131,7 +140,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			MoveRight _e5UFgD-vEeerA7ElzRRObA at 10,2 size 7,14  {
   			}
   			
-  			Table _aeuUED-wEeerA7ElzRRObA at 10,30 size 130,110  {
+  			Table _aeuUED-wEeerA7ElzRRObA at 10,30 size 350,110  {
   				striped true
   				bordered true
   				hover false
@@ -153,9 +162,9 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   				}
   				
   				TableEntry _a5ztkD-wEeerA7ElzRRObA at 10,30 size 100,60  {
-  					label "Column"
-  					sortable false
-  					defaultSorting NONE
+  					label "ID"
+  					sortable true
+  					defaultSorting ASC
   					fullTextSearch false
   					generalStyle GeneralStyling {
   							marginTop None
@@ -167,6 +176,42 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   					}
   					
   					MoveRight _a583gD-wEeerA7ElzRRObA at 10,2 size 7,14  {
+  					}
+  				}
+  				
+  				TableEntry _AL9ZYEUrEeeKqOBaOG4MmQ at 120,30 size 100,60 index 4 {
+  					label "Title"
+  					sortable true
+  					defaultSorting NONE
+  					fullTextSearch true
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _AL_1oEUrEeeKqOBaOG4MmQ at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _AMBDwEUrEeeKqOBaOG4MmQ at 10,2 size 7,14  {
+  					}
+  				}
+  				
+  				TableEntry _Amy7QEUrEeeKqOBaOG4MmQ at 230,30 size 100,60 index 3 {
+  					label "Supervisor"
+  					sortable true
+  					defaultSorting NONE
+  					fullTextSearch true
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _Am0wcEUrEeeKqOBaOG4MmQ at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _Am1XgEUrEeeKqOBaOG4MmQ at 10,2 size 7,14  {
   					}
   				}
   			}
