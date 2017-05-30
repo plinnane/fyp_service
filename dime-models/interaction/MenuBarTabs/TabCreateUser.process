@@ -1,0 +1,115 @@
+Process _MxZSEEU6EeetjZy493Al0g {
+  modelName "TabCreateUser"
+  processType Interaction
+  description "TabCreateUser"
+  isStateful false
+  dataFlowView true
+  DataContext _Mxgm0EU6EeetjZy493Al0g at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _MxicAEU6EeetjZy493Al0g at 350,50 size 100,65  {
+  	-ControlFlow-> _HQexwEU7EeetjZy493Al0g  decorate "Polyline" at (2,0) {
+  		id _OnYt4EU7EeetjZy493Al0g
+  		concurrent false
+  	}
+  }
+  
+  EndSIB _MxjqIEU6EeetjZy493Al0g at 350,540 size 100,65  {
+  	branchName "success"
+  }
+  
+  Branch _HQ_IEEU7EeetjZy493Al0g at 263,240 size 120,50 index 8 {
+  	name "Create as student"
+  	ComplexOutputPort _HRCLYEU7EeetjZy493Al0g at 5,27 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "newUser"
+  		-ComplexDirectDataFlow-> _DBvgcEU7EeetjZy493Al0g via (253,276) (253,436) decorate "Polyline" at (2,0) {
+  			id _NyrTcEU7EeetjZy493Al0g
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _DBj6QEU7EeetjZy493Al0g  decorate "Polyline" at (2,0) {
+  		id _I0gwUEU7EeetjZy493Al0g
+  		concurrent true
+  	}
+  }
+  
+  Branch _HRI5EEU7EeetjZy493Al0g at 420,240 size 120,50 index 9 {
+  	name "Create as supervisor"
+  	ComplexOutputPort _HRL8YEU7EeetjZy493Al0g at 5,27 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "newUser"
+  		-ComplexDirectDataFlow-> _DVlpgEU7EeetjZy493Al0g via (410,276) (410,436) decorate "Polyline" at (2,0) {
+  			id _OIVaYEU7EeetjZy493Al0g
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _DVUjwEU7EeetjZy493Al0g  decorate "Polyline" at (2,0) {
+  		id _Lozc4EU7EeetjZy493Al0g
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _HQexwEU7EeetjZy493Al0g at 340,160 size 120,65 index 7 {
+  	name "CreateNewUser"
+  	majorPage true
+  	libraryComponentUID "_gE-VAEUNEeeKqOBaOG4MmQ"
+  	label "CreateNewUser"
+  	-BranchConnector-> _HQ_IEEU7EeetjZy493Al0g   {
+  		id _HRA9QEU7EeetjZy493Al0g
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _HRI5EEU7EeetjZy493Al0g   {
+  		id _HRKHMEU7EeetjZy493Al0g
+  		concurrent true
+  	}
+  }
+  
+  Branch _DVtlUEU7EeetjZy493Al0g at 420,460 size 120,25  {
+  	name "success"
+  	-ControlFlow-> _MxjqIEU6EeetjZy493Al0g  decorate "Polyline" at (2,0) {
+  		id _L9GR4EU7EeetjZy493Al0g
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _DBj6QEU7EeetjZy493Al0g at 263,360 size 120,90 index 3 {
+  	libraryComponentUID "_6NVTEEUPEeeKqOBaOG4MmQ"
+  	label "CreateStudentWrapper"
+  	ComplexInputPort _DBvgcEU7EeetjZy493Al0g at 5,67 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "concreteuser"
+  	}
+  	-BranchConnector-> _DB2OIEU7EeetjZy493Al0g   {
+  		id _DB3cQEU7EeetjZy493Al0g
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _DVUjwEU7EeetjZy493Al0g at 420,360 size 120,90 index 5 {
+  	libraryComponentUID "_FflmQEUXEeeKqOBaOG4MmQ"
+  	label "CreateSupervisorWrapper"
+  	ComplexInputPort _DVlpgEU7EeetjZy493Al0g at 5,67 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "concreteuser"
+  	}
+  	-BranchConnector-> _DVtlUEU7EeetjZy493Al0g   {
+  		id _DVvagEU7EeetjZy493Al0g
+  		concurrent true
+  	}
+  }
+  
+  Branch _DB2OIEU7EeetjZy493Al0g at 263,460 size 120,25 index 4 {
+  	name "success"
+  	-ControlFlow-> _MxjqIEU6EeetjZy493Al0g  decorate "Polyline" at (2,0) {
+  		id _MMNE4EU7EeetjZy493Al0g
+  		concurrent true
+  	}
+  }
+}

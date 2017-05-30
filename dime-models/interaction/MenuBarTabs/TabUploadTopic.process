@@ -1,0 +1,87 @@
+Process _y-h4UEU2EeeKqOBaOG4MmQ {
+  modelName "TabUploadTopic"
+  processType Interaction
+  description "TabUploadTopic"
+  isStateful false
+  dataFlowView true
+  DataContext _y-k7oEU2EeeKqOBaOG4MmQ at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _y-mJwEU2EeeKqOBaOG4MmQ at 350,50 size 100,65  {
+  	-ControlFlow-> _FnGV8EU3EeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  		id _Gab3YEU3EeeKqOBaOG4MmQ
+  		concurrent false
+  	}
+  }
+  
+  EndSIB _y-nX4EU2EeeKqOBaOG4MmQ at 350,560 size 100,65  {
+  	branchName "success"
+  }
+  
+  GUISIB _FnGV8EU3EeeKqOBaOG4MmQ at 340,140 size 120,65  {
+  	name "UploadTopic"
+  	majorPage true
+  	libraryComponentUID "_QnZeAEB-EeeqCfaxU6lZ7A"
+  	label "UploadTopic"
+  	-BranchConnector-> _FnnTUEU3EeeKqOBaOG4MmQ   {
+  		id _FnohcEU3EeeKqOBaOG4MmQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _FnnTUEU3EeeKqOBaOG4MmQ at 340,230 size 120,68  {
+  	name "Submit"
+  	ComplexOutputPort _FnqWoEU3EeeKqOBaOG4MmQ at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  		-ComplexDirectDataFlow-> _JbLrkEU3EeeKqOBaOG4MmQ via (330,266) (330,424) decorate "Polyline" at (2,0) {
+  			id _MSP_UEU3EeeKqOBaOG4MmQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexOutputPort _FnuBAEU3EeeKqOBaOG4MmQ at 5,45 size 110,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "currentUser"
+  		-ComplexDirectDataFlow-> _JbEW0EU3EeeKqOBaOG4MmQ via (330,284) (330,406) decorate "Polyline" at (2,0) {
+  			id _L6-u0EU3EeeKqOBaOG4MmQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _Ja1tUEU3EeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  		id _LN3KIEU3EeeKqOBaOG4MmQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _Ja1tUEU3EeeKqOBaOG4MmQ at 340,330 size 120,108  {
+  	libraryComponentUID "_PCGIkECIEeeqCfaxU6lZ7A"
+  	label "CreateTopic"
+  	ComplexInputPort _JbEW0EU3EeeKqOBaOG4MmQ at 5,67 size 110,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "supervisor"
+  	}
+  	
+  	ComplexInputPort _JbLrkEU3EeeKqOBaOG4MmQ at 5,85 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  	}
+  	-BranchConnector-> _JbSZQEU3EeeKqOBaOG4MmQ   {
+  		id _JbTnYEU3EeeKqOBaOG4MmQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _JbSZQEU3EeeKqOBaOG4MmQ at 340,470 size 120,25  {
+  	name "success"
+  	-ControlFlow-> _y-nX4EU2EeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  		id _LbQF4EU3EeeKqOBaOG4MmQ
+  		concurrent true
+  	}
+  }
+}

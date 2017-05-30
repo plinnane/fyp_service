@@ -334,4 +334,13 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList false
   	}
   }
+  
+  ConcreteType _Oj3g0EUwEeeKqOBaOG4MmQ at 760,460 size 140,55  {
+  	name "GlobalSettings"
+  	PrimitiveAttribute _Ow-IsEUwEeeKqOBaOG4MmQ at 5,32 size 130,18  {
+  		dataType Integer
+  		name "topicsID"
+  		isList false
+  	}
+  }
 }

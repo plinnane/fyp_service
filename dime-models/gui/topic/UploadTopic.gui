@@ -12,7 +12,7 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   		dfViewWorkaround true
   		name "topic"
   		isList false
-  		isInput true
+  		isInput false
   		ComplexAttribute _aVORYECCEeeqCfaxU6lZ7A at 20,23 size 151,25  {
   			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
   			isLive false
@@ -64,6 +64,10 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   		-AddComplexToSubmission-> _P8YY0ECDEeeqCfaxU6lZ7A  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _d7deoECKEeeqCfaxU6lZ7A
   		}
+  		
+  		-AddComplexToSubmission-> _P8YY0ECDEeeqCfaxU6lZ7A  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _zP3EcEUsEeeKqOBaOG4MmQ
+  		}
   	}
   	
   	ComplexVariable _JZCnoECDEeeqCfaxU6lZ7A at 10,280 size 191,25  {
@@ -76,14 +80,31 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   		isInput false
   	}
   	
-  	ComplexVariable _j98psECDEeeqCfaxU6lZ7A at 20,330 size 171,25  {
+  	ComplexVariable _j98psECDEeeqCfaxU6lZ7A at 20,330 size 171,105  {
   		isLive false
-  		expanded false
+  		expanded true
   		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
   		dfViewWorkaround true
-  		name "submitter"
+  		name "currentUser"
   		isList false
-  		isInput true
+  		isInput false
+  		ComplexAttribute _vY72MEUsEeeKqOBaOG4MmQ at 20,23 size 131,25  {
+  			libraryComponentUID "_lfF4QDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _vY9EUEUsEeeKqOBaOG4MmQ at 20,50 size 131,25  {
+  			libraryComponentUID "_fPY24MwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _vY9rYEUsEeeKqOBaOG4MmQ at 20,77 size 131,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-AddComplexToSubmission-> _P8YY0ECDEeeqCfaxU6lZ7A  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _0EFWsEUsEeeKqOBaOG4MmQ
+  		}
   	}
   }
   
@@ -159,7 +180,7 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   			
   			Text _gY65MECCEeeqCfaxU6lZ7A at 10,90 size 200,60  {
   				content [ StaticContent {
-  						rawContent "Submit new topic for supervisor  {{submitter.baseUser.firstName}} {{submitter.baseUser.lastName}}"
+  						rawContent "Submit new topic for supervisor  {{currentUser.baseUser.firstName}} {{currentUser.baseUser.lastName}}"
   						maxChars 0
   						html false
   						styling TextStyling {

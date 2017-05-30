@@ -1,0 +1,229 @@
+GUI _DZT2cEU8EeetjZy493Al0g {
+  title "ViewUsers"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _DZbyQEU8EeetjZy493Al0g at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _EF-vMEU8EeetjZy493Al0g at 20,40 size 160,105  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "userList"
+  		isList true
+  		isInput true
+  		PrimitiveListAttribute _KkBJoEU8EeetjZy493Al0g at 20,23 size 120,25  {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _KkGpMEU8EeetjZy493Al0g at 20,50 size 120,25  {
+  			attributeName first
+  			libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _KkJFcEU8EeetjZy493Al0g at 20,77 size 120,25  {
+  			attributeName last
+  			libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		-TableLoad-> _HONEYEU8EeetjZy493Al0g  decorate "Polyline" at (2,0) {
+  			id _JFD4UEU8EeetjZy493Al0g
+  		}
+  		
+  		-ComplexListAttributeConnector-> _K-pQIEU8EeetjZy493Al0g  decorate "Ellipse" at (0,0) {
+  			id _K-xL8EU8EeetjZy493Al0g
+  			attributeName current
+  		}
+  	}
+  	
+  	ComplexVariable _K-pQIEU8EeetjZy493Al0g at 20,190 size 160,51  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "current"
+  		isList false
+  		isInput false
+  		PrimitiveAttribute _LZWPIEU8EeetjZy493Al0g at 20,23 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  			-TableColumnLoad-> _OdptoEU8EeetjZy493Al0g  decorate "Polyline" at (2,0) {
+  				id _RzExUEU8EeetjZy493Al0g
+  			}
+  		}
+  		-ComplexAttributeConnector-> _Ln62oEU8EeetjZy493Al0g  decorate "Ellipse" at (0,0) {
+  			id _LoAWMEU8EeetjZy493Al0g
+  			associationName "baseUser"
+  		}
+  	}
+  	
+  	ComplexVariable _Ln62oEU8EeetjZy493Al0g at 20,290 size 160,186  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _LoGc0EU8EeetjZy493Al0g at 20,23 size 120,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _LoHD4EU8EeetjZy493Al0g at 20,50 size 120,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _LoISAEU8EeetjZy493Al0g at 20,77 size 120,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _LoJgIEU8EeetjZy493Al0g at 20,104 size 120,25  {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			isLive false
+  			-TableColumnLoad-> _JZvu4EU8EeetjZy493Al0g  decorate "Polyline" at (2,0) {
+  				id _QD9kIEU8EeetjZy493Al0g
+  			}
+  		}
+  		
+  		PrimitiveAttribute _LoKuQEU8EeetjZy493Al0g at 20,131 size 120,25  {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			isLive false
+  			-TableColumnLoad-> _KUlmgEU8EeetjZy493Al0g  decorate "Polyline" at (2,0) {
+  				id _Q6UkYEU8EeetjZy493Al0g
+  			}
+  		}
+  		
+  		PrimitiveAttribute _LoLVUEU8EeetjZy493Al0g at 20,158 size 120,25  {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _DZeOgEU8EeetjZy493Al0g at 260,10 size 420,280  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _DZh44EU8EeetjZy493Al0g at 10,30 size 400,220  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _DZjuEEU8EeetjZy493Al0g at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _DZk8MEU8EeetjZy493Al0g at 2,10 size 14,7  {
+  		}
+  		
+  		Col _DZnYcEU8EeetjZy493Al0g at 10,30 size 370,170  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _DZp0sEU8EeetjZy493Al0g at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _DZrp4EU8EeetjZy493Al0g at 10,2 size 7,14  {
+  			}
+  			
+  			Table _HONEYEU8EeetjZy493Al0g at 10,30 size 350,110  {
+  				striped true
+  				bordered true
+  				hover false
+  				condensed true
+  				responsive true
+  				numbering false
+  				pagination 0
+  				choices NONE
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _HORV0EU8EeetjZy493Al0g at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _HOSj8EU8EeetjZy493Al0g at 2,10 size 14,7  {
+  				}
+  				
+  				TableEntry _JZvu4EU8EeetjZy493Al0g at 10,30 size 100,60  {
+  					label "First name"
+  					sortable false
+  					defaultSorting NONE
+  					fullTextSearch false
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _JZ8jMEU8EeetjZy493Al0g at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _JZ9xUEU8EeetjZy493Al0g at 10,2 size 7,14  {
+  					}
+  				}
+  				
+  				TableEntry _KUlmgEU8EeetjZy493Al0g at 120,30 size 100,60  {
+  					label "Last name"
+  					sortable false
+  					defaultSorting NONE
+  					fullTextSearch false
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _KUop0EU8EeetjZy493Al0g at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _KUp38EU8EeetjZy493Al0g at 10,2 size 7,14  {
+  					}
+  				}
+  				
+  				TableEntry _OdptoEU8EeetjZy493Al0g at 230,30 size 100,60  {
+  					label "Mail adress"
+  					sortable false
+  					defaultSorting NONE
+  					fullTextSearch false
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _Odri0EU8EeetjZy493Al0g at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _OdsJ4EU8EeetjZy493Al0g at 10,2 size 7,14  {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

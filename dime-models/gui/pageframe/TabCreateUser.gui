@@ -1,0 +1,72 @@
+GUI _OiXgcEU6EeetjZy493Al0g {
+  title "TabCreateUser"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _OigqYEU6EeetjZy493Al0g at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  }
+  
+  Template _OiifkEU6EeetjZy493Al0g at 260,10 size 220,278  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _OipNQEU6EeetjZy493Al0g at 10,30 size 200,218  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _OirCcEU6EeetjZy493Al0g at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _OisQkEU6EeetjZy493Al0g at 2,10 size 14,7  {
+  		}
+  		
+  		Col _OivT4EU6EeetjZy493Al0g at 10,30 size 170,168  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _OixJEEU6EeetjZy493Al0g at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _OixwIEU6EeetjZy493Al0g at 10,2 size 7,14  {
+  			}
+  			
+  			InteractionSIB _Qd1uoEU6EeetjZy493Al0g at 10,30 size 150,108  {
+  				libraryComponentUID "_MxZSEEU6EeetjZy493Al0g"
+  				label "TabCreateUser"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				Branch _QeAtwEU6EeetjZy493Al0g at 5,65 size 100,25  {
+  					name "success"
+  				}
+  				
+  				MoveUp _QeOJIEU6EeetjZy493Al0g at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _QePXQEU6EeetjZy493Al0g at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

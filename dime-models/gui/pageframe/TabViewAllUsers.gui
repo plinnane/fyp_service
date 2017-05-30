@@ -1,0 +1,68 @@
+GUI _nWJjIEU6EeetjZy493Al0g {
+  title "TabViewAllUsers"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _nWVwYEU6EeetjZy493Al0g at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  }
+  
+  Template _nWYMoEU6EeetjZy493Al0g at 260,10 size 220,235  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _nWeTQEU6EeetjZy493Al0g at 10,30 size 200,175  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _nWgIcEU6EeetjZy493Al0g at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _nWhWkEU6EeetjZy493Al0g at 2,10 size 14,7  {
+  		}
+  		
+  		Col _nWlA8EU6EeetjZy493Al0g at 10,30 size 170,125  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _nWm2IEU6EeetjZy493Al0g at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _nWoEQEU6EeetjZy493Al0g at 10,2 size 7,14  {
+  			}
+  			
+  			InteractionSIB _obZT8EU6EeetjZy493Al0g at 10,30 size 150,65  {
+  				libraryComponentUID "_lJrEgEU6EeetjZy493Al0g"
+  				label "TabViewAllUsers"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _obn9cEU6EeetjZy493Al0g at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _obpLkEU6EeetjZy493Al0g at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}
