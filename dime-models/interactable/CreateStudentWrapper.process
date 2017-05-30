@@ -1,0 +1,133 @@
+Process _6NVTEEUPEeeKqOBaOG4MmQ {
+  modelName "CreateStudentWrapper"
+  processType Interactable
+  description "CreateStudentWrapper"
+  isStateful false
+  dataFlowView true
+  DataContext _6NgSMEUPEeeKqOBaOG4MmQ at 50,50 size 180,525  {
+  	dfViewWorkaround true
+  	ComplexVariable _W4HKkEUSEeeKqOBaOG4MmQ at 20,70 size 140,51  {
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "concreteuser"
+  		isList false
+  		PrimitiveAttribute _XPw1kEUSEeeKqOBaOG4MmQ at 20,23 size 100,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			dfViewWorkaround true
+  			-PrimitiveRead-> _eCj_EEUSEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  				id _e1WG4EUSEeeKqOBaOG4MmQ
+  				dfViewWorkaround true
+  			}
+  		}
+  		-ComplexAttributeConnector-> _X0LKMEUSEeeKqOBaOG4MmQ  decorate "Ellipse" at (0,0) {
+  			id _X0R34EUSEeeKqOBaOG4MmQ
+  			attributeName "baseUser"
+  		}
+  	}
+  	
+  	ComplexVariable _X0LKMEUSEeeKqOBaOG4MmQ at 20,170 size 140,186  {
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		ComplexAttribute _X0YlkEUSEeeKqOBaOG4MmQ at 20,23 size 100,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _X0aawEUSEeeKqOBaOG4MmQ at 20,50 size 100,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _X0cP8EUSEeeKqOBaOG4MmQ at 20,77 size 100,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _X0esMEUSEeeKqOBaOG4MmQ at 20,104 size 100,25  {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _X0ghYEUSEeeKqOBaOG4MmQ at 20,131 size 100,25  {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _X0iWkEUSEeeKqOBaOG4MmQ at 20,158 size 100,25  {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			dfViewWorkaround true
+  			-PrimitiveRead-> _TPI4wEUSEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  				id _j5v04EUSEeeKqOBaOG4MmQ
+  				dfViewWorkaround true
+  			}
+  		}
+  		-ComplexRead-> _gCyKYEUSEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  			id _g8Yr4EUSEeeKqOBaOG4MmQ
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _6NjVgEUPEeeKqOBaOG4MmQ at 301,50 size 100,90  {
+  	ComplexOutputPort _Y0plMEUREeeKqOBaOG4MmQ at 5,67 size 90,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "concreteuser"
+  		-ComplexUpdate-> _W4HKkEUSEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  			id _YszbUEUSEeeKqOBaOG4MmQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _TPEAQEUSEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  		id _uo2b4EUSEeeKqOBaOG4MmQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _6Nm_4EUPEeeKqOBaOG4MmQ at 301,485 size 100,65  {
+  	branchName "success"
+  }
+  
+  CreateSIB _TPEAQEUSEeeKqOBaOG4MmQ at 291,170 size 120,126  {
+  	libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  	label "Create Student"
+  	PrimitiveInputPort _TPI4wEUSEeeKqOBaOG4MmQ at 5,67 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "internalName"
+  	}
+  	
+  	PrimitiveInputPort _eCj_EEUSEeeKqOBaOG4MmQ at 5,85 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "email"
+  	}
+  	
+  	ComplexInputPort _gCyKYEUSEeeKqOBaOG4MmQ at 5,103 size 110,18  {
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "baseUser"
+  	}
+  	-BranchConnector-> _TPT34EUSEeeKqOBaOG4MmQ   {
+  		id _TPXiQEUSEeeKqOBaOG4MmQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _TPT34EUSEeeKqOBaOG4MmQ at 291,320 size 120,50  {
+  	name "success"
+  	ComplexOutputPort _TPYJUEUSEeeKqOBaOG4MmQ at 5,27 size 110,18  {
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		isList false
+  		name "created"
+  	}
+  	-ControlFlow-> _6Nm_4EUPEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  		id _iHOJgEUhEeeKqOBaOG4MmQ
+  		concurrent true
+  	}
+  }
+}

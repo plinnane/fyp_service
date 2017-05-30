@@ -3,9 +3,9 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  Template _NGNuoF4TEear0NzybbrMtw at 270,30 size 390,550  {
+  Template _NGNuoF4TEear0NzybbrMtw at 270,30 size 390,620  {
   	blockName "body"
-  	Jumbotron _mBkmoF7cEeaOsfr6s-K4-Q at 10,30 size 370,490  {
+  	Jumbotron _mBkmoF7cEeaOsfr6s-K4-Q at 10,30 size 370,560  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -18,7 +18,7 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   		MoveDown _mBoRAF7cEeaOsfr6s-K4-Q at 2,10 size 14,7  {
   		}
   		
-  		Row _6pGgwF7bEeaOsfr6s-K4-Q at 10,30 size 350,430  {
+  		Row _6pGgwF7bEeaOsfr6s-K4-Q at 10,30 size 350,500  {
   			generalStyle GeneralStyling {
   					marginTop None
   					marginBottom None
@@ -31,7 +31,7 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   			MoveDown _6pJkEF7bEeaOsfr6s-K4-Q at 2,10 size 14,7  {
   			}
   			
-  			Col _6pPDoF7bEeaOsfr6s-K4-Q at 10,30 size 320,380  {
+  			Col _6pPDoF7bEeaOsfr6s-K4-Q at 10,30 size 320,450  {
   				wideness Full
   				layout Layout {
   						size Default
@@ -181,6 +181,37 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   					}
   					
   					MoveDown _derY4D_CEeeJvcjJaBrCJA at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Button _WWt1EEUPEeeKqOBaOG4MmQ at 10,360 size 200,60  {
+  					label "Create new user"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _WWvqQEUPEeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _WWwRUEUPEeeKqOBaOG4MmQ at 2,10 size 14,7  {
   					}
   				}
   			}
