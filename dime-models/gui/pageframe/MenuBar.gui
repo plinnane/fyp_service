@@ -1,0 +1,223 @@
+GUI _GIoCkEeQEeeJjvdf9GAasg {
+  title "MenuBar"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _GJ6cAEeQEeeJjvdf9GAasg at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  }
+  
+  Template _GJ8RMEeQEeeJjvdf9GAasg at 260,10 size 1140,280  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _GKlxcEeQEeeJjvdf9GAasg at 10,30 size 1120,220  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _GKm_kEeQEeeJjvdf9GAasg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _GKnmoEeQEeeJjvdf9GAasg at 2,10 size 14,7  {
+  		}
+  		
+  		Col _GKqp8EeQEeeJjvdf9GAasg at 10,30 size 1090,170  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _GKr4EEeQEeeJjvdf9GAasg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _GKsfIEeQEeeJjvdf9GAasg at 10,2 size 7,14  {
+  			}
+  			
+  			ButtonGroup _HvHfQEeQEeeJjvdf9GAasg at 10,30 size 1070,110  {
+  				alignment horizontal
+  				size Default
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				Button _HvGRJkeQEeeJjvdf9GAasg at 640,30 size 200,60  {
+  					label "Create user"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveRight _HvGRKEeQEeeJjvdf9GAasg at 10,2 size 7,14  {
+  					}
+  					
+  					MoveLeft _HvGRJ0eQEeeJjvdf9GAasg at 2,2 size 7,14  {
+  					}
+  				}
+  				
+  				Button _HvFqEUeQEeeJjvdf9GAasg at 10,30 size 200,60  {
+  					label "Upload topic"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _HvFqE0eQEeeJjvdf9GAasg at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _HvFqEkeQEeeJjvdf9GAasg at 10,2 size 7,14  {
+  					}
+  				}
+  				
+  				MoveDown _HvG4M0eQEeeJjvdf9GAasg at 2,10 size 14,7  {
+  				}
+  				
+  				Button _HvGRIEeQEeeJjvdf9GAasg at 220,30 size 200,60  {
+  					label "View topics"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _HvGRIUeQEeeJjvdf9GAasg at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _HvGRIkeQEeeJjvdf9GAasg at 10,2 size 7,14  {
+  					}
+  				}
+  				
+  				Button _HvGRI0eQEeeJjvdf9GAasg at 430,30 size 200,60  {
+  					label "View users"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _HvGRJUeQEeeJjvdf9GAasg at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _HvGRJEeQEeeJjvdf9GAasg at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Button _HvG4MEeQEeeJjvdf9GAasg at 850,30 size 200,60  {
+  					label "View user profile"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _HvG4MkeQEeeJjvdf9GAasg at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _HvG4MUeQEeeJjvdf9GAasg at 10,2 size 7,14  {
+  					}
+  				}
+  				
+  				MoveUp _HvG4NEeQEeeJjvdf9GAasg at 2,2 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

@@ -3,7 +3,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  Template _I0-5IEU1EeeKqOBaOG4MmQ at 260,20 size 1190,890  {
+  Template _I0-5IEU1EeeKqOBaOG4MmQ at 260,20 size 490,1340  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -11,20 +11,20 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _I1BVYEU1EeeKqOBaOG4MmQ at 10,30 size 1170,830  {
+  	Row _o3YLgEeOEeeJjvdf9GAasg at 10,30 size 470,1280  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
   				tallness Fitting
   				attributes [  ]
   			}
-  		MoveUp _I1B8cEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  		MoveUp _o3anwEeOEeeJjvdf9GAasg at 2,2 size 14,7  {
   		}
   		
-  		MoveDown _I1CjgEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  		MoveDown _o3b14EeOEeeJjvdf9GAasg at 2,10 size 14,7  {
   		}
   		
-  		Col _I1EYsEU1EeeKqOBaOG4MmQ at 10,30 size 1140,780  {
+  		Col _o3wmAEeOEeeJjvdf9GAasg at 10,30 size 440,1230  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -37,337 +37,46 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   					tallness Fitting
   					attributes [  ]
   				}
-  			MoveLeft _I1E_wEU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
+  			MoveLeft _o3zCQEeOEeeJjvdf9GAasg at 2,2 size 7,14  {
   			}
   			
-  			MoveRight _I1Fm0EU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
+  			MoveRight _o32soEeOEeeJjvdf9GAasg at 10,2 size 7,14  {
   			}
   			
-  			Row _LCvKIEU1EeeKqOBaOG4MmQ at 10,30 size 1120,280  {
+  			Panel _nHapwEeOEeeJjvdf9GAasg at 10,30 size 420,1170  {
+  				collapsable false
+  				defaultOpen "true"
+  				heading [  ]
+  				footer [  ]
+  				coloring ComponentColoring {
+  						color Default
+  					}
   				generalStyle GeneralStyling {
   						marginTop None
   						marginBottom None
   						tallness Fitting
   						attributes [  ]
   					}
-  				MoveUp _LCwYQEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  				MoveUp _nH81QEeOEeeJjvdf9GAasg at 2,2 size 14,7  {
   				}
   				
-  				MoveDown _LCw_UEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  				MoveDown _nH-DYEeOEeeJjvdf9GAasg at 2,10 size 14,7  {
   				}
   				
-  				Col _LC0psEU1EeeKqOBaOG4MmQ at 10,30 size 1090,230  {
-  					wideness Full
-  					layout Layout {
-  							size Default
-  							alignment Left
-  							offset None
-  						}
+  				Row _I1BVYEU1EeeKqOBaOG4MmQ at 10,30 size 400,1110  {
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
   							tallness Fitting
   							attributes [  ]
   						}
-  					MoveLeft _LC130EU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
+  					MoveUp _I1B8cEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
   					}
   					
-  					MoveRight _LC2e4EU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
+  					MoveDown _I1CjgEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
   					}
   					
-  					Headline _OtvcQEU1EeeKqOBaOG4MmQ at 10,30 size 300,50  {
-  						size Big
-  						content [ StaticContent {
-  								rawContent "Lero-FYP Service"
-  								maxChars 0
-  								html false
-  								styling TextStyling {
-  										alignment Left
-  										bold false
-  										small false
-  										italic false
-  										highlight false
-  										deleted false
-  										underline false
-  										color Default
-  									}
-  							} ]
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
-  								tallness Fitting
-  								attributes [  ]
-  							}
-  						MoveUp _Otx4gEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
-  						}
-  						
-  						MoveDown _OtyfkEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
-  						}
-  					}
-  					
-  					ButtonGroup _a8db4EU1EeeKqOBaOG4MmQ at 10,90 size 1070,110  {
-  						alignment horizontal
-  						size Default
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
-  								tallness Fitting
-  								attributes [  ]
-  							}
-  						MoveUp _a8fREEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
-  						}
-  						
-  						MoveDown _a8f4IEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
-  						}
-  						
-  						Button _a8ppIEU1EeeKqOBaOG4MmQ at 10,30 size 200,60  {
-  							label "Upload topic"
-  							displayLabel ""
-  							styling ButtonStyling {
-  									fullWidth false
-  									size Default
-  									disabled false
-  									color Default
-  								}
-  							options ButtonOptions {
-  									isLink false
-  									submitsForm true
-  								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									attributes [  ]
-  								}
-  							MoveLeft _a8reUEU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
-  							}
-  							
-  							MoveRight _a8sFYEU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
-  							}
-  						}
-  						
-  						Button _o1j5sEU1EeeKqOBaOG4MmQ at 220,30 size 200,60  {
-  							label "View topics"
-  							displayLabel ""
-  							styling ButtonStyling {
-  									fullWidth false
-  									size Default
-  									disabled false
-  									color Default
-  								}
-  							options ButtonOptions {
-  									isLink false
-  									submitsForm true
-  								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									attributes [  ]
-  								}
-  							MoveLeft _o1nkEEU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
-  							}
-  							
-  							MoveRight _o1pZQEU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
-  							}
-  						}
-  						
-  						Button _rHW9MEU1EeeKqOBaOG4MmQ at 640,30 size 200,60  {
-  							label "Create user"
-  							displayLabel ""
-  							styling ButtonStyling {
-  									fullWidth false
-  									size Default
-  									disabled false
-  									color Default
-  								}
-  							options ButtonOptions {
-  									isLink false
-  									submitsForm true
-  								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									attributes [  ]
-  								}
-  							MoveLeft _rHZZcEU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
-  							}
-  							
-  							MoveRight _rHaAgEU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
-  							}
-  						}
-  						
-  						Button _s0kF4EU1EeeKqOBaOG4MmQ at 430,30 size 200,60  {
-  							label "View users"
-  							displayLabel ""
-  							styling ButtonStyling {
-  									fullWidth false
-  									size Default
-  									disabled false
-  									color Default
-  								}
-  							options ButtonOptions {
-  									isLink false
-  									submitsForm true
-  								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									attributes [  ]
-  								}
-  							MoveUp _s0miIEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
-  							}
-  							
-  							MoveDown _s0nwQEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
-  							}
-  						}
-  						
-  						Button _4CSikEU1EeeKqOBaOG4MmQ at 850,30 size 200,60  {
-  							label "View user profile"
-  							displayLabel ""
-  							styling ButtonStyling {
-  									fullWidth false
-  									size Default
-  									disabled false
-  									color Default
-  								}
-  							options ButtonOptions {
-  									isLink false
-  									submitsForm true
-  								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									attributes [  ]
-  								}
-  							MoveLeft _4CUXwEU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
-  							}
-  							
-  							MoveRight _4CU-0EU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
-  							}
-  						}
-  					}
-  				}
-  			}
-  			
-  			Row _Lzre4EU1EeeKqOBaOG4MmQ at 10,580 size 250,170  {
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				MoveUp _LzstAEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _LztUEEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
-  				}
-  				
-  				Col _Lzw-cEU1EeeKqOBaOG4MmQ at 10,30 size 220,120  {
-  					wideness Full
-  					layout Layout {
-  							size Default
-  							alignment Left
-  							offset None
-  						}
-  					generalStyle GeneralStyling {
-  							marginTop None
-  							marginBottom None
-  							tallness Fitting
-  							attributes [  ]
-  						}
-  					MoveLeft _LzyMkEU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
-  					}
-  					
-  					MoveRight _LzyzoEU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
-  					}
-  					
-  					Text _Q4RaIEU1EeeKqOBaOG4MmQ at 10,30 size 200,60  {
-  						content [ StaticContent {
-  								rawContent "Footer"
-  								maxChars 0
-  								html false
-  								styling TextStyling {
-  										alignment Left
-  										bold false
-  										small false
-  										italic false
-  										highlight false
-  										deleted false
-  										underline false
-  										color Default
-  									}
-  							} ]
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
-  								tallness Fitting
-  								attributes [  ]
-  							}
-  						MoveUp _Q4TPUEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
-  						}
-  						
-  						MoveDown _Q4T2YEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
-  						}
-  					}
-  				}
-  			}
-  			
-  			Jumbotron _MW1PQEU1EeeKqOBaOG4MmQ at 10,320 size 170,250  {
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				MoveUp _MW2dYEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _MW3EcEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
-  				}
-  				
-  				Row _MXBcgEU1EeeKqOBaOG4MmQ at 10,30 size 150,190  {
-  					generalStyle GeneralStyling {
-  							marginTop None
-  							marginBottom None
-  							tallness Fitting
-  							attributes [  ]
-  						}
-  					MoveUp _MXCqoEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
-  					}
-  					
-  					MoveDown _MXDRsEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
-  					}
-  					
-  					Col _MXIKMEU1EeeKqOBaOG4MmQ at 10,30 size 120,140  {
+  					Col _I1EYsEU1EeeKqOBaOG4MmQ at 10,30 size 370,1060  {
   						wideness Full
   						layout Layout {
   								size Default
@@ -380,24 +89,269 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   								tallness Fitting
   								attributes [  ]
   							}
-  						MoveLeft _MXJYUEU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
+  						MoveLeft _I1E_wEU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
   						}
   						
-  						MoveRight _MXJ_YEU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
+  						MoveRight _I1Fm0EU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
   						}
   						
-  						Placeholder _NJA6IEU1EeeKqOBaOG4MmQ at 10,30 size 100,80  {
-  							name "content"
+  						Row _LCvKIEU1EeeKqOBaOG4MmQ at 10,30 size 350,560  {
   							generalStyle GeneralStyling {
   									marginTop None
   									marginBottom None
   									tallness Fitting
   									attributes [  ]
   								}
-  							MoveUp _NJL5QEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  							MoveUp _LCwYQEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
   							}
   							
-  							MoveDown _NJMgUEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  							MoveDown _LCw_UEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  							}
+  							
+  							Col _LC0psEU1EeeKqOBaOG4MmQ at 10,30 size 320,510  {
+  								wideness Full
+  								layout Layout {
+  										size Default
+  										alignment Left
+  										offset None
+  									}
+  								generalStyle GeneralStyling {
+  										marginTop None
+  										marginBottom None
+  										tallness Fitting
+  										attributes [  ]
+  									}
+  								MoveLeft _LC130EU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
+  								}
+  								
+  								MoveRight _LC2e4EU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
+  								}
+  								
+  								Headline _OtvcQEU1EeeKqOBaOG4MmQ at 10,30 size 300,50  {
+  									size Big
+  									content [ StaticContent {
+  											rawContent "Lero-FYP Service"
+  											maxChars 0
+  											html false
+  											styling TextStyling {
+  													alignment Left
+  													bold false
+  													small false
+  													italic false
+  													highlight false
+  													deleted false
+  													underline false
+  													color Default
+  												}
+  										} ]
+  									generalStyle GeneralStyling {
+  											marginTop None
+  											marginBottom None
+  											tallness Fitting
+  											attributes [  ]
+  										}
+  									MoveUp _Otx4gEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  									}
+  									
+  									MoveDown _OtyfkEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  									}
+  								}
+  								
+  								Row _eU9t8EeUEeeJjvdf9GAasg at 10,90 size 200,390  {
+  									generalStyle GeneralStyling {
+  											marginTop None
+  											marginBottom None
+  											tallness Fitting
+  											attributes [  ]
+  										}
+  									MoveUp _eU_jIEeUEeeJjvdf9GAasg at 2,2 size 14,7  {
+  									}
+  									
+  									MoveDown _eVAKMEeUEeeJjvdf9GAasg at 2,10 size 14,7  {
+  									}
+  									
+  									Col _eVOMoEeUEeeJjvdf9GAasg at 10,30 size 170,340  {
+  										wideness Full
+  										layout Layout {
+  												size Default
+  												alignment Center
+  												offset None
+  											}
+  										generalStyle GeneralStyling {
+  												marginTop None
+  												marginBottom None
+  												tallness Fitting
+  												attributes [  ]
+  											}
+  										MoveLeft _eVPawEeUEeeJjvdf9GAasg at 2,2 size 7,14  {
+  										}
+  										
+  										MoveRight _eVQB0EeUEeeJjvdf9GAasg at 10,2 size 7,14  {
+  										}
+  										
+  										GUISIB _KCGOgEeQEeeJjvdf9GAasg at 10,30 size 150,280  {
+  											libraryComponentUID "_GIoCkEeQEeeJjvdf9GAasg"
+  											label "MenuBar"
+  											generalStyle GeneralStyling {
+  													marginTop None
+  													marginBottom None
+  													tallness Fitting
+  													attributes [  ]
+  												}
+  											Branch _KC5fwEeQEeeJjvdf9GAasg at 5,65 size 100,25  {
+  												name "Upload topic"
+  											}
+  											
+  											Branch _KDTvcEeQEeeJjvdf9GAasg at 5,108 size 100,25  {
+  												name "View topics"
+  											}
+  											
+  											Branch _KDZPAEeQEeeJjvdf9GAasg at 5,151 size 100,25  {
+  												name "View users"
+  											}
+  											
+  											Branch _KDf8sEeQEeeJjvdf9GAasg at 5,194 size 100,25  {
+  												name "Create user"
+  											}
+  											
+  											Branch _KDlcQEeQEeeJjvdf9GAasg at 5,237 size 100,25  {
+  												name "View user profile"
+  											}
+  											
+  											MoveUp _KDt_IEeQEeeJjvdf9GAasg at 2,2 size 14,7  {
+  											}
+  											
+  											MoveDown _KDvNQEeQEeeJjvdf9GAasg at 2,10 size 14,7  {
+  											}
+  										}
+  									}
+  								}
+  							}
+  						}
+  						
+  						Row _Lzre4EU1EeeKqOBaOG4MmQ at 10,860 size 250,170  {
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _LzstAEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _LztUEEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  							}
+  							
+  							Col _Lzw-cEU1EeeKqOBaOG4MmQ at 10,30 size 220,120  {
+  								wideness Full
+  								layout Layout {
+  										size Default
+  										alignment Left
+  										offset None
+  									}
+  								generalStyle GeneralStyling {
+  										marginTop None
+  										marginBottom None
+  										tallness Fitting
+  										attributes [  ]
+  									}
+  								MoveLeft _LzyMkEU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
+  								}
+  								
+  								MoveRight _LzyzoEU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
+  								}
+  								
+  								Text _Q4RaIEU1EeeKqOBaOG4MmQ at 10,30 size 200,60  {
+  									content [ StaticContent {
+  											rawContent "Footer"
+  											maxChars 0
+  											html false
+  											styling TextStyling {
+  													alignment Left
+  													bold false
+  													small false
+  													italic false
+  													highlight false
+  													deleted false
+  													underline false
+  													color Default
+  												}
+  										} ]
+  									generalStyle GeneralStyling {
+  											marginTop None
+  											marginBottom None
+  											tallness Fitting
+  											attributes [  ]
+  										}
+  									MoveUp _Q4TPUEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  									}
+  									
+  									MoveDown _Q4T2YEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  									}
+  								}
+  							}
+  						}
+  						
+  						Jumbotron _MW1PQEU1EeeKqOBaOG4MmQ at 10,600 size 170,250  {
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _MW2dYEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _MW3EcEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  							}
+  							
+  							Row _MXBcgEU1EeeKqOBaOG4MmQ at 10,30 size 150,190  {
+  								generalStyle GeneralStyling {
+  										marginTop None
+  										marginBottom None
+  										tallness Fitting
+  										attributes [  ]
+  									}
+  								MoveUp _MXCqoEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  								}
+  								
+  								MoveDown _MXDRsEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  								}
+  								
+  								Col _MXIKMEU1EeeKqOBaOG4MmQ at 10,30 size 120,140  {
+  									wideness Full
+  									layout Layout {
+  											size Default
+  											alignment Left
+  											offset None
+  										}
+  									generalStyle GeneralStyling {
+  											marginTop None
+  											marginBottom None
+  											tallness Fitting
+  											attributes [  ]
+  										}
+  									MoveLeft _MXJYUEU1EeeKqOBaOG4MmQ at 2,2 size 7,14  {
+  									}
+  									
+  									MoveRight _MXJ_YEU1EeeKqOBaOG4MmQ at 10,2 size 7,14  {
+  									}
+  									
+  									Placeholder _NJA6IEU1EeeKqOBaOG4MmQ at 10,30 size 100,80  {
+  										name "content"
+  										generalStyle GeneralStyling {
+  												marginTop None
+  												marginBottom None
+  												tallness Fitting
+  												attributes [  ]
+  											}
+  										MoveUp _NJL5QEU1EeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  										}
+  										
+  										MoveDown _NJMgUEU1EeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  										}
+  									}
+  								}
   							}
   						}
   					}

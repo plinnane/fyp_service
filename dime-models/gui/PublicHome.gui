@@ -3,39 +3,39 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  DataContext _Lmz1sEj8EeaK4_MRcoLfnw at 10,30 size 200,410 {
+  DataContext _Lmz1sEj8EeaK4_MRcoLfnw at 10,30 size 200,410  {
   	dfViewWorkaround true
   }
   
-  Template _Lm3gEEj8EeaK4_MRcoLfnw at 270,30 size 390,410 {
+  Template _Lm3gEEj8EeaK4_MRcoLfnw at 270,30 size 390,480  {
   	blockName "body"
-  	Jumbotron _6CcloEmAEeaUSpYQeYyxnQ at 10,30 size 370,350 {
+  	Jumbotron _6CcloEmAEeaUSpYQeYyxnQ at 10,30 size 370,420  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
   				tallness Fitting
   				attributes [  ]
   			}
-  		MoveUp _6Cj6YEmAEeaUSpYQeYyxnQ at 2,2 size 14,7 {
+  		MoveUp _6Cj6YEmAEeaUSpYQeYyxnQ at 2,2 size 14,7  {
   		}
   		
-  		MoveDown _6ClvkEmAEeaUSpYQeYyxnQ at 2,10 size 14,7 {
+  		MoveDown _6ClvkEmAEeaUSpYQeYyxnQ at 2,10 size 14,7  {
   		}
   		
-  		Row _pqsksE_OEeauEZ95mLTQ7g at 10,30 size 350,290 {
+  		Row _pqsksE_OEeauEZ95mLTQ7g at 10,30 size 350,360  {
   			generalStyle GeneralStyling {
   					marginTop None
   					marginBottom None
   					tallness Fitting
   					attributes [  ]
   				}
-  			MoveUp _pq6nIE_OEeauEZ95mLTQ7g at 2,2 size 14,7 {
+  			MoveUp _pq6nIE_OEeauEZ95mLTQ7g at 2,2 size 14,7  {
   			}
   			
-  			MoveDown _pq7OME_OEeauEZ95mLTQ7g at 2,10 size 14,7 {
+  			MoveDown _pq7OME_OEeauEZ95mLTQ7g at 2,10 size 14,7  {
   			}
   			
-  			Col _prJ3sE_OEeauEZ95mLTQ7g at 10,30 size 320,240 {
+  			Col _prJ3sE_OEeauEZ95mLTQ7g at 10,30 size 320,310  {
   				wideness Full
   				layout Layout {
   						size Default
@@ -48,13 +48,13 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   						tallness Fitting
   						attributes [  ]
   					}
-  				MoveLeft _prX6IE_OEeauEZ95mLTQ7g at 2,2 size 7,14 {
+  				MoveLeft _prX6IE_OEeauEZ95mLTQ7g at 2,2 size 7,14  {
   				}
   				
-  				MoveRight _prYhME_OEeauEZ95mLTQ7g at 10,2 size 7,14 {
+  				MoveRight _prYhME_OEeauEZ95mLTQ7g at 10,2 size 7,14  {
   				}
   				
-  				Headline _uAT6EE_OEeauEZ95mLTQ7g at 10,30 size 300,50 {
+  				Headline _uAT6EE_OEeauEZ95mLTQ7g at 10,30 size 300,50  {
   					size Big
   					content [ StaticContent {
   							rawContent "Welcome."
@@ -67,14 +67,14 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   							tallness Fitting
   							attributes [  ]
   						}
-  					MoveUp _uAjxsE_OEeauEZ95mLTQ7g at 2,2 size 14,7 {
+  					MoveUp _uAjxsE_OEeauEZ95mLTQ7g at 2,2 size 14,7  {
   					}
   					
-  					MoveDown _uAk_0E_OEeauEZ95mLTQ7g at 2,10 size 14,7 {
+  					MoveDown _uAk_0E_OEeauEZ95mLTQ7g at 2,10 size 14,7  {
   					}
   				}
   				
-  				Button _MF6_kE_LEeauEZ95mLTQ7g at 10,150 size 200,60 {
+  				Button _MF6_kE_LEeauEZ95mLTQ7g at 10,150 size 200,60  {
   					label "Login"
   					displayLabel ""
   					styling ButtonStyling {
@@ -85,6 +85,7 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   						}
   					options ButtonOptions {
   							isLink false
+  							submitsForm true
   						}
   					disabled false
   					icon Icon {
@@ -97,17 +98,17 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   							tallness Fitting
   							attributes [  ]
   						}
-  					MoveUp _MGIa8E_LEeauEZ95mLTQ7g at 2,2 size 14,7 {
+  					MoveUp _MGIa8E_LEeauEZ95mLTQ7g at 2,2 size 14,7  {
   					}
   					
-  					MoveDown _MGJCAE_LEeauEZ95mLTQ7g at 2,10 size 14,7 {
+  					MoveDown _MGJCAE_LEeauEZ95mLTQ7g at 2,10 size 14,7  {
   					}
   				}
   				
-  				Headline _rgv38F-TEea6DvTF5PmsmA at 10,90 size 300,50 {
+  				Headline _rgv38F-TEea6DvTF5PmsmA at 10,90 size 300,50  {
   					size Small
   					content [ StaticContent {
-  							rawContent "This is the public area"
+  							rawContent "To use the Lero-FYP service, please login."
   							maxChars 0
   							html false
   						} ]
@@ -117,10 +118,39 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   							tallness Fitting
   							attributes [  ]
   						}
-  					MoveUp _rg5o8F-TEea6DvTF5PmsmA at 2,2 size 14,7 {
+  					MoveUp _rg5o8F-TEea6DvTF5PmsmA at 2,2 size 14,7  {
   					}
   					
-  					MoveDown _rg96YF-TEea6DvTF5PmsmA at 2,10 size 14,7 {
+  					MoveDown _rg96YF-TEea6DvTF5PmsmA at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Text _GFQ3cEeOEeeJjvdf9GAasg at 10,220 size 200,60  {
+  					content [ StaticContent {
+  							rawContent "If you do not yet have an account, please contact us. More details will be added."
+  							maxChars 0
+  							html false
+  							styling TextStyling {
+  									alignment Left
+  									bold false
+  									small false
+  									italic false
+  									highlight false
+  									deleted false
+  									underline false
+  									color Default
+  								}
+  						} ]
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _GHx_8EeOEeeJjvdf9GAasg at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _GIi08EeOEeeJjvdf9GAasg at 2,10 size 14,7  {
   					}
   				}
   			}
