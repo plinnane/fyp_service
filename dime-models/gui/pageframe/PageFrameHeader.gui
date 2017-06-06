@@ -1,0 +1,153 @@
+GUI _m8u4wEp4EeeR8skQQzAlbg {
+  title "PageFrameHeader"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _m9TggEp4EeeR8skQQzAlbg at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  }
+  
+  Template _m9V8wEp4EeeR8skQQzAlbg at 260,10 size 370,620  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _pyXCEEp4EeeR8skQQzAlbg at 10,30 size 350,560  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				rawContent "background-color: #0091ba;"
+  				attributes [  ]
+  			}
+  		Col _pySJkEp4EeeR8skQQzAlbg at 10,30 size 320,510  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			Row _pySwoEp4EeeR8skQQzAlbg at 10,90 size 200,390  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				Col _pyT-wEp4EeeR8skQQzAlbg at 10,30 size 170,340  {
+  					wideness Full
+  					layout Layout {
+  							size Default
+  							alignment Center
+  							offset None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					GUISIB _pyVM4Ep4EeeR8skQQzAlbg at 10,30 size 150,280  {
+  						libraryComponentUID "_GIoCkEeQEeeJjvdf9GAasg"
+  						label "MenuBar"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveDown _pyVz8Ep4EeeR8skQQzAlbg at 2,10 size 14,7  {
+  						}
+  						
+  						Branch _pyVz8kp4EeeR8skQQzAlbg at 5,237 size 100,25  {
+  							name "View user profile"
+  						}
+  						
+  						MoveUp _pyVM40p4EeeR8skQQzAlbg at 2,2 size 14,7  {
+  						}
+  						
+  						Branch _pyVM4kp4EeeR8skQQzAlbg at 5,108 size 100,25  {
+  							name "View topics"
+  						}
+  						
+  						Branch _pyVz80p4EeeR8skQQzAlbg at 5,65 size 100,25  {
+  							name "Upload topic"
+  						}
+  						
+  						Branch _pyVz8Up4EeeR8skQQzAlbg at 5,151 size 100,25  {
+  							name "View users"
+  						}
+  						
+  						Branch _pyVM4Up4EeeR8skQQzAlbg at 5,194 size 100,25  {
+  							name "Create user"
+  						}
+  					}
+  					
+  					MoveLeft _pyVz9Ep4EeeR8skQQzAlbg at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _pyT-wUp4EeeR8skQQzAlbg at 10,2 size 7,14  {
+  					}
+  				}
+  				
+  				MoveDown _pySwokp4EeeR8skQQzAlbg at 2,10 size 14,7  {
+  				}
+  				
+  				MoveUp _pySwoUp4EeeR8skQQzAlbg at 2,2 size 14,7  {
+  				}
+  			}
+  			
+  			MoveLeft _pyWbBEp4EeeR8skQQzAlbg at 2,2 size 7,14  {
+  			}
+  			
+  			Headline _pyWbAEp4EeeR8skQQzAlbg at 10,30 size 300,50  {
+  				size Big
+  				content [ StaticContent {
+  						rawContent "Lero-FYP Service"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _pyWbAUp4EeeR8skQQzAlbg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _pyWbAkp4EeeR8skQQzAlbg at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			MoveRight _pyWbA0p4EeeR8skQQzAlbg at 10,2 size 7,14  {
+  			}
+  		}
+  		
+  		MoveUp _pyQ7cUp4EeeR8skQQzAlbg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _pyWbBUp4EeeR8skQQzAlbg at 2,10 size 14,7  {
+  		}
+  	}
+  }
+}

@@ -464,7 +464,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   			}
   			
   			Headline _2DqDwEUWEeeKqOBaOG4MmQ at 10,30 size 300,50 index 2 {
-  				size Big
+  				size Normal
   				content [ StaticContent {
   						rawContent "Create new user"
   						maxChars 0

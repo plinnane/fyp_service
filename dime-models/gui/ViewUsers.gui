@@ -41,7 +41,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   		}
   	}
   	
-  	ComplexVariable _K-pQIEU8EeetjZy493Al0g at 20,190 size 160,51  {
+  	ComplexVariable _K-pQIEU8EeetjZy493Al0g at 20,190 size 160,51 index 2 {
   		isLive false
   		expanded true
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -62,7 +62,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   		}
   	}
   	
-  	ComplexVariable _Ln62oEU8EeetjZy493Al0g at 20,290 size 160,186  {
+  	ComplexVariable _Ln62oEU8EeetjZy493Al0g at 20,290 size 160,186 index 1 {
   		isLive false
   		expanded true
   		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
@@ -85,7 +85,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			isLive false
   		}
   		
-  		PrimitiveAttribute _LoJgIEU8EeetjZy493Al0g at 20,104 size 120,25  {
+  		PrimitiveAttribute _LoJgIEU8EeetjZy493Al0g at 20,104 size 120,25 index 5 {
   			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
   			isLive false
   			-TableColumnLoad-> _JZvu4EU8EeetjZy493Al0g  decorate "Polyline" at (2,0) {
@@ -93,7 +93,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			}
   		}
   		
-  		PrimitiveAttribute _LoKuQEU8EeetjZy493Al0g at 20,131 size 120,25  {
+  		PrimitiveAttribute _LoKuQEU8EeetjZy493Al0g at 20,131 size 120,25 index 3 {
   			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
   			isLive false
   			-TableColumnLoad-> _KUlmgEU8EeetjZy493Al0g  decorate "Polyline" at (2,0) {
@@ -101,14 +101,14 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			}
   		}
   		
-  		PrimitiveAttribute _LoLVUEU8EeetjZy493Al0g at 20,158 size 120,25  {
+  		PrimitiveAttribute _LoLVUEU8EeetjZy493Al0g at 20,158 size 120,25 index 4 {
   			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
   			isLive false
   		}
   	}
   }
   
-  Template _DZeOgEU8EeetjZy493Al0g at 260,10 size 420,280  {
+  Template _DZeOgEU8EeetjZy493Al0g at 260,10 size 420,340  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -116,7 +116,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _DZh44EU8EeetjZy493Al0g at 10,30 size 400,220  {
+  	Row _DZh44EU8EeetjZy493Al0g at 10,30 size 400,280  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -129,7 +129,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   		MoveDown _DZk8MEU8EeetjZy493Al0g at 2,10 size 14,7  {
   		}
   		
-  		Col _DZnYcEU8EeetjZy493Al0g at 10,30 size 370,170  {
+  		Col _DZnYcEU8EeetjZy493Al0g at 10,30 size 370,230  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -148,7 +148,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			MoveRight _DZrp4EU8EeetjZy493Al0g at 10,2 size 7,14  {
   			}
   			
-  			Table _HONEYEU8EeetjZy493Al0g at 10,30 size 350,110  {
+  			Table _HONEYEU8EeetjZy493Al0g at 10,90 size 350,110  {
   				striped true
   				bordered true
   				hover false
@@ -221,6 +221,36 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   					
   					MoveRight _OdsJ4EU8EeetjZy493Al0g at 10,2 size 7,14  {
   					}
+  				}
+  			}
+  			
+  			Headline _oWE8MEp2EeeR8skQQzAlbg at 10,30 size 300,50  {
+  				size Normal
+  				content [ StaticContent {
+  						rawContent "All registered users"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _oWGxYEp2EeeR8skQQzAlbg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _oWH_gEp2EeeR8skQQzAlbg at 2,10 size 14,7  {
   				}
   			}
   		}

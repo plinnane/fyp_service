@@ -39,6 +39,16 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			id _LMSPUD-xEeerA7ElzRRObA
   			attributeName current
   		}
+  		
+  		-IF-> _Dc-tgEp2EeeR8skQQzAlbg  decorate "Polyline" at (2,0) decorate "Text" at (-61,-12) {
+  			id _KKgVcEp2EeeR8skQQzAlbg
+  			negate true
+  		}
+  		
+  		-IF-> _aeuUED-wEeerA7ElzRRObA via (235,151) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _K4JekEp2EeeR8skQQzAlbg
+  			negate false
+  		}
   	}
   	
   	ComplexVariable _LMLhoD-xEeerA7ElzRRObA at 20,190 size 160,240  {
@@ -100,7 +110,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   	}
   }
   
-  Template _e4QVkD-vEeerA7ElzRRObA at 260,10 size 420,280  {
+  Template _e4QVkD-vEeerA7ElzRRObA at 260,10 size 420,350  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -108,7 +118,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _e4oJAD-vEeerA7ElzRRObA at 10,30 size 400,220  {
+  	Row _e4oJAD-vEeerA7ElzRRObA at 10,30 size 400,290  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -121,7 +131,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		MoveDown _e42ygD-vEeerA7ElzRRObA at 2,10 size 14,7  {
   		}
   		
-  		Col _e5GDED-vEeerA7ElzRRObA at 10,30 size 370,170  {
+  		Col _e5GDED-vEeerA7ElzRRObA at 10,30 size 370,240  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -213,6 +223,35 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   					
   					MoveRight _Am1XgEUrEeeKqOBaOG4MmQ at 10,2 size 7,14  {
   					}
+  				}
+  			}
+  			
+  			Text _Dc-tgEp2EeeR8skQQzAlbg at 10,150 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "Currently there are no topics to be displayed here."
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _DeqvkEp2EeeR8skQQzAlbg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _DeskwEp2EeeR8skQQzAlbg at 2,10 size 14,7  {
   				}
   			}
   		}

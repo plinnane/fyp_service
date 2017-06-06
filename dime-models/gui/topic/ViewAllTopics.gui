@@ -84,7 +84,7 @@ GUI _KcEzwEUqEeeKqOBaOG4MmQ {
   			}
   			
   			Headline _WkUX8EUqEeeKqOBaOG4MmQ at 10,30 size 300,50  {
-  				size Big
+  				size Normal
   				content [ StaticContent {
   						rawContent "All topics ever"
   						maxChars 0
@@ -122,16 +122,16 @@ GUI _KcEzwEUqEeeKqOBaOG4MmQ {
   						tallness Fitting
   						attributes [  ]
   					}
-  				ComplexInputPort _9hKAAEUqEeeKqOBaOG4MmQ at 5,67 size 90,18  {
+  				ComplexInputPort _9hKAAEUqEeeKqOBaOG4MmQ at 5,67 size 90,18 index 2 {
   					libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   					isList true
   					name "topics"
   				}
   				
-  				MoveUp _9hQtsEUqEeeKqOBaOG4MmQ at 2,2 size 14,7  {
+  				MoveUp _9hQtsEUqEeeKqOBaOG4MmQ at 2,2 size 14,7 index 0 {
   				}
   				
-  				MoveDown _9hR70EUqEeeKqOBaOG4MmQ at 2,10 size 14,7  {
+  				MoveDown _9hR70EUqEeeKqOBaOG4MmQ at 2,10 size 14,7 index 1 {
   				}
   			}
   		}

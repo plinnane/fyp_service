@@ -1,0 +1,82 @@
+GUI _wYYT0Ep4EeeR8skQQzAlbg {
+  title "PageFrameFooter"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _wYdMUEp4EeeR8skQQzAlbg at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  }
+  
+  Template _wYeacEp4EeeR8skQQzAlbg at 260,10 size 270,230  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _wzaC9Up4EeeR8skQQzAlbg at 10,30 size 250,170  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				rawContent "background-color: #0091ba;"
+  				attributes [  ]
+  			}
+  		MoveDown _wzZb4Up4EeeR8skQQzAlbg at 2,10 size 14,7  {
+  		}
+  		
+  		MoveUp _wzaC9Ep4EeeR8skQQzAlbg at 2,2 size 14,7  {
+  		}
+  		
+  		Col _wzZb4kp4EeeR8skQQzAlbg at 10,30 size 220,120  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _wzaC80p4EeeR8skQQzAlbg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _wzZb40p4EeeR8skQQzAlbg at 10,2 size 7,14  {
+  			}
+  			
+  			Text _wzaC8Ep4EeeR8skQQzAlbg at 10,30 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "Footer"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveDown _wzaC8kp4EeeR8skQQzAlbg at 2,10 size 14,7  {
+  				}
+  				
+  				MoveUp _wzaC8Up4EeeR8skQQzAlbg at 2,2 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}
