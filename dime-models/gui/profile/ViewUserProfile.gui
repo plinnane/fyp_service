@@ -1,0 +1,83 @@
+GUI _A_z7IEqwEeeq5uKWWhCwgQ {
+  title "ViewUserProfile"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _BAl-QEqwEeeq5uKWWhCwgQ at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _5JgQwEqwEeeq5uKWWhCwgQ at 21,50 size 160,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput true
+  	}
+  }
+  
+  Template _BAnzcEqwEeeq5uKWWhCwgQ at 260,10 size 220,260  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _BAyykEqwEeeq5uKWWhCwgQ at 10,30 size 200,200  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _BA114EqwEeeq5uKWWhCwgQ at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _BA3rEEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
+  		}
+  		
+  		Col _BBD4UEqwEeeq5uKWWhCwgQ at 10,30 size 170,150  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _BBGUkEqwEeeq5uKWWhCwgQ at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _BBHisEqwEeeq5uKWWhCwgQ at 10,2 size 7,14  {
+  			}
+  			
+  			GUISIB _67WB0EqwEeeq5uKWWhCwgQ at 10,30 size 150,90  {
+  				libraryComponentUID "_GWZlUEqwEeeq5uKWWhCwgQ"
+  				label "ViewUserProfileGeneric"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _67cIcEqwEeeq5uKWWhCwgQ at 5,67 size 90,18  {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList false
+  					name "user"
+  				}
+  				
+  				MoveUp _67hA8EqwEeeq5uKWWhCwgQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _67iPEEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

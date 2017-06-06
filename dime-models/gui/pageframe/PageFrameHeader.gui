@@ -3,11 +3,67 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  DataContext _m9TggEp4EeeR8skQQzAlbg at 10,10 size 200,1000  {
+  DataContext _m9TggEp4EeeR8skQQzAlbg at 10,10 size 200,641  {
   	dfViewWorkaround true
+  	ComplexVariable _2xAU4EqbEeeYWJ9zK_WIRg at 20,40 size 160,51  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput false
+  		PrimitiveAttribute _3Rz74EqbEeeYWJ9zK_WIRg at 20,23 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _3mDtkEqbEeeYWJ9zK_WIRg  decorate "Ellipse" at (0,0) {
+  			id _3mLpYEqbEeeYWJ9zK_WIRg
+  			associationName "baseUser"
+  		}
+  	}
+  	
+  	ComplexVariable _3mDtkEqbEeeYWJ9zK_WIRg at 20,150 size 160,186  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _3mUzUEqbEeeYWJ9zK_WIRg at 20,23 size 120,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _3mWogEqbEeeYWJ9zK_WIRg at 20,50 size 120,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _3mX2oEqbEeeYWJ9zK_WIRg at 20,77 size 120,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _3mZEwEqbEeeYWJ9zK_WIRg at 20,104 size 120,25  {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _3ma58EqbEeeYWJ9zK_WIRg at 20,131 size 120,25  {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _3mcvIEqbEeeYWJ9zK_WIRg at 20,158 size 120,25  {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			isLive false
+  		}
+  	}
   }
   
-  Template _m9V8wEp4EeeR8skQQzAlbg at 260,10 size 370,620  {
+  Template _m9V8wEp4EeeR8skQQzAlbg at 260,10 size 1570,485  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -15,7 +71,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _pyXCEEp4EeeR8skQQzAlbg at 10,30 size 350,560  {
+  	Row _pyXCEEp4EeeR8skQQzAlbg at 10,30 size 1550,425  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -23,7 +79,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   				rawContent "background-color: #0091ba;"
   				attributes [  ]
   			}
-  		Col _pySJkEp4EeeR8skQQzAlbg at 10,30 size 320,510  {
+  		Col _pySJkEp4EeeR8skQQzAlbg at 10,30 size 1520,375  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -36,110 +92,342 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   					tallness Fitting
   					attributes [  ]
   				}
-  			Row _pySwoEp4EeeR8skQQzAlbg at 10,90 size 200,390  {
+  			MoveLeft _pyWbBEp4EeeR8skQQzAlbg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _pyWbA0p4EeeR8skQQzAlbg at 10,2 size 7,14  {
+  			}
+  			
+  			TopNavBar _-_7lgEqYEeeR9rEAwG2f9w at 10,30 size 1500,315  {
+  				fixed true
+  				inverted true
   				generalStyle GeneralStyling {
   						marginTop None
   						marginBottom None
   						tallness Fitting
+  						rawContent "background-color: #0091ba;\ncolor: #fff;"
   						attributes [  ]
   					}
-  				Col _pyT-wEp4EeeR8skQQzAlbg at 10,30 size 170,340  {
-  					wideness Full
-  					layout Layout {
-  							size Default
-  							alignment Center
-  							offset None
-  						}
+  				MoveUp _-_8zoEqYEeeR9rEAwG2f9w at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _-_-BwEqYEeeR9rEAwG2f9w at 2,10 size 14,7  {
+  				}
+  				
+  				LeftNavBarPart __AEIYEqYEeeR9rEAwG2f9w at 10,30 size 1210,160  {
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
   							tallness Fitting
   							attributes [  ]
   						}
-  					GUISIB _pyVM4Ep4EeeR8skQQzAlbg at 10,30 size 150,280  {
-  						libraryComponentUID "_GIoCkEeQEeeJjvdf9GAasg"
-  						label "MenuBar"
+  					MoveLeft __AHLsEqYEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight __AIZ0EqYEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  					}
+  					
+  					Text _YRbe8EqZEeeR9rEAwG2f9w at 120,30 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "Lero FYP Service"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold true
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								rawContent "color: #fff;"
+  								attributes [  ]
+  							}
+  						MoveLeft _YRdUIEqZEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  						}
+  						
+  						MoveRight _YReiQEqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  						}
+  					}
+  					
+  					ButtonGroup _Q16IkEqZEeeR9rEAwG2f9w at 330,30 size 860,110  {
+  						alignment horizontal
+  						size Default
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								rawContent ""
+  								attributes [  ]
+  							}
+  						Button _Q146d0qZEeeR9rEAwG2f9w at 430,30 size 200,60  {
+  							label "View users"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									rawContent "color: #fff;"
+  									attributes [  ]
+  								}
+  							MoveDown _Q146eEqZEeeR9rEAwG2f9w at 2,10 size 14,7  {
+  							}
+  							
+  							MoveUp _Q146eUqZEeeR9rEAwG2f9w at 2,2 size 14,7  {
+  							}
+  						}
+  						
+  						Button _Q14TZEqZEeeR9rEAwG2f9w at 640,30 size 200,60  {
+  							label "Create user"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									rawContent "color: #fff;"
+  									attributes [  ]
+  								}
+  							MoveRight _Q14TZUqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  							}
+  							
+  							MoveLeft _Q14TZkqZEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  							}
+  						}
+  						
+  						Button _Q146dEqZEeeR9rEAwG2f9w at 10,30 size 200,60  {
+  							label "Upload topic"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									rawContent "color: #fff;"
+  									attributes [  ]
+  								}
+  							MoveLeft _Q146dUqZEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  							}
+  							
+  							MoveRight _Q146dkqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  							}
+  						}
+  						
+  						MoveUp _Q146ekqZEeeR9rEAwG2f9w at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _Q146c0qZEeeR9rEAwG2f9w at 2,10 size 14,7  {
+  						}
+  						
+  						Button _Q14TYUqZEeeR9rEAwG2f9w at 220,30 size 200,60  {
+  							label "View topics"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									rawContent "color: #fff;"
+  									attributes [  ]
+  								}
+  							MoveRight _Q14TYkqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  							}
+  							
+  							MoveLeft _Q14TY0qZEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  							}
+  						}
+  					}
+  					
+  					Image _Jl3d4EqjEeeYWJ9zK_WIRg at 10,30 size 100,90  {
+  						path "http://www.lero.ie/sites/default/files/logo.png"
+  						dimensionX -1
+  						dimensionY -1
+  						styling ImageStyling {
+  								border Default
+  								responsive true
+  							}
   						generalStyle GeneralStyling {
   								marginTop None
   								marginBottom None
   								tallness Fitting
   								attributes [  ]
   							}
-  						MoveDown _pyVz8Ep4EeeR8skQQzAlbg at 2,10 size 14,7  {
+  						MoveLeft _Jl6hMEqjEeeYWJ9zK_WIRg at 2,2 size 7,14  {
   						}
   						
-  						Branch _pyVz8kp4EeeR8skQQzAlbg at 5,237 size 100,25  {
-  							name "View user profile"
+  						MoveRight _Jl8WYEqjEeeYWJ9zK_WIRg at 10,2 size 7,14  {
   						}
-  						
-  						MoveUp _pyVM40p4EeeR8skQQzAlbg at 2,2 size 14,7  {
-  						}
-  						
-  						Branch _pyVM4kp4EeeR8skQQzAlbg at 5,108 size 100,25  {
-  							name "View topics"
-  						}
-  						
-  						Branch _pyVz80p4EeeR8skQQzAlbg at 5,65 size 100,25  {
-  							name "Upload topic"
-  						}
-  						
-  						Branch _pyVz8Up4EeeR8skQQzAlbg at 5,151 size 100,25  {
-  							name "View users"
-  						}
-  						
-  						Branch _pyVM4Up4EeeR8skQQzAlbg at 5,194 size 100,25  {
-  							name "Create user"
-  						}
-  					}
-  					
-  					MoveLeft _pyVz9Ep4EeeR8skQQzAlbg at 2,2 size 7,14  {
-  					}
-  					
-  					MoveRight _pyT-wUp4EeeR8skQQzAlbg at 10,2 size 7,14  {
   					}
   				}
   				
-  				MoveDown _pySwokp4EeeR8skQQzAlbg at 2,10 size 14,7  {
-  				}
-  				
-  				MoveUp _pySwoUp4EeeR8skQQzAlbg at 2,2 size 14,7  {
-  				}
-  			}
-  			
-  			MoveLeft _pyWbBEp4EeeR8skQQzAlbg at 2,2 size 7,14  {
-  			}
-  			
-  			Headline _pyWbAEp4EeeR8skQQzAlbg at 10,30 size 300,50  {
-  				size Big
-  				content [ StaticContent {
-  						rawContent "Lero-FYP Service"
-  						maxChars 0
-  						html false
-  						styling TextStyling {
-  								alignment Left
-  								bold false
-  								small false
-  								italic false
-  								highlight false
-  								deleted false
-  								underline false
+  				RightNavBarPart __ATY8EqYEeeR9rEAwG2f9w at 1230,30 size 250,265  {
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft __AUnEEqYEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight __AVOIEqYEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  					}
+  					
+  					Dropdown _iiBlAEqZEeeR9rEAwG2f9w at 10,30 size 220,215  {
+  						label "{{currentUser.baseUser.firstName}} {{currentUser.baseUser.lastName}}"
+  						dropUp false
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
   								color Default
   							}
-  					} ]
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
+  						disabled false
+  						icon Icon {
+  								preIcon User
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								rawContent "color: #fff;"
+  								attributes [  ]
+  							}
+  						MoveLeft _iigGIEqZEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  						}
+  						
+  						MoveRight _iigtMEqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  						}
+  						
+  						Button _iirsUEqZEeeR9rEAwG2f9w at 10,125 size 200,60  {
+  							label "Logout"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									rawContent ""
+  									attributes [  ]
+  								}
+  							MoveUp _iithgEqZEeeR9rEAwG2f9w at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _iiuIkEqZEeeR9rEAwG2f9w at 2,10 size 14,7  {
+  							}
+  						}
+  						
+  						Button _nwKuwEqiEeeYWJ9zK_WIRg at 10,55 size 200,60  {
+  							label "My profile"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _nwOZIEqiEeeYWJ9zK_WIRg at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _nwPnQEqiEeeYWJ9zK_WIRg at 2,10 size 14,7  {
+  							}
+  						}
   					}
-  				MoveUp _pyWbAUp4EeeR8skQQzAlbg at 2,2 size 14,7  {
   				}
-  				
-  				MoveDown _pyWbAkp4EeeR8skQQzAlbg at 2,10 size 14,7  {
-  				}
-  			}
-  			
-  			MoveRight _pyWbA0p4EeeR8skQQzAlbg at 10,2 size 7,14  {
   			}
   		}
   		
