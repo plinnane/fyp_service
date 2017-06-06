@@ -43,14 +43,6 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   	}
   }
   
-  Branch _H6hmkEU2EeeKqOBaOG4MmQ at 690,160 size 120,25 index 6 {
-  	name "View user profile"
-  	-ControlFlow-> _7zKyMEVAEeetjZy493Al0g  decorate "Polyline" at (2,0) {
-  		id _yGyMcEVAEeetjZy493Al0g
-  		concurrent true
-  	}
-  }
-  
   GUISIB _HuWy0EU2EeeKqOBaOG4MmQ at 370,50 size 120,65 index 1 {
   	name "PageFrame"
   	majorPage true
@@ -77,8 +69,13 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   		concurrent true
   	}
   	
-  	-BranchConnector-> _H6hmkEU2EeeKqOBaOG4MmQ   {
-  		id _H6i0sEU2EeeKqOBaOG4MmQ
+  	-BranchConnector-> _VQcIQEqbEeeR9rEAwG2f9w   {
+  		id _VQfyoEqbEeeR9rEAwG2f9w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _VJvwwEqjEeeYWJ9zK_WIRg   {
+  		id _VJyNAEqjEeeYWJ9zK_WIRg
   		concurrent true
   	}
   }
@@ -143,15 +140,14 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   	name "SupervisorProfile"
   	majorPage false
   	libraryComponentUID "_Z8TkgD-lEee9IO1uJfVZdA"
-  	majorBranch _H6hmkEU2EeeKqOBaOG4MmQ
   	label "SupervisorProfile"
-  	ComplexInputPort _w0YJYEVAEeetjZy493Al0g at 5,67 size 110,18  {
+  	ComplexInputPort _w0YJYEVAEeetjZy493Al0g at 5,67 size 110,18 index 1 {
   		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
   		isList false
   		name "supervisor"
   	}
   	
-  	TextInputStatic _ynhiAEVAEeetjZy493Al0g at 5,85 size 110,18  {
+  	TextInputStatic _ynhiAEVAEeetjZy493Al0g at 5,85 size 110,18 index 0 {
   		value "http://1.bp.blogspot.com/_xwE0rBDpg1Y/SVG-ECvdR0I/AAAAAAAACqM/yS-dQ5M7e_U/s320/business-dog-funny.jpg"
   		name "imagePath"
   	}
@@ -180,6 +176,22 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   	-ControlFlow-> _w0EnYEVAEeetjZy493Al0g  decorate "Polyline" at (2,0) {
   		id _81-TAEVAEeetjZy493Al0g
   		concurrent false
+  	}
+  }
+  
+  Branch _VQcIQEqbEeeR9rEAwG2f9w at 540,70 size 120,25  {
+  	name "Logout"
+  	-ControlFlow-> _HuWy0EU2EeeKqOBaOG4MmQ via (599,45) decorate "Polyline" at (2,0) {
+  		id _WsEYwEqbEeeR9rEAwG2f9w
+  		concurrent true
+  	}
+  }
+  
+  Branch _VJvwwEqjEeeYWJ9zK_WIRg at 690,160 size 120,25  {
+  	name "My profile"
+  	-ControlFlow-> _7zKyMEVAEeetjZy493Al0g  decorate "Polyline" at (2,0) {
+  		id _WNg64EqjEeeYWJ9zK_WIRg
+  		concurrent true
   	}
   }
 }

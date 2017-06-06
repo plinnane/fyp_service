@@ -1,0 +1,152 @@
+GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
+  title "ViewUserProfileStudent"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _Q_QaYEqwEeeq5uKWWhCwgQ at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _TzomgEqwEeeq5uKWWhCwgQ at 21,57 size 160,159  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "user"
+  		isList false
+  		isInput true
+  		ComplexAttribute _pQ6AYEqwEeeq5uKWWhCwgQ at 20,23 size 120,25  {
+  			libraryComponentUID "_YPKL4DlzEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _pRG0sEqwEeeq5uKWWhCwgQ at 20,50 size 120,25  {
+  			libraryComponentUID "_er0DEDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _pRU3IEqwEeeq5uKWWhCwgQ at 20,77 size 120,25  {
+  			libraryComponentUID "_OjCMMDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _pRi5kEqwEeeq5uKWWhCwgQ at 20,104 size 120,25  {
+  			libraryComponentUID "_QMzmYDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _pRkHsEqwEeeq5uKWWhCwgQ at 20,131 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _pvVBwEqwEeeq5uKWWhCwgQ  decorate "Ellipse" at (0,0) {
+  			id _pvZTMEqwEeeq5uKWWhCwgQ
+  			associationName "baseUser"
+  		}
+  	}
+  	
+  	ComplexVariable _pvVBwEqwEeeq5uKWWhCwgQ at 20,270 size 160,186  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _pveLsEqwEeeq5uKWWhCwgQ at 20,23 size 120,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _pvfZ0EqwEeeq5uKWWhCwgQ at 20,50 size 120,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _pvgA4EqwEeeq5uKWWhCwgQ at 20,77 size 120,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _pvhPAEqwEeeq5uKWWhCwgQ at 20,104 size 120,25  {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _pvidIEqwEeeq5uKWWhCwgQ at 20,131 size 120,25  {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _pvjEMEqwEeeq5uKWWhCwgQ at 20,158 size 120,25  {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _Q_SPkEqwEeeq5uKWWhCwgQ at 260,10 size 150,190  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _Q_WhAEqwEeeq5uKWWhCwgQ at 10,30 size 130,130  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _Q_YWMEqwEeeq5uKWWhCwgQ at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _Q_ZkUEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
+  		}
+  		
+  		Col _Q_cAkEqwEeeq5uKWWhCwgQ at 10,30 size 100,80  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _Q_d1wEqwEeeq5uKWWhCwgQ at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _Q_ec0EqwEeeq5uKWWhCwgQ at 10,2 size 7,14  {
+  			}
+  		}
+  	}
+  }
+  
+  ExtensionContext _RvBqcEqwEeeq5uKWWhCwgQ at 910,10 size 200,400  {
+  	GUISIB _SvBu4EqwEeeq5uKWWhCwgQ at 10,30 size 150,90  {
+  		libraryComponentUID "_GWZlUEqwEeeq5uKWWhCwgQ"
+  		label "ViewUserProfileGeneric"
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		ComplexInputPort _Sv3cYEqwEeeq5uKWWhCwgQ at 5,67 size 90,18  {
+  			libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  			isList false
+  			name "user"
+  		}
+  		
+  		MoveUp _SwQd8EqwEeeq5uKWWhCwgQ at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _SwRsEEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
+  		}
+  	}
+  }
+}

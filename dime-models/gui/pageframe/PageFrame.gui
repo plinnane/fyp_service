@@ -3,7 +3,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  Template _I0-5IEU1EeeKqOBaOG4MmQ at 260,20 size 260,875  {
+  Template _I0-5IEU1EeeKqOBaOG4MmQ at 260,20 size 260,918  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -11,7 +11,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _o3YLgEeOEeeJjvdf9GAasg at 10,30 size 240,815  {
+  	Row _o3YLgEeOEeeJjvdf9GAasg at 10,30 size 240,858  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -24,7 +24,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   		MoveDown _o3b14EeOEeeJjvdf9GAasg at 2,10 size 14,7  {
   		}
   		
-  		Col _o3wmAEeOEeeJjvdf9GAasg at 10,30 size 210,765  {
+  		Col _o3wmAEeOEeeJjvdf9GAasg at 10,30 size 210,808  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -43,7 +43,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   			MoveRight _o32soEeOEeeJjvdf9GAasg at 10,2 size 7,14  {
   			}
   			
-  			Panel _nHapwEeOEeeJjvdf9GAasg at 10,320 size 190,340  {
+  			Panel _nHapwEeOEeeJjvdf9GAasg at 10,363 size 190,340  {
   				collapsable false
   				defaultOpen "true"
   				heading [  ]
@@ -128,43 +128,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   				}
   			}
   			
-  			GUISIB _2YWSMEp4EeeR8skQQzAlbg at 10,30 size 150,280  {
-  				libraryComponentUID "_m8u4wEp4EeeR8skQQzAlbg"
-  				label "PageFrameHeader"
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				Branch _2Yy-IEp4EeeR8skQQzAlbg at 5,65 size 100,25  {
-  					name "Upload topic"
-  				}
-  				
-  				Branch _2ZN04Ep4EeeR8skQQzAlbg at 5,108 size 100,25  {
-  					name "View topics"
-  				}
-  				
-  				Branch _2ZRfQEp4EeeR8skQQzAlbg at 5,151 size 100,25  {
-  					name "View users"
-  				}
-  				
-  				Branch _2ZVwsEp4EeeR8skQQzAlbg at 5,194 size 100,25  {
-  					name "Create user"
-  				}
-  				
-  				Branch _2ZZbEEp4EeeR8skQQzAlbg at 5,237 size 100,25  {
-  					name "View user profile"
-  				}
-  				
-  				MoveUp _2ZilAEp4EeeR8skQQzAlbg at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _2ZjMEEp4EeeR8skQQzAlbg at 2,10 size 14,7  {
-  				}
-  			}
-  			
-  			GUISIB _3qEYwEp4EeeR8skQQzAlbg at 10,670 size 150,65  {
+  			GUISIB _3qEYwEp4EeeR8skQQzAlbg at 10,713 size 150,65  {
   				libraryComponentUID "_wYYT0Ep4EeeR8skQQzAlbg"
   				label "PageFrameFooter"
   				generalStyle GeneralStyling {
@@ -177,6 +141,46 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   				}
   				
   				MoveDown _3qMUkEp4EeeR8skQQzAlbg at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			GUISIB _gSze8EqaEeeR9rEAwG2f9w at 10,30 size 150,323  {
+  				libraryComponentUID "_m8u4wEp4EeeR8skQQzAlbg"
+  				label "PageFrameHeader"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				Branch _gS4XcEqaEeeR9rEAwG2f9w at 5,65 size 100,25  {
+  					name "Upload topic"
+  				}
+  				
+  				Branch _gS9P8EqaEeeR9rEAwG2f9w at 5,108 size 100,25  {
+  					name "View users"
+  				}
+  				
+  				Branch _gTA6UEqaEeeR9rEAwG2f9w at 5,151 size 100,25  {
+  					name "View topics"
+  				}
+  				
+  				Branch _gTGZ4EqaEeeR9rEAwG2f9w at 5,194 size 100,25  {
+  					name "Logout"
+  				}
+  				
+  				Branch _gTKrUEqaEeeR9rEAwG2f9w at 5,237 size 100,25  {
+  					name "Create user"
+  				}
+  				
+  				Branch _gTOVsEqaEeeR9rEAwG2f9w at 5,280 size 100,25  {
+  					name "View user profile"
+  				}
+  				
+  				MoveUp _gTVDYEqaEeeR9rEAwG2f9w at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _gTVqcEqaEeeR9rEAwG2f9w at 2,10 size 14,7  {
   				}
   			}
   		}

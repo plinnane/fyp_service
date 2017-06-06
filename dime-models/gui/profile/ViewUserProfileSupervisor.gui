@@ -10,7 +10,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		expanded true
   		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
   		dfViewWorkaround true
-  		name "supervisor"
+  		name "user"
   		isList false
   		isInput true
   		PrimitiveAttribute _GjQR4D-1EeeMOLoUoe1Q1Q at 20,23 size 120,25  {
@@ -66,18 +66,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		}
   	}
   	
-  	PrimitiveVariable _IaxK8D-mEee9IO1uJfVZdA at 80,620 size 140,25 index 4 {
-  		dataType Text
-  		dfViewWorkaround true
-  		name "imagePath"
-  		isList false
-  		isInput true
-  		-PrimitiveRead-> _3DjngD-lEee9IO1uJfVZdA via (226,643) (226,175) decorate "Polyline" at (2,0) {
-  			id _J3dLYD-mEee9IO1uJfVZdA
-  		}
-  	}
-  	
-  	ComplexVariable _K2osQD-tEee7xcq8Ff0UkA at 70,320 size 160,105 index 2 {
+  	ComplexVariable _K2osQD-tEee7xcq8Ff0UkA at 70,320 size 160,105  {
   		isLive false
   		expanded true
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -109,7 +98,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		}
   	}
   	
-  	ComplexVariable _L1m18D-tEee7xcq8Ff0UkA at 70,450 size 160,78 index 3 {
+  	ComplexVariable _L1m18D-tEee7xcq8Ff0UkA at 70,450 size 160,78  {
   		isLive false
   		expanded true
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -142,10 +131,20 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		-ComplexRead-> _dBojcD-1EeeMOLoUoe1Q1Q via (251,693) (251,311) decorate "Polyline" at (2,0) {
   			id _eBlkkD-1EeeMOLoUoe1Q1Q
   		}
+  		
+  		-IF-> _dBhOsD-1EeeMOLoUoe1Q1Q  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _YD2pEEqxEeeq5uKWWhCwgQ
+  			negate false
+  		}
+  		
+  		-IF-> _ZVvuwEqxEeeq5uKWWhCwgQ  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _dj-pwEqxEeeq5uKWWhCwgQ
+  			negate true
+  		}
   	}
   }
   
-  Template _Z8ZrID-lEee9IO1uJfVZdA at 260,10 size 220,396  {
+  Template _Z8ZrID-lEee9IO1uJfVZdA at 260,10 size 270,466  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -153,7 +152,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _Z8dVgD-lEee9IO1uJfVZdA at 10,30 size 200,336  {
+  	Row _Z8dVgD-lEee9IO1uJfVZdA at 10,30 size 250,406  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -166,7 +165,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		MoveDown _Z8gY0D-lEee9IO1uJfVZdA at 2,10 size 14,7  {
   		}
   		
-  		Col _Z8i1ED-lEee9IO1uJfVZdA at 10,30 size 170,286  {
+  		Col _Z8i1ED-lEee9IO1uJfVZdA at 10,30 size 220,356  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -239,7 +238,39 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   				MoveDown _dBxGUD-1EeeMOLoUoe1Q1Q at 2,10 size 14,7  {
   				}
   			}
+  			
+  			Text _ZVvuwEqxEeeq5uKWWhCwgQ at 10,266 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "{{user.baseUser.firstName}} {{user.baseUser.lastName}} has not yet uploaded any topics."
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _ZVxj8EqxEeeq5uKWWhCwgQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _ZVyLAEqxEeeq5uKWWhCwgQ at 2,10 size 14,7  {
+  				}
+  			}
   		}
   	}
+  }
+  
+  ExtensionContext _P5_mAEqxEeeq5uKWWhCwgQ at 910,10 size 200,400  {
   }
 }
