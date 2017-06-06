@@ -5,24 +5,7 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   fullWidth false
   DataContext _Jt54sD-kEee9IO1uJfVZdA at 10,10 size 200,1000  {
   	dfViewWorkaround true
-  	PrimitiveVariable _O282ID-kEee9IO1uJfVZdA at 30,50 size 140,25  {
-  		dataType Text
-  		dfViewWorkaround true
-  		name "imagePath"
-  		isList false
-  		isInput true
-  		-IF-> _YsTKoD-kEee9IO1uJfVZdA  decorate "Polyline" at (2,0) decorate "Text" at (4,-11) {
-  			id _dGdBwD-kEee9IO1uJfVZdA
-  			negate false
-  		}
-  		
-  		-IF-> _MTNuED-kEee9IO1uJfVZdA  decorate "Polyline" at (2,0) decorate "Text" at (-4,-22) {
-  			id _emkwsD-kEee9IO1uJfVZdA
-  			negate true
-  		}
-  	}
-  	
-  	ComplexVariable _uvQrgD-kEee9IO1uJfVZdA at 20,200 size 160,51  {
+  	ComplexVariable _uvQrgD-kEee9IO1uJfVZdA at 20,50 size 160,51  {
   		isLive false
   		expanded true
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -38,9 +21,13 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   			id _vbxMMD-kEee9IO1uJfVZdA
   			associationName "baseUser"
   		}
+  		
+  		-ComplexRead-> _lFjvYEqyEeeq5uKWWhCwgQ  decorate "Polyline" at (2,0) {
+  			id _lvrqcEqyEeeq5uKWWhCwgQ
+  		}
   	}
   	
-  	ComplexVariable _vbopUD-kEee9IO1uJfVZdA at 20,300 size 160,186  {
+  	ComplexVariable _vbopUD-kEee9IO1uJfVZdA at 20,140 size 160,186  {
   		isLive false
   		expanded true
   		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
@@ -61,6 +48,15 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   		PrimitiveAttribute _vcXpID-kEee9IO1uJfVZdA at 20,77 size 120,25  {
   			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
   			isLive false
+  			-IF-> _MTNuED-kEee9IO1uJfVZdA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  				id _lsvj0Eq1Eeeq5uKWWhCwgQ
+  				negate true
+  			}
+  			
+  			-IF-> _YsTKoD-kEee9IO1uJfVZdA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  				id _mmDxcEq1Eeeq5uKWWhCwgQ
+  				negate false
+  			}
   		}
   		
   		PrimitiveAttribute _vcjPUD-kEee9IO1uJfVZdA at 20,104 size 120,25  {
@@ -78,17 +74,9 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   			isLive false
   		}
   	}
-  	
-  	PrimitiveVariable _6rXRID-kEee9IO1uJfVZdA at 30,150 size 140,25  {
-  		dataType Text
-  		dfViewWorkaround true
-  		name "userRole"
-  		isList false
-  		isInput true
-  	}
   }
   
-  Template _Jt88AD-kEee9IO1uJfVZdA at 260,10 size 520,530  {
+  Template _Jt88AD-kEee9IO1uJfVZdA at 260,10 size 570,630  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -96,7 +84,7 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _JuE30D-kEee9IO1uJfVZdA at 10,30 size 500,470  {
+  	Row _JuE30D-kEee9IO1uJfVZdA at 10,30 size 550,570  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -109,7 +97,7 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   		MoveDown _JuJwUD-kEee9IO1uJfVZdA at 2,10 size 14,7  {
   		}
   		
-  		Col _JuPP4D-kEee9IO1uJfVZdA at 10,30 size 140,420 index 3 {
+  		Col _JuPP4D-kEee9IO1uJfVZdA at 10,30 size 190,520 index 3 {
   			wideness Quarter
   			layout Layout {
   					size Default
@@ -142,7 +130,7 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   				}
   				
   				Image _MTez0D-kEee9IO1uJfVZdA at 10,55 size 100,90  {
-  					path "{{imagePath}}"
+  					path "asset/default_user_icon.png"
   					dimensionX -1
   					dimensionY -1
   					styling ImageStyling {
@@ -163,7 +151,7 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   				}
   			}
   			
-  			Thumbnail _YsTKoD-kEee9IO1uJfVZdA at 10,215 size 120,175  {
+  			Thumbnail _YsTKoD-kEee9IO1uJfVZdA at 10,215 size 170,275  {
   				generalStyle GeneralStyling {
   						marginTop None
   						marginBottom None
@@ -177,7 +165,7 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   				}
   				
   				Image _Ysc7oD-kEee9IO1uJfVZdA at 10,55 size 100,90  {
-  					path "{{imagePath}}"
+  					path ""
   					dimensionX -1
   					dimensionY -1
   					styling ImageStyling {
@@ -196,10 +184,33 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   					MoveDown _Ysf-8D-kEee9IO1uJfVZdA at 2,10 size 14,7  {
   					}
   				}
+  				
+  				GuardSIB _lE62MEqyEeeq5uKWWhCwgQ at 10,155 size 150,90  {
+  					name "ImageGuardProcess"
+  					libraryComponentUID "_OczZ0EqyEeeq5uKWWhCwgQ"
+  					label "ImageGuardProcess"
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					ComplexInputPort _lFjvYEqyEeeq5uKWWhCwgQ at 5,67 size 90,18  {
+  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						isList false
+  						name "concreteUser"
+  					}
+  					
+  					MoveUp _lFp2AEqyEeeq5uKWWhCwgQ at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _lFqdEEqyEeeq5uKWWhCwgQ at 2,10 size 14,7  {
+  					}
+  				}
   			}
   		}
   		
-  		Col _LFGVID-kEee9IO1uJfVZdA at 160,30 size 320,250 index 2 {
+  		Col _LFGVID-kEee9IO1uJfVZdA at 210,30 size 320,180 index 2 {
   			wideness ThreeQuarter
   			layout Layout {
   					size Default
@@ -244,35 +255,6 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   				}
   				
   				MoveDown _r3nI8D-kEee9IO1uJfVZdA at 2,10 size 14,7  {
-  				}
-  			}
-  			
-  			Text _sKBHkD-kEee9IO1uJfVZdA at 10,160 size 200,60  {
-  				content [ StaticContent {
-  						rawContent "{{userRole}}"
-  						maxChars 0
-  						html false
-  						styling TextStyling {
-  								alignment Left
-  								bold false
-  								small false
-  								italic false
-  								highlight false
-  								deleted false
-  								underline false
-  								color Default
-  							}
-  					} ]
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				MoveUp _sKDj0D-kEee9IO1uJfVZdA at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _sKEK4D-kEee9IO1uJfVZdA at 2,10 size 14,7  {
   				}
   			}
   			

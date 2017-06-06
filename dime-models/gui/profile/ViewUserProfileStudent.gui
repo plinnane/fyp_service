@@ -41,6 +41,10 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   			id _pvZTMEqwEeeq5uKWWhCwgQ
   			associationName "baseUser"
   		}
+  		
+  		-ComplexRead-> _zJYvIEq1Eeeq5uKWWhCwgQ  decorate "Polyline" at (2,0) {
+  			id _zmPDMEq1Eeeq5uKWWhCwgQ
+  		}
   	}
   	
   	ComplexVariable _pvVBwEqwEeeq5uKWWhCwgQ at 20,270 size 160,186  {
@@ -83,7 +87,7 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   	}
   }
   
-  Template _Q_SPkEqwEeeq5uKWWhCwgQ at 260,10 size 150,190  {
+  Template _Q_SPkEqwEeeq5uKWWhCwgQ at 260,10 size 270,330  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -91,7 +95,7 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _Q_WhAEqwEeeq5uKWWhCwgQ at 10,30 size 130,130  {
+  	Row _Q_WhAEqwEeeq5uKWWhCwgQ at 10,30 size 250,270  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -104,7 +108,7 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   		MoveDown _Q_ZkUEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
   		}
   		
-  		Col _Q_cAkEqwEeeq5uKWWhCwgQ at 10,30 size 100,80  {
+  		Col _Q_cAkEqwEeeq5uKWWhCwgQ at 10,30 size 220,220  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -121,6 +125,57 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   			}
   			
   			MoveRight _Q_ec0EqwEeeq5uKWWhCwgQ at 10,2 size 7,14  {
+  			}
+  			
+  			GUISIB _zJT2oEq1Eeeq5uKWWhCwgQ at 10,30 size 150,90  {
+  				libraryComponentUID "_JtvgoD-kEee9IO1uJfVZdA"
+  				label "ProfileHeader"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _zJYvIEq1Eeeq5uKWWhCwgQ at 5,67 size 90,18 index 2 {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList false
+  					name "displayedUser"
+  				}
+  				
+  				MoveUp _zJdAkEq1Eeeq5uKWWhCwgQ at 2,2 size 14,7 index 0 {
+  				}
+  				
+  				MoveDown _zJeOsEq1Eeeq5uKWWhCwgQ at 2,10 size 14,7 index 1 {
+  				}
+  			}
+  			
+  			Text _2cO_8Eq1Eeeq5uKWWhCwgQ at 10,130 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "Student ID: {{user.studentId}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _2cQ1IEq1Eeeq5uKWWhCwgQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _2cSDQEq1Eeeq5uKWWhCwgQ at 2,10 size 14,7  {
+  				}
   			}
   		}
   	}

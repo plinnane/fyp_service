@@ -69,13 +69,13 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   		concurrent true
   	}
   	
-  	-BranchConnector-> _VQcIQEqbEeeR9rEAwG2f9w   {
-  		id _VQfyoEqbEeeR9rEAwG2f9w
+  	-BranchConnector-> _VJvwwEqjEeeYWJ9zK_WIRg   {
+  		id _VJyNAEqjEeeYWJ9zK_WIRg
   		concurrent true
   	}
   	
-  	-BranchConnector-> _VJvwwEqjEeeYWJ9zK_WIRg   {
-  		id _VJyNAEqjEeeYWJ9zK_WIRg
+  	-BranchConnector-> _VQcIQEqbEeeR9rEAwG2f9w   {
+  		id _VQfyoEqbEeeR9rEAwG2f9w
   		concurrent true
   	}
   }
@@ -136,49 +136,6 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   	label "TabViewAllUsers"
   }
   
-  GUISIB _w0EnYEVAEeetjZy493Al0g at 690,217 size 120,108  {
-  	name "SupervisorProfile"
-  	majorPage false
-  	libraryComponentUID "_Z8TkgD-lEee9IO1uJfVZdA"
-  	label "SupervisorProfile"
-  	ComplexInputPort _w0YJYEVAEeetjZy493Al0g at 5,67 size 110,18 index 1 {
-  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
-  		isList false
-  		name "supervisor"
-  	}
-  	
-  	TextInputStatic _ynhiAEVAEeetjZy493Al0g at 5,85 size 110,18 index 0 {
-  		value "http://1.bp.blogspot.com/_xwE0rBDpg1Y/SVG-ECvdR0I/AAAAAAAACqM/yS-dQ5M7e_U/s320/business-dog-funny.jpg"
-  		name "imagePath"
-  	}
-  }
-  
-  ProcessSIB _7zKyMEVAEeetjZy493Al0g at 830,160 size 120,65  {
-  	libraryComponentUID "_U2gUAECEEeeqCfaxU6lZ7A"
-  	label "RetrieveAnySupervisor"
-  	-BranchConnector-> _7zUjMEVAEeetjZy493Al0g   {
-  		id _7zWYYEVAEeetjZy493Al0g
-  		concurrent false
-  	}
-  }
-  
-  Branch _7zUjMEVAEeetjZy493Al0g at 830,260 size 120,50  {
-  	name "success"
-  	ComplexOutputPort _7zW_cEVAEeetjZy493Al0g at 5,27 size 110,18  {
-  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
-  		isList false
-  		name "supervisor"
-  		-ComplexDirectDataFlow-> _w0YJYEVAEeetjZy493Al0g  decorate "Polyline" at (2,0) {
-  			id _9IDhgEVAEeetjZy493Al0g
-  			dfViewWorkaround true
-  		}
-  	}
-  	-ControlFlow-> _w0EnYEVAEeetjZy493Al0g  decorate "Polyline" at (2,0) {
-  		id _81-TAEVAEeetjZy493Al0g
-  		concurrent false
-  	}
-  }
-  
   Branch _VQcIQEqbEeeR9rEAwG2f9w at 540,70 size 120,25  {
   	name "Logout"
   	-ControlFlow-> _HuWy0EU2EeeKqOBaOG4MmQ via (599,45) decorate "Polyline" at (2,0) {
@@ -189,9 +146,17 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   
   Branch _VJvwwEqjEeeYWJ9zK_WIRg at 690,160 size 120,25  {
   	name "My profile"
-  	-ControlFlow-> _7zKyMEVAEeetjZy493Al0g  decorate "Polyline" at (2,0) {
-  		id _WNg64EqjEeeYWJ9zK_WIRg
+  	-ControlFlow-> _BBWkgEq2Eeeq5uKWWhCwgQ  decorate "Polyline" at (2,0) {
+  		id _B559IEq2Eeeq5uKWWhCwgQ
   		concurrent true
   	}
+  }
+  
+  GUISIB _BBWkgEq2Eeeq5uKWWhCwgQ at 690,210 size 120,65  {
+  	name "ViewUserProfile"
+  	majorPage false
+  	libraryComponentUID "_A_z7IEqwEeeq5uKWWhCwgQ"
+  	majorBranch _VJvwwEqjEeeYWJ9zK_WIRg
+  	label "ViewUserProfile"
   }
 }

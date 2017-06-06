@@ -12,7 +12,10 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   		dfViewWorkaround true
   		name "currentUser"
   		isList false
-  		isInput true
+  		isInput false
+  		-ComplexRead-> _7nuNYEq1Eeeq5uKWWhCwgQ via (171,175) decorate "Polyline" at (2,0) {
+  			id _8IRVsEq1Eeeq5uKWWhCwgQ
+  		}
   	}
   }
   
@@ -56,25 +59,13 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   			MoveRight _BBHisEqwEeeq5uKWWhCwgQ at 10,2 size 7,14  {
   			}
   			
-  			GUISIB _67WB0EqwEeeq5uKWWhCwgQ at 10,30 size 150,90  {
+  			DispatchedGUISIB _7gpVAEq1Eeeq5uKWWhCwgQ at 11,30 size 150,90  {
   				libraryComponentUID "_GWZlUEqwEeeq5uKWWhCwgQ"
   				label "ViewUserProfileGeneric"
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				ComplexInputPort _67cIcEqwEeeq5uKWWhCwgQ at 5,67 size 90,18  {
+  				ComplexInputPort _7nuNYEq1Eeeq5uKWWhCwgQ at 5,67 size 90,18  {
   					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   					isList false
   					name "user"
-  				}
-  				
-  				MoveUp _67hA8EqwEeeq5uKWWhCwgQ at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _67iPEEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
   				}
   			}
   		}
