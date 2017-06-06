@@ -277,7 +277,7 @@ GUI _JtvgoD-kEee9IO1uJfVZdA {
   			}
   			
   			Headline _saArYD-kEee9IO1uJfVZdA at 10,30 size 300,50  {
-  				size Big
+  				size Normal
   				content [ StaticContent {
   						rawContent "{{displayedUser.baseUser.firstName}} {{displayedUser.baseUser.lastName}}"
   						maxChars 0

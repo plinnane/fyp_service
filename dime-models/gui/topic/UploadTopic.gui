@@ -5,7 +5,7 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   fullWidth false
   DataContext _QouTsEB-EeeqCfaxU6lZ7A at 10,10 size 211,1000  {
   	dfViewWorkaround true
-  	ComplexVariable _ZEMHUECCEeeqCfaxU6lZ7A at 10,40 size 191,213  {
+  	ComplexVariable _ZEMHUECCEeeqCfaxU6lZ7A at 10,40 size 191,213 index 1 {
   		isLive false
   		expanded true
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
@@ -70,7 +70,7 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   		}
   	}
   	
-  	ComplexVariable _JZCnoECDEeeqCfaxU6lZ7A at 10,280 size 191,25  {
+  	ComplexVariable _JZCnoECDEeeqCfaxU6lZ7A at 10,280 size 191,25 index 2 {
   		isLive false
   		expanded true
   		libraryComponentUID "_ceCKoDl0EeelR78gw15slQ"
@@ -80,7 +80,7 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   		isInput false
   	}
   	
-  	ComplexVariable _j98psECDEeeqCfaxU6lZ7A at 20,330 size 171,105  {
+  	ComplexVariable _j98psECDEeeqCfaxU6lZ7A at 20,330 size 171,105 index 0 {
   		isLive false
   		expanded true
   		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
@@ -149,9 +149,9 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   			}
   			
   			Headline _dnTtMECCEeeqCfaxU6lZ7A at 10,30 size 300,50  {
-  				size Big
+  				size Normal
   				content [ StaticContent {
-  						rawContent "Sumit Topic"
+  						rawContent "Submit Topic"
   						maxChars 0
   						html false
   						styling TextStyling {
