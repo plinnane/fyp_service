@@ -1,0 +1,38 @@
+Process _gRILUEqXEeeP2Ykw7b8TLw {
+  modelName "RetrieveTopic"
+  processType Interactable
+  description "RetrieveTopic"
+  isStateful false
+  dataFlowView true
+  DataContext _gReJkEqXEeeP2Ykw7b8TLw at 50,50 size 180,331  {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _gRkQMEqXEeeP2Ykw7b8TLw at 350,50 size 100,90  {
+  	ComplexOutputPort _OXNuAEqYEeeP2Ykw7b8TLw at 5,67 size 90,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  		-ComplexDirectDataFlow-> _291-YEqYEeeP2Ykw7b8TLw via (330,126) (330,316) decorate "Polyline" at (2,0) {
+  			id _3wm4EEqYEeeP2Ykw7b8TLw
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _Yf9foEqYEeeP2Ykw7b8TLw  decorate "Polyline" at (2,0) {
+  		id _dBejAEqYEeeP2Ykw7b8TLw
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _Yf9foEqYEeeP2Ykw7b8TLw at 340,240 size 120,90  {
+  	name "TopicDetail"
+  	majorPage true
+  	libraryComponentUID "_TtPM8EqXEeeP2Ykw7b8TLw"
+  	label "TopicDetail"
+  	ComplexInputPort _291-YEqYEeeP2Ykw7b8TLw at 5,67 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  	}
+  }
+}
