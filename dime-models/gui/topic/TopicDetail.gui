@@ -1,0 +1,188 @@
+GUI _TtPM8EqXEeeP2Ykw7b8TLw {
+  title "TopicDetail"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _TtnAYEqXEeeP2Ykw7b8TLw at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _1El9wEqYEeeP2Ykw7b8TLw at 20,40 size 160,240  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topic"
+  		isList false
+  		isInput true
+  		ComplexAttribute _5I5gsEqYEeeP2Ykw7b8TLw at 20,23 size 120,25  {
+  			libraryComponentUID "_leJdEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _5I8kAEqYEeeP2Ykw7b8TLw at 20,50 size 120,25  {
+  			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _5I-ZMEqYEeeP2Ykw7b8TLw at 20,77 size 120,25  {
+  			libraryComponentUID "_lqf6MDl0EeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _5JCqoEqYEeeP2Ykw7b8TLw at 20,104 size 120,25  {
+  			libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _5JEf0EqYEeeP2Ykw7b8TLw at 20,131 size 120,25  {
+  			libraryComponentUID "_BdSTYDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _5JGVAEqYEeeP2Ykw7b8TLw at 20,158 size 120,25  {
+  			libraryComponentUID "_CuhRwDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _5JIKMEqYEeeP2Ykw7b8TLw at 20,185 size 120,25  {
+  			libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _5JJ_YEqYEeeP2Ykw7b8TLw at 20,212 size 120,25  {
+  			libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _TtrR0EqXEeeP2Ykw7b8TLw at 260,10 size 370,360  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _Tt1p4EqXEeeP2Ykw7b8TLw at 10,30 size 350,300  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _Tt5UQEqXEeeP2Ykw7b8TLw at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _Tt7JcEqXEeeP2Ykw7b8TLw at 2,10 size 14,7  {
+  		}
+  		
+  		Col _TuDFQEqXEeeP2Ykw7b8TLw at 10,30 size 320,250  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _TuGvoEqXEeeP2Ykw7b8TLw at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _TuIk0EqXEeeP2Ykw7b8TLw at 10,2 size 7,14  {
+  			}
+  			
+  			Headline _m2m1EEqYEeeP2Ykw7b8TLw at 10,30 size 300,50  {
+  				size Normal
+  				content [ StaticContent {
+  						rawContent "{{topic.title}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _m2qfcEqYEeeP2Ykw7b8TLw at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _m2rtkEqYEeeP2Ykw7b8TLw at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Text _8ojecEqYEeeP2Ykw7b8TLw at 10,90 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "{{topic.abstract}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _8onI0EqYEeeP2Ykw7b8TLw at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _8ooW8EqYEeeP2Ykw7b8TLw at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Text _DIZPsEqZEeeP2Ykw7b8TLw at 10,160 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "{{topic.keywords}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _DIcTAEqZEeeP2Ykw7b8TLw at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _DIdhIEqZEeeP2Ykw7b8TLw at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}
