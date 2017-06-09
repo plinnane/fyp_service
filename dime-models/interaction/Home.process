@@ -24,14 +24,33 @@ Process _LWgagF-SEeakMeYoloYxpg {
   
   Branch _-xgTgGUQEea0lrrxwspd7g at 300,70 size 100,25  {
   	name "Login"
-  	-ControlFlow-> _dLlXIEU7EeetjZy493Al0g  decorate "Polyline" at (2,0) {
-  		id _eFOU4EU7EeetjZy493Al0g
+  	-ControlFlow-> _GTSq8Ez1Eee_89yPXsYmRg  decorate "Polyline" at (2,0) {
+  		id _GstQgEz1Eee_89yPXsYmRg
   		concurrent true
   	}
   }
   
-  ProcessSIB _dLlXIEU7EeetjZy493Al0g at 440,50 size 120,65  {
+  GUISIB _GTSq8Ez1Eee_89yPXsYmRg at 450,50 size 120,65  {
+  	name "LoginPage"
+  	majorPage true
+  	libraryComponentUID "_AIQFAEz1Eee_89yPXsYmRg"
+  	label "LoginPage"
+  	-BranchConnector-> _Ebt98Ez4Eee_89yPXsYmRg   {
+  		id _EbvMEEz4Eee_89yPXsYmRg
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _R51a0Ez2Eee_89yPXsYmRg at 450,200 size 120,65  {
   	libraryComponentUID "_DsgjcEU1EeeKqOBaOG4MmQ"
   	label "ApplicationRoot"
+  }
+  
+  Branch _Ebt98Ez4Eee_89yPXsYmRg at 450,130 size 120,25  {
+  	name "Proceed"
+  	-ControlFlow-> _R51a0Ez2Eee_89yPXsYmRg  decorate "Polyline" at (2,0) {
+  		id _FTfTcEz4Eee_89yPXsYmRg
+  		concurrent true
+  	}
   }
 }

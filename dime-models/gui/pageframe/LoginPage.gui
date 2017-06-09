@@ -1,0 +1,228 @@
+GUI _AIQFAEz1Eee_89yPXsYmRg {
+  title "LoginPage"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _AI1T0Ez1Eee_89yPXsYmRg at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _Cq95YEz1Eee_89yPXsYmRg at 20,40 size 160,51  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput false
+  		PrimitiveAttribute _5d2-sEz2Eee_89yPXsYmRg at 20,23 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-IF-> _NlepsEz2Eee_89yPXsYmRg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _OolsgEz2Eee_89yPXsYmRg
+  			negate false
+  		}
+  		
+  		-ComplexAttributeConnector-> _52zDIEz2Eee_89yPXsYmRg  decorate "Ellipse" at (0,0) {
+  			id _528NEEz2Eee_89yPXsYmRg
+  			associationName "baseUser"
+  		}
+  	}
+  	
+  	ComplexVariable _52zDIEz2Eee_89yPXsYmRg at 20,130 size 160,186  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _53FXAEz2Eee_89yPXsYmRg at 20,23 size 120,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _53GlIEz2Eee_89yPXsYmRg at 20,50 size 120,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _53HMMEz2Eee_89yPXsYmRg at 20,77 size 120,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _53IaUEz2Eee_89yPXsYmRg at 20,104 size 120,25  {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _53JBYEz2Eee_89yPXsYmRg at 20,131 size 120,25  {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _53KPgEz2Eee_89yPXsYmRg at 20,158 size 120,25  {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _AI6MUEz1Eee_89yPXsYmRg at 260,10 size 340,470  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _AJEkYEz1Eee_89yPXsYmRg at 10,30 size 320,410  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _AJHAoEz1Eee_89yPXsYmRg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _AJI10Ez1Eee_89yPXsYmRg at 2,10 size 14,7  {
+  		}
+  		
+  		Col _AJMgMEz1Eee_89yPXsYmRg at 10,30 size 290,360  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _AJO8cEz1Eee_89yPXsYmRg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _AJQKkEz1Eee_89yPXsYmRg at 10,2 size 7,14  {
+  			}
+  			
+  			Panel _LTqioEz3Eee_89yPXsYmRg at 10,30 size 270,300  {
+  				collapsable false
+  				defaultOpen "true"
+  				heading [  ]
+  				footer [  ]
+  				coloring ComponentColoring {
+  						color Default
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _LTsX0Ez3Eee_89yPXsYmRg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _LTtl8Ez3Eee_89yPXsYmRg at 2,10 size 14,7  {
+  				}
+  				
+  				Text _NlepsEz2Eee_89yPXsYmRg at 10,30 size 200,60 index 3 {
+  					content [ StaticContent {
+  							rawContent "You are now logged in as <b>{{currentUser.baseUser.firstName}} {{currentUser.baseUser.lastName}}</b> and can proceed to the FYP Service."
+  							maxChars 0
+  							html false
+  							styling TextStyling {
+  									alignment Left
+  									bold false
+  									small false
+  									italic false
+  									highlight false
+  									deleted false
+  									underline false
+  									color Default
+  								}
+  						} ]
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _NlhtAEz2Eee_89yPXsYmRg at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _Nli7IEz2Eee_89yPXsYmRg at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Row _BeqzcEz3Eee_89yPXsYmRg at 10,100 size 250,170 index 2 {
+  					generalStyle GeneralStyling {
+  							marginTop Double
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _BetPsEz3Eee_89yPXsYmRg at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _BevE4Ez3Eee_89yPXsYmRg at 2,10 size 14,7  {
+  					}
+  					
+  					Col _Be2ZoEz3Eee_89yPXsYmRg at 10,30 size 220,120  {
+  						wideness Full
+  						layout Layout {
+  								size Default
+  								alignment Left
+  								offset None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveLeft _Be3nwEz3Eee_89yPXsYmRg at 2,2 size 7,14  {
+  						}
+  						
+  						MoveRight _Be414Ez3Eee_89yPXsYmRg at 10,2 size 7,14  {
+  						}
+  						
+  						Button _FqkooEz2Eee_89yPXsYmRg at 10,30 size 200,60  {
+  							label "Proceed"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _Fqmd0Ez2Eee_89yPXsYmRg at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _Fqnr8Ez2Eee_89yPXsYmRg at 2,10 size 14,7  {
+  							}
+  						}
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

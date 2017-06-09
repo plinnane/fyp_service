@@ -303,7 +303,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   					}
   					
   					Image _Jl3d4EqjEeeYWJ9zK_WIRg at 10,30 size 100,90  {
-  						path "http://www.lero.ie/sites/default/files/logo.png"
+  						path "asset/lero.png"
   						dimensionX -1
   						dimensionY -1
   						styling ImageStyling {

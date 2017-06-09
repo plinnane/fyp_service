@@ -3,9 +3,9 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  Template _NGNuoF4TEear0NzybbrMtw at 270,30 size 390,620  {
+  Template _NGNuoF4TEear0NzybbrMtw at 270,30 size 390,280  {
   	blockName "body"
-  	Jumbotron _mBkmoF7cEeaOsfr6s-K4-Q at 10,30 size 370,560  {
+  	Jumbotron _mBkmoF7cEeaOsfr6s-K4-Q at 10,30 size 370,220  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -18,7 +18,7 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   		MoveDown _mBoRAF7cEeaOsfr6s-K4-Q at 2,10 size 14,7  {
   		}
   		
-  		Row _6pGgwF7bEeaOsfr6s-K4-Q at 10,30 size 350,500  {
+  		Row _6pGgwF7bEeaOsfr6s-K4-Q at 10,30 size 350,160  {
   			generalStyle GeneralStyling {
   					marginTop None
   					marginBottom None
@@ -31,7 +31,7 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   			MoveDown _6pJkEF7bEeaOsfr6s-K4-Q at 2,10 size 14,7  {
   			}
   			
-  			Col _6pPDoF7bEeaOsfr6s-K4-Q at 10,30 size 320,450  {
+  			Col _6pPDoF7bEeaOsfr6s-K4-Q at 10,30 size 320,110  {
   				wideness Full
   				layout Layout {
   						size Default
@@ -48,58 +48,6 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   				}
   				
   				MoveRight _6pT8IF7bEeaOsfr6s-K4-Q at 10,2 size 7,14  {
-  				}
-  				
-  				Headline _WUg1oF-REeakMeYoloYxpg at 10,90 size 300,50  {
-  					size Small
-  					content [ StaticContent {
-  							rawContent "This is the private area."
-  							maxChars 0
-  							html false
-  						} ]
-  					generalStyle GeneralStyling {
-  							marginTop Single
-  							marginBottom None
-  							tallness Fitting
-  							attributes [  ]
-  						}
-  					MoveUp _WUp_kF-REeakMeYoloYxpg at 2,2 size 14,7  {
-  					}
-  					
-  					MoveDown _WUtp8F-REeakMeYoloYxpg at 2,10 size 14,7  {
-  					}
-  				}
-  				
-  				Button _2eAhoF-REeakMeYoloYxpg at 10,150 size 200,60  {
-  					label "Logout"
-  					displayLabel ""
-  					styling ButtonStyling {
-  							fullWidth false
-  							size Default
-  							disabled false
-  							color Yellow
-  						}
-  					options ButtonOptions {
-  							staticURL "logout"
-  							isLink false
-  							submitsForm true
-  						}
-  					disabled false
-  					icon Icon {
-  							preIcon None
-  							postIcon LogOut
-  						}
-  					generalStyle GeneralStyling {
-  							marginTop Double
-  							marginBottom None
-  							tallness Fitting
-  							attributes [  ]
-  						}
-  					MoveUp _2eEzEF-REeakMeYoloYxpg at 2,2 size 14,7  {
-  					}
-  					
-  					MoveDown _2eFaIF-REeakMeYoloYxpg at 2,10 size 14,7  {
-  					}
   				}
   				
   				Headline _QY1V8F4TEear0NzybbrMtw at 10,30 size 300,50  {
@@ -119,99 +67,6 @@ GUI _NGHA8F4TEear0NzybbrMtw {
   					}
   					
   					MoveDown _QY4ZQF4TEear0NzybbrMtw at 2,10 size 14,7  {
-  					}
-  				}
-  				
-  				Button _xgjoQD_BEeeJvcjJaBrCJA at 10,220 size 200,60  {
-  					label "Supervisor profile"
-  					displayLabel ""
-  					styling ButtonStyling {
-  							fullWidth false
-  							size Default
-  							disabled false
-  							color Default
-  						}
-  					options ButtonOptions {
-  							isLink false
-  							submitsForm true
-  						}
-  					disabled false
-  					icon Icon {
-  							preIcon None
-  							postIcon None
-  						}
-  					generalStyle GeneralStyling {
-  							marginTop None
-  							marginBottom None
-  							tallness Fitting
-  							attributes [  ]
-  						}
-  					MoveUp _xgnSoD_BEeeJvcjJaBrCJA at 2,2 size 14,7  {
-  					}
-  					
-  					MoveDown _xgogwD_BEeeJvcjJaBrCJA at 2,10 size 14,7  {
-  					}
-  				}
-  				
-  				Button _WWt1EEUPEeeKqOBaOG4MmQ at 10,290 size 200,60  {
-  					label "Create new user"
-  					displayLabel ""
-  					styling ButtonStyling {
-  							fullWidth false
-  							size Default
-  							disabled false
-  							color Default
-  						}
-  					options ButtonOptions {
-  							isLink false
-  							submitsForm true
-  						}
-  					disabled false
-  					icon Icon {
-  							preIcon None
-  							postIcon None
-  						}
-  					generalStyle GeneralStyling {
-  							marginTop None
-  							marginBottom None
-  							tallness Fitting
-  							attributes [  ]
-  						}
-  					MoveUp _WWvqQEUPEeeKqOBaOG4MmQ at 2,2 size 14,7  {
-  					}
-  					
-  					MoveDown _WWwRUEUPEeeKqOBaOG4MmQ at 2,10 size 14,7  {
-  					}
-  				}
-  				
-  				Button _z8t1UEUqEeeKqOBaOG4MmQ at 10,360 size 200,60  {
-  					label "View all users"
-  					displayLabel ""
-  					styling ButtonStyling {
-  							fullWidth false
-  							size Default
-  							disabled false
-  							color Default
-  						}
-  					options ButtonOptions {
-  							isLink false
-  							submitsForm true
-  						}
-  					disabled false
-  					icon Icon {
-  							preIcon None
-  							postIcon None
-  						}
-  					generalStyle GeneralStyling {
-  							marginTop None
-  							marginBottom None
-  							tallness Fitting
-  							attributes [  ]
-  						}
-  					MoveUp _z8vDcEUqEeeKqOBaOG4MmQ at 2,2 size 14,7  {
-  					}
-  					
-  					MoveDown _z8wRkEUqEeeKqOBaOG4MmQ at 2,10 size 14,7  {
   					}
   				}
   			}

@@ -180,7 +180,7 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   			
   			Text _gY65MECCEeeqCfaxU6lZ7A at 10,90 size 200,60  {
   				content [ StaticContent {
-  						rawContent "Submit new topic for supervisor  {{currentUser.baseUser.firstName}} {{currentUser.baseUser.lastName}}"
+  						rawContent "Submit new topic for supervisor  <b>{{currentUser.baseUser.firstName}} {{currentUser.baseUser.lastName}}</b>"
   						maxChars 0
   						html false
   						styling TextStyling {
@@ -211,8 +211,8 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   				inline false
   				errorMessage ""
   				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
+  						marginTop Single
+  						marginBottom Single
   						tallness Fitting
   						attributes [  ]
   					}

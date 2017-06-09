@@ -148,7 +148,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			MoveRight _DZrp4EU8EeetjZy493Al0g at 10,2 size 7,14  {
   			}
   			
-  			Table _HONEYEU8EeetjZy493Al0g at 10,90 size 350,110  {
+  			Table _HONEYEU8EeetjZy493Al0g at 10,90 size 350,110 index 3 {
   				striped true
   				bordered true
   				hover false
@@ -171,9 +171,9 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   				
   				TableEntry _JZvu4EU8EeetjZy493Al0g at 10,30 size 100,60  {
   					label "First name"
-  					sortable false
+  					sortable true
   					defaultSorting NONE
-  					fullTextSearch false
+  					fullTextSearch true
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -189,9 +189,9 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   				
   				TableEntry _KUlmgEU8EeetjZy493Al0g at 120,30 size 100,60  {
   					label "Last name"
-  					sortable false
-  					defaultSorting NONE
-  					fullTextSearch false
+  					sortable true
+  					defaultSorting ASC
+  					fullTextSearch true
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -207,9 +207,9 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   				
   				TableEntry _OdptoEU8EeetjZy493Al0g at 230,30 size 100,60  {
   					label "Mail adress"
-  					sortable false
+  					sortable true
   					defaultSorting NONE
-  					fullTextSearch false
+  					fullTextSearch true
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -224,7 +224,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   				}
   			}
   			
-  			Headline _oWE8MEp2EeeR8skQQzAlbg at 10,30 size 300,50  {
+  			Headline _oWE8MEp2EeeR8skQQzAlbg at 10,30 size 300,50 index 2 {
   				size Normal
   				content [ StaticContent {
   						rawContent "All registered users"

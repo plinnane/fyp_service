@@ -1,0 +1,117 @@
+GUI _MjbkkEz7Eee_89yPXsYmRg {
+  title "EditUserProfile"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _Mji5UEz7Eee_89yPXsYmRg at 10,10 size 231,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _z8YO8Ez9Eee_89yPXsYmRg at 20,170 size 191,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput false
+  		-ComplexRead-> _GPRRUE0bEee_89yPXsYmRg via (125,235) decorate "Polyline" at (2,0) {
+  			id _hq4GIE0AEee_89yPXsYmRg
+  		}
+  	}
+  }
+  
+  Template _MjkHcEz7Eee_89yPXsYmRg at 260,10 size 370,431  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _Mjl8oEz7Eee_89yPXsYmRg at 10,30 size 350,371  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _MjnKwEz7Eee_89yPXsYmRg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _Mjnx0Ez7Eee_89yPXsYmRg at 2,10 size 14,7  {
+  		}
+  		
+  		Col _Mjo_8Ez7Eee_89yPXsYmRg at 10,30 size 320,321  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _MjqOEEz7Eee_89yPXsYmRg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _Mjq1IEz7Eee_89yPXsYmRg at 10,2 size 7,14  {
+  			}
+  			
+  			Headline _sy4JwE0KEee_89yPXsYmRg at 10,30 size 300,50  {
+  				size Normal
+  				content [ StaticContent {
+  						rawContent "Edit user profile"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _sy5-8E0KEee_89yPXsYmRg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _sy7NEE0KEee_89yPXsYmRg at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			DispatchedGUISIB _GK680E0bEee_89yPXsYmRg at 16,90 size 150,201  {
+  				libraryComponentUID "_t_C_wEz7Eee_89yPXsYmRg"
+  				label "EditUserProfileGeneric"
+  				ComplexInputPort _GPRRUE0bEee_89yPXsYmRg at 5,67 size 90,18  {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList false
+  					name "user"
+  				}
+  				
+  				Branch _GPTGgE0bEee_89yPXsYmRg at 5,90 size 100,25  {
+  					name "Revert changes"
+  				}
+  				
+  				Branch _GPWw4E0bEee_89yPXsYmRg at 5,133 size 100,50  {
+  					name "Save changes"
+  					ComplexOutputPort _GPZNIE0bEee_89yPXsYmRg at 5,27 size 90,18  {
+  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						name "user"
+  						isList false
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

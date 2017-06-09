@@ -5,7 +5,7 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   fullWidth false
   DataContext _BAl-QEqwEeeq5uKWWhCwgQ at 10,10 size 200,1000  {
   	dfViewWorkaround true
-  	ComplexVariable _5JgQwEqwEeeq5uKWWhCwgQ at 21,50 size 160,25  {
+  	ComplexVariable _5JgQwEqwEeeq5uKWWhCwgQ at 20,180 size 160,25  {
   		isLive false
   		expanded false
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -13,13 +13,13 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   		name "currentUser"
   		isList false
   		isInput false
-  		-ComplexRead-> _7nuNYEq1Eeeq5uKWWhCwgQ via (171,175) decorate "Polyline" at (2,0) {
+  		-ComplexRead-> _Tf2_oE0FEee_89yPXsYmRg via (110,235) decorate "Polyline" at (2,0) {
   			id _8IRVsEq1Eeeq5uKWWhCwgQ
   		}
   	}
   }
   
-  Template _BAnzcEqwEeeq5uKWWhCwgQ at 260,10 size 220,260  {
+  Template _BAnzcEqwEeeq5uKWWhCwgQ at 250,10 size 270,431  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -27,7 +27,7 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _BAyykEqwEeeq5uKWWhCwgQ at 10,30 size 200,200  {
+  	Row _BAyykEqwEeeq5uKWWhCwgQ at 10,30 size 250,371  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -40,7 +40,7 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   		MoveDown _BA3rEEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
   		}
   		
-  		Col _BBD4UEqwEeeq5uKWWhCwgQ at 10,30 size 170,150  {
+  		Col _BBD4UEqwEeeq5uKWWhCwgQ at 10,30 size 220,321  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -59,13 +59,56 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   			MoveRight _BBHisEqwEeeq5uKWWhCwgQ at 10,2 size 7,14  {
   			}
   			
-  			DispatchedGUISIB _7gpVAEq1Eeeq5uKWWhCwgQ at 11,30 size 150,90  {
-  				libraryComponentUID "_GWZlUEqwEeeq5uKWWhCwgQ"
-  				label "ViewUserProfileGeneric"
-  				ComplexInputPort _7nuNYEq1Eeeq5uKWWhCwgQ at 5,67 size 90,18  {
-  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
-  					isList false
-  					name "user"
+  			Row _0BvEgE0HEee_89yPXsYmRg at 10,30 size 200,261  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _0Bw5sE0HEee_89yPXsYmRg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _0BxgwE0HEee_89yPXsYmRg at 2,10 size 14,7  {
+  				}
+  				
+  				Col _0B1LIE0HEee_89yPXsYmRg at 10,30 size 170,211  {
+  					wideness Full
+  					layout Layout {
+  							size Default
+  							alignment Left
+  							offset None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _0B1yME0HEee_89yPXsYmRg at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _0B2ZQE0HEee_89yPXsYmRg at 10,2 size 7,14  {
+  					}
+  					
+  					DispatchedGUISIB _Ta94kE0FEee_89yPXsYmRg at 10,30 size 150,151  {
+  						libraryComponentUID "_GWZlUEqwEeeq5uKWWhCwgQ"
+  						label "ViewUserProfileGeneric"
+  						ComplexInputPort _Tf2_oE0FEee_89yPXsYmRg at 5,67 size 90,18 index 2 {
+  							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  							isList false
+  							name "user"
+  						}
+  						
+  						Branch _Tf7REE0FEee_89yPXsYmRg at 5,108 size 100,25 index 0 {
+  							name "Edit profile"
+  						}
+  						
+  						BooleanInputStatic _U79xQE0FEee_89yPXsYmRg at 5,85 size 90,18 index 1 {
+  							value true
+  							name "includeEditButton"
+  						}
+  					}
   				}
   			}
   		}

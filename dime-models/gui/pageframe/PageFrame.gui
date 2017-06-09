@@ -112,8 +112,8 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   							Placeholder _NJA6IEU1EeeKqOBaOG4MmQ at 10,60 size 100,80  {
   								name "content"
   								generalStyle GeneralStyling {
-  										marginTop None
-  										marginBottom None
+  										marginTop Single
+  										marginBottom Single
   										tallness Fitting
   										attributes [  ]
   									}

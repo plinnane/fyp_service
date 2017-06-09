@@ -7,9 +7,9 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   	dfViewWorkaround true
   }
   
-  Template _Lm3gEEj8EeaK4_MRcoLfnw at 270,30 size 390,480  {
+  Template _Lm3gEEj8EeaK4_MRcoLfnw at 270,30 size 390,470  {
   	blockName "body"
-  	Jumbotron _6CcloEmAEeaUSpYQeYyxnQ at 10,30 size 370,420  {
+  	Jumbotron _6CcloEmAEeaUSpYQeYyxnQ at 10,30 size 370,410  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -22,7 +22,7 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   		MoveDown _6ClvkEmAEeaUSpYQeYyxnQ at 2,10 size 14,7  {
   		}
   		
-  		Row _pqsksE_OEeauEZ95mLTQ7g at 10,30 size 350,360  {
+  		Row _pqsksE_OEeauEZ95mLTQ7g at 10,30 size 350,350  {
   			generalStyle GeneralStyling {
   					marginTop None
   					marginBottom None
@@ -35,7 +35,7 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   			MoveDown _pq7OME_OEeauEZ95mLTQ7g at 2,10 size 14,7  {
   			}
   			
-  			Col _prJ3sE_OEeauEZ95mLTQ7g at 10,30 size 320,310  {
+  			Col _prJ3sE_OEeauEZ95mLTQ7g at 10,30 size 320,300  {
   				wideness Full
   				layout Layout {
   						size Default
@@ -74,7 +74,7 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   					}
   				}
   				
-  				Button _MF6_kE_LEeauEZ95mLTQ7g at 10,150 size 200,60  {
+  				Button _MF6_kE_LEeauEZ95mLTQ7g at 10,210 size 200,60  {
   					label "Login"
   					displayLabel ""
   					styling ButtonStyling {
@@ -125,7 +125,8 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   					}
   				}
   				
-  				Text _GFQ3cEeOEeeJjvdf9GAasg at 10,220 size 200,60  {
+  				Headline _sEX_oEz3Eee_89yPXsYmRg at 10,150 size 300,50  {
+  					size Small
   					content [ StaticContent {
   							rawContent "If you do not yet have an account, please contact us. More details will be added."
   							maxChars 0
@@ -147,10 +148,10 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   							tallness Fitting
   							attributes [  ]
   						}
-  					MoveUp _GHx_8EeOEeeJjvdf9GAasg at 2,2 size 14,7  {
+  					MoveUp _sEZ00Ez3Eee_89yPXsYmRg at 2,2 size 14,7  {
   					}
   					
-  					MoveDown _GIi08EeOEeeJjvdf9GAasg at 2,10 size 14,7  {
+  					MoveDown _sEab4Ez3Eee_89yPXsYmRg at 2,10 size 14,7  {
   					}
   				}
   			}

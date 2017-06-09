@@ -42,7 +42,7 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   			associationName "baseUser"
   		}
   		
-  		-ComplexRead-> _zJYvIEq1Eeeq5uKWWhCwgQ  decorate "Polyline" at (2,0) {
+  		-ComplexRead-> _78GaYE0EEee_89yPXsYmRg  decorate "Polyline" at (2,0) {
   			id _zmPDMEq1Eeeq5uKWWhCwgQ
   		}
   	}
@@ -85,9 +85,20 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   			isLive false
   		}
   	}
+  	
+  	PrimitiveVariable _5FTMYE0EEee_89yPXsYmRg at 20,470 size 161,25  {
+  		dataType Boolean
+  		dfViewWorkaround true
+  		name "includeEditButton"
+  		isList false
+  		isInput true
+  		-PrimitiveRead-> _78gqEE0EEee_89yPXsYmRg  decorate "Polyline" at (2,0) {
+  			id _84oUEE0EEee_89yPXsYmRg
+  		}
+  	}
   }
   
-  Template _Q_SPkEqwEeeq5uKWWhCwgQ at 260,10 size 270,330  {
+  Template _Q_SPkEqwEeeq5uKWWhCwgQ at 260,10 size 270,531  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -95,7 +106,7 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _Q_WhAEqwEeeq5uKWWhCwgQ at 10,30 size 250,270  {
+  	Row _Q_WhAEqwEeeq5uKWWhCwgQ at 10,30 size 250,471  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -108,7 +119,7 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   		MoveDown _Q_ZkUEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
   		}
   		
-  		Col _Q_cAkEqwEeeq5uKWWhCwgQ at 10,30 size 220,220  {
+  		Col _Q_cAkEqwEeeq5uKWWhCwgQ at 10,30 size 220,421  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -127,29 +138,7 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   			MoveRight _Q_ec0EqwEeeq5uKWWhCwgQ at 10,2 size 7,14  {
   			}
   			
-  			GUISIB _zJT2oEq1Eeeq5uKWWhCwgQ at 10,30 size 150,90  {
-  				libraryComponentUID "_JtvgoD-kEee9IO1uJfVZdA"
-  				label "ProfileHeader"
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				ComplexInputPort _zJYvIEq1Eeeq5uKWWhCwgQ at 5,67 size 90,18 index 2 {
-  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
-  					isList false
-  					name "displayedUser"
-  				}
-  				
-  				MoveUp _zJdAkEq1Eeeq5uKWWhCwgQ at 2,2 size 14,7 index 0 {
-  				}
-  				
-  				MoveDown _zJeOsEq1Eeeq5uKWWhCwgQ at 2,10 size 14,7 index 1 {
-  				}
-  			}
-  			
-  			Text _2cO_8Eq1Eeeq5uKWWhCwgQ at 10,130 size 200,60  {
+  			Text _2cO_8Eq1Eeeq5uKWWhCwgQ at 10,191 size 200,60  {
   				content [ StaticContent {
   						rawContent "Student ID: {{user.studentId}}"
   						maxChars 0
@@ -177,12 +166,102 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   				MoveDown _2cSDQEq1Eeeq5uKWWhCwgQ at 2,10 size 14,7  {
   				}
   			}
+  			
+  			Text _myvpwEz-Eee_89yPXsYmRg at 10,331 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "About me:\n{{user.aboutMe}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _myxe8Ez-Eee_89yPXsYmRg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _myytEEz-Eee_89yPXsYmRg at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Text _skXDEEz-Eee_89yPXsYmRg at 10,261 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "Course: {{user.course}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _skYRMEz-Eee_89yPXsYmRg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _skY4QEz-Eee_89yPXsYmRg at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			GUISIB _78CI8E0EEee_89yPXsYmRg at 10,30 size 150,151  {
+  				libraryComponentUID "_JtvgoD-kEee9IO1uJfVZdA"
+  				label "ProfileHeader"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _78GaYE0EEee_89yPXsYmRg at 5,67 size 90,18  {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList false
+  					name "displayedUser"
+  				}
+  				
+  				PrimitiveInputPort _78gqEE0EEee_89yPXsYmRg at 5,85 size 90,18  {
+  					dataType Boolean
+  					isList false
+  					name "includeEditButton"
+  				}
+  				
+  				Branch _78y98E0EEee_89yPXsYmRg at 5,108 size 100,25  {
+  					name "Edit profile"
+  				}
+  				
+  				MoveUp _784dgE0EEee_89yPXsYmRg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _785EkE0EEee_89yPXsYmRg at 2,10 size 14,7  {
+  				}
+  			}
   		}
   	}
   }
   
   ExtensionContext _RvBqcEqwEeeq5uKWWhCwgQ at 910,10 size 200,400  {
-  	GUISIB _SvBu4EqwEeeq5uKWWhCwgQ at 10,30 size 150,90  {
+  	GUISIB _IGiW8E0FEee_89yPXsYmRg at 10,30 size 150,151  {
   		libraryComponentUID "_GWZlUEqwEeeq5uKWWhCwgQ"
   		label "ViewUserProfileGeneric"
   		generalStyle GeneralStyling {
@@ -191,16 +270,26 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   				tallness Fitting
   				attributes [  ]
   			}
-  		ComplexInputPort _Sv3cYEqwEeeq5uKWWhCwgQ at 5,67 size 90,18  {
+  		ComplexInputPort _IGodkE0FEee_89yPXsYmRg at 5,67 size 90,18  {
   			libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   			isList false
   			name "user"
   		}
   		
-  		MoveUp _SwQd8EqwEeeq5uKWWhCwgQ at 2,2 size 14,7  {
+  		PrimitiveInputPort _IGq50E0FEee_89yPXsYmRg at 5,85 size 90,18  {
+  			dataType Boolean
+  			isList false
+  			name "includeEditButton"
   		}
   		
-  		MoveDown _SwRsEEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
+  		Branch _IGtWEE0FEee_89yPXsYmRg at 5,108 size 100,25  {
+  			name "Edit profile"
+  		}
+  		
+  		MoveUp _IGy1oE0FEee_89yPXsYmRg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _IGzcsE0FEee_89yPXsYmRg at 2,10 size 14,7  {
   		}
   	}
   }

@@ -1,0 +1,307 @@
+GUI _t_C_wEz7Eee_89yPXsYmRg {
+  title "EditUserProfileGeneric"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _t_GqIEz7Eee_89yPXsYmRg at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _wm5y0Ez7Eee_89yPXsYmRg at 20,40 size 160,51 index 1 {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "user"
+  		isList false
+  		isInput true
+  		PrimitiveAttribute _EMc2EEz8Eee_89yPXsYmRg at 20,23 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  			-FormLoadSubmit-> _Ck3NMEz8Eee_89yPXsYmRg  decorate "Polyline" at (2,0) decorate "Polyline" at (2,0) {
+  				id _eM0yQEz9Eee_89yPXsYmRg
+  			}
+  		}
+  		-ComplexAttributeConnector-> _FCtIoEz8Eee_89yPXsYmRg  decorate "Ellipse" at (0,0) {
+  			id _FCwzAEz8Eee_89yPXsYmRg
+  			associationName "baseUser"
+  		}
+  		
+  		-AddComplexToSubmission-> _3DBhsEz7Eee_89yPXsYmRg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _bsGbwE0aEee_89yPXsYmRg
+  		}
+  	}
+  	
+  	ComplexVariable _FCtIoEz8Eee_89yPXsYmRg at 20,150 size 160,186 index 0 {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _FC1EcEz8Eee_89yPXsYmRg at 20,23 size 120,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _FC1rgEz8Eee_89yPXsYmRg at 20,50 size 120,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _FC2SkEz8Eee_89yPXsYmRg at 20,77 size 120,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _FC3gsEz8Eee_89yPXsYmRg at 20,104 size 120,25 index 5 {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			isLive false
+  			-FormLoadSubmit-> _Hr1uEEz8Eee_89yPXsYmRg  decorate "Polyline" at (2,0) decorate "Polyline" at (2,0) {
+  				id _crUjQEz9Eee_89yPXsYmRg
+  			}
+  		}
+  		
+  		PrimitiveAttribute _FC4HwEz8Eee_89yPXsYmRg at 20,131 size 120,25 index 3 {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			isLive false
+  			-FormLoadSubmit-> _I6i84Ez8Eee_89yPXsYmRg  decorate "Polyline" at (2,0) decorate "Polyline" at (2,0) {
+  				id _bha78Ez9Eee_89yPXsYmRg
+  			}
+  		}
+  		
+  		PrimitiveAttribute _FC4u0Ez8Eee_89yPXsYmRg at 20,158 size 120,25 index 4 {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _t_HRMEz7Eee_89yPXsYmRg at 260,10 size 290,570  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _t_KUgEz7Eee_89yPXsYmRg at 10,30 size 270,510  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _t_K7kEz7Eee_89yPXsYmRg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _t_MJsEz7Eee_89yPXsYmRg at 2,10 size 14,7  {
+  		}
+  		
+  		Col _t_N-4Ez7Eee_89yPXsYmRg at 10,30 size 240,460  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _t_Ol8Ez7Eee_89yPXsYmRg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _t_PNAEz7Eee_89yPXsYmRg at 10,2 size 7,14  {
+  			}
+  			
+  			Form _3CkOsEz7Eee_89yPXsYmRg at 10,30 size 220,330 index 3 {
+  				inline false
+  				errorMessage ""
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _3Cmq8Ez7Eee_89yPXsYmRg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _3Cn5EEz7Eee_89yPXsYmRg at 2,10 size 14,7  {
+  				}
+  				
+  				Button _3DBhsEz7Eee_89yPXsYmRg at 10,240 size 200,60  {
+  					label "Save changes"
+  					displayLabel ""
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _3DDW4Ez7Eee_89yPXsYmRg at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _3DD98Ez7Eee_89yPXsYmRg at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Field _Hr1uEEz8Eee_89yPXsYmRg at 10,30 size 200,60  {
+  					label "First name"
+  					isList false
+  					inputType Text
+  					styling FormFieldStyling {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					validation FormFieldValidation {
+  							required false
+  							min 0
+  							max -1
+  						}
+  					additionalOptions FormFieldAdditionalOptions {
+  							emptyValue "first name(s)"
+  							readonly false
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _Hr4xYEz8Eee_89yPXsYmRg at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _Hr6mkEz8Eee_89yPXsYmRg at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Field _I6i84Ez8Eee_89yPXsYmRg at 10,100 size 200,60  {
+  					label "Last name"
+  					isList false
+  					inputType Text
+  					styling FormFieldStyling {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					validation FormFieldValidation {
+  							required false
+  							min 0
+  							max -1
+  						}
+  					additionalOptions FormFieldAdditionalOptions {
+  							emptyValue "last name"
+  							readonly false
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _I6mAMEz8Eee_89yPXsYmRg at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _I6mnQEz8Eee_89yPXsYmRg at 2,10 size 14,7  {
+  					}
+  				}
+  				
+  				Field _Ck3NMEz8Eee_89yPXsYmRg at 10,170 size 200,60  {
+  					label "Mail adress"
+  					isList false
+  					inputType Text
+  					styling FormFieldStyling {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					validation FormFieldValidation {
+  							required false
+  							min 0
+  							max -1
+  						}
+  					additionalOptions FormFieldAdditionalOptions {
+  							emptyValue "mail adress"
+  							readonly false
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveUp _Ck5CYEz8Eee_89yPXsYmRg at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _Ck5pcEz8Eee_89yPXsYmRg at 2,10 size 14,7  {
+  					}
+  				}
+  			}
+  			
+  			Button _YU6m4E0BEee_89yPXsYmRg at 10,370 size 200,60 index 2 {
+  				label "Revert changes"
+  				displayLabel ""
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _YU9DIE0BEee_89yPXsYmRg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _YU9qME0BEee_89yPXsYmRg at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}
