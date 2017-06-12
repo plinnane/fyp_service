@@ -1,0 +1,30 @@
+Process _zFBTsE9vEeeWJL1zKR4q1g {
+  modelName "PersistUser"
+  processType Interactable
+  description "PersistUser"
+  isStateful false
+  dataFlowView true
+  DataContext _zJLa8E9vEeeWJL1zKR4q1g at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _zJx34E9vEeeWJL1zKR4q1g at 350,50 size 100,90  {
+  	ComplexOutputPort _0lfA4E9vEeeWJL1zKR4q1g at 5,67 size 90,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "concreteuser1"
+  	}
+  	-ControlFlow-> _zJ0UIE9vEeeWJL1zKR4q1g  decorate "Polyline" at (2,0) {
+  		id _71MI0E9vEeeWJL1zKR4q1g
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _zJ0UIE9vEeeWJL1zKR4q1g at 350,170 size 100,65  {
+  	branchName "success"
+  }
+  
+  Documentation _Gy07EE9wEeeWJL1zKR4q1g at 240,260 size 781,40  {
+  	content "Users can only be saved once used in an interactable, therefore this is a dirty dirty workaround. I am not proud of this."
+  }
+}

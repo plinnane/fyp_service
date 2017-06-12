@@ -10,9 +10,9 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   		expanded false
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		dfViewWorkaround true
-  		name "currentUser"
+  		name "user"
   		isList false
-  		isInput false
+  		isInput true
   		-ComplexRead-> _Tf2_oE0FEee_89yPXsYmRg via (110,235) decorate "Polyline" at (2,0) {
   			id _8IRVsEq1Eeeq5uKWWhCwgQ
   		}
