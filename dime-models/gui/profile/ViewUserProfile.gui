@@ -17,6 +17,17 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   			id _8IRVsEq1Eeeq5uKWWhCwgQ
   		}
   	}
+  	
+  	PrimitiveVariable _TrAWEFAuEeeWJL1zKR4q1g at 30,230 size 140,25  {
+  		dataType Boolean
+  		dfViewWorkaround true
+  		name "includeEditButton"
+  		isList false
+  		isInput true
+  		-PrimitiveRead-> _UiJZcFAuEeeWJL1zKR4q1g  decorate "Polyline" at (2,0) {
+  			id _Vc38UFAuEeeWJL1zKR4q1g
+  		}
+  	}
   }
   
   Template _BAnzcEqwEeeq5uKWWhCwgQ at 250,10 size 270,431  {
@@ -104,8 +115,9 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   							name "Edit profile"
   						}
   						
-  						BooleanInputStatic _U79xQE0FEee_89yPXsYmRg at 5,85 size 90,18 index 1 {
-  							value true
+  						PrimitiveInputPort _UiJZcFAuEeeWJL1zKR4q1g at 5,85 size 90,18 index 1 {
+  							dataType Boolean
+  							isList false
   							name "includeEditButton"
   						}
   					}
