@@ -374,6 +374,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   									color Default
   								}
   							options ButtonOptions {
+  									staticURL "logout"
   									isLink false
   									submitsForm true
   								}

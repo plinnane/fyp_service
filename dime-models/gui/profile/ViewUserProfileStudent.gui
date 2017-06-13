@@ -98,7 +98,7 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   	}
   }
   
-  Template _Q_SPkEqwEeeq5uKWWhCwgQ at 260,10 size 270,531  {
+  Template _Q_SPkEqwEeeq5uKWWhCwgQ at 260,10 size 320,861  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -106,7 +106,7 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _Q_WhAEqwEeeq5uKWWhCwgQ at 10,30 size 250,471  {
+  	Row _Q_WhAEqwEeeq5uKWWhCwgQ at 10,30 size 300,801  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -119,7 +119,7 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   		MoveDown _Q_ZkUEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
   		}
   		
-  		Col _Q_cAkEqwEeeq5uKWWhCwgQ at 10,30 size 220,421  {
+  		Col _Q_cAkEqwEeeq5uKWWhCwgQ at 10,30 size 270,751  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -138,93 +138,6 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   			MoveRight _Q_ec0EqwEeeq5uKWWhCwgQ at 10,2 size 7,14  {
   			}
   			
-  			Text _2cO_8Eq1Eeeq5uKWWhCwgQ at 10,191 size 200,60  {
-  				content [ StaticContent {
-  						rawContent "Student ID: {{user.studentId}}"
-  						maxChars 0
-  						html false
-  						styling TextStyling {
-  								alignment Left
-  								bold false
-  								small false
-  								italic false
-  								highlight false
-  								deleted false
-  								underline false
-  								color Default
-  							}
-  					} ]
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				MoveUp _2cQ1IEq1Eeeq5uKWWhCwgQ at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _2cSDQEq1Eeeq5uKWWhCwgQ at 2,10 size 14,7  {
-  				}
-  			}
-  			
-  			Text _myvpwEz-Eee_89yPXsYmRg at 10,331 size 200,60  {
-  				content [ StaticContent {
-  						rawContent "About me:\n{{user.aboutMe}}"
-  						maxChars 0
-  						html false
-  						styling TextStyling {
-  								alignment Left
-  								bold false
-  								small false
-  								italic false
-  								highlight false
-  								deleted false
-  								underline false
-  								color Default
-  							}
-  					} ]
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				MoveUp _myxe8Ez-Eee_89yPXsYmRg at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _myytEEz-Eee_89yPXsYmRg at 2,10 size 14,7  {
-  				}
-  			}
-  			
-  			Text _skXDEEz-Eee_89yPXsYmRg at 10,261 size 200,60  {
-  				content [ StaticContent {
-  						rawContent "Course: {{user.course}}"
-  						maxChars 0
-  						html false
-  						styling TextStyling {
-  								alignment Left
-  								bold false
-  								small false
-  								italic false
-  								highlight false
-  								deleted false
-  								underline false
-  								color Default
-  							}
-  					} ]
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				MoveUp _skYRMEz-Eee_89yPXsYmRg at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _skY4QEz-Eee_89yPXsYmRg at 2,10 size 14,7  {
-  				}
-  			}
-  			
   			GUISIB _78CI8E0EEee_89yPXsYmRg at 10,30 size 150,151  {
   				libraryComponentUID "_JtvgoD-kEee9IO1uJfVZdA"
   				label "ProfileHeader"
@@ -234,26 +147,215 @@ GUI _Q_GpYEqwEeeq5uKWWhCwgQ {
   						tallness Fitting
   						attributes [  ]
   					}
-  				ComplexInputPort _78GaYE0EEee_89yPXsYmRg at 5,67 size 90,18  {
+  				ComplexInputPort _78GaYE0EEee_89yPXsYmRg at 5,67 size 90,18 index 4 {
   					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   					isList false
   					name "displayedUser"
   				}
   				
-  				PrimitiveInputPort _78gqEE0EEee_89yPXsYmRg at 5,85 size 90,18  {
+  				PrimitiveInputPort _78gqEE0EEee_89yPXsYmRg at 5,85 size 90,18 index 0 {
   					dataType Boolean
   					isList false
   					name "includeEditButton"
   				}
   				
-  				Branch _78y98E0EEee_89yPXsYmRg at 5,108 size 100,25  {
+  				Branch _78y98E0EEee_89yPXsYmRg at 5,108 size 100,25 index 1 {
   					name "Edit profile"
   				}
   				
-  				MoveUp _784dgE0EEee_89yPXsYmRg at 2,2 size 14,7  {
+  				MoveUp _784dgE0EEee_89yPXsYmRg at 2,2 size 14,7 index 2 {
   				}
   				
-  				MoveDown _785EkE0EEee_89yPXsYmRg at 2,10 size 14,7  {
+  				MoveDown _785EkE0EEee_89yPXsYmRg at 2,10 size 14,7 index 3 {
+  				}
+  			}
+  			
+  			Row _2Yby8E90EeeWJL1zKR4q1g at 10,191 size 250,170  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _2YdBEE90EeeWJL1zKR4q1g at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _2YePME90EeeWJL1zKR4q1g at 2,10 size 14,7  {
+  				}
+  				
+  				Col _2YmLAE90EeeWJL1zKR4q1g at 10,30 size 220,120  {
+  					wideness Full
+  					layout Layout {
+  							size Default
+  							alignment Left
+  							offset None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _2YnZIE90EeeWJL1zKR4q1g at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _2YonQE90EeeWJL1zKR4q1g at 10,2 size 7,14  {
+  					}
+  					
+  					Text _2cO_8Eq1Eeeq5uKWWhCwgQ at 10,30 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "Student ID: {{user.studentId}}"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _2cQ1IEq1Eeeq5uKWWhCwgQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _2cSDQEq1Eeeq5uKWWhCwgQ at 2,10 size 14,7  {
+  						}
+  					}
+  				}
+  			}
+  			
+  			Row _2scUEE90EeeWJL1zKR4q1g at 10,371 size 250,170  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _2seJQE90EeeWJL1zKR4q1g at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _2sewUE90EeeWJL1zKR4q1g at 2,10 size 14,7  {
+  				}
+  				
+  				Col _2smsIE90EeeWJL1zKR4q1g at 10,30 size 220,120  {
+  					wideness Full
+  					layout Layout {
+  							size Default
+  							alignment Left
+  							offset None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _2sohUE90EeeWJL1zKR4q1g at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _2spIYE90EeeWJL1zKR4q1g at 10,2 size 7,14  {
+  					}
+  					
+  					Text _skXDEEz-Eee_89yPXsYmRg at 10,30 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "Course: {{user.course}}"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _skYRMEz-Eee_89yPXsYmRg at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _skY4QEz-Eee_89yPXsYmRg at 2,10 size 14,7  {
+  						}
+  					}
+  				}
+  			}
+  			
+  			Row _284j0E90EeeWJL1zKR4q1g at 10,551 size 250,170  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _286ZAE90EeeWJL1zKR4q1g at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _287AEE90EeeWJL1zKR4q1g at 2,10 size 14,7  {
+  				}
+  				
+  				Col _29Di8E90EeeWJL1zKR4q1g at 10,30 size 220,120  {
+  					wideness Full
+  					layout Layout {
+  							size Default
+  							alignment Left
+  							offset None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _29ExEE90EeeWJL1zKR4q1g at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _29FYIE90EeeWJL1zKR4q1g at 10,2 size 7,14  {
+  					}
+  					
+  					Text _myvpwEz-Eee_89yPXsYmRg at 10,30 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "About me:\n{{user.aboutMe}}"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _myxe8Ez-Eee_89yPXsYmRg at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _myytEEz-Eee_89yPXsYmRg at 2,10 size 14,7  {
+  						}
+  					}
   				}
   			}
   		}
