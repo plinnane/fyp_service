@@ -106,7 +106,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   	}
   }
   
-  Template _Z8ZrID-lEee9IO1uJfVZdA at 260,10 size 270,491  {
+  Template _Z8ZrID-lEee9IO1uJfVZdA at 260,10 size 370,551  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -114,7 +114,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _Z8dVgD-lEee9IO1uJfVZdA at 10,30 size 250,431  {
+  	Row _Z8dVgD-lEee9IO1uJfVZdA at 10,30 size 350,491  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -127,7 +127,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		MoveDown _Z8gY0D-lEee9IO1uJfVZdA at 2,10 size 14,7  {
   		}
   		
-  		Col _Z8i1ED-lEee9IO1uJfVZdA at 10,30 size 220,381  {
+  		Col _Z8i1ED-lEee9IO1uJfVZdA at 10,30 size 320,441  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -146,7 +146,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			MoveRight _Z8l4YD-lEee9IO1uJfVZdA at 10,2 size 7,14  {
   			}
   			
-  			InteractionSIB _dBhOsD-1EeeMOLoUoe1Q1Q at 10,191 size 150,90 index 3 {
+  			InteractionSIB _dBhOsD-1EeeMOLoUoe1Q1Q at 10,251 size 150,90 index 4 {
   				libraryComponentUID "_uJLvsD-0EeerA7ElzRRObA"
   				label "FilterUnassignedTopics"
   				generalStyle GeneralStyling {
@@ -168,7 +168,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   				}
   			}
   			
-  			Text _ZVvuwEqxEeeq5uKWWhCwgQ at 10,291 size 200,60 index 2 {
+  			Text _ZVvuwEqxEeeq5uKWWhCwgQ at 10,351 size 200,60 index 2 {
   				content [ StaticContent {
   						rawContent "{{user.baseUser.firstName}} {{user.baseUser.lastName}} has not yet uploaded any topics."
   						maxChars 0
@@ -197,7 +197,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   				}
   			}
   			
-  			GUISIB _PQD-YE0FEee_89yPXsYmRg at 10,30 size 150,151  {
+  			GUISIB _PQD-YE0FEee_89yPXsYmRg at 10,30 size 150,151 index 3 {
   				libraryComponentUID "_JtvgoD-kEee9IO1uJfVZdA"
   				label "ProfileHeader"
   				generalStyle GeneralStyling {
@@ -226,6 +226,36 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   				}
   				
   				MoveDown _PQgqUE0FEee_89yPXsYmRg at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Headline _BOkdsFAzEeelUOscUoWJkw at 10,191 size 300,50  {
+  				size Big
+  				content [ StaticContent {
+  						rawContent "Topics"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _BOvc0FAzEeelUOscUoWJkw at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _BOzuQFAzEeelUOscUoWJkw at 2,10 size 14,7  {
   				}
   			}
   		}
