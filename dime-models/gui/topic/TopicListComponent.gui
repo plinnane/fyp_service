@@ -45,13 +45,13 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			negate true
   		}
   		
-  		-IF-> _aeuUED-wEeerA7ElzRRObA via (235,151) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  		-IF-> _aeuUED-wEeerA7ElzRRObA via (248,176) decorate "Polyline" at (2,0) decorate "Text" at (-15,-30) {
   			id _K4JekEp2EeeR8skQQzAlbg
   			negate false
   		}
   	}
   	
-  	ComplexVariable _LMLhoD-xEeerA7ElzRRObA at 20,190 size 160,240  {
+  	ComplexVariable _LMLhoD-xEeerA7ElzRRObA at 20,190 size 160,213  {
   		isLive false
   		expanded true
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
@@ -59,25 +59,17 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		name "current"
   		isList false
   		isInput false
-  		ComplexAttribute _VIARkD-xEeerA7ElzRRObA at 20,23 size 120,25  {
-  			libraryComponentUID "_leJdEDlwEeelR78gw15slQ"
-  			isLive false
-  			-TableColumnLoad-> _Amy7QEUrEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
-  				id _GjI94EUrEeeKqOBaOG4MmQ
-  			}
-  		}
-  		
-  		ComplexAttribute _VICGwD-xEeerA7ElzRRObA at 20,50 size 120,25  {
+  		ComplexAttribute _VICGwD-xEeerA7ElzRRObA at 20,23 size 120,25  {
   			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
   			isLive false
   		}
   		
-  		ComplexAttribute _VIEjAD-xEeerA7ElzRRObA at 20,77 size 120,25  {
+  		ComplexAttribute _VIEjAD-xEeerA7ElzRRObA at 20,50 size 120,25  {
   			libraryComponentUID "_lqf6MDl0EeelR78gw15slQ"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _VIGYMD-xEeerA7ElzRRObA at 20,104 size 120,25  {
+  		PrimitiveAttribute _VIGYMD-xEeerA7ElzRRObA at 20,77 size 120,25  {
   			libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
   			isLive false
   			-TableColumnLoad-> _AL9ZYEUrEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
@@ -85,32 +77,75 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			}
   		}
   		
-  		PrimitiveAttribute _VIINYD-xEeerA7ElzRRObA at 20,131 size 120,25  {
+  		PrimitiveAttribute _VIINYD-xEeerA7ElzRRObA at 20,104 size 120,25  {
   			libraryComponentUID "_BdSTYDlvEeelR78gw15slQ"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _VIJbgD-xEeerA7ElzRRObA at 20,158 size 120,25  {
+  		PrimitiveAttribute _VIJbgD-xEeerA7ElzRRObA at 20,131 size 120,25  {
   			libraryComponentUID "_CuhRwDlvEeelR78gw15slQ"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _VIKpoD-xEeerA7ElzRRObA at 20,185 size 120,25  {
+  		PrimitiveAttribute _VIKpoD-xEeerA7ElzRRObA at 20,158 size 120,25  {
   			libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _VIVowD-xEeerA7ElzRRObA at 20,212 size 120,25  {
+  		PrimitiveAttribute _VIVowD-xEeerA7ElzRRObA at 20,185 size 120,25  {
   			libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
   			isLive false
   			-TableColumnLoad-> _a5ztkD-wEeerA7ElzRRObA  decorate "Polyline" at (2,0) {
   				id _GEZMYEUrEeeKqOBaOG4MmQ
   			}
   		}
+  		-ComplexAttributeConnector-> __7GSYFAsEeeWJL1zKR4q1g  decorate "Ellipse" at (0,0) {
+  			id __7c3sFAsEeeWJL1zKR4q1g
+  			associationName "supervisor"
+  		}
+  		
+  		-AddComplexToSubmission-> _ukWB8FAsEeeWJL1zKR4q1g via (365,306) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _4pLj8FAsEeeWJL1zKR4q1g
+  		}
+  		
+  		-AddComplexToSubmission-> _06JtcFAsEeeWJL1zKR4q1g via (598,306) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _5XATQFAsEeeWJL1zKR4q1g
+  		}
+  	}
+  	
+  	ComplexVariable __7GSYFAsEeeWJL1zKR4q1g at 20,450 size 160,105  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "supervisor"
+  		isList false
+  		isInput false
+  		ComplexAttribute __8DUoFAsEeeWJL1zKR4q1g at 20,23 size 120,25  {
+  			libraryComponentUID "_lfF4QDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute __8EiwFAsEeeWJL1zKR4q1g at 20,50 size 120,25  {
+  			libraryComponentUID "_fPY24MwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute __8TMQFAsEeeWJL1zKR4q1g at 20,77 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-AddComplexToSubmission-> _6BWQwFAsEeeWJL1zKR4q1g via (673,512) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _Al_CcFAtEeeWJL1zKR4q1g
+  		}
+  		
+  		-TableColumnLoad-> _Amy7QEUrEeeKqOBaOG4MmQ via (228,485) (655,485) decorate "Polyline" at (2,0) {
+  			id _vLfsEFAtEeeWJL1zKR4q1g
+  		}
   	}
   }
   
-  Template _e4QVkD-vEeerA7ElzRRObA at 260,10 size 420,350  {
+  Template _e4QVkD-vEeerA7ElzRRObA at 260,10 size 780,410  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -118,7 +153,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _e4oJAD-vEeerA7ElzRRObA at 10,30 size 400,290  {
+  	Row _e4oJAD-vEeerA7ElzRRObA at 10,30 size 760,350  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -131,7 +166,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		MoveDown _e42ygD-vEeerA7ElzRRObA at 2,10 size 14,7  {
   		}
   		
-  		Col _e5GDED-vEeerA7ElzRRObA at 10,30 size 370,240  {
+  		Col _e5GDED-vEeerA7ElzRRObA at 10,30 size 730,300  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -150,7 +185,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			MoveRight _e5UFgD-vEeerA7ElzRRObA at 10,2 size 7,14  {
   			}
   			
-  			Table _aeuUED-wEeerA7ElzRRObA at 10,30 size 350,110  {
+  			Table _aeuUED-wEeerA7ElzRRObA at 10,30 size 710,170 index 3 {
   				striped true
   				bordered true
   				hover false
@@ -171,7 +206,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   				MoveDown _ae1BwD-wEeerA7ElzRRObA at 2,10 size 14,7  {
   				}
   				
-  				TableEntry _a5ztkD-wEeerA7ElzRRObA at 10,30 size 100,60  {
+  				TableEntry _a5ztkD-wEeerA7ElzRRObA at 10,30 size 220,120 index 4 {
   					label "ID"
   					sortable true
   					defaultSorting ASC
@@ -187,9 +222,40 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   					
   					MoveRight _a583gD-wEeerA7ElzRRObA at 10,2 size 7,14  {
   					}
+  					
+  					Button _ukWB8FAsEeeWJL1zKR4q1g at 10,30 size 200,60  {
+  						label "id clicked"
+  						displayLabel "{{current.id}}"
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions {
+  								isLink true
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon None
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _ukYeMFAsEeeWJL1zKR4q1g at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _ukZFQFAsEeeWJL1zKR4q1g at 2,10 size 14,7  {
+  						}
+  					}
   				}
   				
-  				TableEntry _AL9ZYEUrEeeKqOBaOG4MmQ at 120,30 size 100,60 index 4 {
+  				TableEntry _AL9ZYEUrEeeKqOBaOG4MmQ at 240,30 size 220,120 index 2 {
   					label "Title"
   					sortable true
   					defaultSorting NONE
@@ -205,9 +271,40 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   					
   					MoveRight _AMBDwEUrEeeKqOBaOG4MmQ at 10,2 size 7,14  {
   					}
+  					
+  					Button _06JtcFAsEeeWJL1zKR4q1g at 10,30 size 200,60  {
+  						label "title clicked"
+  						displayLabel "{{current.title}}"
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions {
+  								isLink true
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon None
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _06LioFAsEeeWJL1zKR4q1g at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _06MwwFAsEeeWJL1zKR4q1g at 2,10 size 14,7  {
+  						}
+  					}
   				}
   				
-  				TableEntry _Amy7QEUrEeeKqOBaOG4MmQ at 230,30 size 100,60 index 3 {
+  				TableEntry _Amy7QEUrEeeKqOBaOG4MmQ at 470,30 size 220,120 index 3 {
   					label "Supervisor"
   					sortable true
   					defaultSorting NONE
@@ -223,10 +320,41 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   					
   					MoveRight _Am1XgEUrEeeKqOBaOG4MmQ at 10,2 size 7,14  {
   					}
+  					
+  					Button _6BWQwFAsEeeWJL1zKR4q1g at 10,30 size 200,60  {
+  						label "supervisor clicked"
+  						displayLabel "{{current.supervisor}}"
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions {
+  								isLink true
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon None
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _6BYF8FAsEeeWJL1zKR4q1g at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _6BYtAFAsEeeWJL1zKR4q1g at 2,10 size 14,7  {
+  						}
+  					}
   				}
   			}
   			
-  			Text _Dc-tgEp2EeeR8skQQzAlbg at 10,150 size 200,60  {
+  			Text _Dc-tgEp2EeeR8skQQzAlbg at 10,210 size 200,60 index 2 {
   				content [ StaticContent {
   						rawContent "Currently there are no topics to be displayed here."
   						maxChars 0

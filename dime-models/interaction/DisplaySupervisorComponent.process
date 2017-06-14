@@ -1,0 +1,79 @@
+Process _R3_Y8FAxEeeWJL1zKR4q1g {
+  modelName "DisplaySupervisorComponent"
+  processType Interaction
+  description "DisplaySupervisorComponent"
+  isStateful false
+  dataFlowView true
+  DataContext _R4DqYFAxEeeWJL1zKR4q1g at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  	ComplexVariable _8pAyYFAzEeeWJL1zKR4q1g at 20,200 size 140,25  {
+  		expanded false
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "supervisor"
+  		isList false
+  		-ComplexRead-> _iXBXMFAxEeeWJL1zKR4q1g  decorate "Polyline" at (2,0) {
+  			id _9-6OUFAzEeeWJL1zKR4q1g
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _R4E4gFAxEeeWJL1zKR4q1g at 350,50 size 100,90  {
+  	ComplexOutputPort _c3S_IFAxEeeWJL1zKR4q1g at 5,67 size 90,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "supervisor"
+  		-ComplexUpdate-> _8pAyYFAzEeeWJL1zKR4q1g via (140,126) decorate "Polyline" at (2,0) {
+  			id _9qig0FAzEeeWJL1zKR4q1g
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _iW8esFAxEeeWJL1zKR4q1g  decorate "Polyline" at (2,0) {
+  		id _BoTW4FA0EeeWJL1zKR4q1g
+  		concurrent false
+  	}
+  }
+  
+  GUISIB _iW8esFAxEeeWJL1zKR4q1g at 340,190 size 120,90  {
+  	name "DisplaySupervisorComponent"
+  	majorPage true
+  	libraryComponentUID "_UlT60FAxEeeWJL1zKR4q1g"
+  	label "DisplaySupervisorComponent"
+  	ComplexInputPort _iXBXMFAxEeeWJL1zKR4q1g at 5,67 size 110,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "supervisor"
+  	}
+  	-BranchConnector-> _3ti98FAzEeeWJL1zKR4q1g   {
+  		id _3tjlAFAzEeeWJL1zKR4q1g
+  		concurrent true
+  	}
+  }
+  
+  Branch _3ti98FAzEeeWJL1zKR4q1g at 340,300 size 120,50  {
+  	name "supervisor clicked"
+  	ComplexOutputPort _neZNsFECEee1RdmfVpvmFg at 5,27 size 110,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "supervisor"
+  		-ComplexDirectDataFlow-> _opH7cFECEee1RdmfVpvmFg via (330,336) (330,476) decorate "Polyline" at (2,0) {
+  			id _pBk3sFECEee1RdmfVpvmFg
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _n3jUkFECEee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  		id _oX1-MFECEee1RdmfVpvmFg
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _n3jUkFECEee1RdmfVpvmFg at 350,400 size 100,90  {
+  	branchName "go to profile"
+  	ComplexInputPort _opH7cFECEee1RdmfVpvmFg at 5,67 size 90,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  	}
+  }
+}

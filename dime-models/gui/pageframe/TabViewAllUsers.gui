@@ -7,7 +7,7 @@ GUI _nWJjIEU6EeetjZy493Al0g {
   	dfViewWorkaround true
   }
   
-  Template _nWYMoEU6EeetjZy493Al0g at 260,10 size 220,235  {
+  Template _nWYMoEU6EeetjZy493Al0g at 260,10 size 220,303  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -15,7 +15,7 @@ GUI _nWJjIEU6EeetjZy493Al0g {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _nWeTQEU6EeetjZy493Al0g at 10,30 size 200,175  {
+  	Row _nWeTQEU6EeetjZy493Al0g at 10,30 size 200,243  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -28,7 +28,7 @@ GUI _nWJjIEU6EeetjZy493Al0g {
   		MoveDown _nWhWkEU6EeetjZy493Al0g at 2,10 size 14,7  {
   		}
   		
-  		Col _nWlA8EU6EeetjZy493Al0g at 10,30 size 170,125  {
+  		Col _nWlA8EU6EeetjZy493Al0g at 10,30 size 170,193  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -47,7 +47,7 @@ GUI _nWJjIEU6EeetjZy493Al0g {
   			MoveRight _nWoEQEU6EeetjZy493Al0g at 10,2 size 7,14  {
   			}
   			
-  			InteractionSIB _obZT8EU6EeetjZy493Al0g at 10,30 size 150,65  {
+  			InteractionSIB _A2IzsFDwEee1RdmfVpvmFg at 10,30 size 150,133  {
   				libraryComponentUID "_lJrEgEU6EeetjZy493Al0g"
   				label "TabViewAllUsers"
   				generalStyle GeneralStyling {
@@ -56,10 +56,19 @@ GUI _nWJjIEU6EeetjZy493Al0g {
   						tallness Fitting
   						attributes [  ]
   					}
-  				MoveUp _obn9cEU6EeetjZy493Al0g at 2,2 size 14,7  {
+  				Branch _A2Ty0FDwEee1RdmfVpvmFg at 5,65 size 100,50  {
+  					name "go to profile"
+  					ComplexOutputPort _A2c8wFDwEee1RdmfVpvmFg at 5,27 size 90,18  {
+  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						name "user"
+  						isList false
+  					}
   				}
   				
-  				MoveDown _obpLkEU6EeetjZy493Al0g at 2,10 size 14,7  {
+  				MoveUp _A2lfoFDwEee1RdmfVpvmFg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _A2mtwFDwEee1RdmfVpvmFg at 2,10 size 14,7  {
   				}
   			}
   		}

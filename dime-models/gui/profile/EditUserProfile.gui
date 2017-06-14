@@ -12,8 +12,8 @@ GUI _MjbkkEz7Eee_89yPXsYmRg {
   		dfViewWorkaround true
   		name "currentUser"
   		isList false
-  		isInput false
-  		-ComplexRead-> _GPRRUE0bEee_89yPXsYmRg via (125,235) decorate "Polyline" at (2,0) {
+  		isInput true
+  		-ComplexRead-> _3Ae5AFD2Eee1RdmfVpvmFg via (125,235) decorate "Polyline" at (2,0) {
   			id _hq4GIE0AEee_89yPXsYmRg
   		}
   	}
@@ -89,22 +89,22 @@ GUI _MjbkkEz7Eee_89yPXsYmRg {
   				}
   			}
   			
-  			DispatchedGUISIB _GK680E0bEee_89yPXsYmRg at 16,90 size 150,201  {
+  			DispatchedGUISIB _27oOMFD2Eee1RdmfVpvmFg at 17,90 size 150,201  {
   				libraryComponentUID "_t_C_wEz7Eee_89yPXsYmRg"
   				label "EditUserProfileGeneric"
-  				ComplexInputPort _GPRRUE0bEee_89yPXsYmRg at 5,67 size 90,18 index 2 {
+  				ComplexInputPort _3Ae5AFD2Eee1RdmfVpvmFg at 5,67 size 90,18  {
   					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   					isList false
   					name "user"
   				}
   				
-  				Branch _GPTGgE0bEee_89yPXsYmRg at 5,90 size 100,25 index 0 {
+  				Branch _3AhVQFD2Eee1RdmfVpvmFg at 5,90 size 100,25  {
   					name "Revert changes"
   				}
   				
-  				Branch _GPWw4E0bEee_89yPXsYmRg at 5,133 size 100,50 index 1 {
+  				Branch _3AkYkFD2Eee1RdmfVpvmFg at 5,133 size 100,50  {
   					name "Save changes"
-  					ComplexOutputPort _GPZNIE0bEee_89yPXsYmRg at 5,27 size 90,18  {
+  					ComplexOutputPort _3AoqAFD2Eee1RdmfVpvmFg at 5,27 size 90,18  {
   						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   						name "user"
   						isList false

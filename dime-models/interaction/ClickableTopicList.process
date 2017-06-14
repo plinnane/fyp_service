@@ -1,0 +1,132 @@
+Process _gXwqoFAwEeeWJL1zKR4q1g {
+  modelName "ClickableTopicList"
+  processType Interaction
+  description "ClickableTopicList"
+  isStateful false
+  dataFlowView true
+  DataContext _Xhyk8FAvEeeWJL1zKR4q1g at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  	ComplexVariable _gjEycFDjEeeThqn3uFRFxA at 20,370 size 140,25  {
+  		expanded false
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topic"
+  		isList false
+  		-ComplexRead-> _eL2cYFDjEeeThqn3uFRFxA via (140,535) decorate "Polyline" at (2,0) {
+  			id _kY_7IFDjEeeThqn3uFRFxA
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _XhzMAFAvEeeWJL1zKR4q1g at 525,50 size 100,90  {
+  	ComplexOutputPort _jIKyMFAvEeeWJL1zKR4q1g at 5,67 size 90,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "topicList"
+  		-ComplexDirectDataFlow-> _htY2QFAvEeeWJL1zKR4q1g via (505,126) (505,313) decorate "Polyline" at (2,0) {
+  			id _Xg1JYFA0EeeWJL1zKR4q1g
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _hs7jQFAvEeeWJL1zKR4q1g  decorate "Polyline" at (2,0) {
+  		id _kX1qUFAvEeeWJL1zKR4q1g
+  		concurrent false
+  	}
+  }
+  
+  GUISIB _hs7jQFAvEeeWJL1zKR4q1g at 515,237 size 120,90  {
+  	name "TopicListComponent"
+  	majorPage true
+  	libraryComponentUID "_e1xpUD-vEeerA7ElzRRObA"
+  	label "TopicListComponent"
+  	ComplexInputPort _htY2QFAvEeeWJL1zKR4q1g at 5,67 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "topics"
+  	}
+  	-BranchConnector-> _htlDgFAvEeeWJL1zKR4q1g   {
+  		id _htmRoFAvEeeWJL1zKR4q1g
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _GfTL8FA9EeeNlcgxOYD8KA   {
+  		id _GfVBIFA9EeeNlcgxOYD8KA
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _htduwFAvEeeWJL1zKR4q1g   {
+  		id _hte84FAvEeeWJL1zKR4q1g
+  		concurrent true
+  	}
+  }
+  
+  Branch _htduwFAvEeeWJL1zKR4q1g at 355,337 size 120,50  {
+  	name "title clicked"
+  	ComplexOutputPort _htgLAFAvEeeWJL1zKR4q1g at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "current"
+  		-ComplexUpdate-> _gjEycFDjEeeThqn3uFRFxA via (341,374) (341,432) decorate "Polyline" at (2,0) {
+  			id _hPB5gFDjEeeThqn3uFRFxA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _YFBBAFDjEeeThqn3uFRFxA  decorate "Polyline" at (2,0) {
+  		id _bT-3YFDjEeeThqn3uFRFxA
+  		concurrent true
+  	}
+  }
+  
+  Branch _htlDgFAvEeeWJL1zKR4q1g at 515,337 size 120,50  {
+  	name "id clicked"
+  	ComplexOutputPort _htnfwFAvEeeWJL1zKR4q1g at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "current"
+  		-ComplexUpdate-> _gjEycFDjEeeThqn3uFRFxA via (494,373) (494,432) decorate "Polyline" at (2,0) {
+  			id _hpox4FDjEeeThqn3uFRFxA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _YFBBAFDjEeeThqn3uFRFxA  decorate "Polyline" at (2,0) {
+  		id _bwvE0FDjEeeThqn3uFRFxA
+  		concurrent true
+  	}
+  }
+  
+  Branch _GfTL8FA9EeeNlcgxOYD8KA at 675,337 size 120,50  {
+  	name "supervisor clicked"
+  	ComplexOutputPort _GfXdYFA9EeeNlcgxOYD8KA at 5,27 size 110,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "supervisor"
+  		-ComplexDirectDataFlow-> _no4-kFDjEeeThqn3uFRFxA via (665,373) (665,536) decorate "Polyline" at (2,0) {
+  			id _onR5cFDjEeeThqn3uFRFxA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _YUTaMFDjEeeThqn3uFRFxA  decorate "Polyline" at (2,0) {
+  		id _cYgPcFDjEeeThqn3uFRFxA
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _YFBBAFDjEeeThqn3uFRFxA at 440,460 size 100,90  {
+  	branchName "go to topic"
+  	ComplexInputPort _eL2cYFDjEeeThqn3uFRFxA at 5,67 size 90,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  	}
+  }
+  
+  EndSIB _YUTaMFDjEeeThqn3uFRFxA at 685,460 size 100,90  {
+  	branchName "go to profile"
+  	ComplexInputPort _no4-kFDjEeeThqn3uFRFxA at 5,67 size 90,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  	}
+  }
+}

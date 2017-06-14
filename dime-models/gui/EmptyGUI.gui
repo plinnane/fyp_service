@@ -1,0 +1,52 @@
+GUI _V7NgQFEBEee1RdmfVpvmFg {
+  title "EmptyGUI"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _V7oXAFEBEee1RdmfVpvmFg at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  }
+  
+  Template _V7qMMFEBEee1RdmfVpvmFg at 260,10 size 150,190  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _V70kQFEBEee1RdmfVpvmFg at 10,30 size 130,130  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _V72ZcFEBEee1RdmfVpvmFg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _V73AgFEBEee1RdmfVpvmFg at 2,10 size 14,7  {
+  		}
+  		
+  		Col _V741sFEBEee1RdmfVpvmFg at 10,30 size 100,80  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _V76D0FEBEee1RdmfVpvmFg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _V77R8FEBEee1RdmfVpvmFg at 10,2 size 7,14  {
+  			}
+  		}
+  	}
+  }
+}

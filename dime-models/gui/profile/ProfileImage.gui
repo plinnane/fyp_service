@@ -1,0 +1,167 @@
+GUI _trPoAFAyEeeWJL1zKR4q1g {
+  title "ProfileImage"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _trXj0FAyEeeWJL1zKR4q1g at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _Eu2tkFAzEeeWJL1zKR4q1g at 20,40 size 160,186  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput true
+  		ComplexAttribute _FR2s8FAzEeeWJL1zKR4q1g at 20,23 size 120,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _FR3UAFAzEeeWJL1zKR4q1g at 20,50 size 120,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _FR37EFAzEeeWJL1zKR4q1g at 20,77 size 120,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			isLive false
+  			-IF-> _MTez0D-kEee9IO1uJfVZdA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  				id _RG4aMFAzEeeWJL1zKR4q1g
+  				negate true
+  			}
+  			
+  			-IF-> _Ysc7oD-kEee9IO1uJfVZdA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  				id _Rpoh8FAzEeeWJL1zKR4q1g
+  				negate false
+  			}
+  		}
+  		
+  		PrimitiveAttribute _FR4iIFAzEeeWJL1zKR4q1g at 20,104 size 120,25  {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _FR5JMFAzEeeWJL1zKR4q1g at 20,131 size 120,25  {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _FR5wQFAzEeeWJL1zKR4q1g at 20,158 size 120,25  {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			isLive false
+  		}
+  		-ComplexRead-> _wX8CUFAzEeeWJL1zKR4q1g  decorate "Polyline" at (2,0) {
+  			id _w1PpYFAzEeeWJL1zKR4q1g
+  		}
+  	}
+  }
+  
+  Template _trZZAFAyEeeWJL1zKR4q1g at 260,10 size 240,510  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _trdDYFAyEeeWJL1zKR4q1g at 10,30 size 220,450  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _tre4kFAyEeeWJL1zKR4q1g at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _trffoFAyEeeWJL1zKR4q1g at 2,10 size 14,7  {
+  		}
+  		
+  		Col _JuPP4D-kEee9IO1uJfVZdA at 10,30 size 190,400  {
+  			wideness Sixth
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom Single
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _JuRsID-kEee9IO1uJfVZdA at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _JuUIYD-kEee9IO1uJfVZdA at 10,2 size 7,14  {
+  			}
+  			
+  			Image _MTez0D-kEee9IO1uJfVZdA at 10,30 size 100,90  {
+  				path "asset/default_user_icon.png"
+  				dimensionX -1
+  				dimensionY -1
+  				styling ImageStyling {
+  						border Default
+  						responsive true
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _MTieMD-kEee9IO1uJfVZdA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _MTjFQD-kEee9IO1uJfVZdA at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Image _Ysc7oD-kEee9IO1uJfVZdA at 10,130 size 170,240  {
+  				path "{{baseUser.image}}"
+  				dimensionX -1
+  				dimensionY -1
+  				styling ImageStyling {
+  						border Default
+  						responsive true
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _YsfX4D-kEee9IO1uJfVZdA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _Ysf-8D-kEee9IO1uJfVZdA at 2,10 size 14,7  {
+  				}
+  				
+  				GuardSIB _wX4X8FAzEeeWJL1zKR4q1g at 10,120 size 150,90  {
+  					name "ImageGuardProcess"
+  					libraryComponentUID "_OczZ0EqyEeeq5uKWWhCwgQ"
+  					label "ImageGuardProcess"
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					ComplexInputPort _wX8CUFAzEeeWJL1zKR4q1g at 5,67 size 90,18  {
+  						libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  						isList false
+  						name "baseuser"
+  					}
+  					
+  					MoveUp _wX_ssFAzEeeWJL1zKR4q1g at 2,2 size 14,7  {
+  					}
+  					
+  					MoveDown _wYATwFAzEeeWJL1zKR4q1g at 2,10 size 14,7  {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

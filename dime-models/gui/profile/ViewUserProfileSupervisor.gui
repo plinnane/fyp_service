@@ -27,7 +27,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			associationName "topic"
   		}
   		
-  		-ComplexRead-> _PQNvYE0FEee_89yPXsYmRg  decorate "Polyline" at (2,0) {
+  		-ComplexRead-> _x9aAsFD2Eee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
   			id _sUFEMEq1Eeeq5uKWWhCwgQ
   		}
   	}
@@ -79,12 +79,12 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		name "topic"
   		isList true
   		isInput false
-  		-IF-> _dBhOsD-1EeeMOLoUoe1Q1Q  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  		-IF-> _1IIUcFDvEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _YD2pEEqxEeeq5uKWWhCwgQ
   			negate false
   		}
   		
-  		-ComplexRead-> _dBojcD-1EeeMOLoUoe1Q1Q  decorate "Polyline" at (2,0) {
+  		-ComplexRead-> _1IT6oFDvEee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
   			id _t5BBsEq1Eeeq5uKWWhCwgQ
   		}
   		
@@ -93,20 +93,9 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			negate true
   		}
   	}
-  	
-  	PrimitiveVariable _Mc3eAE0FEee_89yPXsYmRg at 70,390 size 160,25  {
-  		dataType Boolean
-  		dfViewWorkaround true
-  		name "includeEditButton"
-  		isList false
-  		isInput true
-  		-PrimitiveRead-> _PQSn4E0FEee_89yPXsYmRg  decorate "Polyline" at (2,0) {
-  			id _QQp4sE0FEee_89yPXsYmRg
-  		}
-  	}
   }
   
-  Template _Z8ZrID-lEee9IO1uJfVZdA at 260,10 size 370,551  {
+  Template _Z8ZrID-lEee9IO1uJfVZdA at 260,10 size 370,626  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -114,7 +103,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _Z8dVgD-lEee9IO1uJfVZdA at 10,30 size 350,491  {
+  	Row _Z8dVgD-lEee9IO1uJfVZdA at 10,30 size 350,566  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -127,7 +116,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		MoveDown _Z8gY0D-lEee9IO1uJfVZdA at 2,10 size 14,7  {
   		}
   		
-  		Col _Z8i1ED-lEee9IO1uJfVZdA at 10,30 size 320,441  {
+  		Col _Z8i1ED-lEee9IO1uJfVZdA at 10,30 size 320,516  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -146,29 +135,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			MoveRight _Z8l4YD-lEee9IO1uJfVZdA at 10,2 size 7,14  {
   			}
   			
-  			InteractionSIB _dBhOsD-1EeeMOLoUoe1Q1Q at 10,251 size 150,90 index 4 {
-  				libraryComponentUID "_uJLvsD-0EeerA7ElzRRObA"
-  				label "FilterUnassignedTopics"
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				ComplexInputPort _dBojcD-1EeeMOLoUoe1Q1Q at 5,67 size 90,18  {
-  					libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
-  					isList true
-  					name "topics"
-  				}
-  				
-  				MoveUp _dBv4MD-1EeeMOLoUoe1Q1Q at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _dBxGUD-1EeeMOLoUoe1Q1Q at 2,10 size 14,7  {
-  				}
-  			}
-  			
-  			Text _ZVvuwEqxEeeq5uKWWhCwgQ at 10,351 size 200,60 index 2 {
+  			Text _ZVvuwEqxEeeq5uKWWhCwgQ at 10,190 size 200,60  {
   				content [ StaticContent {
   						rawContent "{{user.baseUser.firstName}} {{user.baseUser.lastName}} has not yet uploaded any topics."
   						maxChars 0
@@ -197,39 +164,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   				}
   			}
   			
-  			GUISIB _PQD-YE0FEee_89yPXsYmRg at 10,30 size 150,151 index 3 {
-  				libraryComponentUID "_JtvgoD-kEee9IO1uJfVZdA"
-  				label "ProfileHeader"
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				ComplexInputPort _PQNvYE0FEee_89yPXsYmRg at 5,67 size 90,18  {
-  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
-  					isList false
-  					name "displayedUser"
-  				}
-  				
-  				PrimitiveInputPort _PQSn4E0FEee_89yPXsYmRg at 5,85 size 90,18  {
-  					dataType Boolean
-  					isList false
-  					name "includeEditButton"
-  				}
-  				
-  				Branch _PQZVkE0FEee_89yPXsYmRg at 5,108 size 100,25  {
-  					name "Edit profile"
-  				}
-  				
-  				MoveUp _PQgDQE0FEee_89yPXsYmRg at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _PQgqUE0FEee_89yPXsYmRg at 2,10 size 14,7  {
-  				}
-  			}
-  			
-  			Headline _BOkdsFAzEeelUOscUoWJkw at 10,191 size 300,50  {
+  			Headline _BOkdsFAzEeelUOscUoWJkw at 10,130 size 300,50  {
   				size Big
   				content [ StaticContent {
   						rawContent "Topics"
@@ -258,12 +193,74 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   				MoveDown _BOzuQFAzEeelUOscUoWJkw at 2,10 size 14,7  {
   				}
   			}
+  			
+  			InteractionSIB _1IIUcFDvEee1RdmfVpvmFg at 10,260 size 150,226 index 5 {
+  				libraryComponentUID "_uJLvsD-0EeerA7ElzRRObA"
+  				label "FilterUnassignedTopics"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _1IT6oFDvEee1RdmfVpvmFg at 5,67 size 90,18  {
+  					libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  					isList true
+  					name "topics"
+  				}
+  				
+  				Branch _1IZaMFDvEee1RdmfVpvmFg at 5,90 size 100,50  {
+  					name "go to topic"
+  					ComplexOutputPort _1Igu8FDvEee1RdmfVpvmFg at 5,27 size 90,18  {
+  						libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  						name "topic"
+  						isList false
+  					}
+  				}
+  				
+  				Branch _1IncoFDvEee1RdmfVpvmFg at 5,158 size 100,50  {
+  					name "go to profile"
+  					ComplexOutputPort _1IuKUFDvEee1RdmfVpvmFg at 5,27 size 90,18  {
+  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						name "user"
+  						isList false
+  					}
+  				}
+  				
+  				MoveUp _1I2GIFDvEee1RdmfVpvmFg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _1I3UQFDvEee1RdmfVpvmFg at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			GUISIB _x9QPsFD2Eee1RdmfVpvmFg at 10,30 size 150,90 index 4 {
+  				libraryComponentUID "_JtvgoD-kEee9IO1uJfVZdA"
+  				label "ProfileHeader"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _x9aAsFD2Eee1RdmfVpvmFg at 5,67 size 90,18  {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList false
+  					name "displayedUser"
+  				}
+  				
+  				MoveUp _x9ijkFD2Eee1RdmfVpvmFg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _x9jxsFD2Eee1RdmfVpvmFg at 2,10 size 14,7  {
+  				}
+  			}
   		}
   	}
   }
   
   ExtensionContext _P5_mAEqxEeeq5uKWWhCwgQ at 650,10 size 200,400  {
-  	GUISIB _KU1agE0FEee_89yPXsYmRg at 10,30 size 150,151  {
+  	GUISIB _EI-ZQFD3Eee1RdmfVpvmFg at 10,30 size 150,90  {
   		libraryComponentUID "_GWZlUEqwEeeq5uKWWhCwgQ"
   		label "ViewUserProfileGeneric"
   		generalStyle GeneralStyling {
@@ -272,26 +269,16 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   				tallness Fitting
   				attributes [  ]
   			}
-  		ComplexInputPort _KU6TAE0FEee_89yPXsYmRg at 5,67 size 90,18  {
+  		ComplexInputPort _EJHjMFD3Eee1RdmfVpvmFg at 5,67 size 90,18  {
   			libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   			isList false
   			name "user"
   		}
   		
-  		PrimitiveInputPort _KU9WUE0FEee_89yPXsYmRg at 5,85 size 90,18  {
-  			dataType Boolean
-  			isList false
-  			name "includeEditButton"
+  		MoveUp _EJO38FD3Eee1RdmfVpvmFg at 2,2 size 14,7  {
   		}
   		
-  		Branch _KVAZoE0FEee_89yPXsYmRg at 5,108 size 100,25  {
-  			name "Edit profile"
-  		}
-  		
-  		MoveUp _KVGgQE0FEee_89yPXsYmRg at 2,2 size 14,7  {
-  		}
-  		
-  		MoveDown _KVHHUE0FEee_89yPXsYmRg at 2,10 size 14,7  {
+  		MoveDown _EJQGEFD3Eee1RdmfVpvmFg at 2,10 size 14,7  {
   		}
   	}
   }

@@ -7,7 +7,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   	dfViewWorkaround true
   }
   
-  Template _7j4dMEU5EeetjZy493Al0g at 260,10 size 220,235  {
+  Template _7j4dMEU5EeetjZy493Al0g at 260,10 size 220,371  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -15,7 +15,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _7kBnIEU5EeetjZy493Al0g at 10,30 size 200,175  {
+  	Row _7kBnIEU5EeetjZy493Al0g at 10,30 size 200,311  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -28,7 +28,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   		MoveDown _7kIU0EU5EeetjZy493Al0g at 2,10 size 14,7  {
   		}
   		
-  		Col _7kNNUEU5EeetjZy493Al0g at 10,30 size 170,125  {
+  		Col _7kNNUEU5EeetjZy493Al0g at 10,30 size 170,261  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -47,7 +47,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   			MoveRight _7kSs4EU5EeetjZy493Al0g at 10,2 size 7,14  {
   			}
   			
-  			InteractionSIB _Aqi1AEU6EeetjZy493Al0g at 10,30 size 150,65  {
+  			InteractionSIB _6Lb2QFDvEee1RdmfVpvmFg at 10,30 size 150,201  {
   				libraryComponentUID "_-g8EMEU5EeetjZy493Al0g"
   				label "TabViewAllTopics"
   				generalStyle GeneralStyling {
@@ -56,10 +56,28 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   						tallness Fitting
   						attributes [  ]
   					}
-  				MoveUp _Aq3lIEU6EeetjZy493Al0g at 2,2 size 14,7  {
+  				Branch _6LlnQFDvEee1RdmfVpvmFg at 5,65 size 100,50  {
+  					name "go to profile"
+  					ComplexOutputPort _6LuxMFDvEee1RdmfVpvmFg at 5,27 size 90,18  {
+  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						name "user"
+  						isList false
+  					}
   				}
   				
-  				MoveDown _Aq4zQEU6EeetjZy493Al0g at 2,10 size 14,7  {
+  				Branch _6LzpsFDvEee1RdmfVpvmFg at 5,133 size 100,50  {
+  					name "go to topic"
+  					ComplexOutputPort _6L5JQFDvEee1RdmfVpvmFg at 5,27 size 90,18  {
+  						libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  						name "topic"
+  						isList false
+  					}
+  				}
+  				
+  				MoveUp _6L_28FDvEee1RdmfVpvmFg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _6MAeAFDvEee1RdmfVpvmFg at 2,10 size 14,7  {
   				}
   			}
   		}

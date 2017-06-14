@@ -1,0 +1,104 @@
+GUI _aw9HMFEBEee1RdmfVpvmFg {
+  title "EditButton"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _axG4MFEBEee1RdmfVpvmFg at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _dZQmMFEBEee1RdmfVpvmFg at 20,40 size 160,78  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "profileUser"
+  		isList false
+  		isInput true
+  		ComplexAttribute _iLOgYFEBEee1RdmfVpvmFg at 20,23 size 120,25  {
+  			libraryComponentUID "_fPY24MwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _iLXqUFEBEee1RdmfVpvmFg at 20,50 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-AddComplexToSubmission-> _b6fiIFEBEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _griPQFEBEee1RdmfVpvmFg
+  		}
+  	}
+  }
+  
+  Template _axItYFEBEee1RdmfVpvmFg at 260,10 size 270,230  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _axNl4FEBEee1RdmfVpvmFg at 10,30 size 250,170  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _axPbEFEBEee1RdmfVpvmFg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _axQpMFEBEee1RdmfVpvmFg at 2,10 size 14,7  {
+  		}
+  		
+  		Col _axTsgFEBEee1RdmfVpvmFg at 10,30 size 220,120  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Right
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _axVhsFEBEee1RdmfVpvmFg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _axWv0FEBEee1RdmfVpvmFg at 10,2 size 7,14  {
+  			}
+  			
+  			Button _b6fiIFEBEee1RdmfVpvmFg at 10,30 size 200,60  {
+  				label "Edit profile"
+  				displayLabel ""
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _b6hXUFEBEee1RdmfVpvmFg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _b6h-YFEBEee1RdmfVpvmFg at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

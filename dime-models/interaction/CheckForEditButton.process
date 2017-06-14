@@ -1,0 +1,142 @@
+Process _JfJBIFEBEee1RdmfVpvmFg {
+  modelName "CheckForEditButton"
+  processType Interaction
+  description "CheckForEditButton"
+  isStateful false
+  dataFlowView true
+  DataContext _JfUAQFEBEee1RdmfVpvmFg at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  	ComplexVariable _ttFaAFEBEee1RdmfVpvmFg at 15,150 size 156,25  {
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "concreteuser"
+  		isList false
+  		-ComplexRead-> _SU9LQFEBEee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  			id _vKoWEFEBEee1RdmfVpvmFg
+  			dfViewWorkaround true
+  		}
+  		
+  		-ComplexRead-> _kfm90FEBEee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  			id _vhdhsFEBEee1RdmfVpvmFg
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _JfXDkFEBEee1RdmfVpvmFg at 350,50 size 100,108  {
+  	ComplexOutputPort _nMOVEFEBEee1RdmfVpvmFg at 5,67 size 90,18 index 1 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "userToBeEdited"
+  		-ComplexUpdate-> _ttFaAFEBEee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  			id _u8iPsFEBEee1RdmfVpvmFg
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexOutputPort _nk4FoFEBEee1RdmfVpvmFg at 5,85 size 90,18 index 0 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "loggedInUser"
+  		-ComplexDirectDataFlow-> _SVEgAFEBEee1RdmfVpvmFg via (330,144) (330,294) decorate "Polyline" at (2,0) {
+  			id _qIOzMFEBEee1RdmfVpvmFg
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _SUsskFEBEee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  		id _FC30sFECEee1RdmfVpvmFg
+  		concurrent false
+  	}
+  }
+  
+  GUISIB _kfXtQFEBEee1RdmfVpvmFg at 340,420 size 120,90 index 6 {
+  	name "EditButton"
+  	majorPage true
+  	libraryComponentUID "_aw9HMFEBEee1RdmfVpvmFg"
+  	label "EditButton"
+  	ComplexInputPort _kfm90FEBEee1RdmfVpvmFg at 5,67 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "profileUser"
+  	}
+  	-BranchConnector-> _kfu5oFEBEee1RdmfVpvmFg   {
+  		id _kfwu0FEBEee1RdmfVpvmFg
+  		concurrent true
+  	}
+  }
+  
+  Branch _kfu5oFEBEee1RdmfVpvmFg at 340,540 size 120,50 index 7 {
+  	name "Edit profile"
+  	ComplexOutputPort _kfykAFEBEee1RdmfVpvmFg at 5,27 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "profileUser"
+  		-ComplexDirectDataFlow-> _CFJfUFECEee1RdmfVpvmFg via (330,576) (330,706) decorate "Polyline" at (2,0) {
+  			id _F883UFECEee1RdmfVpvmFg
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _A7K_gFECEee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  		id _DHbbsFECEee1RdmfVpvmFg
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _SUsskFEBEee1RdmfVpvmFg at 340,200 size 120,108 index 2 {
+  	libraryComponentUID "_Ym-ugFD3Eee1RdmfVpvmFg"
+  	label "MayEditProfileCheck"
+  	ComplexInputPort _SU9LQFEBEee1RdmfVpvmFg at 5,67 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "userToBeEdited"
+  	}
+  	
+  	ComplexInputPort _SVEgAFEBEee1RdmfVpvmFg at 5,85 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "loggedInUser"
+  	}
+  	-BranchConnector-> _SVORAFEBEee1RdmfVpvmFg   {
+  		id _SVQGMFEBEee1RdmfVpvmFg
+  		concurrent false
+  	}
+  	
+  	-BranchConnector-> _SVSicFEBEee1RdmfVpvmFg   {
+  		id _SVTwkFEBEee1RdmfVpvmFg
+  		concurrent false
+  	}
+  }
+  
+  Branch _SVSicFEBEee1RdmfVpvmFg at 480,241 size 120,25 index 4 {
+  	name "denied"
+  	-ControlFlow-> _Xi5PwFEBEee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  		id _X0IJsFEBEee1RdmfVpvmFg
+  		concurrent false
+  	}
+  }
+  
+  GUISIB _Xi5PwFEBEee1RdmfVpvmFg at 650,221 size 120,65 index 5 {
+  	name "EmptyGUI"
+  	majorPage true
+  	libraryComponentUID "_V7NgQFEBEee1RdmfVpvmFg"
+  	label "EmptyGUI"
+  }
+  
+  Branch _SVORAFEBEee1RdmfVpvmFg at 340,340 size 120,25 index 3 {
+  	name "granted"
+  	-ControlFlow-> _kfXtQFEBEee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  		id _kx0vMFEBEee1RdmfVpvmFg
+  		concurrent false
+  	}
+  }
+  
+  EndSIB _A7K_gFECEee1RdmfVpvmFg at 350,630 size 100,90  {
+  	branchName "edit profile"
+  	ComplexInputPort _CFJfUFECEee1RdmfVpvmFg at 5,67 size 90,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  	}
+  }
+}

@@ -1,0 +1,137 @@
+Process _BDcWQFD4Eee1RdmfVpvmFg {
+  modelName "CheckIfAdmin"
+  processType Interactable
+  description "CheckIfAdmin"
+  isStateful false
+  dataFlowView true
+  DataContext _BDh10FD4Eee1RdmfVpvmFg at 50,50 size 180,451  {
+  	dfViewWorkaround true
+  	ComplexVariable _fbZvAFD_Eee1RdmfVpvmFg at 20,110 size 140,25  {
+  		expanded false
+  		libraryComponentUID "_fhd4sDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "admins"
+  		isList true
+  		-ComplexRead-> _2mXZwFD_Eee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  			id _3_FgMFD_Eee1RdmfVpvmFg
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexVariable _g9yHwFD_Eee1RdmfVpvmFg at 20,60 size 140,25  {
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "concreteuser"
+  		isList false
+  		-ComplexRead-> _xQrugFD_Eee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  			id _4RFPIFD_Eee1RdmfVpvmFg
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _BDjrAFD4Eee1RdmfVpvmFg at 350,50 size 100,90  {
+  	ComplexOutputPort _Ew5fcFD4Eee1RdmfVpvmFg at 5,67 size 90,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  		-ComplexUpdate-> _g9yHwFD_Eee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  			id _hg8fMFD_Eee1RdmfVpvmFg
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _G91REFD4Eee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  		id _IROLkFD4Eee1RdmfVpvmFg
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _BDk5IFD4Eee1RdmfVpvmFg at 350,436 size 100,65  {
+  	branchName "is admin"
+  }
+  
+  RetrieveOfTypeSIB _G91REFD4Eee1RdmfVpvmFg at 490,62 size 120,65 index 4 {
+  	libraryComponentUID "_fhd4sDlvEeelR78gw15slQ"
+  	label "Retrieve from Admin"
+  	-BranchConnector-> _G97XsFD4Eee1RdmfVpvmFg   {
+  		id _G99z8FD4Eee1RdmfVpvmFg
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _G-FIsFD4Eee1RdmfVpvmFg   {
+  		id _G-Hk8FD4Eee1RdmfVpvmFg
+  		concurrent true
+  	}
+  }
+  
+  Branch _G-FIsFD4Eee1RdmfVpvmFg at 650,82 size 120,25 index 6 {
+  	name "none found"
+  	-ControlFlow-> _DPnS4FD4Eee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  		id _JhVIkFD4Eee1RdmfVpvmFg
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _DPnS4FD4Eee1RdmfVpvmFg at 660,436 size 100,65 index 3 {
+  	branchName "not admin"
+  }
+  
+  Branch _G97XsFD4Eee1RdmfVpvmFg at 490,150 size 120,50 index 5 {
+  	name "success"
+  	ComplexOutputPort _G9-bAFD4Eee1RdmfVpvmFg at 5,27 size 110,18  {
+  		libraryComponentUID "_fhd4sDlvEeelR78gw15slQ"
+  		isList true
+  		name "retrieved"
+  		-ComplexUpdate-> _fbZvAFD_Eee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  			id _iMeIcFD_Eee1RdmfVpvmFg
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _xQYMgFD_Eee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  		id _yAR_cFD_Eee1RdmfVpvmFg
+  		concurrent true
+  	}
+  }
+  
+  ContainsSIB _xQYMgFD_Eee1RdmfVpvmFg at 451,260 size 120,108  {
+  	libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  	label "ConcreteUser List Contains"
+  	ComplexInputPort _xQrugFD_Eee1RdmfVpvmFg at 5,67 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "element"
+  	}
+  	
+  	ComplexInputPort _2mXZwFD_Eee1RdmfVpvmFg at 5,85 size 110,18  {
+  		libraryComponentUID "_fhd4sDlvEeelR78gw15slQ"
+  		isList true
+  		name "list"
+  	}
+  	-BranchConnector-> _xQzqUFD_Eee1RdmfVpvmFg   {
+  		id _xQ1fgFD_Eee1RdmfVpvmFg
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _xQ2GkFD_Eee1RdmfVpvmFg   {
+  		id _xQ4i0FD_Eee1RdmfVpvmFg
+  		concurrent true
+  	}
+  }
+  
+  Branch _xQzqUFD_Eee1RdmfVpvmFg at 371,378 size 120,25  {
+  	name "yes"
+  	-ControlFlow-> _BDk5IFD4Eee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  		id _xjU9sFD_Eee1RdmfVpvmFg
+  		concurrent true
+  	}
+  }
+  
+  Branch _xQ2GkFD_Eee1RdmfVpvmFg at 531,378 size 120,25  {
+  	name "no"
+  	-ControlFlow-> _DPnS4FD4Eee1RdmfVpvmFg  decorate "Polyline" at (2,0) {
+  		id _xu7JsFD_Eee1RdmfVpvmFg
+  		concurrent true
+  	}
+  }
+}

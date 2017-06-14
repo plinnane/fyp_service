@@ -1,0 +1,193 @@
+GUI _UlT60FAxEeeWJL1zKR4q1g {
+  title "DisplaySupervisorComponent"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _UlaBcFAxEeeWJL1zKR4q1g at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _hGj04FAxEeeWJL1zKR4q1g at 22,57 size 160,78  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "supervisor"
+  		isList false
+  		isInput true
+  		ComplexAttribute _sb9m4FAxEeeWJL1zKR4q1g at 20,23 size 120,25  {
+  			libraryComponentUID "_lfF4QDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _sb_cEFAxEeeWJL1zKR4q1g at 20,50 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _s4DF8FAxEeeWJL1zKR4q1g  decorate "Ellipse" at (0,0) {
+  			id _s4GwUFAxEeeWJL1zKR4q1g
+  			associationName "baseUser"
+  		}
+  		
+  		-AddComplexToSubmission-> _uG9JEFAxEeeWJL1zKR4q1g  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _mxE0sFECEee1RdmfVpvmFg
+  		}
+  	}
+  	
+  	ComplexVariable _s4DF8FAxEeeWJL1zKR4q1g at 20,170 size 160,186  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _s4KasFAxEeeWJL1zKR4q1g at 20,23 size 120,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _s4Lo0FAxEeeWJL1zKR4q1g at 20,50 size 120,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _s4MP4FAxEeeWJL1zKR4q1g at 20,77 size 120,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _s4M28FAxEeeWJL1zKR4q1g at 20,104 size 120,25  {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _s4NeAFAxEeeWJL1zKR4q1g at 20,131 size 120,25  {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _s4OFEFAxEeeWJL1zKR4q1g at 20,158 size 120,25  {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			isLive false
+  		}
+  		-ComplexRead-> _zD88oFAzEeeWJL1zKR4q1g  decorate "Polyline" at (2,0) {
+  			id _2ciCAFAzEeeWJL1zKR4q1g
+  		}
+  	}
+  }
+  
+  Template _UlbPkFAxEeeWJL1zKR4q1g at 260,10 size 450,260  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _Ule58FAxEeeWJL1zKR4q1g at 10,30 size 430,200  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _UlgvIFAxEeeWJL1zKR4q1g at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _Ulh9QFAxEeeWJL1zKR4q1g at 2,10 size 14,7  {
+  		}
+  		
+  		Col _UlkZgFAxEeeWJL1zKR4q1g at 10,30 size 170,150 index 3 {
+  			wideness Quarter
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _UlmOsFAxEeeWJL1zKR4q1g at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _Ulm1wFAxEeeWJL1zKR4q1g at 10,2 size 7,14  {
+  			}
+  			
+  			GUISIB _zD4rMFAzEeeWJL1zKR4q1g at 10,30 size 150,90  {
+  				libraryComponentUID "_trPoAFAyEeeWJL1zKR4q1g"
+  				label "ProfileImage"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _zD88oFAzEeeWJL1zKR4q1g at 5,67 size 90,18 index 2 {
+  					libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  					isList false
+  					name "baseUser"
+  				}
+  				
+  				MoveUp _zEBOEFAzEeeWJL1zKR4q1g at 2,2 size 14,7 index 0 {
+  				}
+  				
+  				MoveDown _zEB1IFAzEeeWJL1zKR4q1g at 2,10 size 14,7 index 1 {
+  				}
+  			}
+  		}
+  		
+  		Col _0Bfi8FAzEeeWJL1zKR4q1g at 190,30 size 220,120 index 2 {
+  			wideness ThreeQuarter
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _0Bh_MFAzEeeWJL1zKR4q1g at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _0BjNUFAzEeeWJL1zKR4q1g at 10,2 size 7,14  {
+  			}
+  			
+  			Button _uG9JEFAxEeeWJL1zKR4q1g at 10,30 size 200,60  {
+  				label "supervisor clicked"
+  				displayLabel "{{supervisor.baseUser.firstName}} {{supervisor.baseUser.lastName}}"
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _uG--QFAxEeeWJL1zKR4q1g at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _uG_lUFAxEeeWJL1zKR4q1g at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

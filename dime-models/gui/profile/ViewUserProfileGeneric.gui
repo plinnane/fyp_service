@@ -61,21 +61,9 @@ GUI _GWZlUEqwEeeq5uKWWhCwgQ {
   			isLive false
   		}
   	}
-  	
-  	PrimitiveVariable __rdBAE0EEee_89yPXsYmRg at 30,340 size 140,25  {
-  		dataType Boolean
-  		dfViewWorkaround true
-  		name "includeEditButton"
-  		isList false
-  		isInput true
-  		-IF-> _BSgeYE0FEee_89yPXsYmRg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
-  			id _Dg8r4E0FEee_89yPXsYmRg
-  			negate false
-  		}
-  	}
   }
   
-  Template _GWg6EEqwEeeq5uKWWhCwgQ at 260,10 size 370,290  {
+  Template _GWg6EEqwEeeq5uKWWhCwgQ at 260,10 size 370,220  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -83,7 +71,7 @@ GUI _GWZlUEqwEeeq5uKWWhCwgQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _GWj9YEqwEeeq5uKWWhCwgQ at 10,30 size 350,230  {
+  	Row _GWj9YEqwEeeq5uKWWhCwgQ at 10,30 size 350,160  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -96,7 +84,7 @@ GUI _GWZlUEqwEeeq5uKWWhCwgQ {
   		MoveDown _GWmZoEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
   		}
   		
-  		Col _GWoO0EqwEeeq5uKWWhCwgQ at 10,30 size 320,180  {
+  		Col _GWoO0EqwEeeq5uKWWhCwgQ at 10,30 size 320,110  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -142,37 +130,6 @@ GUI _GWZlUEqwEeeq5uKWWhCwgQ {
   				}
   				
   				MoveDown _9ghUUEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
-  				}
-  			}
-  			
-  			Button _BSgeYE0FEee_89yPXsYmRg at 10,90 size 200,60  {
-  				label "Edit profile"
-  				displayLabel ""
-  				styling ButtonStyling {
-  						fullWidth false
-  						size Default
-  						disabled false
-  						color Default
-  					}
-  				options ButtonOptions {
-  						isLink false
-  						submitsForm true
-  					}
-  				disabled false
-  				icon Icon {
-  						preIcon None
-  						postIcon None
-  					}
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				MoveUp _BSjhsE0FEee_89yPXsYmRg at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _BSkv0E0FEee_89yPXsYmRg at 2,10 size 14,7  {
   				}
   			}
   		}

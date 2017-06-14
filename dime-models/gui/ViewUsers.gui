@@ -60,6 +60,18 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			id _LoAWMEU8EeetjZy493Al0g
   			associationName "baseUser"
   		}
+  		
+  		-AddComplexToSubmission-> _XAGgAFDmEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _jK63EFDmEee1RdmfVpvmFg
+  		}
+  		
+  		-AddComplexToSubmission-> _Xp5q8FDmEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _jrlUIFDmEee1RdmfVpvmFg
+  		}
+  		
+  		-AddComplexToSubmission-> _fBjN8FDmEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _ka7tcFDmEee1RdmfVpvmFg
+  		}
   	}
   	
   	ComplexVariable _Ln62oEU8EeetjZy493Al0g at 20,290 size 160,186 index 1 {
@@ -108,7 +120,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   	}
   }
   
-  Template _DZeOgEU8EeetjZy493Al0g at 260,10 size 420,340  {
+  Template _DZeOgEU8EeetjZy493Al0g at 260,10 size 780,400  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -116,7 +128,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _DZh44EU8EeetjZy493Al0g at 10,30 size 400,280  {
+  	Row _DZh44EU8EeetjZy493Al0g at 10,30 size 760,340  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -129,7 +141,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   		MoveDown _DZk8MEU8EeetjZy493Al0g at 2,10 size 14,7  {
   		}
   		
-  		Col _DZnYcEU8EeetjZy493Al0g at 10,30 size 370,230  {
+  		Col _DZnYcEU8EeetjZy493Al0g at 10,30 size 730,290  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -148,7 +160,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			MoveRight _DZrp4EU8EeetjZy493Al0g at 10,2 size 7,14  {
   			}
   			
-  			Table _HONEYEU8EeetjZy493Al0g at 10,90 size 350,110 index 3 {
+  			Table _HONEYEU8EeetjZy493Al0g at 10,90 size 710,170 index 3 {
   				striped true
   				bordered true
   				hover false
@@ -169,7 +181,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   				MoveDown _HOSj8EU8EeetjZy493Al0g at 2,10 size 14,7  {
   				}
   				
-  				TableEntry _JZvu4EU8EeetjZy493Al0g at 10,30 size 100,60  {
+  				TableEntry _JZvu4EU8EeetjZy493Al0g at 10,30 size 220,120  {
   					label "First name"
   					sortable true
   					defaultSorting NONE
@@ -185,9 +197,40 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   					
   					MoveRight _JZ9xUEU8EeetjZy493Al0g at 10,2 size 7,14  {
   					}
+  					
+  					Button _XAGgAFDmEee1RdmfVpvmFg at 10,30 size 200,60  {
+  						label "first name clicked"
+  						displayLabel "{{current.baseUser.firstName}}"
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions {
+  								isLink true
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon None
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _XAMmoFDmEee1RdmfVpvmFg at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _XAOb0FDmEee1RdmfVpvmFg at 2,10 size 14,7  {
+  						}
+  					}
   				}
   				
-  				TableEntry _KUlmgEU8EeetjZy493Al0g at 120,30 size 100,60  {
+  				TableEntry _KUlmgEU8EeetjZy493Al0g at 240,30 size 220,120  {
   					label "Last name"
   					sortable true
   					defaultSorting ASC
@@ -203,9 +246,40 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   					
   					MoveRight _KUp38EU8EeetjZy493Al0g at 10,2 size 7,14  {
   					}
+  					
+  					Button _Xp5q8FDmEee1RdmfVpvmFg at 10,30 size 200,60  {
+  						label "last name clicked"
+  						displayLabel "{{current.baseUser.lastName}}"
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions {
+  								isLink true
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon None
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _Xp-jcFDmEee1RdmfVpvmFg at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _XqAYoFDmEee1RdmfVpvmFg at 2,10 size 14,7  {
+  						}
+  					}
   				}
   				
-  				TableEntry _OdptoEU8EeetjZy493Al0g at 230,30 size 100,60  {
+  				TableEntry _OdptoEU8EeetjZy493Al0g at 470,30 size 220,120  {
   					label "Mail adress"
   					sortable true
   					defaultSorting NONE
@@ -220,6 +294,37 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   					}
   					
   					MoveRight _OdsJ4EU8EeetjZy493Al0g at 10,2 size 7,14  {
+  					}
+  					
+  					Button _fBjN8FDmEee1RdmfVpvmFg at 10,30 size 200,60  {
+  						label "Label"
+  						displayLabel "{{current.email}}"
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions {
+  								isLink true
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon None
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _fBlDIFDmEee1RdmfVpvmFg at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _fBm4UFDmEee1RdmfVpvmFg at 2,10 size 14,7  {
+  						}
   					}
   				}
   			}
