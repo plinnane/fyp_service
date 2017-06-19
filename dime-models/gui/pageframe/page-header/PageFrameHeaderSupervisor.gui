@@ -126,6 +126,7 @@ GUI _-XuFoFTCEee9p783Cu4DWg {
   								marginTop None
   								marginBottom None
   								tallness Fitting
+  								rawContent "color: #fff;"
   								attributes [  ]
   							}
   						MoveLeft _UeMYEFTEEee9p783Cu4DWg at 2,2 size 7,14  {
@@ -172,6 +173,7 @@ GUI _-XuFoFTCEee9p783Cu4DWg {
   									marginTop None
   									marginBottom None
   									tallness Fitting
+  									rawContent "color: #fff;"
   									attributes [  ]
   								}
   							MoveLeft _VJjCMFTEEee9p783Cu4DWg at 2,2 size 7,14  {
@@ -203,6 +205,7 @@ GUI _-XuFoFTCEee9p783Cu4DWg {
   									marginTop None
   									marginBottom None
   									tallness Fitting
+  									rawContent "color: #fff;"
   									attributes [  ]
   								}
   							MoveLeft _dUiRMFTFEee9p783Cu4DWg at 2,2 size 7,14  {
