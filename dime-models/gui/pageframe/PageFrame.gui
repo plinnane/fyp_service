@@ -3,7 +3,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  Template _I0-5IEU1EeeKqOBaOG4MmQ at 260,20 size 260,875  {
+  Template _I0-5IEU1EeeKqOBaOG4MmQ at 260,20 size 260,943  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -11,7 +11,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _o3YLgEeOEeeJjvdf9GAasg at 10,30 size 240,815  {
+  	Row _o3YLgEeOEeeJjvdf9GAasg at 10,30 size 240,883  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -24,7 +24,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   		MoveDown _o3b14EeOEeeJjvdf9GAasg at 2,10 size 14,7  {
   		}
   		
-  		Col _o3wmAEeOEeeJjvdf9GAasg at 10,30 size 210,765  {
+  		Col _o3wmAEeOEeeJjvdf9GAasg at 10,30 size 210,833  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -43,7 +43,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   			MoveRight _o32soEeOEeeJjvdf9GAasg at 10,2 size 7,14  {
   			}
   			
-  			Panel _nHapwEeOEeeJjvdf9GAasg at 10,320 size 190,340  {
+  			Panel _nHapwEeOEeeJjvdf9GAasg at 10,388 size 190,340  {
   				collapsable false
   				defaultOpen "true"
   				heading [  ]
@@ -128,7 +128,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   				}
   			}
   			
-  			GUISIB _3qEYwEp4EeeR8skQQzAlbg at 10,670 size 150,65  {
+  			GUISIB _3qEYwEp4EeeR8skQQzAlbg at 10,738 size 150,65  {
   				libraryComponentUID "_wYYT0Ep4EeeR8skQQzAlbg"
   				label "PageFrameFooter"
   				generalStyle GeneralStyling {
@@ -144,39 +144,37 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   				}
   			}
   			
-  			GUISIB _57GCUFAtEeeWJL1zKR4q1g at 10,30 size 150,280  {
+  			DispatchedGUISIB _vyioIFTGEee9p783Cu4DWg at 11,30 size 150,348  {
   				libraryComponentUID "_m8u4wEp4EeeR8skQQzAlbg"
   				label "PageFrameHeader"
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				Branch _58iz0FAtEeeWJL1zKR4q1g at 5,65 size 100,25  {
-  					name "Upload topic"
+  				ComplexInputPort _v4WVMFTGEee9p783Cu4DWg at 5,67 size 90,18  {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList false
+  					name "user"
   				}
   				
-  				Branch _588ccFAtEeeWJL1zKR4q1g at 5,108 size 100,25  {
+  				Branch _v4YxcFTGEee9p783Cu4DWg at 5,90 size 100,25  {
+  					name "View supervisors"
+  				}
+  				
+  				Branch _v4cb0FTGEee9p783Cu4DWg at 5,133 size 100,25  {
+  					name "Create new user"
+  				}
+  				
+  				Branch _v4gGMFTGEee9p783Cu4DWg at 5,176 size 100,25  {
   					name "View users"
   				}
   				
-  				Branch _59AG0FAtEeeWJL1zKR4q1g at 5,151 size 100,25  {
+  				Branch _v4jJgFTGEee9p783Cu4DWg at 5,219 size 100,25  {
   					name "View topics"
   				}
   				
-  				Branch _59DKIFAtEeeWJL1zKR4q1g at 5,194 size 100,25  {
+  				Branch _v4mz4FTGEee9p783Cu4DWg at 5,262 size 100,25  {
   					name "My profile"
   				}
   				
-  				Branch _59G0gFAtEeeWJL1zKR4q1g at 5,237 size 100,25  {
-  					name "Create user"
-  				}
-  				
-  				MoveUp _59NiMFAtEeeWJL1zKR4q1g at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _59OJQFAtEeeWJL1zKR4q1g at 2,10 size 14,7  {
+  				Branch _v4qeQFTGEee9p783Cu4DWg at 5,305 size 100,25  {
+  					name "Upload new topic"
   				}
   			}
   		}
@@ -185,5 +183,17 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   
   DataContext _9Tdr0EU2EeeKqOBaOG4MmQ at 20,20 size 221,1000  {
   	dfViewWorkaround true
+  	ComplexVariable _xPGFsFTGEee9p783Cu4DWg at 20,40 size 181,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput false
+  		-ComplexRead-> _v4WVMFTGEee9p783Cu4DWg via (195,186) decorate "Polyline" at (2,0) {
+  			id _x3SHEFTGEee9p783Cu4DWg
+  		}
+  	}
   }
 }

@@ -41,7 +41,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   		}
   	}
   	
-  	ComplexVariable _K-pQIEU8EeetjZy493Al0g at 20,190 size 160,51 index 2 {
+  	ComplexVariable _K-pQIEU8EeetjZy493Al0g at 20,190 size 160,51  {
   		isLive false
   		expanded true
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -61,12 +61,12 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			associationName "baseUser"
   		}
   		
-  		-AddComplexToSubmission-> _XAGgAFDmEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
-  			id _jK63EFDmEee1RdmfVpvmFg
-  		}
-  		
   		-AddComplexToSubmission-> _Xp5q8FDmEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _jrlUIFDmEee1RdmfVpvmFg
+  		}
+  		
+  		-AddComplexToSubmission-> _XAGgAFDmEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _jK63EFDmEee1RdmfVpvmFg
   		}
   		
   		-AddComplexToSubmission-> _fBjN8FDmEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
@@ -74,7 +74,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   		}
   	}
   	
-  	ComplexVariable _Ln62oEU8EeetjZy493Al0g at 20,290 size 160,186 index 1 {
+  	ComplexVariable _Ln62oEU8EeetjZy493Al0g at 20,290 size 160,186  {
   		isLive false
   		expanded true
   		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
@@ -97,7 +97,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			isLive false
   		}
   		
-  		PrimitiveAttribute _LoJgIEU8EeetjZy493Al0g at 20,104 size 120,25 index 5 {
+  		PrimitiveAttribute _LoJgIEU8EeetjZy493Al0g at 20,104 size 120,25  {
   			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
   			isLive false
   			-TableColumnLoad-> _JZvu4EU8EeetjZy493Al0g  decorate "Polyline" at (2,0) {
@@ -105,7 +105,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			}
   		}
   		
-  		PrimitiveAttribute _LoKuQEU8EeetjZy493Al0g at 20,131 size 120,25 index 3 {
+  		PrimitiveAttribute _LoKuQEU8EeetjZy493Al0g at 20,131 size 120,25  {
   			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
   			isLive false
   			-TableColumnLoad-> _KUlmgEU8EeetjZy493Al0g  decorate "Polyline" at (2,0) {
@@ -113,14 +113,14 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			}
   		}
   		
-  		PrimitiveAttribute _LoLVUEU8EeetjZy493Al0g at 20,158 size 120,25 index 4 {
+  		PrimitiveAttribute _LoLVUEU8EeetjZy493Al0g at 20,158 size 120,25  {
   			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
   			isLive false
   		}
   	}
   }
   
-  Template _DZeOgEU8EeetjZy493Al0g at 260,10 size 780,400  {
+  Template _DZeOgEU8EeetjZy493Al0g at 260,10 size 780,340  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -128,7 +128,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _DZh44EU8EeetjZy493Al0g at 10,30 size 760,340  {
+  	Row _DZh44EU8EeetjZy493Al0g at 10,30 size 760,280  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -141,7 +141,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   		MoveDown _DZk8MEU8EeetjZy493Al0g at 2,10 size 14,7  {
   		}
   		
-  		Col _DZnYcEU8EeetjZy493Al0g at 10,30 size 730,290  {
+  		Col _DZnYcEU8EeetjZy493Al0g at 10,30 size 730,230  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -160,7 +160,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			MoveRight _DZrp4EU8EeetjZy493Al0g at 10,2 size 7,14  {
   			}
   			
-  			Table _HONEYEU8EeetjZy493Al0g at 10,90 size 710,170 index 3 {
+  			Table _HONEYEU8EeetjZy493Al0g at 10,30 size 710,170  {
   				striped true
   				bordered true
   				hover false
@@ -181,7 +181,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   				MoveDown _HOSj8EU8EeetjZy493Al0g at 2,10 size 14,7  {
   				}
   				
-  				TableEntry _JZvu4EU8EeetjZy493Al0g at 10,30 size 220,120  {
+  				TableEntry _JZvu4EU8EeetjZy493Al0g at 10,30 size 220,120 index 4 {
   					label "First name"
   					sortable true
   					defaultSorting NONE
@@ -279,7 +279,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   					}
   				}
   				
-  				TableEntry _OdptoEU8EeetjZy493Al0g at 470,30 size 220,120  {
+  				TableEntry _OdptoEU8EeetjZy493Al0g at 470,30 size 220,120 index 2 {
   					label "Mail adress"
   					sortable true
   					defaultSorting NONE
@@ -297,7 +297,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   					}
   					
   					Button _fBjN8FDmEee1RdmfVpvmFg at 10,30 size 200,60  {
-  						label "Label"
+  						label "mail adress clicked"
   						displayLabel "{{current.email}}"
   						styling ButtonStyling {
   								fullWidth false
@@ -326,36 +326,6 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   						MoveDown _fBm4UFDmEee1RdmfVpvmFg at 2,10 size 14,7  {
   						}
   					}
-  				}
-  			}
-  			
-  			Headline _oWE8MEp2EeeR8skQQzAlbg at 10,30 size 300,50 index 2 {
-  				size Normal
-  				content [ StaticContent {
-  						rawContent "All registered users"
-  						maxChars 0
-  						html false
-  						styling TextStyling {
-  								alignment Left
-  								bold false
-  								small false
-  								italic false
-  								highlight false
-  								deleted false
-  								underline false
-  								color Default
-  							}
-  					} ]
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				MoveUp _oWGxYEp2EeeR8skQQzAlbg at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _oWH_gEp2EeeR8skQQzAlbg at 2,10 size 14,7  {
   				}
   			}
   		}

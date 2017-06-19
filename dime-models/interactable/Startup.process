@@ -201,15 +201,15 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   }
   
-  Branch _5wIeIERpEeejtrEn8Aq9wA at 450,317 size 120,50  {
+  Branch _5wIeIERpEeejtrEn8Aq9wA at 590,128 size 120,50  {
   	name "success"
   	ComplexOutputPort _5wMIgERpEeejtrEn8Aq9wA at 5,27 size 110,18  {
   		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
   		isList false
   		name "newSupervisor"
   	}
-  	-ControlFlow-> _PssUwNzGEeW2rv4DARGjjw  decorate "Polyline" at (2,0) {
-  		id _7pArUERpEeejtrEn8Aq9wA
+  	-ControlFlow-> _l75WUFTKEee9p783Cu4DWg  decorate "Polyline" at (2,0) {
+  		id _o2EBYFTKEee9p783Cu4DWg
   		concurrent true
   	}
   }
@@ -277,6 +277,47 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   	-ControlFlow-> _sBOvANviEeWsF7MALrkAZQ  decorate "Polyline" at (2,0) {
   		id _E1rHwEUxEeeKqOBaOG4MmQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _l75WUFTKEee9p783Cu4DWg at 590,270 size 120,144  {
+  	libraryComponentUID "_lStE0FTJEee9p783Cu4DWg"
+  	label "CreateAdmin"
+  	TextInputStatic _pmtbMFTKEee9p783Cu4DWg at 5,67 size 110,18  {
+  		value "pwd"
+  		name "password"
+  	}
+  	
+  	TextInputStatic _p68l0FTKEee9p783Cu4DWg at 5,85 size 110,18  {
+  		value "Admin"
+  		name "firstname"
+  	}
+  	
+  	TextInputStatic _qMrPAFTKEee9p783Cu4DWg at 5,103 size 110,18  {
+  		value "Adminton"
+  		name "lastname"
+  	}
+  	
+  	TextInputStatic _qf3QwFTKEee9p783Cu4DWg at 5,121 size 110,18  {
+  		value "admin"
+  		name "username"
+  	}
+  	-BranchConnector-> _l9SdcFTKEee9p783Cu4DWg   {
+  		id _l9USoFTKEee9p783Cu4DWg
+  		concurrent true
+  	}
+  }
+  
+  Branch _l9SdcFTKEee9p783Cu4DWg at 450,317 size 120,50  {
+  	name "success"
+  	ComplexOutputPort _l9VgwFTKEee9p783Cu4DWg at 5,27 size 110,18  {
+  		libraryComponentUID "_fhd4sDlvEeelR78gw15slQ"
+  		isList false
+  		name "admin"
+  	}
+  	-ControlFlow-> _PssUwNzGEeW2rv4DARGjjw  decorate "Polyline" at (2,0) {
+  		id _oXsqYFTKEee9p783Cu4DWg
   		concurrent true
   	}
   }

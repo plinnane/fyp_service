@@ -7,7 +7,7 @@ GUI _nWJjIEU6EeetjZy493Al0g {
   	dfViewWorkaround true
   }
   
-  Template _nWYMoEU6EeetjZy493Al0g at 260,10 size 220,303  {
+  Template _nWYMoEU6EeetjZy493Al0g at 260,10 size 370,380  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -15,7 +15,7 @@ GUI _nWJjIEU6EeetjZy493Al0g {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _nWeTQEU6EeetjZy493Al0g at 10,30 size 200,243  {
+  	Row _nWeTQEU6EeetjZy493Al0g at 10,30 size 350,320  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -28,7 +28,7 @@ GUI _nWJjIEU6EeetjZy493Al0g {
   		MoveDown _nWhWkEU6EeetjZy493Al0g at 2,10 size 14,7  {
   		}
   		
-  		Col _nWlA8EU6EeetjZy493Al0g at 10,30 size 170,193  {
+  		Col _nWlA8EU6EeetjZy493Al0g at 10,30 size 320,270  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -47,7 +47,7 @@ GUI _nWJjIEU6EeetjZy493Al0g {
   			MoveRight _nWoEQEU6EeetjZy493Al0g at 10,2 size 7,14  {
   			}
   			
-  			InteractionSIB _A2IzsFDwEee1RdmfVpvmFg at 10,30 size 150,133  {
+  			InteractionSIB _A2IzsFDwEee1RdmfVpvmFg at 10,90 size 120,150  {
   				libraryComponentUID "_lJrEgEU6EeetjZy493Al0g"
   				label "TabViewAllUsers"
   				generalStyle GeneralStyling {
@@ -69,6 +69,36 @@ GUI _nWJjIEU6EeetjZy493Al0g {
   				}
   				
   				MoveDown _A2mtwFDwEee1RdmfVpvmFg at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Headline _XFg4QFTHEee9p783Cu4DWg at 10,30 size 300,50  {
+  				size Normal
+  				content [ StaticContent {
+  						rawContent "All registered users"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _XFgRMlTHEee9p783Cu4DWg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _XFgRMVTHEee9p783Cu4DWg at 2,10 size 14,7  {
   				}
   			}
   		}

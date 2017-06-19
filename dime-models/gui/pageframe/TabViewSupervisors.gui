@@ -1,0 +1,107 @@
+GUI _EdJO8FTHEee9p783Cu4DWg {
+  title "TabViewSupervisors"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _EdOugFTHEee9p783Cu4DWg at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  }
+  
+  Template _EdQjsFTHEee9p783Cu4DWg at 260,10 size 370,363  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _EdS_8FTHEee9p783Cu4DWg at 10,30 size 350,303  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _EdUOEFTHEee9p783Cu4DWg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _EdU1IFTHEee9p783Cu4DWg at 2,10 size 14,7  {
+  		}
+  		
+  		Col _EdWDQFTHEee9p783Cu4DWg at 10,30 size 320,253  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _EdXRYFTHEee9p783Cu4DWg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _EdX4cFTHEee9p783Cu4DWg at 10,2 size 7,14  {
+  			}
+  			
+  			Headline _aIAY4FTHEee9p783Cu4DWg at 10,30 size 300,50  {
+  				size Normal
+  				content [ StaticContent {
+  						rawContent "List of supervisors"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _aICOEFTHEee9p783Cu4DWg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _aIC1IFTHEee9p783Cu4DWg at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			InteractionSIB _-RodAFTIEee9p783Cu4DWg at 10,90 size 150,133  {
+  				libraryComponentUID "_eL7r4FTIEee9p783Cu4DWg"
+  				label "TabViewAllSupervisors"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				Branch _-SD60FTIEee9p783Cu4DWg at 5,65 size 100,50  {
+  					name "go to profile"
+  					ComplexOutputPort _-SRWMFTIEee9p783Cu4DWg at 5,27 size 90,18  {
+  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						name "user"
+  						isList false
+  					}
+  				}
+  				
+  				MoveUp _-Sh04FTIEee9p783Cu4DWg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _-Sib8FTIEee9p783Cu4DWg at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

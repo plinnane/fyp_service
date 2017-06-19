@@ -1,0 +1,392 @@
+GUI _-XuFoFTCEee9p783Cu4DWg {
+  title "PageFrameHeaderSupervisor"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _-X658FTCEee9p783Cu4DWg at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _wPoUIFTDEee9p783Cu4DWg at 20,50 size 160,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "user"
+  		isList false
+  		isInput true
+  	}
+  }
+  
+  Template _-X9WMFTCEee9p783Cu4DWg at 260,10 size 1150,555  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _-YFSAFTCEee9p783Cu4DWg at 10,30 size 1130,495  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _-YJjcFTCEee9p783Cu4DWg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _-YLYoFTCEee9p783Cu4DWg at 2,10 size 14,7  {
+  		}
+  		
+  		Col _-YSGUFTCEee9p783Cu4DWg at 10,30 size 1100,445  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _-YWXwFTCEee9p783Cu4DWg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _-YY0AFTCEee9p783Cu4DWg at 10,2 size 7,14  {
+  			}
+  			
+  			TopNavBar _GSvmAFTEEee9p783Cu4DWg at 10,30 size 1080,385  {
+  				fixed false
+  				inverted true
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						rawContent "background-color: #0091ba;\ncolor: #fff;"
+  						attributes [  ]
+  					}
+  				MoveUp _GSxbMFTEEee9p783Cu4DWg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _GSyCQFTEEee9p783Cu4DWg at 2,10 size 14,7  {
+  				}
+  				
+  				LeftNavBarPart _GS2TsFTEEee9p783Cu4DWg at 10,30 size 790,160  {
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _GS3h0FTEEee9p783Cu4DWg at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _GS4I4FTEEee9p783Cu4DWg at 10,2 size 7,14  {
+  					}
+  					
+  					Image _UEVtoFTEEee9p783Cu4DWg at 10,30 size 100,90  {
+  						path "asset/lero.png"
+  						dimensionX 387
+  						dimensionY 55
+  						styling ImageStyling {
+  								border Default
+  								responsive true
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveLeft _UEW7wFTEEee9p783Cu4DWg at 2,2 size 7,14  {
+  						}
+  						
+  						MoveRight _UEYJ4FTEEee9p783Cu4DWg at 10,2 size 7,14  {
+  						}
+  					}
+  					
+  					Text _UeKi4FTEEee9p783Cu4DWg at 120,30 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "Lero FYP Service"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveLeft _UeMYEFTEEee9p783Cu4DWg at 2,2 size 7,14  {
+  						}
+  						
+  						MoveRight _UeNmMFTEEee9p783Cu4DWg at 10,2 size 7,14  {
+  						}
+  					}
+  					
+  					ButtonGroup _VJYDEFTEEee9p783Cu4DWg at 330,30 size 440,110  {
+  						alignment horizontal
+  						size Default
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveLeft _VJZRMFTEEee9p783Cu4DWg at 2,2 size 7,14  {
+  						}
+  						
+  						MoveRight _VJafUFTEEee9p783Cu4DWg at 10,2 size 7,14  {
+  						}
+  						
+  						Button _VJhNAFTEEee9p783Cu4DWg at 10,30 size 200,60  {
+  							label "Upload new topic"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveLeft _VJjCMFTEEee9p783Cu4DWg at 2,2 size 7,14  {
+  							}
+  							
+  							MoveRight _VJjpQFTEEee9p783Cu4DWg at 10,2 size 7,14  {
+  							}
+  						}
+  						
+  						Button _dUf08FTFEee9p783Cu4DWg at 220,30 size 200,60  {
+  							label "View topics"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveLeft _dUiRMFTFEee9p783Cu4DWg at 2,2 size 7,14  {
+  							}
+  							
+  							MoveRight _dUi4QFTFEee9p783Cu4DWg at 10,2 size 7,14  {
+  							}
+  						}
+  					}
+  				}
+  				
+  				RightNavBarPart _GTAEsFTEEee9p783Cu4DWg at 810,30 size 250,335  {
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _GTBS0FTEEee9p783Cu4DWg at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _GTCg8FTEEee9p783Cu4DWg at 10,2 size 7,14  {
+  					}
+  					
+  					Dropdown _VnF50FTEEee9p783Cu4DWg at 10,30 size 220,285  {
+  						label "{{user.baseUser.firstName}} {{user.baseUser.lastName}}"
+  						dropUp false
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon User
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								rawContent "color: #fff;"
+  								attributes [  ]
+  							}
+  						MoveLeft _VnIWEFTEEee9p783Cu4DWg at 2,2 size 7,14  {
+  						}
+  						
+  						MoveRight _VnI9IFTEEee9p783Cu4DWg at 10,2 size 7,14  {
+  						}
+  						
+  						Button _VnQR4FTEEee9p783Cu4DWg at 10,55 size 200,60  {
+  							label "My profile"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _VnRgAFTEEee9p783Cu4DWg at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _VnSuIFTEEee9p783Cu4DWg at 2,10 size 14,7  {
+  							}
+  						}
+  						
+  						Button _9NnioFTFEee9p783Cu4DWg at 10,195 size 200,60  {
+  							label "Logout"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									staticURL "logout"
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _9NpX0FTFEee9p783Cu4DWg at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _9Nql8FTFEee9p783Cu4DWg at 2,10 size 14,7  {
+  							}
+  						}
+  						
+  						Button _Y3PxEFTGEee9p783Cu4DWg at 10,125 size 200,60  {
+  							label "My profile"
+  							displayLabel "My topics"
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _Y3RmQFTGEee9p783Cu4DWg at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _Y3SNUFTGEee9p783Cu4DWg at 2,10 size 14,7  {
+  							}
+  						}
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+  
+  ExtensionContext __PcX0FTCEee9p783Cu4DWg at 260,580 size 200,400  {
+  	GUISIB _2UOT0FTDEee9p783Cu4DWg at 10,30 size 150,219  {
+  		libraryComponentUID "_m8u4wEp4EeeR8skQQzAlbg"
+  		label "PageFrameHeader"
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		ComplexInputPort _2UTMUFTDEee9p783Cu4DWg at 5,67 size 90,18  {
+  			libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  			isList false
+  			name "user"
+  		}
+  		
+  		Branch _2UVokFTDEee9p783Cu4DWg at 5,90 size 100,25  {
+  			name "View users"
+  		}
+  		
+  		Branch _2UZS8FTDEee9p783Cu4DWg at 5,133 size 100,25  {
+  			name "View topics"
+  		}
+  		
+  		Branch _2Uc9UFTDEee9p783Cu4DWg at 5,176 size 100,25  {
+  			name "My profile"
+  		}
+  		
+  		MoveUp _2UjD8FTDEee9p783Cu4DWg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _2UjrAFTDEee9p783Cu4DWg at 2,10 size 14,7  {
+  		}
+  	}
+  }
+}

@@ -10,9 +10,9 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   		expanded true
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		dfViewWorkaround true
-  		name "currentUser"
+  		name "user"
   		isList false
-  		isInput false
+  		isInput true
   		PrimitiveAttribute _3Rz74EqbEeeYWJ9zK_WIRg at 20,23 size 120,25  {
   			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
   			isLive false
@@ -63,7 +63,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   	}
   }
   
-  Template _m9V8wEp4EeeR8skQQzAlbg at 260,10 size 1570,485  {
+  Template _m9V8wEp4EeeR8skQQzAlbg at 260,10 size 940,485  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -71,7 +71,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _pyXCEEp4EeeR8skQQzAlbg at 10,30 size 1550,425  {
+  	Row _pyXCEEp4EeeR8skQQzAlbg at 10,30 size 920,425  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -79,7 +79,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   				rawContent "background-color: #0091ba;"
   				attributes [  ]
   			}
-  		Col _pySJkEp4EeeR8skQQzAlbg at 10,30 size 1520,375  {
+  		Col _pySJkEp4EeeR8skQQzAlbg at 10,30 size 890,375  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -98,7 +98,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   			MoveRight _pyWbA0p4EeeR8skQQzAlbg at 10,2 size 7,14  {
   			}
   			
-  			TopNavBar _-_7lgEqYEeeR9rEAwG2f9w at 10,30 size 1500,315  {
+  			TopNavBar _-_7lgEqYEeeR9rEAwG2f9w at 10,30 size 870,315  {
   				fixed true
   				inverted true
   				generalStyle GeneralStyling {
@@ -114,7 +114,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   				MoveDown _-_-BwEqYEeeR9rEAwG2f9w at 2,10 size 14,7  {
   				}
   				
-  				LeftNavBarPart __AEIYEqYEeeR9rEAwG2f9w at 10,30 size 1210,160  {
+  				LeftNavBarPart __AEIYEqYEeeR9rEAwG2f9w at 10,30 size 580,160  {
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -146,7 +146,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   						generalStyle GeneralStyling {
   								marginTop None
   								marginBottom None
-  								tallness Fitting
+  								tallness Full
   								rawContent "color: #fff;"
   								attributes [  ]
   							}
@@ -157,7 +157,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   						}
   					}
   					
-  					ButtonGroup _Q16IkEqZEeeR9rEAwG2f9w at 330,30 size 860,110  {
+  					ButtonGroup _Q16IkEqZEeeR9rEAwG2f9w at 330,30 size 230,110  {
   						alignment horizontal
   						size Default
   						generalStyle GeneralStyling {
@@ -167,109 +167,13 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   								rawContent ""
   								attributes [  ]
   							}
-  						Button _Q146d0qZEeeR9rEAwG2f9w at 430,30 size 200,60  {
-  							label "View users"
-  							displayLabel ""
-  							styling ButtonStyling {
-  									fullWidth false
-  									size Default
-  									disabled false
-  									color Default
-  								}
-  							options ButtonOptions {
-  									isLink false
-  									submitsForm true
-  								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									rawContent "color: #fff;"
-  									attributes [  ]
-  								}
-  							MoveDown _Q146eEqZEeeR9rEAwG2f9w at 2,10 size 14,7  {
-  							}
-  							
-  							MoveUp _Q146eUqZEeeR9rEAwG2f9w at 2,2 size 14,7  {
-  							}
-  						}
-  						
-  						Button _Q14TZEqZEeeR9rEAwG2f9w at 640,30 size 200,60  {
-  							label "Create user"
-  							displayLabel ""
-  							styling ButtonStyling {
-  									fullWidth false
-  									size Default
-  									disabled false
-  									color Default
-  								}
-  							options ButtonOptions {
-  									isLink false
-  									submitsForm true
-  								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									rawContent "color: #fff;"
-  									attributes [  ]
-  								}
-  							MoveRight _Q14TZUqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
-  							}
-  							
-  							MoveLeft _Q14TZkqZEeeR9rEAwG2f9w at 2,2 size 7,14  {
-  							}
-  						}
-  						
-  						Button _Q146dEqZEeeR9rEAwG2f9w at 10,30 size 200,60  {
-  							label "Upload topic"
-  							displayLabel ""
-  							styling ButtonStyling {
-  									fullWidth false
-  									size Default
-  									disabled false
-  									color Default
-  								}
-  							options ButtonOptions {
-  									isLink false
-  									submitsForm true
-  								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									rawContent "color: #fff;"
-  									attributes [  ]
-  								}
-  							MoveLeft _Q146dUqZEeeR9rEAwG2f9w at 2,2 size 7,14  {
-  							}
-  							
-  							MoveRight _Q146dkqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
-  							}
-  						}
-  						
   						MoveUp _Q146ekqZEeeR9rEAwG2f9w at 2,2 size 14,7  {
   						}
   						
   						MoveDown _Q146c0qZEeeR9rEAwG2f9w at 2,10 size 14,7  {
   						}
   						
-  						Button _Q14TYUqZEeeR9rEAwG2f9w at 220,30 size 200,60  {
+  						Button _Q14TYUqZEeeR9rEAwG2f9w at 10,30 size 200,60  {
   							label "View topics"
   							displayLabel ""
   							styling ButtonStyling {
@@ -324,7 +228,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   					}
   				}
   				
-  				RightNavBarPart __ATY8EqYEeeR9rEAwG2f9w at 1230,30 size 250,265  {
+  				RightNavBarPart __ATY8EqYEeeR9rEAwG2f9w at 600,30 size 250,265  {
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -338,7 +242,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   					}
   					
   					Dropdown _iiBlAEqZEeeR9rEAwG2f9w at 10,30 size 220,215  {
-  						label "{{currentUser.baseUser.firstName}} {{currentUser.baseUser.lastName}}"
+  						label "{{user.baseUser.firstName}} {{user.baseUser.lastName}}"
   						dropUp false
   						styling ButtonStyling {
   								fullWidth false
