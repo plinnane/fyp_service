@@ -151,7 +151,7 @@ GUI _-XuFoFTCEee9p783Cu4DWg {
   						MoveRight _VJafUFTEEee9p783Cu4DWg at 10,2 size 7,14  {
   						}
   						
-  						Button _VJhNAFTEEee9p783Cu4DWg at 10,30 size 200,60  {
+  						Button _VJhNAFTEEee9p783Cu4DWg at 220,30 size 200,60  {
   							label "Upload new topic"
   							displayLabel ""
   							styling ButtonStyling {
@@ -183,7 +183,7 @@ GUI _-XuFoFTCEee9p783Cu4DWg {
   							}
   						}
   						
-  						Button _dUf08FTFEee9p783Cu4DWg at 220,30 size 200,60  {
+  						Button _dUf08FTFEee9p783Cu4DWg at 10,30 size 200,60  {
   							label "View topics"
   							displayLabel ""
   							styling ButtonStyling {
