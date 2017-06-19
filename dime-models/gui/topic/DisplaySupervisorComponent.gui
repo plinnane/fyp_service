@@ -121,7 +121,7 @@ GUI _UlT60FAxEeeWJL1zKR4q1g {
   				generalStyle GeneralStyling {
   						marginTop None
   						marginBottom None
-  						tallness Fitting
+  						tallness Full
   						attributes [  ]
   					}
   				ComplexInputPort _zD88oFAzEeeWJL1zKR4q1g at 5,67 size 90,18 index 2 {
@@ -167,7 +167,7 @@ GUI _UlT60FAxEeeWJL1zKR4q1g {
   						color Default
   					}
   				options ButtonOptions {
-  						isLink false
+  						isLink true
   						submitsForm true
   					}
   				disabled false
