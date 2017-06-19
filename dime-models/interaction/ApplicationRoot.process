@@ -363,6 +363,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   	name "ViewUserProfile"
   	majorPage false
   	libraryComponentUID "_A_z7IEqwEeeq5uKWWhCwgQ"
+  	majorBranch _H6a44EU2EeeKqOBaOG4MmQ
   	label "ViewUserProfile"
   	ComplexInputPort _GuKikFDmEee1RdmfVpvmFg at 5,67 size 110,18  {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -438,6 +439,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   	name "TopicDetail"
   	majorPage false
   	libraryComponentUID "_TtPM8EqXEeeP2Ykw7b8TLw"
+  	majorBranch _H6XOgEU2EeeKqOBaOG4MmQ
   	label "TopicDetail"
   	ComplexInputPort _ppSigFEDEee1RdmfVpvmFg at 5,67 size 110,18  {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
