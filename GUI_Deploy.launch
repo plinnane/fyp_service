@@ -6,8 +6,8 @@
 <booleanAttribute key="M2_OFFLINE" value="false"/>
 <stringAttribute key="M2_PROFILES" value="default,embedded"/>
 <listAttribute key="M2_PROPERTIES">
-<listEntry value="wildfly.path=/Users/tim/Desktop/wildfly-10.1.0.Final"/>
-<listEntry value="dart.path=/usr/local/Cellar/dart/1.23.0/libexec"/>
+<listEntry value="wildfly.path=${eclipse_home}/wildfly-10.1.0.Final"/>
+<listEntry value="dart.path=${eclipse_home}/dart-sdk"/>
 </listAttribute>
 <stringAttribute key="M2_RUNTIME" value="EMBEDDED"/>
 <booleanAttribute key="M2_SKIP_TESTS" value="false"/>
