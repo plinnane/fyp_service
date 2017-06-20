@@ -144,7 +144,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   				}
   			}
   			
-  			GUISIB _CuRH4FWvEeexC5UrdY-JsA at 10,30 size 150,459  {
+  			GUISIB _OACvYFW1EeekqaGythDTkg at 10,30 size 150,459  {
   				libraryComponentUID "_m8u4wEp4EeeR8skQQzAlbg"
   				label "PageFrameHeader"
   				generalStyle GeneralStyling {
@@ -153,53 +153,53 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   						tallness Fitting
   						attributes [  ]
   					}
-  				ComplexInputPort _CuYcoFWvEeexC5UrdY-JsA at 5,67 size 90,18  {
+  				ComplexInputPort _OAT1IFW1EeekqaGythDTkg at 5,67 size 90,18  {
   					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   					isList false
   					name "user"
   				}
   				
-  				Branch _Cubf8FWvEeexC5UrdY-JsA at 5,90 size 100,50  {
+  				Branch _OAmJAFW1EeekqaGythDTkg at 5,90 size 100,50  {
   					name "Edit my profile"
-  					ComplexOutputPort _CuxeMFWvEeexC5UrdY-JsA at 5,27 size 90,18  {
+  					ComplexOutputPort _OAxvMFW1EeekqaGythDTkg at 5,27 size 90,18  {
   						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   						name "user"
   						isList false
   					}
   				}
   				
-  				Branch _CvIDgFWvEeexC5UrdY-JsA at 5,158 size 100,25  {
+  				Branch _OA8HQFW1EeekqaGythDTkg at 5,158 size 100,25  {
   					name "View supervisors"
   				}
   				
-  				Branch _CvOKIFWvEeexC5UrdY-JsA at 5,201 size 100,25  {
+  				Branch _OBGfUFW1EeekqaGythDTkg at 5,201 size 100,25  {
   					name "Create new user"
   				}
   				
-  				Branch _CvTCoFWvEeexC5UrdY-JsA at 5,244 size 100,25  {
+  				Branch _OBPpQFW1EeekqaGythDTkg at 5,244 size 100,25  {
   					name "My profile"
   				}
   				
-  				Branch _CvYiMFWvEeexC5UrdY-JsA at 5,287 size 100,25  {
+  				Branch _OBYzMFW1EeekqaGythDTkg at 5,287 size 100,25  {
   					name "View topics"
   				}
   				
-  				Branch _CveBwFWvEeexC5UrdY-JsA at 5,330 size 100,25  {
+  				Branch _OBikMFW1EeekqaGythDTkg at 5,330 size 100,25  {
   					name "View users"
   				}
   				
-  				Branch _CviTMFWvEeexC5UrdY-JsA at 5,373 size 100,25  {
+  				Branch _OBrHEFW1EeekqaGythDTkg at 5,373 size 100,25  {
   					name "My desired topics"
   				}
   				
-  				Branch _CvnLsFWvEeexC5UrdY-JsA at 5,416 size 100,25  {
+  				Branch _OBzC4FW1EeekqaGythDTkg at 5,416 size 100,25  {
   					name "Upload new topic"
   				}
   				
-  				MoveUp _CvugcFWvEeexC5UrdY-JsA at 2,2 size 14,7  {
+  				MoveUp _OCEvsFW1EeekqaGythDTkg at 2,2 size 14,7  {
   				}
   				
-  				MoveDown _CvwVoFWvEeexC5UrdY-JsA at 2,10 size 14,7  {
+  				MoveDown _OCHL8FW1EeekqaGythDTkg at 2,10 size 14,7  {
   				}
   			}
   		}
@@ -216,8 +216,8 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   		name "currentUser"
   		isList false
   		isInput false
-  		-ComplexRead-> _CuYcoFWvEeexC5UrdY-JsA via (195,186) decorate "Polyline" at (2,0) {
-  			id _x3SHEFTGEee9p783Cu4DWg
+  		-ComplexRead-> _OAT1IFW1EeekqaGythDTkg  decorate "Polyline" at (2,0) {
+  			id _O9_lYFW1EeekqaGythDTkg
   		}
   	}
   }

@@ -25,35 +25,35 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   		-IS-> _XsaAoFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _AdvsMFWuEeexC5UrdY-JsA
   			negate true
-  			exactMatch false
+  			exactMatch true
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   		
   		-IS-> _YlQUMFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _TFaK4FWuEeexC5UrdY-JsA
   			negate false
-  			exactMatch false
+  			exactMatch true
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   		
   		-IS-> _aLrfcFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _c4-WsFWuEeexC5UrdY-JsA
   			negate false
-  			exactMatch false
+  			exactMatch true
   			matchingType "_fhd4sDlvEeelR78gw15slQ"
   		}
   		
   		-IS-> _biBAQFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _bLLYIFWuEeexC5UrdY-JsA
   			negate false
-  			exactMatch false
+  			exactMatch true
   			matchingType "_QCBvMDlvEeelR78gw15slQ"
   		}
   		
   		-IS-> _lSgC4FWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _fTPZsFWuEeexC5UrdY-JsA
   			negate false
-  			exactMatch false
+  			exactMatch true
   			matchingType "_QCBvMDlvEeelR78gw15slQ"
   		}
   		
@@ -64,7 +64,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   		-IS-> _t_Dt4FWuEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _yqMAQFWuEeexC5UrdY-JsA
   			negate false
-  			exactMatch false
+  			exactMatch true
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   	}
@@ -163,7 +163,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   						generalStyle GeneralStyling {
   								marginTop None
   								marginBottom None
-  								tallness Full
+  								tallness Fitting
   								rawContent "color: #fff;"
   								attributes [  ]
   							}
@@ -244,6 +244,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   									marginTop None
   									marginBottom None
   									tallness Fitting
+  									rawContent "color: #fff;"
   									attributes [  ]
   								}
   							MoveLeft _Xs5I0FWtEeexC5UrdY-JsA at 2,2 size 7,14  {
@@ -275,6 +276,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   									marginTop None
   									marginBottom None
   									tallness Fitting
+  									rawContent "color: #fff;"
   									attributes [  ]
   								}
   							MoveLeft _YlSwcFWtEeexC5UrdY-JsA at 2,2 size 7,14  {
@@ -306,6 +308,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   									marginTop None
   									marginBottom None
   									tallness Fitting
+  									rawContent "color: #fff;"
   									attributes [  ]
   								}
   							MoveLeft _aLuiwFWtEeexC5UrdY-JsA at 2,2 size 7,14  {
@@ -337,6 +340,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   									marginTop None
   									marginBottom None
   									tallness Fitting
+  									rawContent "color: #fff;"
   									attributes [  ]
   								}
   							MoveLeft _biC1cFWtEeexC5UrdY-JsA at 2,2 size 7,14  {
@@ -425,7 +429,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   								}
   							disabled false
   							icon Icon {
-  									preIcon None
+  									preIcon LogOut
   									postIcon None
   								}
   							generalStyle GeneralStyling {
