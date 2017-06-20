@@ -36,7 +36,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   	}
   }
   
-  GUISIB _HuWy0EU2EeeKqOBaOG4MmQ at 509,120 size 120,65 index 1 {
+  GUISIB _HuWy0EU2EeeKqOBaOG4MmQ at 670,120 size 120,65 index 1 {
   	name "PageFrame"
   	majorPage true
   	libraryComponentUID "_I04LcEU1EeeKqOBaOG4MmQ"
@@ -69,6 +69,16 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   	
   	-BranchConnector-> _VJvwwEqjEeeYWJ9zK_WIRg   {
   		id _VJyNAEqjEeeYWJ9zK_WIRg
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _GHo3cFWvEeexC5UrdY-JsA   {
+  		id _GHyBYFWvEeexC5UrdY-JsA
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _GIl5sFWvEeexC5UrdY-JsA   {
+  		id _GImgwFWvEeexC5UrdY-JsA
   		concurrent true
   	}
   }
@@ -156,10 +166,10 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   	libraryComponentUID "_MjbkkEz7Eee_89yPXsYmRg"
   	majorBranch _VJvwwEqjEeeYWJ9zK_WIRg
   	label "EditUserProfile"
-  	ComplexInputPort _Nqk9QFD1Eee1RdmfVpvmFg at 5,67 size 110,18  {
+  	ComplexInputPort _T3DNwFWvEeexC5UrdY-JsA at 5,67 size 110,18  {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
-  		name "currentUser"
+  		name "user"
   	}
   	-BranchConnector-> _lKjSAE0AEee_89yPXsYmRg   {
   		id _lKkgIE0AEee_89yPXsYmRg
@@ -288,7 +298,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   		expanded false
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		dfViewWorkaround true
-  		name "concreteuser"
+  		name "userToBeViewed"
   		isList false
   		-ComplexRead-> _GuKikFDmEee1RdmfVpvmFg via (705,705) decorate "Polyline" at (2,0) {
   			id _WU0R4FDnEee1RdmfVpvmFg
@@ -320,8 +330,8 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
   		name "user"
-  		-ComplexDirectDataFlow-> _Nqk9QFD1Eee1RdmfVpvmFg via (721,686) (721,770) decorate "Polyline" at (2,0) {
-  			id _LIgWMFECEee1RdmfVpvmFg
+  		-ComplexUpdate-> _XOYV8FWvEeexC5UrdY-JsA via (871,685) (871,523) decorate "Polyline" at (2,0) {
+  			id _ZDgEgFWvEeexC5UrdY-JsA
   			dfViewWorkaround true
   		}
   	}
@@ -381,7 +391,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
   		name "user"
-  		-ComplexUpdate-> _RmOb0FDnEee1RdmfVpvmFg via (851,597) (851,490) decorate "Polyline" at (2,0) {
+  		-ComplexUpdate-> _RmOb0FDnEee1RdmfVpvmFg via (851,597) (850,488) decorate "Polyline" at (2,0) {
   			id _7KA5MFEBEee1RdmfVpvmFg
   			dfViewWorkaround true
   		}
@@ -500,7 +510,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
   		name "user"
-  		-ComplexUpdate-> _RmOb0FDnEee1RdmfVpvmFg via (814,421) (814,491) decorate "Polyline" at (2,0) {
+  		-ComplexUpdate-> _RmOb0FDnEee1RdmfVpvmFg via (820,420) (820,488) decorate "Polyline" at (2,0) {
   			id _E9WHEFTJEee9p783Cu4DWg
   			dfViewWorkaround true
   		}
@@ -509,5 +519,61 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   		id _CPR-UFTJEee9p783Cu4DWg
   		concurrent true
   	}
+  }
+  
+  Branch _GIl5sFWvEeexC5UrdY-JsA at 1180,240 size 120,25 index 36 {
+  	name "My desired topics"
+  	-ControlFlow-> _vOW9IFWvEeexC5UrdY-JsA  decorate "Polyline" at (2,0) {
+  		id _vhvMIFWvEeexC5UrdY-JsA
+  		concurrent true
+  	}
+  }
+  
+  Branch _GHo3cFWvEeexC5UrdY-JsA at 990,230 size 120,50 index 35 {
+  	name "Edit my profile"
+  	ComplexOutputPort _GIE8UFWvEeexC5UrdY-JsA at 5,27 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  		-ComplexUpdate-> _XOYV8FWvEeexC5UrdY-JsA via (970,266) (970,461) decorate "Polyline" at (2,0) {
+  			id _YtpJQFWvEeexC5UrdY-JsA
+  			dfViewWorkaround true
+  		}
+  		
+  		-ComplexUpdate-> _RmOb0FDnEee1RdmfVpvmFg via (970,266) (970,440) (846,440) (846,488) decorate "Polyline" at (2,0) {
+  			id _LPeegFWwEeexC5UrdY-JsA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _lCrvcE0AEee_89yPXsYmRg via (1050,685) decorate "Polyline" at (2,0) {
+  		id _PRmsoFWvEeexC5UrdY-JsA
+  		concurrent true
+  	}
+  }
+  
+  DataContext _UlTa4FWvEeexC5UrdY-JsA at 860,450 size 161,91  {
+  	dfViewWorkaround true
+  	ComplexVariable _XOYV8FWvEeexC5UrdY-JsA at 10,30 size 141,25  {
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "userToBeEdited"
+  		isList false
+  		-ComplexRead-> _T3DNwFWvEeexC5UrdY-JsA via (1031,494) (1031,769) decorate "Polyline" at (2,0) {
+  			id _YR3MMFWvEeexC5UrdY-JsA
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  GUISIB _vOW9IFWvEeexC5UrdY-JsA at 1180,305 size 120,65  {
+  	name "EmptyGUI"
+  	majorPage true
+  	libraryComponentUID "_V7NgQFEBEee1RdmfVpvmFg"
+  	label "EmptyGUI"
+  }
+  
+  Documentation _wZZz8FWvEeexC5UrdY-JsA at 1160,330 size 161,61  {
+  	content "TO BE DONE"
   }
 }

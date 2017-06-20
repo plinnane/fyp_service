@@ -3,7 +3,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  Template _I0-5IEU1EeeKqOBaOG4MmQ at 260,20 size 260,943  {
+  Template _I0-5IEU1EeeKqOBaOG4MmQ at 260,20 size 260,1054  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -11,7 +11,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _o3YLgEeOEeeJjvdf9GAasg at 10,30 size 240,883  {
+  	Row _o3YLgEeOEeeJjvdf9GAasg at 10,30 size 240,994  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -24,7 +24,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   		MoveDown _o3b14EeOEeeJjvdf9GAasg at 2,10 size 14,7  {
   		}
   		
-  		Col _o3wmAEeOEeeJjvdf9GAasg at 10,30 size 210,833  {
+  		Col _o3wmAEeOEeeJjvdf9GAasg at 10,30 size 210,944  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -43,7 +43,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   			MoveRight _o32soEeOEeeJjvdf9GAasg at 10,2 size 7,14  {
   			}
   			
-  			Panel _nHapwEeOEeeJjvdf9GAasg at 10,388 size 190,340  {
+  			Panel _nHapwEeOEeeJjvdf9GAasg at 10,499 size 190,340  {
   				collapsable false
   				defaultOpen "true"
   				heading [  ]
@@ -128,7 +128,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   				}
   			}
   			
-  			GUISIB _3qEYwEp4EeeR8skQQzAlbg at 10,738 size 150,65  {
+  			GUISIB _3qEYwEp4EeeR8skQQzAlbg at 10,849 size 150,65  {
   				libraryComponentUID "_wYYT0Ep4EeeR8skQQzAlbg"
   				label "PageFrameFooter"
   				generalStyle GeneralStyling {
@@ -144,37 +144,62 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   				}
   			}
   			
-  			DispatchedGUISIB _vyioIFTGEee9p783Cu4DWg at 11,30 size 150,348  {
+  			GUISIB _CuRH4FWvEeexC5UrdY-JsA at 10,30 size 150,459  {
   				libraryComponentUID "_m8u4wEp4EeeR8skQQzAlbg"
   				label "PageFrameHeader"
-  				ComplexInputPort _v4WVMFTGEee9p783Cu4DWg at 5,67 size 90,18  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _CuYcoFWvEeexC5UrdY-JsA at 5,67 size 90,18  {
   					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   					isList false
   					name "user"
   				}
   				
-  				Branch _v4YxcFTGEee9p783Cu4DWg at 5,90 size 100,25  {
+  				Branch _Cubf8FWvEeexC5UrdY-JsA at 5,90 size 100,50  {
+  					name "Edit my profile"
+  					ComplexOutputPort _CuxeMFWvEeexC5UrdY-JsA at 5,27 size 90,18  {
+  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						name "user"
+  						isList false
+  					}
+  				}
+  				
+  				Branch _CvIDgFWvEeexC5UrdY-JsA at 5,158 size 100,25  {
   					name "View supervisors"
   				}
   				
-  				Branch _v4cb0FTGEee9p783Cu4DWg at 5,133 size 100,25  {
+  				Branch _CvOKIFWvEeexC5UrdY-JsA at 5,201 size 100,25  {
   					name "Create new user"
   				}
   				
-  				Branch _v4gGMFTGEee9p783Cu4DWg at 5,176 size 100,25  {
-  					name "View users"
-  				}
-  				
-  				Branch _v4jJgFTGEee9p783Cu4DWg at 5,219 size 100,25  {
-  					name "View topics"
-  				}
-  				
-  				Branch _v4mz4FTGEee9p783Cu4DWg at 5,262 size 100,25  {
+  				Branch _CvTCoFWvEeexC5UrdY-JsA at 5,244 size 100,25  {
   					name "My profile"
   				}
   				
-  				Branch _v4qeQFTGEee9p783Cu4DWg at 5,305 size 100,25  {
+  				Branch _CvYiMFWvEeexC5UrdY-JsA at 5,287 size 100,25  {
+  					name "View topics"
+  				}
+  				
+  				Branch _CveBwFWvEeexC5UrdY-JsA at 5,330 size 100,25  {
+  					name "View users"
+  				}
+  				
+  				Branch _CviTMFWvEeexC5UrdY-JsA at 5,373 size 100,25  {
+  					name "My desired topics"
+  				}
+  				
+  				Branch _CvnLsFWvEeexC5UrdY-JsA at 5,416 size 100,25  {
   					name "Upload new topic"
+  				}
+  				
+  				MoveUp _CvugcFWvEeexC5UrdY-JsA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _CvwVoFWvEeexC5UrdY-JsA at 2,10 size 14,7  {
   				}
   			}
   		}
@@ -191,7 +216,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   		name "currentUser"
   		isList false
   		isInput false
-  		-ComplexRead-> _v4WVMFTGEee9p783Cu4DWg via (195,186) decorate "Polyline" at (2,0) {
+  		-ComplexRead-> _CuYcoFWvEeexC5UrdY-JsA via (195,186) decorate "Polyline" at (2,0) {
   			id _x3SHEFTGEee9p783Cu4DWg
   		}
   	}

@@ -1,0 +1,580 @@
+GUI _m8u4wEp4EeeR8skQQzAlbg {
+  title "PageFrameHeader"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _m9TggEp4EeeR8skQQzAlbg at 10,10 size 1251,201  {
+  	dfViewWorkaround true
+  	ComplexVariable _2xAU4EqbEeeYWJ9zK_WIRg at 1060,77 size 160,51  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "user"
+  		isList false
+  		isInput true
+  		PrimitiveAttribute _3Rz74EqbEeeYWJ9zK_WIRg at 20,23 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _3mDtkEqbEeeYWJ9zK_WIRg  decorate "Ellipse" at (0,0) {
+  			id _3mLpYEqbEeeYWJ9zK_WIRg
+  			associationName "baseUser"
+  		}
+  		
+  		-IS-> _XsaAoFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _AdvsMFWuEeexC5UrdY-JsA
+  			negate true
+  			exactMatch false
+  			matchingType "_eWeFMDlvEeelR78gw15slQ"
+  		}
+  		
+  		-IS-> _YlQUMFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _TFaK4FWuEeexC5UrdY-JsA
+  			negate false
+  			exactMatch false
+  			matchingType "_eWeFMDlvEeelR78gw15slQ"
+  		}
+  		
+  		-IS-> _aLrfcFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _c4-WsFWuEeexC5UrdY-JsA
+  			negate false
+  			exactMatch false
+  			matchingType "_fhd4sDlvEeelR78gw15slQ"
+  		}
+  		
+  		-IS-> _biBAQFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _bLLYIFWuEeexC5UrdY-JsA
+  			negate false
+  			exactMatch false
+  			matchingType "_QCBvMDlvEeelR78gw15slQ"
+  		}
+  		
+  		-IS-> _lSgC4FWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _fTPZsFWuEeexC5UrdY-JsA
+  			negate false
+  			exactMatch false
+  			matchingType "_QCBvMDlvEeelR78gw15slQ"
+  		}
+  		
+  		-AddComplexToSubmission-> _lGt0MFWuEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _p_EqQFWuEeexC5UrdY-JsA
+  		}
+  		
+  		-IS-> _t_Dt4FWuEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _yqMAQFWuEeexC5UrdY-JsA
+  			negate false
+  			exactMatch false
+  			matchingType "_eWeFMDlvEeelR78gw15slQ"
+  		}
+  	}
+  	
+  	ComplexVariable _3mDtkEqbEeeYWJ9zK_WIRg at 660,90 size 160,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  	}
+  }
+  
+  Template _m9V8wEp4EeeR8skQQzAlbg at 10,230 size 1780,695  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _pyXCEEp4EeeR8skQQzAlbg at 10,30 size 1760,635  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				rawContent "background-color: #0091ba;"
+  				attributes [  ]
+  			}
+  		Col _pySJkEp4EeeR8skQQzAlbg at 10,30 size 1730,585 index 2 {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _pyWbBEp4EeeR8skQQzAlbg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _pyWbA0p4EeeR8skQQzAlbg at 10,2 size 7,14  {
+  			}
+  			
+  			TopNavBar _-_7lgEqYEeeR9rEAwG2f9w at 10,30 size 1710,525  {
+  				fixed true
+  				inverted true
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						rawContent "background-color: #0091ba;\ncolor: #fff;"
+  						attributes [  ]
+  					}
+  				MoveUp _-_8zoEqYEeeR9rEAwG2f9w at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _-_-BwEqYEeeR9rEAwG2f9w at 2,10 size 14,7  {
+  				}
+  				
+  				LeftNavBarPart __AEIYEqYEeeR9rEAwG2f9w at 10,30 size 1420,160 index 3 {
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft __AHLsEqYEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight __AIZ0EqYEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  					}
+  					
+  					Text _YRbe8EqZEeeR9rEAwG2f9w at 120,30 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "Lero FYP Service"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold true
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Full
+  								rawContent "color: #fff;"
+  								attributes [  ]
+  							}
+  						MoveLeft _YRdUIEqZEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  						}
+  						
+  						MoveRight _YReiQEqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  						}
+  					}
+  					
+  					ButtonGroup _Q16IkEqZEeeR9rEAwG2f9w at 330,30 size 1070,110 index 4 {
+  						alignment horizontal
+  						size Default
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								rawContent ""
+  								attributes [  ]
+  							}
+  						MoveUp _Q146ekqZEeeR9rEAwG2f9w at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _Q146c0qZEeeR9rEAwG2f9w at 2,10 size 14,7  {
+  						}
+  						
+  						Button _Q14TYUqZEeeR9rEAwG2f9w at 10,30 size 200,60  {
+  							label "View topics"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									rawContent "color: #fff;"
+  									attributes [  ]
+  								}
+  							MoveRight _Q14TYkqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  							}
+  							
+  							MoveLeft _Q14TY0qZEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  							}
+  						}
+  						
+  						Button _XsaAoFWtEeexC5UrdY-JsA at 220,30 size 200,60 index 6 {
+  							label "View users"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveLeft _Xs5I0FWtEeexC5UrdY-JsA at 2,2 size 7,14  {
+  							}
+  							
+  							MoveRight _Xs6-AFWtEeexC5UrdY-JsA at 10,2 size 7,14  {
+  							}
+  						}
+  						
+  						Button _YlQUMFWtEeexC5UrdY-JsA at 430,30 size 200,60 index 3 {
+  							label "View supervisors"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveLeft _YlSwcFWtEeexC5UrdY-JsA at 2,2 size 7,14  {
+  							}
+  							
+  							MoveRight _YlTXgFWtEeexC5UrdY-JsA at 10,2 size 7,14  {
+  							}
+  						}
+  						
+  						Button _aLrfcFWtEeexC5UrdY-JsA at 850,30 size 200,60 index 4 {
+  							label "Create new user"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveLeft _aLuiwFWtEeexC5UrdY-JsA at 2,2 size 7,14  {
+  							}
+  							
+  							MoveRight _aLvw4FWtEeexC5UrdY-JsA at 10,2 size 7,14  {
+  							}
+  						}
+  						
+  						Button _biBAQFWtEeexC5UrdY-JsA at 640,30 size 200,60 index 5 {
+  							label "Upload new topic"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveLeft _biC1cFWtEeexC5UrdY-JsA at 2,2 size 7,14  {
+  							}
+  							
+  							MoveRight _biEDkFWtEeexC5UrdY-JsA at 10,2 size 7,14  {
+  							}
+  						}
+  					}
+  					
+  					Image _Jl3d4EqjEeeYWJ9zK_WIRg at 10,30 size 100,90 index 3 {
+  						path "asset/lero.png"
+  						dimensionX 387
+  						dimensionY 55
+  						styling ImageStyling {
+  								border Default
+  								responsive true
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveLeft _Jl6hMEqjEeeYWJ9zK_WIRg at 2,2 size 7,14  {
+  						}
+  						
+  						MoveRight _Jl8WYEqjEeeYWJ9zK_WIRg at 10,2 size 7,14  {
+  						}
+  					}
+  				}
+  				
+  				RightNavBarPart __ATY8EqYEeeR9rEAwG2f9w at 1440,30 size 250,475 index 2 {
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft __AUnEEqYEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight __AVOIEqYEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  					}
+  					
+  					Dropdown _iiBlAEqZEeeR9rEAwG2f9w at 10,30 size 220,425  {
+  						label "{{user.baseUser.firstName}} {{user.baseUser.lastName}}"
+  						dropUp false
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon User
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								rawContent "color: #fff;"
+  								attributes [  ]
+  							}
+  						MoveLeft _iigGIEqZEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  						}
+  						
+  						MoveRight _iigtMEqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  						}
+  						
+  						Button _iirsUEqZEeeR9rEAwG2f9w at 10,335 size 200,60  {
+  							label "Logout"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									staticURL "logout"
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									rawContent ""
+  									attributes [  ]
+  								}
+  							MoveUp _iithgEqZEeeR9rEAwG2f9w at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _iiuIkEqZEeeR9rEAwG2f9w at 2,10 size 14,7  {
+  							}
+  						}
+  						
+  						Button _nwKuwEqiEeeYWJ9zK_WIRg at 10,55 size 200,60  {
+  							label "My profile"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _nwOZIEqiEeeYWJ9zK_WIRg at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _nwPnQEqiEeeYWJ9zK_WIRg at 2,10 size 14,7  {
+  							}
+  						}
+  						
+  						Button _lSgC4FWtEeexC5UrdY-JsA at 10,195 size 200,60  {
+  							label "My profile"
+  							displayLabel "My uploaded topics"
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _lSjtQFWtEeexC5UrdY-JsA at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _lSmJgFWtEeexC5UrdY-JsA at 2,10 size 14,7  {
+  							}
+  						}
+  						
+  						Button _lGt0MFWuEeexC5UrdY-JsA at 10,125 size 200,60  {
+  							label "Edit my profile"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _lGvpYFWuEeexC5UrdY-JsA at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _lGw3gFWuEeexC5UrdY-JsA at 2,10 size 14,7  {
+  							}
+  						}
+  						
+  						Button _t_Dt4FWuEeexC5UrdY-JsA at 10,265 size 200,60  {
+  							label "My desired topics"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _t_FjEFWuEeexC5UrdY-JsA at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _t_GxMFWuEeexC5UrdY-JsA at 2,10 size 14,7  {
+  							}
+  						}
+  					}
+  				}
+  			}
+  		}
+  		
+  		MoveUp _pyQ7cUp4EeeR8skQQzAlbg at 2,2 size 14,7 index 0 {
+  		}
+  		
+  		MoveDown _pyWbBUp4EeeR8skQQzAlbg at 2,10 size 14,7 index 1 {
+  		}
+  	}
+  }
+}
