@@ -1,0 +1,450 @@
+Process _Mx-f8FWYEee9Kul9j01mzQ {
+  modelName "PrepareBiddingComponent"
+  processType Interactable
+  description "PrepareBiddingComponent"
+  isStateful false
+  dataFlowView true
+  DataContext _MyI4AFWYEee9Kul9j01mzQ at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  	ComplexVariable _WkVx4FWYEee9Kul9j01mzQ at 10,540 size 140,25  {
+  		expanded false
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "biddingvalue"
+  		isList true
+  		-ComplexRead-> _VoiQ8FWYEee9Kul9j01mzQ via (130,946) decorate "Polyline" at (2,0) {
+  			id _XwhRIFWYEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexVariable _b6tZoFWYEee9Kul9j01mzQ at 29,124 size 140,132  {
+  		expanded true
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "bidding"
+  		isList false
+  		ComplexAttribute _cbl5IFWYEee9Kul9j01mzQ at 20,23 size 100,25  {
+  			libraryComponentUID "_vhcuADlwEeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _cbnHQFWYEee9Kul9j01mzQ at 20,50 size 100,25  {
+  			libraryComponentUID "_0MrHADlwEeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _cbo8cFWYEee9Kul9j01mzQ at 20,77 size 100,25  {
+  			libraryComponentUID "_HT4BYDlxEeelR78gw15slQ"
+  			dfViewWorkaround true
+  			-ComplexRead-> _abaKEFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  				id _dGU4MFWYEee9Kul9j01mzQ
+  				dfViewWorkaround true
+  			}
+  		}
+  		
+  		PrimitiveAttribute _cbqKkFWYEee9Kul9j01mzQ at 20,104 size 100,25  {
+  			libraryComponentUID "_tJ1g8DlxEeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _MyMiYFWYEee9Kul9j01mzQ at 350,50 size 100,90  {
+  	ComplexOutputPort _PY5e4FWYEee9Kul9j01mzQ at 5,67 size 90,18  {
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		isList false
+  		name "bidding1"
+  		-ComplexUpdate-> _b6tZoFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _cUr_4FWYEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _abIdQFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _KNYxYFWaEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _MyOXkFWYEee9Kul9j01mzQ at 449,870 size 100,90  {
+  	branchName "success"
+  	ComplexInputPort _VoiQ8FWYEee9Kul9j01mzQ at 5,67 size 90,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList true
+  		name "biddingvalue1"
+  	}
+  }
+  
+  Branch _abtsEFWYEee9Kul9j01mzQ at 250,380 size 120,25 index 4 {
+  	name "desired"
+  	-ControlFlow-> _ocYxgFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _oyrKkFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _abzLoFWYEee9Kul9j01mzQ at 380,380 size 120,25 index 5 {
+  	name "indifferent"
+  	-ControlFlow-> _zwVK8FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _0j-OYFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _ab5SQFWYEee9Kul9j01mzQ at 510,380 size 120,25 index 6 {
+  	name "rejected"
+  	-ControlFlow-> _-GgUkFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _HGdSIFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _ab_Y4FWYEee9Kul9j01mzQ at 650,380 size 120,25 index 7 {
+  	name "undefined"
+  	-ControlFlow-> _DEhGsFWZEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _Hs61MFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB _ocYxgFWYEee9Kul9j01mzQ at 250,417 size 120,65 index 8 {
+  	libraryComponentUID "_9yX18DlwEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> _ocoCEFWYEee9Kul9j01mzQ   {
+  		id _ocvW0FWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _ocoCEFWYEee9Kul9j01mzQ at 250,490 size 120,50 index 9 {
+  	name "indifferent"
+  	ComplexOutputPort _ocwk8FWYEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _pETtIFWYEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _qNBBoFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _i0v-IFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB _qNBBoFWYEee9Kul9j01mzQ at 250,550 size 120,65 index 10 {
+  	libraryComponentUID "_-lt-cDlwEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> _qNFTEFWYEee9Kul9j01mzQ   {
+  		id _qNJkgFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _qNFTEFWYEee9Kul9j01mzQ at 250,630 size 120,50 index 11 {
+  	name "rejected"
+  	ComplexOutputPort _qNKyoFWYEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _tJlgcFWYEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _ry0h0FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _uFz4IFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB _ry0h0FWYEee9Kul9j01mzQ at 250,690 size 120,65 index 12 {
+  	libraryComponentUID "_a2ByYDlxEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> _ry4zQFWYEee9Kul9j01mzQ   {
+  		id _ry9rwFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _ry4zQFWYEee9Kul9j01mzQ at 250,770 size 120,50 index 13 {
+  	name "undefined"
+  	ComplexOutputPort _ry-54FWYEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _vmbWUFWYEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _MyOXkFWYEee9Kul9j01mzQ via (309,915) decorate "Polyline" at (2,0) {
+  		id _vEP2UFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB _zwVK8FWYEee9Kul9j01mzQ at 380,417 size 120,65 index 14 {
+  	libraryComponentUID "_71NlsDlwEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> _zwbRkFWYEee9Kul9j01mzQ   {
+  		id _zwgxIFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _zwbRkFWYEee9Kul9j01mzQ at 380,490 size 120,50 index 15 {
+  	name "desired"
+  	ComplexOutputPort _zwh_QFWYEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _ZbtyMFWZEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _6biesFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _JMubEFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB _6biesFWYEee9Kul9j01mzQ at 380,550 size 120,65 index 16 {
+  	libraryComponentUID "_-lt-cDlwEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> _6bolUFWYEee9Kul9j01mzQ   {
+  		id _6bs2wFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _6bolUFWYEee9Kul9j01mzQ at 380,630 size 120,50 index 17 {
+  	name "rejected"
+  	ComplexOutputPort _6buE4FWYEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _Z4XR8FWZEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _7IttwFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _KHahsFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB _7IttwFWYEee9Kul9j01mzQ at 380,690 size 120,65 index 18 {
+  	libraryComponentUID "_a2ByYDlxEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> _7Ix_MFWYEee9Kul9j01mzQ   {
+  		id _7I23sFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _7Ix_MFWYEee9Kul9j01mzQ at 380,770 size 120,50 index 19 {
+  	name "undefined"
+  	ComplexOutputPort _7I4F0FWYEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _aVwYkFWZEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _MyOXkFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _LFG5AFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB _-GgUkFWYEee9Kul9j01mzQ at 510,417 size 120,65 index 20 {
+  	libraryComponentUID "_71NlsDlwEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> _-Gl0IFWYEee9Kul9j01mzQ   {
+  		id _-GqsoFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _-Gl0IFWYEee9Kul9j01mzQ at 510,490 size 120,50 index 21 {
+  	name "desired"
+  	ComplexOutputPort _-Gr6wFWYEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _a8mWIFWZEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> __hY-MFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _MaL1kFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB __hY-MFWYEee9Kul9j01mzQ at 510,550 size 120,65 index 22 {
+  	libraryComponentUID "_9yX18DlwEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> __hedwFWYEee9Kul9j01mzQ   {
+  		id __hjWQFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch __hedwFWYEee9Kul9j01mzQ at 510,630 size 120,50 index 23 {
+  	name "indifferent"
+  	ComplexOutputPort __hkkYFWYEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _betksFWZEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _BnDqMFWZEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _LxF1QFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB _BnDqMFWZEee9Kul9j01mzQ at 510,690 size 120,65 index 24 {
+  	libraryComponentUID "_a2ByYDlxEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> _BnJJwFWZEee9Kul9j01mzQ   {
+  		id _BnOCQFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _BnJJwFWZEee9Kul9j01mzQ at 510,770 size 120,50 index 25 {
+  	name "undefined"
+  	ComplexOutputPort _BnPQYFWZEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _b8UtwFWZEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _MyOXkFWYEee9Kul9j01mzQ via (535,850) decorate "Polyline" at (2,0) {
+  		id _Qp8akFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB _DEhGsFWZEee9Kul9j01mzQ at 650,417 size 120,65 index 26 {
+  	libraryComponentUID "_71NlsDlwEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> _DEl_MFWZEee9Kul9j01mzQ   {
+  		id _DEq3sFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _DEl_MFWZEee9Kul9j01mzQ at 650,490 size 120,50 index 27 {
+  	name "desired"
+  	ComplexOutputPort _DErewFWZEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _enIHIFWZEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _ExoIwFWZEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _OFDb8FWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB _ExoIwFWZEee9Kul9j01mzQ at 652,552 size 120,65 index 28 {
+  	libraryComponentUID "_9yX18DlwEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> _ExuPYFWZEee9Kul9j01mzQ   {
+  		id _Exzu8FWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _ExuPYFWZEee9Kul9j01mzQ at 652,627 size 120,50 index 29 {
+  	name "indifferent"
+  	ComplexOutputPort _Ex09EFWZEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _fOgQMFWZEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _F0JVsFWZEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _O7qT0FWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  RetrieveEnumLiteralSIB _F0JVsFWZEee9Kul9j01mzQ at 652,690 size 120,65 index 30 {
+  	libraryComponentUID "_-lt-cDlwEeelR78gw15slQ"
+  	label "Get BiddingValue"
+  	-BranchConnector-> _F0O1QFWZEee9Kul9j01mzQ   {
+  		id _F0TtwFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _F0O1QFWZEee9Kul9j01mzQ at 650,770 size 120,50 index 31 {
+  	name "rejected"
+  	ComplexOutputPort _F0UU0FWZEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "literal"
+  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _fsHZQFWZEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _MyOXkFWYEee9Kul9j01mzQ via (710,915) decorate "Polyline" at (2,0) {
+  		id _SFyGcFWZEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  EnumSwitchSIB _abIdQFWYEee9Kul9j01mzQ at 449,230 size 120,90 index 3 {
+  	libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  	label "Switch BiddingValue"
+  	ComplexInputPort _abaKEFWYEee9Kul9j01mzQ at 5,67 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "enum"
+  	}
+  	-BranchConnector-> _abtsEFWYEee9Kul9j01mzQ   {
+  		id _abwIUFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _abzLoFWYEee9Kul9j01mzQ   {
+  		id _ab2O8FWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _ab5SQFWYEee9Kul9j01mzQ   {
+  		id _ab7ugFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _ab_Y4FWYEee9Kul9j01mzQ   {
+  		id _acCcMFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+}

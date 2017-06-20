@@ -1,0 +1,217 @@
+GUI _9K3P4FWREee9Kul9j01mzQ {
+  title "BiddingComponent"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _9LaCcFWREee9Kul9j01mzQ at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _Pd7FoFWUEee9Kul9j01mzQ at 20,70 size 160,105  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "bidding"
+  		isList false
+  		isInput true
+  		ComplexAttribute _P7HX8FWUEee9Kul9j01mzQ at 20,23 size 120,25  {
+  			libraryComponentUID "_vhcuADlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _P7ZEwFWUEee9Kul9j01mzQ at 20,50 size 120,25  {
+  			libraryComponentUID "_0MrHADlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _P76CIFWUEee9Kul9j01mzQ at 20,77 size 120,25  {
+  			libraryComponentUID "_tJ1g8DlxEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _Qn8owFWUEee9Kul9j01mzQ  decorate "Ellipse" at (0,0) {
+  			id _QoKEIFWUEee9Kul9j01mzQ
+  			associationName "biddingValue"
+  		}
+  	}
+  	
+  	ComplexVariable _Qn8owFWUEee9Kul9j01mzQ at 20,220 size 160,25  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "biddingValue"
+  		isList false
+  		isInput false
+  	}
+  	
+  	ComplexVariable _Jj8lEFWVEee9Kul9j01mzQ at 20,280 size 160,105  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "possibleValues"
+  		isList true
+  		isInput true
+  		PrimitiveListAttribute _Non7cFWVEee9Kul9j01mzQ at 20,23 size 120,25  {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _NpF1gFWVEee9Kul9j01mzQ at 20,50 size 120,25  {
+  			attributeName last
+  			libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _NpJf4FWVEee9Kul9j01mzQ at 20,77 size 120,25  {
+  			attributeName first
+  			libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-FOR-> _V-ru0FWSEee9Kul9j01mzQ  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _NER4QFWVEee9Kul9j01mzQ
+  			index "index"
+  		}
+  		
+  		-ComplexListAttributeConnector-> _xIyoUFWVEee9Kul9j01mzQ  decorate "Ellipse" at (0,0) {
+  			id _xI9ncFWVEee9Kul9j01mzQ
+  			attributeName current
+  		}
+  	}
+  	
+  	ComplexVariable _xIyoUFWVEee9Kul9j01mzQ at 20,440 size 160,25  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "current"
+  		isList false
+  		isInput false
+  		-AddComplexToSubmission-> _V-ru0FWSEee9Kul9j01mzQ  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _yYnRcFWVEee9Kul9j01mzQ
+  		}
+  	}
+  }
+  
+  Template _9Lh-QFWREee9Kul9j01mzQ at 260,10 size 510,280  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _9LxO0FWREee9Kul9j01mzQ at 10,30 size 490,220  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _9L4jkFWREee9Kul9j01mzQ at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _9L9cEFWREee9Kul9j01mzQ at 2,10 size 14,7  {
+  		}
+  		
+  		Col _9MJpUFWREee9Kul9j01mzQ at 10,30 size 460,170  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _9MPI4FWREee9Kul9j01mzQ at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _9MSzQFWREee9Kul9j01mzQ at 10,2 size 7,14  {
+  			}
+  			
+  			ButtonGroup _V-YM0FWSEee9Kul9j01mzQ at 10,30 size 440,110  {
+  				alignment horizontal
+  				size Default
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _V-dsYFWSEee9Kul9j01mzQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _V-fhkFWSEee9Kul9j01mzQ at 2,10 size 14,7  {
+  				}
+  				
+  				Button _V-ru0FWSEee9Kul9j01mzQ at 220,30 size 200,60  {
+  					label "biddingChanged"
+  					displayLabel "{{current}}"
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _V-wnUFWSEee9Kul9j01mzQ at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _V-ycgFWSEee9Kul9j01mzQ at 10,2 size 7,14  {
+  					}
+  				}
+  				
+  				Button _W77aMFWSEee9Kul9j01mzQ at 10,30 size 200,60  {
+  					label "chosenBidding"
+  					displayLabel "{{bidding.biddingValue}}"
+  					styling ButtonStyling {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled true
+  					icon Icon {
+  							preIcon None
+  							postIcon None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _W7_EkFWSEee9Kul9j01mzQ at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _W8A5wFWSEee9Kul9j01mzQ at 10,2 size 7,14  {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

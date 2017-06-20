@@ -1,0 +1,145 @@
+Process _YBCrUFWWEee9Kul9j01mzQ {
+  modelName "BiddingComponent"
+  processType Interaction
+  description "BiddingComponent"
+  isStateful false
+  dataFlowView true
+  DataContext _YC2pMFWWEee9Kul9j01mzQ at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  	ComplexVariable _mKlY4FWWEee9Kul9j01mzQ at 20,40 size 140,132  {
+  		expanded true
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "bidding"
+  		isList false
+  		ComplexAttribute _nPnuUFWWEee9Kul9j01mzQ at 20,23 size 100,25  {
+  			libraryComponentUID "_vhcuADlwEeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _nPqKkFWWEee9Kul9j01mzQ at 20,50 size 100,25  {
+  			libraryComponentUID "_0MrHADlwEeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _nPsm0FWWEee9Kul9j01mzQ at 20,77 size 100,25  {
+  			libraryComponentUID "_HT4BYDlxEeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _nPyGYFWWEee9Kul9j01mzQ at 20,104 size 100,25  {
+  			libraryComponentUID "_tJ1g8DlxEeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  		-ComplexRead-> _bEMTQFWWEee9Kul9j01mzQ via (162,435) decorate "Polyline" at (2,0) {
+  			id _vECF0FWWEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  		
+  		-ComplexRead-> _frIzwFWXEee9Kul9j01mzQ via (139,675) decorate "Polyline" at (2,0) {
+  			id _gq_HMFWXEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  		
+  		-ComplexRead-> _scvzIFWZEee9Kul9j01mzQ via (191,256) decorate "Polyline" at (2,0) {
+  			id _uU95AFWZEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _YDC2cFWWEee9Kul9j01mzQ at 367,50 size 100,90  {
+  	ComplexOutputPort _j9aWsFWWEee9Kul9j01mzQ at 5,67 size 90,18  {
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		isList false
+  		name "bidding1"
+  		-ComplexUpdate-> _mKlY4FWWEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  			id _m37AAFWWEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _sOCowFWZEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _EdXa4FWXEee9Kul9j01mzQ
+  		concurrent false
+  	}
+  }
+  
+  EndSIB _YDKLMFWWEee9Kul9j01mzQ at 377,600 size 100,90  {
+  	branchName "success"
+  	ComplexInputPort _frIzwFWXEee9Kul9j01mzQ at 5,67 size 90,18  {
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		isList false
+  		name "bidding1"
+  	}
+  }
+  
+  GUISIB _bDg90FWWEee9Kul9j01mzQ at 367,360 size 120,108  {
+  	name "BiddingComponent"
+  	majorPage true
+  	libraryComponentUID "_9K3P4FWREee9Kul9j01mzQ"
+  	label "BiddingComponent"
+  	ComplexInputPort _bEMTQFWWEee9Kul9j01mzQ at 5,67 size 110,18  {
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		isList false
+  		name "bidding"
+  	}
+  	
+  	ComplexInputPort _bEoYIFWWEee9Kul9j01mzQ at 5,85 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList true
+  		name "possibleValues"
+  	}
+  	-BranchConnector-> _bFM_4FWWEee9Kul9j01mzQ   {
+  		id _bGv4AFWWEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _sOCowFWZEee9Kul9j01mzQ at 367,180 size 120,90 index 5 {
+  	libraryComponentUID "_Mx-f8FWYEee9Kul9j01mzQ"
+  	label "PrepareBiddingComponent"
+  	ComplexInputPort _scvzIFWZEee9Kul9j01mzQ at 5,67 size 110,18  {
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		isList false
+  		name "bidding1"
+  	}
+  	-BranchConnector-> _sdA44FWZEee9Kul9j01mzQ   {
+  		id _sdEjQFWZEee9Kul9j01mzQ
+  		concurrent false
+  	}
+  }
+  
+  Branch _sdA44FWZEee9Kul9j01mzQ at 367,290 size 120,50 index 6 {
+  	name "success"
+  	ComplexOutputPort _sdG_gFWZEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList true
+  		name "biddingvalue1"
+  		-ComplexDirectDataFlow-> _bEoYIFWWEee9Kul9j01mzQ via (290,326) (290,454) decorate "Polyline" at (2,0) {
+  			id _vP-IsFWZEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _bDg90FWWEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _a6AfsFWaEee9Kul9j01mzQ
+  		concurrent false
+  	}
+  }
+  
+  Branch _bFM_4FWWEee9Kul9j01mzQ at 367,500 size 120,50 index 4 {
+  	name "biddingChanged"
+  	ComplexOutputPort _bG9TYFWWEee9Kul9j01mzQ at 5,27 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "current"
+  		-ComplexUpdate-> _nPsm0FWWEee9Kul9j01mzQ via (321,534) (321,179) decorate "Polyline" at (2,0) {
+  			id _PWoqgFWXEee9Kul9j01mzQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _YDKLMFWWEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _hdilgFWXEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  }
+}
