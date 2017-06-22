@@ -1,0 +1,92 @@
+GUI _7eKIgFZ4Eee7Rq2yitsHaA {
+  title "NotificationComponent"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _7ePBAFZ4Eee7Rq2yitsHaA at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	PrimitiveVariable _88vmYFZ4Eee7Rq2yitsHaA at 30,50 size 140,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "text"
+  		isList false
+  		isInput true
+  		-IF-> _8CgywFZ4Eee7Rq2yitsHaA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _AiKN4FZ5Eee7Rq2yitsHaA
+  			negate false
+  		}
+  	}
+  }
+  
+  Template _7eQPIFZ4Eee7Rq2yitsHaA at 260,10 size 270,230  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _7eTScFZ4Eee7Rq2yitsHaA at 10,30 size 250,170  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _7eUgkFZ4Eee7Rq2yitsHaA at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _7eVusFZ4Eee7Rq2yitsHaA at 2,10 size 14,7  {
+  		}
+  		
+  		Col _7eYyAFZ4Eee7Rq2yitsHaA at 10,30 size 220,120  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _7eaAIFZ4Eee7Rq2yitsHaA at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _7eanMFZ4Eee7Rq2yitsHaA at 10,2 size 7,14  {
+  			}
+  			
+  			Text _8CgywFZ4Eee7Rq2yitsHaA at 10,30 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "{{text}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _8CiA4FZ4Eee7Rq2yitsHaA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _8CjPAFZ4Eee7Rq2yitsHaA at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

@@ -193,7 +193,6 @@ GUI _5LL2IEz9Eee_89yPXsYmRg {
   				
   				Field _I5zrIEz-Eee_89yPXsYmRg at 10,380 size 200,60  {
   					label "About me"
-  					isList false
   					inputType TextArea
   					styling FormFieldStyling {
   							size Default
@@ -229,7 +228,6 @@ GUI _5LL2IEz9Eee_89yPXsYmRg {
   				
   				Field _JT6NMEz-Eee_89yPXsYmRg at 10,310 size 200,60  {
   					label "Course"
-  					isList false
   					inputType Text
   					styling FormFieldStyling {
   							size Default
@@ -265,7 +263,6 @@ GUI _5LL2IEz9Eee_89yPXsYmRg {
   				
   				Field _JoPecEz-Eee_89yPXsYmRg at 10,240 size 200,60 index 8 {
   					label "Student ID"
-  					isList false
   					inputType Text
   					styling FormFieldStyling {
   							size Default
@@ -301,7 +298,6 @@ GUI _5LL2IEz9Eee_89yPXsYmRg {
   				
   				Field _KM7f4Ez-Eee_89yPXsYmRg at 10,170 size 200,60 index 5 {
   					label "Mail adress"
-  					isList false
   					inputType Text
   					styling FormFieldStyling {
   							size Default
@@ -337,7 +333,6 @@ GUI _5LL2IEz9Eee_89yPXsYmRg {
   				
   				Field _Kt9JUEz-Eee_89yPXsYmRg at 10,100 size 200,60 index 6 {
   					label "Last name"
-  					isList false
   					inputType Text
   					styling FormFieldStyling {
   							size Default
@@ -373,7 +368,6 @@ GUI _5LL2IEz9Eee_89yPXsYmRg {
   				
   				Field _LJz-4Ez-Eee_89yPXsYmRg at 10,30 size 200,60 index 7 {
   					label "First name"
-  					isList false
   					inputType Text
   					styling FormFieldStyling {
   							size Default

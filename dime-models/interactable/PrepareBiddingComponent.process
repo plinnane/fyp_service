@@ -24,17 +24,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   		dfViewWorkaround true
   		name "bidding"
   		isList false
-  		ComplexAttribute _cbl5IFWYEee9Kul9j01mzQ at 20,23 size 100,25  {
-  			libraryComponentUID "_vhcuADlwEeelR78gw15slQ"
-  			dfViewWorkaround true
-  		}
-  		
-  		ComplexAttribute _cbnHQFWYEee9Kul9j01mzQ at 20,50 size 100,25  {
-  			libraryComponentUID "_0MrHADlwEeelR78gw15slQ"
-  			dfViewWorkaround true
-  		}
-  		
-  		ComplexAttribute _cbo8cFWYEee9Kul9j01mzQ at 20,77 size 100,25  {
+  		ComplexAttribute _cbo8cFWYEee9Kul9j01mzQ at 20,23 size 100,25  {
   			libraryComponentUID "_HT4BYDlxEeelR78gw15slQ"
   			dfViewWorkaround true
   			-ComplexRead-> _abaKEFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
@@ -43,7 +33,17 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   			}
   		}
   		
-  		PrimitiveAttribute _cbqKkFWYEee9Kul9j01mzQ at 20,104 size 100,25  {
+  		ComplexAttribute _izJJ0FaEEee7Rq2yitsHaA at 20,50 size 100,25  {
+  			libraryComponentUID "_Qyt-MFZsEee7Rq2yitsHaA"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _izKX8FaEEee7Rq2yitsHaA at 20,77 size 100,25  {
+  			libraryComponentUID "_uYaQsFZsEee7Rq2yitsHaA"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _izLmEFaEEee7Rq2yitsHaA at 20,104 size 100,25  {
   			libraryComponentUID "_tJ1g8DlxEeelR78gw15slQ"
   			dfViewWorkaround true
   		}
@@ -427,11 +427,6 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   		isList false
   		name "enum"
   	}
-  	-BranchConnector-> _abtsEFWYEee9Kul9j01mzQ   {
-  		id _abwIUFWYEee9Kul9j01mzQ
-  		concurrent true
-  	}
-  	
   	-BranchConnector-> _abzLoFWYEee9Kul9j01mzQ   {
   		id _ab2O8FWYEee9Kul9j01mzQ
   		concurrent true
@@ -444,6 +439,11 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	
   	-BranchConnector-> _ab_Y4FWYEee9Kul9j01mzQ   {
   		id _acCcMFWYEee9Kul9j01mzQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _abtsEFWYEee9Kul9j01mzQ   {
+  		id _abwIUFWYEee9Kul9j01mzQ
   		concurrent true
   	}
   }

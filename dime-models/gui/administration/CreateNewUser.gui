@@ -175,7 +175,6 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   						
   						Field _mi4MkEUNEeeKqOBaOG4MmQ at 10,30 size 200,60  {
   							label "First name"
-  							isList false
   							inputType Text
   							styling FormFieldStyling {
   									size Default
@@ -210,7 +209,6 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   						
   						Field _kENVQEUOEeeKqOBaOG4MmQ at 10,100 size 200,60 index 4 {
   							label "Last name"
-  							isList false
   							inputType Text
   							styling FormFieldStyling {
   									size Default
@@ -245,7 +243,6 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   						
   						Field _kyglsEUOEeeKqOBaOG4MmQ at 10,170 size 200,60 index 6 {
   							label "Email"
-  							isList false
   							inputType Text
   							styling FormFieldStyling {
   									size Default
@@ -280,7 +277,6 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   						
   						Field _lJ3VwEUOEeeKqOBaOG4MmQ at 10,240 size 200,60 index 3 {
   							label "Password"
-  							isList false
   							inputType Text
   							styling FormFieldStyling {
   									size Default
@@ -315,7 +311,6 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   						
   						Field _lf_90EUOEeeKqOBaOG4MmQ at 10,310 size 200,60 index 5 {
   							label "Username"
-  							isList false
   							inputType Text
   							styling FormFieldStyling {
   									size Default

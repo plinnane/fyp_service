@@ -1,0 +1,120 @@
+Process _aye6UFZpEee7Rq2yitsHaA {
+  modelName "TabViewUnassignedTopics"
+  processType Interaction
+  description "TabViewUnassignedTopics"
+  isStateful false
+  dataFlowView true
+  DataContext _a0V7gFZpEee7Rq2yitsHaA at 50,50 size 180,601  {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _a0Y-0FZpEee7Rq2yitsHaA at 350,50 size 100,65  {
+  	-ControlFlow-> _mwi-EFaFEee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _nSo-gFaFEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  }
+  
+  EndSIB _a0a0AFZpEee7Rq2yitsHaA at 550,550 size 100,90  {
+  	branchName "go to topic"
+  	ComplexInputPort _z7LnoFZqEee7Rq2yitsHaA at 5,67 size 90,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  	}
+  }
+  
+  EndSIB _6eCtIFZpEee7Rq2yitsHaA at 350,550 size 100,90  {
+  	branchName "go to profile"
+  	ComplexInputPort _wmoGoFZqEee7Rq2yitsHaA at 5,67 size 90,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  	}
+  }
+  
+  GUISIB _g6ryMFZqEee7Rq2yitsHaA at 340,360 size 120,90  {
+  	name "ViewTopics"
+  	majorPage true
+  	libraryComponentUID "_KcEzwEUqEeeKqOBaOG4MmQ"
+  	label "ViewTopics"
+  	ComplexInputPort _g608IFZqEee7Rq2yitsHaA at 5,67 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "topic"
+  	}
+  	-BranchConnector-> _g650oFZqEee7Rq2yitsHaA   {
+  		id _g67p0FZqEee7Rq2yitsHaA
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _g7lKEFZqEee7Rq2yitsHaA   {
+  		id _g7m_QFZqEee7Rq2yitsHaA
+  		concurrent true
+  	}
+  }
+  
+  Branch _g650oFZqEee7Rq2yitsHaA at 340,470 size 120,50  {
+  	name "go to profile"
+  	ComplexOutputPort _g6838FZqEee7Rq2yitsHaA at 5,27 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  		-ComplexDirectDataFlow-> _wmoGoFZqEee7Rq2yitsHaA via (330,506) (330,626) decorate "Polyline" at (2,0) {
+  			id _3DHB4FZqEee7Rq2yitsHaA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _6eCtIFZpEee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _r1n1wFZqEee7Rq2yitsHaA
+  		concurrent true
+  	}
+  }
+  
+  Branch _g7lKEFZqEee7Rq2yitsHaA at 540,380 size 120,50  {
+  	name "go to topic"
+  	ComplexOutputPort _g7pbgFZqEee7Rq2yitsHaA at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  		-ComplexDirectDataFlow-> _z7LnoFZqEee7Rq2yitsHaA via (530,416) (530,626) decorate "Polyline" at (2,0) {
+  			id _2h1g0FZqEee7Rq2yitsHaA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _a0a0AFZpEee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _rijIwFZqEee7Rq2yitsHaA
+  		concurrent true
+  	}
+  }
+  
+  Branch _mwpEsFaFEee7Rq2yitsHaA at 574,230 size 120,50 index 9 {
+  	name "success"
+  	ComplexOutputPort _mwsIAFaFEee7Rq2yitsHaA at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "topics"
+  		-ComplexDirectDataFlow-> _g608IFZqEee7Rq2yitsHaA via (330,267) (330,436) decorate "Polyline" at (2,0) {
+  			id _oKUNYFaFEee7Rq2yitsHaA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _g6ryMFZqEee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _n6aJIFaFEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  }
+  
+  ProcessSIB _mwi-EFaFEee7Rq2yitsHaA at 574,114 size 120,65  {
+  	libraryComponentUID "_Oj0PwEUrEeeKqOBaOG4MmQ"
+  	label "RetrieveAllTopics"
+  	-BranchConnector-> _mwpEsFaFEee7Rq2yitsHaA   {
+  		id _mwqS0FaFEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  }
+  
+  Documentation _iKIzoFaFEee7Rq2yitsHaA at 538,100 size 191,211 index 7 {
+  	content "TO BE ADDED LATER"
+  }
+}

@@ -1,0 +1,221 @@
+Process _eZDYYFZpEee7Rq2yitsHaA {
+  modelName "TabViewDesiredTopics"
+  processType Interaction
+  description "TabViewDesiredTopics"
+  isStateful false
+  dataFlowView true
+  DataContext _eZIQ4FZpEee7Rq2yitsHaA at 50,50 size 180,590  {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _eZKGEFZpEee7Rq2yitsHaA at 350,50 size 100,90  {
+  	ComplexOutputPort _rfeeQFZ4Eee7Rq2yitsHaA at 5,67 size 90,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  		-ComplexDirectDataFlow-> _yOddwFaDEee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  			id _RARlIFaEEee7Rq2yitsHaA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _yN4O8FaDEee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _4q9nIFaDEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  }
+  
+  EndSIB _EzNKIFZqEee7Rq2yitsHaA at 350,550 size 100,90 index 3 {
+  	branchName "go to profile"
+  	ComplexInputPort _xmavsFZqEee7Rq2yitsHaA at 5,67 size 90,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  	}
+  }
+  
+  EndSIB _ETnrIFZqEee7Rq2yitsHaA at 550,550 size 100,90 index 2 {
+  	branchName "go to topic"
+  	ComplexInputPort _zO3UMFZqEee7Rq2yitsHaA at 5,67 size 90,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  	}
+  }
+  
+  GUISIB _hh7YYFZqEee7Rq2yitsHaA at 340,360 size 120,90  {
+  	name "ViewTopics"
+  	majorPage true
+  	libraryComponentUID "_KcEzwEUqEeeKqOBaOG4MmQ"
+  	label "ViewTopics"
+  	ComplexInputPort _hiFwcFZqEee7Rq2yitsHaA at 5,67 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "topic"
+  	}
+  	-BranchConnector-> _hiTL0FZqEee7Rq2yitsHaA   {
+  		id _hiVoEFZqEee7Rq2yitsHaA
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _hiKo8FZqEee7Rq2yitsHaA   {
+  		id _hiL3EFZqEee7Rq2yitsHaA
+  		concurrent true
+  	}
+  }
+  
+  Branch _hiKo8FZqEee7Rq2yitsHaA at 340,470 size 120,50  {
+  	name "go to profile"
+  	ComplexOutputPort _hiNsQFZqEee7Rq2yitsHaA at 5,27 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  		-ComplexDirectDataFlow-> _xmavsFZqEee7Rq2yitsHaA via (330,506) (330,626) decorate "Polyline" at (2,0) {
+  			id _36euwFZqEee7Rq2yitsHaA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _EzNKIFZqEee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _qzPywFZqEee7Rq2yitsHaA
+  		concurrent true
+  	}
+  }
+  
+  Branch _hiTL0FZqEee7Rq2yitsHaA at 540,380 size 120,50  {
+  	name "go to topic"
+  	ComplexOutputPort _hiXdQFZqEee7Rq2yitsHaA at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  		-ComplexDirectDataFlow-> _zO3UMFZqEee7Rq2yitsHaA via (530,416) (530,626) decorate "Polyline" at (2,0) {
+  			id _3kxkgFZqEee7Rq2yitsHaA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _ETnrIFZqEee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _qkAc4FZqEee7Rq2yitsHaA
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _m3KPUFZ4Eee7Rq2yitsHaA at 340,161 size 120,90  {
+  	libraryComponentUID "_Drqd0FZrEee7Rq2yitsHaA"
+  	label "RetrieveDesiredTopics"
+  	ComplexInputPort _m30WoFZ4Eee7Rq2yitsHaA at 5,67 size 110,18  {
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		isList false
+  		name "student"
+  	}
+  	-BranchConnector-> _m37rYFZ4Eee7Rq2yitsHaA   {
+  		id _m385gFZ4Eee7Rq2yitsHaA
+  		concurrent false
+  	}
+  }
+  
+  Branch _m37rYFZ4Eee7Rq2yitsHaA at 340,280 size 120,50  {
+  	name "success"
+  	ComplexOutputPort _m3-usFZ4Eee7Rq2yitsHaA at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "topics"
+  		-ComplexDirectDataFlow-> _hiFwcFZqEee7Rq2yitsHaA via (330,316) (330,436) decorate "Polyline" at (2,0) {
+  			id _nw8-EFZ4Eee7Rq2yitsHaA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _hh7YYFZqEee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _oD7kcFZ4Eee7Rq2yitsHaA
+  		concurrent false
+  	}
+  }
+  
+  GUISIB _CbJv0FZ5Eee7Rq2yitsHaA at 850,50 size 120,90  {
+  	name "NotificationComponent"
+  	majorPage true
+  	libraryComponentUID "_7eKIgFZ4Eee7Rq2yitsHaA"
+  	label "NotificationComponent"
+  	TextInputStatic _DM0dUFZ5Eee7Rq2yitsHaA at 5,67 size 110,18  {
+  		value "The current user is no student and therefore has no desired topics."
+  		name "text"
+  	}
+  }
+  
+  Branch _yOzcAFaDEee7Rq2yitsHaA at 530,181 size 120,50 index 13 {
+  	name "student"
+  	ComplexOutputPort _yO2fUFaDEee7Rq2yitsHaA at 5,27 size 110,18  {
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		isList false
+  		name "student"
+  		-ComplexDirectDataFlow-> _m30WoFZ4Eee7Rq2yitsHaA via (517,216) (481,236) decorate "Polyline" at (2,0) {
+  			id _06zvQFaDEee7Rq2yitsHaA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _m3KPUFZ4Eee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _0oP_oFaDEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  }
+  
+  ProcessSIB _yN4O8FaDEee7Rq2yitsHaA at 530,50 size 120,90 index 10 {
+  	libraryComponentUID "_gXQhwFZ6Eee7Rq2yitsHaA"
+  	label "SwitchUserRole"
+  	ComplexInputPort _yOddwFaDEee7Rq2yitsHaA at 5,67 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  	}
+  	-BranchConnector-> _yOi9UFaDEee7Rq2yitsHaA   {
+  		id _yOkLcFaDEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  	
+  	-BranchConnector-> _yOqSEFaDEee7Rq2yitsHaA   {
+  		id _yOsHQFaDEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  	
+  	-BranchConnector-> _yOzcAFaDEee7Rq2yitsHaA   {
+  		id _yO0qIFaDEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  	
+  	-BranchConnector-> _yO7-4FaDEee7Rq2yitsHaA   {
+  		id _yO9NAFaDEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  }
+  
+  Branch _yOi9UFaDEee7Rq2yitsHaA at 690,20 size 120,50 index 11 {
+  	name "admin"
+  	ComplexOutputPort _yOlZkFaDEee7Rq2yitsHaA at 5,27 size 110,18  {
+  		libraryComponentUID "_fhd4sDlvEeelR78gw15slQ"
+  		isList false
+  		name "admin"
+  	}
+  	-ControlFlow-> _CbJv0FZ5Eee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _9ZnuoFaDEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  }
+  
+  Branch _yOqSEFaDEee7Rq2yitsHaA at 690,120 size 120,50 index 12 {
+  	name "supervisor"
+  	ComplexOutputPort _yOtVYFaDEee7Rq2yitsHaA at 5,27 size 110,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "supervisor"
+  	}
+  	-ControlFlow-> _CbJv0FZ5Eee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _97zOoFaDEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  }
+  
+  Branch _yO7-4FaDEee7Rq2yitsHaA at 690,82 size 120,25  {
+  	name "unresolvable"
+  	-ControlFlow-> _CbJv0FZ5Eee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  		id _9qjGkFaDEee7Rq2yitsHaA
+  		concurrent false
+  	}
+  }
+}

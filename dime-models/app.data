@@ -62,7 +62,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _k5NVsC84EeeRkP4audC_CA at 302,548 size 140,181  {
+  ConcreteType _k5NVsC84EeeRkP4audC_CA at 302,548 size 140,199  {
   	name "Topic"
   	PrimitiveAttribute _-sIhMC84EeeRkP4audC_CA at 5,32 size 130,18  {
   		dataType Text
@@ -113,6 +113,13 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		name "id"
   		isList false
   	}
+  	
+  	BidirectionalAttribute _uY6nAFZsEee7Rq2yitsHaA at 5,176 size 130,18  {
+  		oppositeAttribute _uYaQsFZsEee7Rq2yitsHaA
+  		dataType _pnmlwDlwEeelR78gw15slQ
+  		name "biddings"
+  		isList true
+  	}
   	-BidirectionalAssociation-> _QCBvMDlvEeelR78gw15slQ  decorate "Text" at (0,0) decorate "Text" at (0,0) {
   		id _leIO8DlwEeelR78gw15slQ
   		targetAttr _leJdEDlwEeelR78gw15slQ
@@ -127,7 +134,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _eWeFMDlvEeelR78gw15slQ at 76,430 size 140,109 index 4 {
+  ConcreteType _eWeFMDlvEeelR78gw15slQ at 76,394 size 140,127 index 4 {
   	name "Student"
   	PrimitiveAttribute _er0DEDlvEeelR78gw15slQ at 5,32 size 130,18  {
   		dataType Text
@@ -153,56 +160,67 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		name "assignment"
   		isList false
   	}
+  	
+  	BidirectionalAttribute _QzPioFZsEee7Rq2yitsHaA at 5,104 size 130,18  {
+  		oppositeAttribute _Qyt-MFZsEee7Rq2yitsHaA
+  		dataType _pnmlwDlwEeelR78gw15slQ
+  		name "biddings"
+  		isList true
+  	}
   	-Inheritance-> _dh6BYMwNEeWZVvvwxpYu8A  decorate "Polygon" at (2,0) {
   		id __xcnMDlvEeelR78gw15slQ
   	}
   }
   
-  ConcreteType _pnmlwDlwEeelR78gw15slQ at 76,584 size 140,109 index 6 {
+  ConcreteType _pnmlwDlwEeelR78gw15slQ at 76,593 size 140,109 index 6 {
   	name "Bidding"
-  	ComplexAttribute _vhcuADlwEeelR78gw15slQ at 5,32 size 130,18  {
-  		dataType _eWeFMDlvEeelR78gw15slQ
-  		name "student"
-  		isList false
-  	}
-  	
-  	ComplexAttribute _0MrHADlwEeelR78gw15slQ at 5,50 size 130,18  {
-  		dataType _k5NVsC84EeeRkP4audC_CA
-  		name "topic"
-  		isList false
-  	}
-  	
-  	ComplexAttribute _HT4BYDlxEeelR78gw15slQ at 5,68 size 130,18  {
+  	ComplexAttribute _HT4BYDlxEeelR78gw15slQ at 5,32 size 130,18  {
   		dataType _4lMmcDlwEeelR78gw15slQ
   		name "biddingValue"
   		isList false
   	}
   	
-  	PrimitiveAttribute _tJ1g8DlxEeelR78gw15slQ at 5,86 size 130,18  {
+  	PrimitiveAttribute _tJ1g8DlxEeelR78gw15slQ at 5,50 size 130,18  {
   		dataType Boolean
   		name "final"
   		isList false
   	}
-  	-Association-> _eWeFMDlvEeelR78gw15slQ  decorate "Text" at (0,0) decorate "Polyline" at (2,0) {
-  		id _vhbf4DlwEeelR78gw15slQ
-  		isHidden false
-  		sourceAttr _vhcuADlwEeelR78gw15slQ
+  	
+  	BidirectionalAttribute _Qyt-MFZsEee7Rq2yitsHaA at 5,68 size 130,18  {
+  		oppositeAttribute _QzPioFZsEee7Rq2yitsHaA
+  		dataType _eWeFMDlvEeelR78gw15slQ
+  		name "student"
+  		isList false
   	}
   	
-  	-Association-> _k5NVsC84EeeRkP4audC_CA  decorate "Text" at (0,0) decorate "Polyline" at (2,0) {
-  		id _0Mp44DlwEeelR78gw15slQ
-  		isHidden false
-  		sourceAttr _0MrHADlwEeelR78gw15slQ
+  	BidirectionalAttribute _uYaQsFZsEee7Rq2yitsHaA at 5,86 size 130,18  {
+  		oppositeAttribute _uY6nAFZsEee7Rq2yitsHaA
+  		dataType _k5NVsC84EeeRkP4audC_CA
+  		name "topic"
+  		isList false
   	}
-  	
   	-Association-> _4lMmcDlwEeelR78gw15slQ  decorate "Text" at (0,0) decorate "Polyline" at (2,0) {
   		id _HT1lIDlxEeelR78gw15slQ
   		isHidden false
   		sourceAttr _HT4BYDlxEeelR78gw15slQ
   	}
+  	
+  	-BidirectionalAssociation-> _eWeFMDlvEeelR78gw15slQ  decorate "Text" at (-55,-10) decorate "Text" at (0,0) {
+  		id _QysJAFZsEee7Rq2yitsHaA
+  		targetAttr _Qyt-MFZsEee7Rq2yitsHaA
+  		isHidden false
+  		sourceAttr _QzPioFZsEee7Rq2yitsHaA
+  	}
+  	
+  	-BidirectionalAssociation-> _k5NVsC84EeeRkP4audC_CA  decorate "Text" at (-18,-16) decorate "Text" at (-37,0) {
+  		id _uYYbgFZsEee7Rq2yitsHaA
+  		targetAttr _uYaQsFZsEee7Rq2yitsHaA
+  		isHidden false
+  		sourceAttr _uY6nAFZsEee7Rq2yitsHaA
+  	}
   }
   
-  EnumType _4lMmcDlwEeelR78gw15slQ at 76,720 size 140,109 index 7 {
+  EnumType _4lMmcDlwEeelR78gw15slQ at 76,780 size 140,109 index 7 {
   	name "BiddingValue"
   	EnumLiteral _71NlsDlwEeelR78gw15slQ at 5,32 size 130,18  {
   		name "desired"
@@ -225,7 +243,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _4uASQDlyEeelR78gw15slQ at 300,760 size 140,73 index 8 {
+  ConcreteType _4uASQDlyEeelR78gw15slQ at 302,798 size 140,73 index 8 {
   	name "TransientTopic"
   	ComplexAttribute _77-DEDlyEeelR78gw15slQ at 5,32 size 130,18  {
   		dataType _k5NVsC84EeeRkP4audC_CA
@@ -292,7 +310,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		name "topic"
   		isList false
   	}
-  	-BidirectionalAssociation-> _eWeFMDlvEeelR78gw15slQ  decorate "Text" at (0,0) decorate "Text" at (0,0) {
+  	-BidirectionalAssociation-> _eWeFMDlvEeelR78gw15slQ  decorate "Text" at (-37,3) decorate "Text" at (-13,-13) {
   		id _YOoAYDlzEeelR78gw15slQ
   		targetAttr _YOp1kDlzEeelR78gw15slQ
   		isHidden false
@@ -307,7 +325,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  EnumType _ceCKoDl0EeelR78gw15slQ at 540,630 size 140,127  {
+  EnumType _ceCKoDl0EeelR78gw15slQ at 590,584 size 140,127  {
   	name "Category"
   	EnumLiteral _yA0hMDl1EeelR78gw15slQ at 5,32 size 130,18  {
   		name "literal1"

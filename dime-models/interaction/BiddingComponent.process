@@ -12,22 +12,22 @@ Process _YBCrUFWWEee9Kul9j01mzQ {
   		dfViewWorkaround true
   		name "bidding"
   		isList false
-  		ComplexAttribute _nPnuUFWWEee9Kul9j01mzQ at 20,23 size 100,25  {
-  			libraryComponentUID "_vhcuADlwEeelR78gw15slQ"
-  			dfViewWorkaround true
-  		}
-  		
-  		ComplexAttribute _nPqKkFWWEee9Kul9j01mzQ at 20,50 size 100,25  {
-  			libraryComponentUID "_0MrHADlwEeelR78gw15slQ"
-  			dfViewWorkaround true
-  		}
-  		
-  		ComplexAttribute _nPsm0FWWEee9Kul9j01mzQ at 20,77 size 100,25  {
+  		ComplexAttribute _nPsm0FWWEee9Kul9j01mzQ at 20,23 size 100,25  {
   			libraryComponentUID "_HT4BYDlxEeelR78gw15slQ"
   			dfViewWorkaround true
   		}
   		
-  		PrimitiveAttribute _nPyGYFWWEee9Kul9j01mzQ at 20,104 size 100,25  {
+  		ComplexAttribute _uxWoQFaEEee7Rq2yitsHaA at 20,50 size 100,25  {
+  			libraryComponentUID "_Qyt-MFZsEee7Rq2yitsHaA"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _uxXPUFaEEee7Rq2yitsHaA at 20,77 size 100,25  {
+  			libraryComponentUID "_uYaQsFZsEee7Rq2yitsHaA"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _uxX2YFaEEee7Rq2yitsHaA at 20,104 size 100,25  {
   			libraryComponentUID "_tJ1g8DlxEeelR78gw15slQ"
   			dfViewWorkaround true
   		}

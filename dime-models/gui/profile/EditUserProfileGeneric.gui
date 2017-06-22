@@ -164,7 +164,6 @@ GUI _t_C_wEz7Eee_89yPXsYmRg {
   				
   				Field _Hr1uEEz8Eee_89yPXsYmRg at 10,30 size 200,60  {
   					label "First name"
-  					isList false
   					inputType Text
   					styling FormFieldStyling {
   							size Default
@@ -200,7 +199,6 @@ GUI _t_C_wEz7Eee_89yPXsYmRg {
   				
   				Field _I6i84Ez8Eee_89yPXsYmRg at 10,100 size 200,60  {
   					label "Last name"
-  					isList false
   					inputType Text
   					styling FormFieldStyling {
   							size Default
@@ -236,7 +234,6 @@ GUI _t_C_wEz7Eee_89yPXsYmRg {
   				
   				Field _Ck3NMEz8Eee_89yPXsYmRg at 10,170 size 200,60  {
   					label "Mail adress"
-  					isList false
   					inputType Text
   					styling FormFieldStyling {
   							size Default

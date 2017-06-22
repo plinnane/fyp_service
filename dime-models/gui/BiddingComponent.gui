@@ -13,17 +13,17 @@ GUI _9K3P4FWREee9Kul9j01mzQ {
   		name "bidding"
   		isList false
   		isInput true
-  		ComplexAttribute _P7HX8FWUEee9Kul9j01mzQ at 20,23 size 120,25  {
-  			libraryComponentUID "_vhcuADlwEeelR78gw15slQ"
+  		ComplexAttribute _pyRfIFaEEee7Rq2yitsHaA at 20,23 size 120,25  {
+  			libraryComponentUID "_Qyt-MFZsEee7Rq2yitsHaA"
   			isLive false
   		}
   		
-  		ComplexAttribute _P7ZEwFWUEee9Kul9j01mzQ at 20,50 size 120,25  {
-  			libraryComponentUID "_0MrHADlwEeelR78gw15slQ"
+  		ComplexAttribute _pyStQFaEEee7Rq2yitsHaA at 20,50 size 120,25  {
+  			libraryComponentUID "_uYaQsFZsEee7Rq2yitsHaA"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _P76CIFWUEee9Kul9j01mzQ at 20,77 size 120,25  {
+  		PrimitiveAttribute _pyT7YFaEEee7Rq2yitsHaA at 20,77 size 120,25  {
   			libraryComponentUID "_tJ1g8DlxEeelR78gw15slQ"
   			isLive false
   		}
@@ -35,7 +35,7 @@ GUI _9K3P4FWREee9Kul9j01mzQ {
   	
   	ComplexVariable _Qn8owFWUEee9Kul9j01mzQ at 20,220 size 160,25  {
   		isLive false
-  		expanded true
+  		expanded false
   		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
   		dfViewWorkaround true
   		name "biddingValue"
@@ -149,7 +149,7 @@ GUI _9K3P4FWREee9Kul9j01mzQ {
   				MoveDown _V-fhkFWSEee9Kul9j01mzQ at 2,10 size 14,7  {
   				}
   				
-  				Button _V-ru0FWSEee9Kul9j01mzQ at 220,30 size 200,60  {
+  				Button _V-ru0FWSEee9Kul9j01mzQ at 220,30 size 200,60 index 3 {
   					label "biddingChanged"
   					displayLabel "{{current}}"
   					styling ButtonStyling {
@@ -180,7 +180,7 @@ GUI _9K3P4FWREee9Kul9j01mzQ {
   					}
   				}
   				
-  				Button _W77aMFWSEee9Kul9j01mzQ at 10,30 size 200,60  {
+  				Button _W77aMFWSEee9Kul9j01mzQ at 10,30 size 200,60 index 2 {
   					label "chosenBidding"
   					displayLabel "{{bidding.biddingValue}}"
   					styling ButtonStyling {

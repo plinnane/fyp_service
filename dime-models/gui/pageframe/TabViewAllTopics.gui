@@ -5,9 +5,44 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   fullWidth false
   DataContext _7j0y0EU5EeetjZy493Al0g at 10,10 size 200,1000  {
   	dfViewWorkaround true
+  	ComplexVariable _Fh2kkFaFEee7Rq2yitsHaA at 20,40 size 160,78  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _Pvp1UFaFEee7Rq2yitsHaA at 20,23 size 120,25  {
+  			libraryComponentUID "_fPY24MwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _PvrDcFaFEee7Rq2yitsHaA at 20,50 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-ComplexRead-> _BcIsYFaFEee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
+  			id _GKFpQFaFEee7Rq2yitsHaA
+  		}
+  		
+  		-IS-> _p2UF4FZpEee7Rq2yitsHaA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _SMRBsFaFEee7Rq2yitsHaA
+  			negate false
+  			exactMatch true
+  			matchingType "_QCBvMDlvEeelR78gw15slQ"
+  		}
+  		
+  		-IS-> _pi9FAFZpEee7Rq2yitsHaA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _QkTlYFaFEee7Rq2yitsHaA
+  			negate false
+  			exactMatch true
+  			matchingType "_eWeFMDlvEeelR78gw15slQ"
+  		}
+  	}
   }
   
-  Template _7j4dMEU5EeetjZy493Al0g at 260,10 size 220,371  {
+  Template _7j4dMEU5EeetjZy493Al0g at 260,10 size 1410,566  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -15,7 +50,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _7kBnIEU5EeetjZy493Al0g at 10,30 size 200,311  {
+  	Row _7kBnIEU5EeetjZy493Al0g at 10,30 size 1390,506  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -28,7 +63,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   		MoveDown _7kIU0EU5EeetjZy493Al0g at 2,10 size 14,7  {
   		}
   		
-  		Col _7kNNUEU5EeetjZy493Al0g at 10,30 size 170,261  {
+  		Col _7kNNUEU5EeetjZy493Al0g at 10,30 size 1360,456  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -47,37 +82,341 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   			MoveRight _7kSs4EU5EeetjZy493Al0g at 10,2 size 7,14  {
   			}
   			
-  			InteractionSIB _6Lb2QFDvEee1RdmfVpvmFg at 10,30 size 150,201  {
-  				libraryComponentUID "_-g8EMEU5EeetjZy493Al0g"
-  				label "TabViewAllTopics"
+  			Tabbing _DFzpoFZpEee7Rq2yitsHaA at 10,30 size 1340,396  {
+  				tabtype Tab
+  				justified false
   				generalStyle GeneralStyling {
   						marginTop None
   						marginBottom None
   						tallness Fitting
   						attributes [  ]
   					}
-  				Branch _6LlnQFDvEee1RdmfVpvmFg at 5,65 size 100,50  {
-  					name "go to profile"
-  					ComplexOutputPort _6LuxMFDvEee1RdmfVpvmFg at 5,27 size 90,18  {
-  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
-  						name "user"
-  						isList false
+  				MoveUp _DHC_wFZpEee7Rq2yitsHaA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _DHFcAFZpEee7Rq2yitsHaA at 2,10 size 14,7  {
+  				}
+  				
+  				Tab _DIUyIFZpEee7Rq2yitsHaA at 10,30 size 320,321  {
+  					label "All topics"
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _DIcG4FZpEee7Rq2yitsHaA at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _DIejIFZpEee7Rq2yitsHaA at 10,2 size 7,14  {
+  					}
+  					
+  					InteractionSIB _6Lb2QFDvEee1RdmfVpvmFg at 10,90 size 150,201  {
+  						libraryComponentUID "_-g8EMEU5EeetjZy493Al0g"
+  						label "TabViewAllTopics"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						Branch _6LlnQFDvEee1RdmfVpvmFg at 5,65 size 100,50  {
+  							name "go to profile"
+  							ComplexOutputPort _6LuxMFDvEee1RdmfVpvmFg at 5,27 size 90,18  {
+  								libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  								name "user"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _6LzpsFDvEee1RdmfVpvmFg at 5,133 size 100,50  {
+  							name "go to topic"
+  							ComplexOutputPort _6L5JQFDvEee1RdmfVpvmFg at 5,27 size 90,18  {
+  								libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  								name "topic"
+  								isList false
+  							}
+  						}
+  						
+  						MoveUp _6L_28FDvEee1RdmfVpvmFg at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _6MAeAFDvEee1RdmfVpvmFg at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					Headline _QjoIkFaIEeeYMvArqX150A at 10,30 size 300,50  {
+  						size Normal
+  						content [ StaticContent {
+  								rawContent "All topics"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _QjwrcFaIEeeYMvArqX150A at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _QjzHsFaIEeeYMvArqX150A at 2,10 size 14,7  {
+  						}
   					}
   				}
   				
-  				Branch _6LzpsFDvEee1RdmfVpvmFg at 5,133 size 100,50  {
-  					name "go to topic"
-  					ComplexOutputPort _6L5JQFDvEee1RdmfVpvmFg at 5,27 size 90,18  {
-  						libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
-  						name "topic"
-  						isList false
+  				Tab _EoOeoFZpEee7Rq2yitsHaA at 340,30 size 320,321  {
+  					label "Unassigned topics"
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _EoQT0FZpEee7Rq2yitsHaA at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _EoRh8FZpEee7Rq2yitsHaA at 10,2 size 7,14  {
+  					}
+  					
+  					InteractionSIB _CuOmYFaFEee7Rq2yitsHaA at 10,90 size 150,201  {
+  						libraryComponentUID "_aye6UFZpEee7Rq2yitsHaA"
+  						label "TabViewUnassignedTopics"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						Branch _CuUF8FaFEee7Rq2yitsHaA at 5,65 size 100,50  {
+  							name "go to profile"
+  							ComplexOutputPort _CuYXYFaFEee7Rq2yitsHaA at 5,27 size 90,18  {
+  								libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  								name "user"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _CucBwFaFEee7Rq2yitsHaA at 5,133 size 100,50  {
+  							name "go to topic"
+  							ComplexOutputPort _CufsIFaFEee7Rq2yitsHaA at 5,27 size 90,18  {
+  								libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  								name "topic"
+  								isList false
+  							}
+  						}
+  						
+  						MoveUp _CulywFaFEee7Rq2yitsHaA at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _CunA4FaFEee7Rq2yitsHaA at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					Headline _Th5QgFaIEeeYMvArqX150A at 10,30 size 300,50  {
+  						size Normal
+  						content [ StaticContent {
+  								rawContent "Unassigned topics"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _Th7swFaIEeeYMvArqX150A at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _Th864FaIEeeYMvArqX150A at 2,10 size 14,7  {
+  						}
   					}
   				}
   				
-  				MoveUp _6L_28FDvEee1RdmfVpvmFg at 2,2 size 14,7  {
+  				Tab _pi9FAFZpEee7Rq2yitsHaA at 670,30 size 320,346 index 5 {
+  					label "My desired topics"
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _pi-6MFZpEee7Rq2yitsHaA at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _pjAIUFZpEee7Rq2yitsHaA at 10,2 size 7,14  {
+  					}
+  					
+  					InteractionSIB _Bb1KYFaFEee7Rq2yitsHaA at 10,90 size 150,226 index 3 {
+  						libraryComponentUID "_eZDYYFZpEee7Rq2yitsHaA"
+  						label "TabViewDesiredTopics"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						ComplexInputPort _BcIsYFaFEee7Rq2yitsHaA at 5,67 size 90,18 index 4 {
+  							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  							isList false
+  							name "user"
+  						}
+  						
+  						Branch _BcQoMFaFEee7Rq2yitsHaA at 5,90 size 100,50 index 0 {
+  							name "go to topic"
+  							ComplexOutputPort _BcVgsFaFEee7Rq2yitsHaA at 5,27 size 90,18  {
+  								libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  								name "topic"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _Bcl_YFaFEee7Rq2yitsHaA at 5,158 size 100,50 index 1 {
+  							name "go to profile"
+  							ComplexOutputPort _BcqQ0FaFEee7Rq2yitsHaA at 5,27 size 90,18  {
+  								libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  								name "user"
+  								isList false
+  							}
+  						}
+  						
+  						MoveUp _BcvwYFaFEee7Rq2yitsHaA at 2,2 size 14,7 index 2 {
+  						}
+  						
+  						MoveDown _Bcw-gFaFEee7Rq2yitsHaA at 2,10 size 14,7 index 3 {
+  						}
+  					}
+  					
+  					Headline _V6bOIFaIEeeYMvArqX150A at 10,30 size 300,50 index 2 {
+  						size Normal
+  						content [ StaticContent {
+  								rawContent "My desired topics"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _V6dqYFaIEeeYMvArqX150A at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _V6e4gFaIEeeYMvArqX150A at 2,10 size 14,7  {
+  						}
+  					}
   				}
   				
-  				MoveDown _6MAeAFDvEee1RdmfVpvmFg at 2,10 size 14,7  {
+  				Tab _p2UF4FZpEee7Rq2yitsHaA at 1000,30 size 320,321 index 4 {
+  					label "My uploaded topics"
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _p2WiIFZpEee7Rq2yitsHaA at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _p2XwQFZpEee7Rq2yitsHaA at 10,2 size 7,14  {
+  					}
+  					
+  					InteractionSIB _EENh4FaFEee7Rq2yitsHaA at 10,90 size 150,201  {
+  						libraryComponentUID "_gSrMcFZpEee7Rq2yitsHaA"
+  						label "TabViewUploadedTopics"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						Branch _EETBcFaFEee7Rq2yitsHaA at 5,65 size 100,50  {
+  							name "go to topic"
+  							ComplexOutputPort _EEYhAFaFEee7Rq2yitsHaA at 5,27 size 90,18  {
+  								libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  								name "topic"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _EEcycFaFEee7Rq2yitsHaA at 5,133 size 100,50  {
+  							name "go to profile"
+  							ComplexOutputPort _EEhD4FaFEee7Rq2yitsHaA at 5,27 size 90,18  {
+  								libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  								name "user"
+  								isList false
+  							}
+  						}
+  						
+  						MoveUp _EEoYoFaFEee7Rq2yitsHaA at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _EEo_sFaFEee7Rq2yitsHaA at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					Headline _YXj-8FaIEeeYMvArqX150A at 10,30 size 300,50  {
+  						size Normal
+  						content [ StaticContent {
+  								rawContent "My uploaded topics"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _YXnCQFaIEeeYMvArqX150A at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _YXo3cFaIEeeYMvArqX150A at 2,10 size 14,7  {
+  						}
+  					}
   				}
   			}
   		}

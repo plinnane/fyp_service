@@ -42,10 +42,10 @@ Process _-g8EMEU5EeetjZy493Al0g {
   }
   
   GUISIB _3MV_wEU6EeetjZy493Al0g at 340,360 size 120,90 index 2 {
-  	name "ViewAllTopics"
+  	name "ViewTopics"
   	majorPage true
   	libraryComponentUID "_KcEzwEUqEeeKqOBaOG4MmQ"
-  	label "ViewAllTopics"
+  	label "ViewTopics"
   	ComplexInputPort _3MkCMEU6EeetjZy493Al0g at 5,67 size 110,18  {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList true
@@ -79,13 +79,13 @@ Process _-g8EMEU5EeetjZy493Al0g {
   	}
   }
   
-  Branch _yXUlQFDlEee1RdmfVpvmFg at 500,380 size 120,50  {
+  Branch _yXUlQFDlEee1RdmfVpvmFg at 540,380 size 120,50  {
   	name "go to topic"
   	ComplexOutputPort _yXe9UFDlEee1RdmfVpvmFg at 5,27 size 110,18  {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList false
   		name "topic"
-  		-ComplexDirectDataFlow-> _37aUYFDvEee1RdmfVpvmFg via (490,416) (490,626) decorate "Polyline" at (2,0) {
+  		-ComplexDirectDataFlow-> _37aUYFDvEee1RdmfVpvmFg via (530,416) (530,626) decorate "Polyline" at (2,0) {
   			id _4wfiQFDvEee1RdmfVpvmFg
   			dfViewWorkaround true
   		}
@@ -105,7 +105,7 @@ Process _-g8EMEU5EeetjZy493Al0g {
   	}
   }
   
-  EndSIB _eaX8YFDqEee1RdmfVpvmFg at 510,550 size 100,90  {
+  EndSIB _eaX8YFDqEee1RdmfVpvmFg at 550,550 size 100,90  {
   	branchName "go to topic"
   	ComplexInputPort _37aUYFDvEee1RdmfVpvmFg at 5,67 size 90,18  {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
