@@ -26,20 +26,21 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   }
   
-  Branch _G-q_QNzHEeW2rv4DARGjjw at 86,920 size 100,50  {
+  Branch _G-q_QNzHEeW2rv4DARGjjw at 85,1000 size 100,50  {
   	name "success"
   	ComplexOutputPort __2mtIERpEeejtrEn8Aq9wA at 5,27 size 90,18  {
   		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
   		isList false
   		name "newStudent"
   	}
-  	-ControlFlow-> _6aHH0EUwEeeKqOBaOG4MmQ via (289,944) decorate "Polyline" at (2,0) {
+  	-ControlFlow-> _6aHH0EUwEeeKqOBaOG4MmQ via (289,1025) decorate "Polyline" at (2,0) {
   		id _8RMlQEUwEeeKqOBaOG4MmQ
   		concurrent true
   	}
   }
   
-  ProcessSIB _G8JPsNzHEeW2rv4DARGjjw at 61,757 size 145,144  {
+  ProcessSIB _G8JPsNzHEeW2rv4DARGjjw at 63,810 size 145,162  {
+  	minorPage false
   	libraryComponentUID "_cBxicNzDEeW2rv4DARGjjw"
   	label "CreateStudent"
   	TextInputStatic _Kgk_wNzHEeW2rv4DARGjjw at 5,67 size 135,18  {
@@ -57,9 +58,14 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   		name "password"
   	}
   	
-  	TextInputStatic _AO4DMERqEeejtrEn8Aq9wA at 5,121 size 135,18  {
+  	TextInputStatic _yBT9EFdIEeedF_BtCbljJQ at 5,121 size 135,18  {
+  		value "mary@examply.mail"
+  		name "email"
+  	}
+  	
+  	TextInputStatic _AO4DMERqEeejtrEn8Aq9wA at 5,139 size 135,18  {
   		value "mary"
-  		name "internalName"
+  		name "username"
   	}
   	-BranchConnector-> _G-q_QNzHEeW2rv4DARGjjw   {
   		id _G-1-YNzHEeW2rv4DARGjjw
@@ -67,7 +73,7 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   }
   
-  Branch _iJve4NzGEeW2rv4DARGjjw at 86,670 size 100,50  {
+  Branch _iJve4NzGEeW2rv4DARGjjw at 85,719 size 100,50  {
   	name "success"
   	ComplexOutputPort _-04xcERpEeejtrEn8Aq9wA at 5,27 size 90,18  {
   		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
@@ -80,7 +86,8 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   }
   
-  ProcessSIB _iHeOANzGEeW2rv4DARGjjw at 61,510 size 145,144  {
+  ProcessSIB _iHeOANzGEeW2rv4DARGjjw at 63,530 size 145,162  {
+  	minorPage false
   	libraryComponentUID "_cBxicNzDEeW2rv4DARGjjw"
   	label "CreateStudent"
   	TextInputStatic _9AZ_UNzGEeW2rv4DARGjjw at 5,67 size 135,18  {
@@ -98,9 +105,14 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   		name "password"
   	}
   	
-  	TextInputStatic __Ipa8ERpEeejtrEn8Aq9wA at 5,121 size 135,18  {
+  	TextInputStatic _xl2JEFdIEeedF_BtCbljJQ at 5,121 size 135,18  {
+  		value "jonah@examply.mail"
+  		name "email"
+  	}
+  	
+  	TextInputStatic __Ipa8ERpEeejtrEn8Aq9wA at 5,139 size 135,18  {
   		value "jonah"
-  		name "internalName"
+  		name "username"
   	}
   	-BranchConnector-> _iJve4NzGEeW2rv4DARGjjw   {
   		id _iJ4BwNzGEeW2rv4DARGjjw
@@ -108,7 +120,8 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   }
   
-  ProcessSIB _PssUwNzGEeW2rv4DARGjjw at 63,270 size 141,144  {
+  ProcessSIB _PssUwNzGEeW2rv4DARGjjw at 65,254 size 141,162  {
+  	minorPage false
   	libraryComponentUID "_cBxicNzDEeW2rv4DARGjjw"
   	label "CreateStudent"
   	TextInputStatic _WK7jgNzGEeW2rv4DARGjjw at 5,67 size 131,18  {
@@ -126,9 +139,14 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   		name "password"
   	}
   	
-  	TextInputStatic _9tiH0ERpEeejtrEn8Aq9wA at 5,121 size 131,18  {
+  	TextInputStatic _xL5YAFdIEeedF_BtCbljJQ at 5,121 size 131,18  {
+  		value "peter@examply.mail"
+  		name "email"
+  	}
+  	
+  	TextInputStatic _9tiH0ERpEeejtrEn8Aq9wA at 5,139 size 131,18  {
   		value "peter"
-  		name "internalName"
+  		name "username"
   	}
   	-BranchConnector-> _PvRHoNzGEeW2rv4DARGjjw   {
   		id _PvaRkNzGEeW2rv4DARGjjw
@@ -136,7 +154,7 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   }
   
-  Branch _PvRHoNzGEeW2rv4DARGjjw at 86,430 size 100,50  {
+  Branch _PvRHoNzGEeW2rv4DARGjjw at 85,430 size 100,50  {
   	name "success"
   	ComplexOutputPort _BLyz4ERpEeejtrEn8Aq9wA at 5,27 size 90,18  {
   		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
@@ -173,7 +191,8 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	branchName "success"
   }
   
-  ProcessSIB _5vKNwERpEeejtrEn8Aq9wA at 450,81 size 120,144  {
+  ProcessSIB _5vKNwERpEeejtrEn8Aq9wA at 450,72 size 120,162  {
+  	minorPage false
   	libraryComponentUID "_wsrgoERpEeejtrEn8Aq9wA"
   	label "CreateSupervisor"
   	TextInputStatic _8pWuAERpEeejtrEn8Aq9wA at 5,67 size 110,18  {
@@ -191,9 +210,14 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   		name "password"
   	}
   	
-  	TextInputStatic _CiqqwERqEeejtrEn8Aq9wA at 5,121 size 110,18  {
+  	TextInputStatic _wPk5sFdIEeedF_BtCbljJQ at 5,121 size 110,18  {
+  		value "super@visor.mail"
+  		name "email"
+  	}
+  	
+  	TextInputStatic _CiqqwERqEeejtrEn8Aq9wA at 5,139 size 110,18  {
   		value "supervisor"
-  		name "internalName"
+  		name "username"
   	}
   	-BranchConnector-> _5wIeIERpEeejtrEn8Aq9wA   {
   		id _5wKTUERpEeejtrEn8Aq9wA
@@ -201,7 +225,7 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   }
   
-  Branch _5wIeIERpEeejtrEn8Aq9wA at 590,128 size 120,50  {
+  Branch _5wIeIERpEeejtrEn8Aq9wA at 600,128 size 120,50  {
   	name "success"
   	ComplexOutputPort _5wMIgERpEeejtrEn8Aq9wA at 5,27 size 110,18  {
   		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
@@ -252,9 +276,8 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   CreateSIB _Ai9VYEUxEeeKqOBaOG4MmQ at 390,520 size 120,108  {
   	libraryComponentUID "_Oj3g0EUwEeeKqOBaOG4MmQ"
   	label "Create GlobalSettings"
-  	PrimitiveInputPort _Ai_xoEUxEeeKqOBaOG4MmQ at 5,67 size 110,18  {
-  		dataType Text
-  		isList false
+  	TextInputStatic _jkJa0FdGEeedF_BtCbljJQ at 5,67 size 110,18  {
+  		value "GLOBAL_SETTINGS"
   		name "internalName"
   	}
   	
@@ -281,7 +304,8 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   }
   
-  ProcessSIB _l75WUFTKEee9p783Cu4DWg at 590,270 size 120,144  {
+  ProcessSIB _l75WUFTKEee9p783Cu4DWg at 600,254 size 120,162  {
+  	minorPage false
   	libraryComponentUID "_lStE0FTJEee9p783Cu4DWg"
   	label "CreateAdmin"
   	TextInputStatic _pmtbMFTKEee9p783Cu4DWg at 5,67 size 110,18  {
@@ -299,7 +323,12 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   		name "lastname"
   	}
   	
-  	TextInputStatic _qf3QwFTKEee9p783Cu4DWg at 5,121 size 110,18  {
+  	TextInputStatic _wqAL4FdIEeedF_BtCbljJQ at 5,121 size 110,18  {
+  		value "admin@admin.mail"
+  		name "email"
+  	}
+  	
+  	TextInputStatic _qf3QwFTKEee9p783Cu4DWg at 5,139 size 110,18  {
   		value "admin"
   		name "username"
   	}
@@ -309,7 +338,7 @@ Process _sA1GYNviEeWsF7MALrkAZQ {
   	}
   }
   
-  Branch _l9SdcFTKEee9p783Cu4DWg at 450,317 size 120,50  {
+  Branch _l9SdcFTKEee9p783Cu4DWg at 450,310 size 120,50  {
   	name "success"
   	ComplexOutputPort _l9VgwFTKEee9p783Cu4DWg at 5,27 size 110,18  {
   		libraryComponentUID "_fhd4sDlvEeelR78gw15slQ"

@@ -199,12 +199,6 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		name "topic"
   		isList false
   	}
-  	-Association-> _4lMmcDlwEeelR78gw15slQ  decorate "Text" at (0,0) decorate "Polyline" at (2,0) {
-  		id _HT1lIDlxEeelR78gw15slQ
-  		isHidden false
-  		sourceAttr _HT4BYDlxEeelR78gw15slQ
-  	}
-  	
   	-BidirectionalAssociation-> _eWeFMDlvEeelR78gw15slQ  decorate "Text" at (-55,-10) decorate "Text" at (0,0) {
   		id _QysJAFZsEee7Rq2yitsHaA
   		targetAttr _Qyt-MFZsEee7Rq2yitsHaA
@@ -217,6 +211,12 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		targetAttr _uYaQsFZsEee7Rq2yitsHaA
   		isHidden false
   		sourceAttr _uY6nAFZsEee7Rq2yitsHaA
+  	}
+  	
+  	-Association-> _4lMmcDlwEeelR78gw15slQ  decorate "Text" at (0,0) decorate "Polyline" at (2,0) {
+  		id _HT1lIDlxEeelR78gw15slQ
+  		isHidden false
+  		sourceAttr _HT4BYDlxEeelR78gw15slQ
   	}
   }
   
@@ -358,6 +358,39 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	PrimitiveAttribute _Ow-IsEUwEeeKqOBaOG4MmQ at 5,32 size 130,18  {
   		dataType Integer
   		name "topicsID"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _dG-N8FdEEeedF_BtCbljJQ at 76,50 size 140,127  {
+  	name "UserFormData"
+  	PrimitiveAttribute _fLpbcFdEEeedF_BtCbljJQ at 5,32 size 130,18  {
+  		dataType Text
+  		name "firstName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _fayDoFdEEeedF_BtCbljJQ at 5,50 size 130,18  {
+  		dataType Text
+  		name "lastName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _gWI4oFdEEeedF_BtCbljJQ at 5,68 size 130,18  {
+  		dataType Text
+  		name "email"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _gnUIMFdEEeedF_BtCbljJQ at 5,86 size 130,18  {
+  		dataType Text
+  		name "username"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _kGSwgFdEEeedF_BtCbljJQ at 5,104 size 130,18  {
+  		dataType Text
+  		name "password"
   		isList false
   	}
   }

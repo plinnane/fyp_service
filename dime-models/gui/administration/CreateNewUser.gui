@@ -5,83 +5,59 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   fullWidth false
   DataContext _gFf5cEUNEeeKqOBaOG4MmQ at 10,10 size 200,1000  {
   	dfViewWorkaround true
-  	ComplexVariable _6U5JEEUOEeeKqOBaOG4MmQ at 20,90 size 160,51 index 1 {
+  	ComplexVariable _tcENEFdEEeedF_BtCbljJQ at 20,50 size 160,159  {
   		isLive false
   		expanded true
-  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		libraryComponentUID "_dG-N8FdEEeedF_BtCbljJQ"
   		dfViewWorkaround true
-  		name "newUser"
+  		name "userFormData"
   		isList false
-  		isInput false
-  		PrimitiveAttribute _65XvIEUOEeeKqOBaOG4MmQ at 20,23 size 120,25  {
-  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  		isInput true
+  		PrimitiveAttribute _tzZH8FdEEeedF_BtCbljJQ at 20,23 size 120,25  {
+  			libraryComponentUID "_fLpbcFdEEeedF_BtCbljJQ"
   			isLive false
-  			-FormLoadSubmit-> _kyglsEUOEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) decorate "Polyline" at (2,0) {
-  				id _CjMAMEUPEeeKqOBaOG4MmQ
-  			}
-  		}
-  		-ComplexAttributeConnector-> _8q_dwEUOEeeKqOBaOG4MmQ  decorate "Ellipse" at (0,0) {
-  			id _8rInsEUOEeeKqOBaOG4MmQ
-  			associationName "baseUser"
-  		}
-  		
-  		-AddComplexToSubmission-> _lJ2kIEUNEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
-  			id _qD6YcEUPEeeKqOBaOG4MmQ
-  		}
-  		
-  		-AddComplexToSubmission-> _W4yc0EUOEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
-  			id _sdWVAEUPEeeKqOBaOG4MmQ
-  		}
-  	}
-  	
-  	ComplexVariable _8q_dwEUOEeeKqOBaOG4MmQ at 20,220 size 160,186 index 0 {
-  		isLive false
-  		expanded true
-  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
-  		dfViewWorkaround true
-  		name "baseUser"
-  		isList false
-  		isInput false
-  		ComplexAttribute _8rQjgEUOEeeKqOBaOG4MmQ at 20,23 size 120,25  {
-  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
-  			isLive false
-  		}
-  		
-  		PrimitiveAttribute _8rRxoEUOEeeKqOBaOG4MmQ at 20,50 size 120,25  {
-  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
-  			isLive false
-  			-FormLoadSubmit-> _lJ3VwEUOEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) decorate "Polyline" at (2,0) {
-  				id _G1Q5YEUPEeeKqOBaOG4MmQ
+  			-FormSubmit-> _mi4MkEUNEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  				id _u6U60FdEEeedF_BtCbljJQ
   			}
   		}
   		
-  		PrimitiveAttribute _8rS_wEUOEeeKqOBaOG4MmQ at 20,77 size 120,25  {
-  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  		PrimitiveAttribute _tzpmoFdEEeedF_BtCbljJQ at 20,50 size 120,25  {
+  			libraryComponentUID "_fayDoFdEEeedF_BtCbljJQ"
   			isLive false
-  		}
-  		
-  		PrimitiveAttribute _8rUN4EUOEeeKqOBaOG4MmQ at 20,104 size 120,25 index 5 {
-  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
-  			isLive false
-  			-FormLoadSubmit-> _mi4MkEUNEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) decorate "Polyline" at (2,0) {
-  				id _HtjzUEUPEeeKqOBaOG4MmQ
+  			-FormSubmit-> _kENVQEUOEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  				id _ve8DwFdEEeedF_BtCbljJQ
   			}
   		}
   		
-  		PrimitiveAttribute _8rVcAEUOEeeKqOBaOG4MmQ at 20,131 size 120,25 index 3 {
-  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  		PrimitiveAttribute _tz3pEFdEEeedF_BtCbljJQ at 20,77 size 120,25  {
+  			libraryComponentUID "_gWI4oFdEEeedF_BtCbljJQ"
   			isLive false
-  			-FormLoadSubmit-> _kENVQEUOEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) decorate "Polyline" at (2,0) {
-  				id _IZHRwEUPEeeKqOBaOG4MmQ
+  			-FormSubmit-> _kyglsEUOEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  				id _wEQXUFdEEeedF_BtCbljJQ
   			}
   		}
   		
-  		PrimitiveAttribute _8rWqIEUOEeeKqOBaOG4MmQ at 20,158 size 120,25 index 4 {
-  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  		PrimitiveAttribute _t0D2UFdEEeedF_BtCbljJQ at 20,104 size 120,25  {
+  			libraryComponentUID "_gnUIMFdEEeedF_BtCbljJQ"
   			isLive false
-  			-FormLoadSubmit-> _lf_90EUOEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) decorate "Polyline" at (2,0) {
-  				id _LGTQwEUPEeeKqOBaOG4MmQ
+  			-FormSubmit-> _lf_90EUOEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  				id _w5f9QFdEEeedF_BtCbljJQ
   			}
+  		}
+  		
+  		PrimitiveAttribute _t0QDkFdEEeedF_BtCbljJQ at 20,131 size 120,25  {
+  			libraryComponentUID "_kGSwgFdEEeedF_BtCbljJQ"
+  			isLive false
+  			-FormSubmit-> _lJ3VwEUOEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
+  				id _xqU9QFdEEeedF_BtCbljJQ
+  			}
+  		}
+  		-AddComplexToSubmission-> _lJ2kIEUNEeeKqOBaOG4MmQ via (110,701) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _zL7S4FdEEeedF_BtCbljJQ
+  		}
+  		
+  		-AddComplexToSubmission-> _W4yc0EUOEeeKqOBaOG4MmQ via (110,702) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _z5wpQFdEEeedF_BtCbljJQ
   		}
   	}
   }
@@ -187,6 +163,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   									max -1
   								}
   							additionalOptions FormFieldAdditionalOptions {
+  									emptyValue "first and middle names"
   									readonly false
   								}
   							disabled false
@@ -221,6 +198,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   									max -1
   								}
   							additionalOptions FormFieldAdditionalOptions {
+  									emptyValue "family name"
   									readonly false
   								}
   							disabled false
@@ -255,6 +233,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   									max -1
   								}
   							additionalOptions FormFieldAdditionalOptions {
+  									emptyValue "email adress"
   									readonly false
   								}
   							disabled false
@@ -275,9 +254,9 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   							}
   						}
   						
-  						Field _lJ3VwEUOEeeKqOBaOG4MmQ at 10,240 size 200,60 index 3 {
+  						Field _lJ3VwEUOEeeKqOBaOG4MmQ at 10,310 size 200,60 index 3 {
   							label "Password"
-  							inputType Text
+  							inputType Password
   							styling FormFieldStyling {
   									size Default
   									disabled false
@@ -289,6 +268,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   									max -1
   								}
   							additionalOptions FormFieldAdditionalOptions {
+  									emptyValue "password for login"
   									readonly false
   								}
   							disabled false
@@ -309,7 +289,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   							}
   						}
   						
-  						Field _lf_90EUOEeeKqOBaOG4MmQ at 10,310 size 200,60 index 5 {
+  						Field _lf_90EUOEeeKqOBaOG4MmQ at 10,240 size 200,60 index 5 {
   							label "Username"
   							inputType Text
   							styling FormFieldStyling {
@@ -323,6 +303,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   									max -1
   								}
   							additionalOptions FormFieldAdditionalOptions {
+  									emptyValue "accountname for login"
   									readonly false
   								}
   							disabled false
