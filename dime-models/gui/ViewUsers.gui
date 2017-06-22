@@ -41,7 +41,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   		}
   	}
   	
-  	ComplexVariable _K-pQIEU8EeetjZy493Al0g at 20,190 size 160,51  {
+  	ComplexVariable _K-pQIEU8EeetjZy493Al0g at 20,190 size 160,78  {
   		isLive false
   		expanded true
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -54,6 +54,14 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			isLive false
   			-TableColumnLoad-> _OdptoEU8EeetjZy493Al0g  decorate "Polyline" at (2,0) {
   				id _RzExUEU8EeetjZy493Al0g
+  			}
+  		}
+  		
+  		PrimitiveAttribute _QT3jUFdOEeedF_BtCbljJQ at 20,50 size 120,25  {
+  			libraryComponentUID "_Is7nIFdOEeedF_BtCbljJQ"
+  			isLive false
+  			-TableColumnLoad-> _sQCaoFdLEeedF_BtCbljJQ  decorate "Polyline" at (2,0) {
+  				id _W8grQFdOEeedF_BtCbljJQ
   			}
   		}
   		-ComplexAttributeConnector-> _Ln62oEU8EeetjZy493Al0g  decorate "Ellipse" at (0,0) {
@@ -120,7 +128,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   	}
   }
   
-  Template _DZeOgEU8EeetjZy493Al0g at 260,10 size 780,340  {
+  Template _DZeOgEU8EeetjZy493Al0g at 260,10 size 1010,340  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -128,7 +136,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _DZh44EU8EeetjZy493Al0g at 10,30 size 760,280  {
+  	Row _DZh44EU8EeetjZy493Al0g at 10,30 size 990,280  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -141,7 +149,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   		MoveDown _DZk8MEU8EeetjZy493Al0g at 2,10 size 14,7  {
   		}
   		
-  		Col _DZnYcEU8EeetjZy493Al0g at 10,30 size 730,230  {
+  		Col _DZnYcEU8EeetjZy493Al0g at 10,30 size 960,230  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -160,7 +168,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			MoveRight _DZrp4EU8EeetjZy493Al0g at 10,2 size 7,14  {
   			}
   			
-  			Table _HONEYEU8EeetjZy493Al0g at 10,30 size 710,170  {
+  			Table _HONEYEU8EeetjZy493Al0g at 10,30 size 940,170  {
   				striped true
   				bordered true
   				hover false
@@ -181,7 +189,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   				MoveDown _HOSj8EU8EeetjZy493Al0g at 2,10 size 14,7  {
   				}
   				
-  				TableEntry _JZvu4EU8EeetjZy493Al0g at 10,30 size 220,120 index 4 {
+  				TableEntry _JZvu4EU8EeetjZy493Al0g at 10,30 size 220,120 index 5 {
   					label "First name"
   					sortable true
   					defaultSorting NONE
@@ -324,6 +332,53 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   						}
   						
   						MoveDown _fBm4UFDmEee1RdmfVpvmFg at 2,10 size 14,7  {
+  						}
+  					}
+  				}
+  				
+  				TableEntry _sQCaoFdLEeedF_BtCbljJQ at 700,30 size 220,120 index 4 {
+  					label "Role"
+  					sortable true
+  					defaultSorting NONE
+  					fullTextSearch false
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _sQfGkFdLEeedF_BtCbljJQ at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _sQg7wFdLEeedF_BtCbljJQ at 10,2 size 7,14  {
+  					}
+  					
+  					Text _z1qIMFdLEeedF_BtCbljJQ at 10,30 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "{{current.roleName}}\n"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _z1r9YFdLEeedF_BtCbljJQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _z1tLgFdLEeedF_BtCbljJQ at 2,10 size 14,7  {
   						}
   					}
   				}

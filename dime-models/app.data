@@ -1,6 +1,6 @@
 Data _tH3fEMwMEeWZVvvwxpYu8A {
   modelName "Data"
-  ConcreteType _dh6BYMwNEeWZVvvwxpYu8A at 316,270 size 111,73  {
+  ConcreteType _dh6BYMwNEeWZVvvwxpYu8A at 316,270 size 111,91  {
   	name "ConcreteUser"
   	UserAttribute _fPY24MwNEeWZVvvwxpYu8A at 5,32 size 101,18  {
   		oppositeAttribute _fOkXgMwNEeWZVvvwxpYu8A
@@ -12,6 +12,12 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	PrimitiveAttribute _Z-rJEDlwEeelR78gw15slQ at 5,50 size 101,18  {
   		dataType Text
   		name "email"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _Is7nIFdOEeedF_BtCbljJQ at 5,68 size 101,18  {
+  		dataType Text
+  		name "roleName"
   		isList false
   	}
   }
