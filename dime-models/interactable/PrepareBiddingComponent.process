@@ -24,7 +24,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   		dfViewWorkaround true
   		name "bidding"
   		isList false
-  		ComplexAttribute _cbo8cFWYEee9Kul9j01mzQ at 20,23 size 100,25  {
+  		ComplexAttribute _cbo8cFWYEee9Kul9j01mzQ at 20,23 size 100,25 index 3 {
   			libraryComponentUID "_HT4BYDlxEeelR78gw15slQ"
   			dfViewWorkaround true
   			-ComplexRead-> _abaKEFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
@@ -33,17 +33,17 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   			}
   		}
   		
-  		ComplexAttribute _izJJ0FaEEee7Rq2yitsHaA at 20,50 size 100,25  {
+  		ComplexAttribute _izJJ0FaEEee7Rq2yitsHaA at 20,50 size 100,25 index 0 {
   			libraryComponentUID "_Qyt-MFZsEee7Rq2yitsHaA"
   			dfViewWorkaround true
   		}
   		
-  		ComplexAttribute _izKX8FaEEee7Rq2yitsHaA at 20,77 size 100,25  {
+  		ComplexAttribute _izKX8FaEEee7Rq2yitsHaA at 20,77 size 100,25 index 1 {
   			libraryComponentUID "_uYaQsFZsEee7Rq2yitsHaA"
   			dfViewWorkaround true
   		}
   		
-  		PrimitiveAttribute _izLmEFaEEee7Rq2yitsHaA at 20,104 size 100,25  {
+  		PrimitiveAttribute _izLmEFaEEee7Rq2yitsHaA at 20,104 size 100,25 index 2 {
   			libraryComponentUID "_tJ1g8DlxEeelR78gw15slQ"
   			dfViewWorkaround true
   		}
@@ -153,39 +153,13 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   			dfViewWorkaround true
   		}
   	}
-  	-ControlFlow-> _ry0h0FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
-  		id _uFz4IFWYEee9Kul9j01mzQ
+  	-ControlFlow-> _MyOXkFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _veowcFpzEeeWOuVOeqZZPQ
   		concurrent true
   	}
   }
   
-  RetrieveEnumLiteralSIB _ry0h0FWYEee9Kul9j01mzQ at 250,690 size 120,65 index 12 {
-  	libraryComponentUID "_a2ByYDlxEeelR78gw15slQ"
-  	label "Get BiddingValue"
-  	-BranchConnector-> _ry4zQFWYEee9Kul9j01mzQ   {
-  		id _ry9rwFWYEee9Kul9j01mzQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _ry4zQFWYEee9Kul9j01mzQ at 250,770 size 120,50 index 13 {
-  	name "undefined"
-  	ComplexOutputPort _ry-54FWYEee9Kul9j01mzQ at 5,27 size 110,18  {
-  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
-  		isList false
-  		name "literal"
-  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
-  			id _vmbWUFWYEee9Kul9j01mzQ
-  			dfViewWorkaround true
-  		}
-  	}
-  	-ControlFlow-> _MyOXkFWYEee9Kul9j01mzQ via (309,915) decorate "Polyline" at (2,0) {
-  		id _vEP2UFWYEee9Kul9j01mzQ
-  		concurrent true
-  	}
-  }
-  
-  RetrieveEnumLiteralSIB _zwVK8FWYEee9Kul9j01mzQ at 380,417 size 120,65 index 14 {
+  RetrieveEnumLiteralSIB _zwVK8FWYEee9Kul9j01mzQ at 380,417 size 120,65 index 12 {
   	libraryComponentUID "_71NlsDlwEeelR78gw15slQ"
   	label "Get BiddingValue"
   	-BranchConnector-> _zwbRkFWYEee9Kul9j01mzQ   {
@@ -194,7 +168,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	}
   }
   
-  Branch _zwbRkFWYEee9Kul9j01mzQ at 380,490 size 120,50 index 15 {
+  Branch _zwbRkFWYEee9Kul9j01mzQ at 380,490 size 120,50 index 13 {
   	name "desired"
   	ComplexOutputPort _zwh_QFWYEee9Kul9j01mzQ at 5,27 size 110,18  {
   		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
@@ -211,7 +185,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	}
   }
   
-  RetrieveEnumLiteralSIB _6biesFWYEee9Kul9j01mzQ at 380,550 size 120,65 index 16 {
+  RetrieveEnumLiteralSIB _6biesFWYEee9Kul9j01mzQ at 380,550 size 120,65 index 14 {
   	libraryComponentUID "_-lt-cDlwEeelR78gw15slQ"
   	label "Get BiddingValue"
   	-BranchConnector-> _6bolUFWYEee9Kul9j01mzQ   {
@@ -220,7 +194,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	}
   }
   
-  Branch _6bolUFWYEee9Kul9j01mzQ at 380,630 size 120,50 index 17 {
+  Branch _6bolUFWYEee9Kul9j01mzQ at 380,630 size 120,50 index 15 {
   	name "rejected"
   	ComplexOutputPort _6buE4FWYEee9Kul9j01mzQ at 5,27 size 110,18  {
   		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
@@ -231,39 +205,13 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   			dfViewWorkaround true
   		}
   	}
-  	-ControlFlow-> _7IttwFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
-  		id _KHahsFWZEee9Kul9j01mzQ
-  		concurrent true
-  	}
-  }
-  
-  RetrieveEnumLiteralSIB _7IttwFWYEee9Kul9j01mzQ at 380,690 size 120,65 index 18 {
-  	libraryComponentUID "_a2ByYDlxEeelR78gw15slQ"
-  	label "Get BiddingValue"
-  	-BranchConnector-> _7Ix_MFWYEee9Kul9j01mzQ   {
-  		id _7I23sFWYEee9Kul9j01mzQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _7Ix_MFWYEee9Kul9j01mzQ at 380,770 size 120,50 index 19 {
-  	name "undefined"
-  	ComplexOutputPort _7I4F0FWYEee9Kul9j01mzQ at 5,27 size 110,18  {
-  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
-  		isList false
-  		name "literal"
-  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
-  			id _aVwYkFWZEee9Kul9j01mzQ
-  			dfViewWorkaround true
-  		}
-  	}
   	-ControlFlow-> _MyOXkFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
-  		id _LFG5AFWZEee9Kul9j01mzQ
+  		id _vHc_gFpzEeeWOuVOeqZZPQ
   		concurrent true
   	}
   }
   
-  RetrieveEnumLiteralSIB _-GgUkFWYEee9Kul9j01mzQ at 510,417 size 120,65 index 20 {
+  RetrieveEnumLiteralSIB _-GgUkFWYEee9Kul9j01mzQ at 510,417 size 120,65 index 16 {
   	libraryComponentUID "_71NlsDlwEeelR78gw15slQ"
   	label "Get BiddingValue"
   	-BranchConnector-> _-Gl0IFWYEee9Kul9j01mzQ   {
@@ -272,7 +220,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	}
   }
   
-  Branch _-Gl0IFWYEee9Kul9j01mzQ at 510,490 size 120,50 index 21 {
+  Branch _-Gl0IFWYEee9Kul9j01mzQ at 510,490 size 120,50 index 17 {
   	name "desired"
   	ComplexOutputPort _-Gr6wFWYEee9Kul9j01mzQ at 5,27 size 110,18  {
   		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
@@ -289,7 +237,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	}
   }
   
-  RetrieveEnumLiteralSIB __hY-MFWYEee9Kul9j01mzQ at 510,550 size 120,65 index 22 {
+  RetrieveEnumLiteralSIB __hY-MFWYEee9Kul9j01mzQ at 510,550 size 120,65 index 18 {
   	libraryComponentUID "_9yX18DlwEeelR78gw15slQ"
   	label "Get BiddingValue"
   	-BranchConnector-> __hedwFWYEee9Kul9j01mzQ   {
@@ -298,7 +246,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	}
   }
   
-  Branch __hedwFWYEee9Kul9j01mzQ at 510,630 size 120,50 index 23 {
+  Branch __hedwFWYEee9Kul9j01mzQ at 510,630 size 120,50 index 19 {
   	name "indifferent"
   	ComplexOutputPort __hkkYFWYEee9Kul9j01mzQ at 5,27 size 110,18  {
   		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
@@ -309,39 +257,13 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   			dfViewWorkaround true
   		}
   	}
-  	-ControlFlow-> _BnDqMFWZEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
-  		id _LxF1QFWZEee9Kul9j01mzQ
+  	-ControlFlow-> _MyOXkFWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
+  		id _uu25UFpzEeeWOuVOeqZZPQ
   		concurrent true
   	}
   }
   
-  RetrieveEnumLiteralSIB _BnDqMFWZEee9Kul9j01mzQ at 510,690 size 120,65 index 24 {
-  	libraryComponentUID "_a2ByYDlxEeelR78gw15slQ"
-  	label "Get BiddingValue"
-  	-BranchConnector-> _BnJJwFWZEee9Kul9j01mzQ   {
-  		id _BnOCQFWZEee9Kul9j01mzQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _BnJJwFWZEee9Kul9j01mzQ at 510,770 size 120,50 index 25 {
-  	name "undefined"
-  	ComplexOutputPort _BnPQYFWZEee9Kul9j01mzQ at 5,27 size 110,18  {
-  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
-  		isList false
-  		name "literal"
-  		-ComplexUpdate-> _WkVx4FWYEee9Kul9j01mzQ  decorate "Polyline" at (2,0) {
-  			id _b8UtwFWZEee9Kul9j01mzQ
-  			dfViewWorkaround true
-  		}
-  	}
-  	-ControlFlow-> _MyOXkFWYEee9Kul9j01mzQ via (535,850) decorate "Polyline" at (2,0) {
-  		id _Qp8akFWZEee9Kul9j01mzQ
-  		concurrent true
-  	}
-  }
-  
-  RetrieveEnumLiteralSIB _DEhGsFWZEee9Kul9j01mzQ at 650,417 size 120,65 index 26 {
+  RetrieveEnumLiteralSIB _DEhGsFWZEee9Kul9j01mzQ at 650,417 size 120,65 index 20 {
   	libraryComponentUID "_71NlsDlwEeelR78gw15slQ"
   	label "Get BiddingValue"
   	-BranchConnector-> _DEl_MFWZEee9Kul9j01mzQ   {
@@ -350,7 +272,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	}
   }
   
-  Branch _DEl_MFWZEee9Kul9j01mzQ at 650,490 size 120,50 index 27 {
+  Branch _DEl_MFWZEee9Kul9j01mzQ at 650,490 size 120,50 index 21 {
   	name "desired"
   	ComplexOutputPort _DErewFWZEee9Kul9j01mzQ at 5,27 size 110,18  {
   		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
@@ -367,7 +289,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	}
   }
   
-  RetrieveEnumLiteralSIB _ExoIwFWZEee9Kul9j01mzQ at 652,552 size 120,65 index 28 {
+  RetrieveEnumLiteralSIB _ExoIwFWZEee9Kul9j01mzQ at 652,552 size 120,65 index 22 {
   	libraryComponentUID "_9yX18DlwEeelR78gw15slQ"
   	label "Get BiddingValue"
   	-BranchConnector-> _ExuPYFWZEee9Kul9j01mzQ   {
@@ -376,7 +298,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	}
   }
   
-  Branch _ExuPYFWZEee9Kul9j01mzQ at 652,627 size 120,50 index 29 {
+  Branch _ExuPYFWZEee9Kul9j01mzQ at 652,627 size 120,50 index 23 {
   	name "indifferent"
   	ComplexOutputPort _Ex09EFWZEee9Kul9j01mzQ at 5,27 size 110,18  {
   		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
@@ -393,7 +315,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	}
   }
   
-  RetrieveEnumLiteralSIB _F0JVsFWZEee9Kul9j01mzQ at 652,690 size 120,65 index 30 {
+  RetrieveEnumLiteralSIB _F0JVsFWZEee9Kul9j01mzQ at 652,690 size 120,65 index 24 {
   	libraryComponentUID "_-lt-cDlwEeelR78gw15slQ"
   	label "Get BiddingValue"
   	-BranchConnector-> _F0O1QFWZEee9Kul9j01mzQ   {
@@ -402,7 +324,7 @@ Process _Mx-f8FWYEee9Kul9j01mzQ {
   	}
   }
   
-  Branch _F0O1QFWZEee9Kul9j01mzQ at 650,770 size 120,50 index 31 {
+  Branch _F0O1QFWZEee9Kul9j01mzQ at 650,770 size 120,50 index 25 {
   	name "rejected"
   	ComplexOutputPort _F0UU0FWZEee9Kul9j01mzQ at 5,27 size 110,18  {
   		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
