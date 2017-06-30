@@ -16,6 +16,7 @@ Process _-g8EMEU5EeetjZy493Al0g {
   }
   
   ProcessSIB _4O5B4EU6EeetjZy493Al0g at 340,157 size 120,65 index 3 {
+  	minorPage false
   	libraryComponentUID "_Oj0PwEUrEeeKqOBaOG4MmQ"
   	label "RetrieveAllTopics"
   	-BranchConnector-> _4PCL0EU6EeetjZy493Al0g   {
@@ -42,10 +43,10 @@ Process _-g8EMEU5EeetjZy493Al0g {
   }
   
   GUISIB _3MV_wEU6EeetjZy493Al0g at 340,360 size 120,90 index 2 {
-  	name "ViewTopics"
   	majorPage true
   	libraryComponentUID "_KcEzwEUqEeeKqOBaOG4MmQ"
   	label "ViewTopics"
+  	name "ViewTopics"
   	ComplexInputPort _3MkCMEU6EeetjZy493Al0g at 5,67 size 110,18  {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList true
@@ -58,6 +59,11 @@ Process _-g8EMEU5EeetjZy493Al0g {
   	
   	-BranchConnector-> _yXUlQFDlEee1RdmfVpvmFg   {
   		id _yXWacFDlEee1RdmfVpvmFg
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _C3hJMFv_EeepUPpWd1pktQ   {
+  		id _C3hwQFv_EeepUPpWd1pktQ
   		concurrent true
   	}
   }
@@ -79,13 +85,13 @@ Process _-g8EMEU5EeetjZy493Al0g {
   	}
   }
   
-  Branch _yXUlQFDlEee1RdmfVpvmFg at 540,380 size 120,50  {
+  Branch _yXUlQFDlEee1RdmfVpvmFg at 540,470 size 120,50  {
   	name "go to topic"
   	ComplexOutputPort _yXe9UFDlEee1RdmfVpvmFg at 5,27 size 110,18  {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList false
   		name "topic"
-  		-ComplexDirectDataFlow-> _37aUYFDvEee1RdmfVpvmFg via (530,416) (530,626) decorate "Polyline" at (2,0) {
+  		-ComplexDirectDataFlow-> _37aUYFDvEee1RdmfVpvmFg via (530,506) (530,626) decorate "Polyline" at (2,0) {
   			id _4wfiQFDvEee1RdmfVpvmFg
   			dfViewWorkaround true
   		}
@@ -111,6 +117,48 @@ Process _-g8EMEU5EeetjZy493Al0g {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList false
   		name "topic"
+  	}
+  }
+  
+  EndSIB _D6ykEFv_EeepUPpWd1pktQ at 704,550 size 151,108 index 10 {
+  	branchName "go to bidded users list"
+  	ComplexInputPort _Gq4GEFv_EeepUPpWd1pktQ at 5,67 size 141,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList true
+  		name "users"
+  	}
+  	
+  	ComplexInputPort _TjB84FwCEeepUPpWd1pktQ at 5,85 size 141,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  	}
+  }
+  
+  Branch _C3hJMFv_EeepUPpWd1pktQ at 700,380 size 160,68 index 9 {
+  	name "go to bidded users list"
+  	ComplexOutputPort _C3i-YFv_EeepUPpWd1pktQ at 5,27 size 150,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList true
+  		name "users"
+  		-ComplexDirectDataFlow-> _Gq4GEFv_EeepUPpWd1pktQ via (690,416) (690,626) decorate "Polyline" at (2,0) {
+  			id _Hj-RQFv_EeepUPpWd1pktQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexOutputPort _TJnXUFwCEeepUPpWd1pktQ at 5,45 size 150,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  		-ComplexDirectDataFlow-> _TjB84FwCEeepUPpWd1pktQ via (690,434) (690,644) decorate "Polyline" at (2,0) {
+  			id _T2Y9wFwCEeepUPpWd1pktQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _D6ykEFv_EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  		id _FC9tEFv_EeepUPpWd1pktQ
+  		concurrent true
   	}
   }
 }

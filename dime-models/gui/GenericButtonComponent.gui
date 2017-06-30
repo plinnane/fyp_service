@@ -1,0 +1,140 @@
+GUI _ci-mUFv1EeepUPpWd1pktQ {
+  title "GenericButtonComponent"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _cjkcMFv1EeepUPpWd1pktQ at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	PrimitiveVariable _dv8IsFv1EeepUPpWd1pktQ at 20,40 size 161,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "labelText"
+  		isList false
+  		isInput true
+  	}
+  	
+  	PrimitiveVariable _v1gm8Fv1EeepUPpWd1pktQ at 20,120 size 161,25  {
+  		dataType Boolean
+  		dfViewWorkaround true
+  		name "isLink"
+  		isList false
+  		isInput true
+  		-IF-> _sw9Q0Fv1EeepUPpWd1pktQ  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _xrhGUFv1EeepUPpWd1pktQ
+  			negate false
+  		}
+  		
+  		-IF-> _gVAGcFv1EeepUPpWd1pktQ  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _yDx1UFv1EeepUPpWd1pktQ
+  			negate true
+  		}
+  	}
+  }
+  
+  Template _cjmRYFv1EeepUPpWd1pktQ at 260,10 size 270,300  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _ckELcFv1EeepUPpWd1pktQ at 10,30 size 250,240  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _ckFZkFv1EeepUPpWd1pktQ at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _ckGnsFv1EeepUPpWd1pktQ at 2,10 size 14,7  {
+  		}
+  		
+  		Col _ckK5IFv1EeepUPpWd1pktQ at 10,30 size 220,190  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _ckS08Fv1EeepUPpWd1pktQ at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _ckUDEFv1EeepUPpWd1pktQ at 10,2 size 7,14  {
+  			}
+  			
+  			Button _sw9Q0Fv1EeepUPpWd1pktQ at 10,30 size 200,60 index 3 {
+  				label "button clicked"
+  				displayLabel "{{labelText}}"
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink true
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						rawContent ""
+  						attributes [  ]
+  					}
+  				MoveDown _sw8pwVv1EeepUPpWd1pktQ at 2,10 size 14,7  {
+  				}
+  				
+  				MoveUp _sw8pwlv1EeepUPpWd1pktQ at 2,2 size 14,7  {
+  				}
+  			}
+  			
+  			Button _gVAGcFv1EeepUPpWd1pktQ at 10,100 size 200,60 index 2 {
+  				label "button clicked"
+  				displayLabel "{{labelText}}"
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						rawContent ""
+  						attributes [  ]
+  					}
+  				MoveUp _gVCisFv1EeepUPpWd1pktQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _gVDw0Fv1EeepUPpWd1pktQ at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

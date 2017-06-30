@@ -13,7 +13,7 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   		name "user"
   		isList false
   		isInput true
-  		-ComplexRead-> _FT3fEFD3Eee1RdmfVpvmFg via (110,176) decorate "Polyline" at (2,0) {
+  		-ComplexRead-> _pfJ18FwCEeepUPpWd1pktQ via (110,176) decorate "Polyline" at (2,0) {
   			id _8IRVsEq1Eeeq5uKWWhCwgQ
   		}
   		
@@ -36,7 +36,7 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   	}
   }
   
-  Template _BAnzcEqwEeeq5uKWWhCwgQ at 250,10 size 400,396  {
+  Template _BAnzcEqwEeeq5uKWWhCwgQ at 250,10 size 400,482  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -44,7 +44,7 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _BAyykEqwEeeq5uKWWhCwgQ at 10,30 size 380,336  {
+  	Row _BAyykEqwEeeq5uKWWhCwgQ at 10,30 size 380,422  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -57,7 +57,7 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   		MoveDown _BA3rEEqwEeeq5uKWWhCwgQ at 2,10 size 14,7  {
   		}
   		
-  		Col _BBD4UEqwEeeq5uKWWhCwgQ at 10,30 size 170,286 index 3 {
+  		Col _BBD4UEqwEeeq5uKWWhCwgQ at 10,30 size 170,372 index 3 {
   			wideness FiveSixth
   			layout Layout {
   					size Default
@@ -76,30 +76,45 @@ GUI _A_z7IEqwEeeq5uKWWhCwgQ {
   			MoveRight _BBHisEqwEeeq5uKWWhCwgQ at 10,2 size 7,14  {
   			}
   			
-  			DispatchedGUISIB _FO0nAFD3Eee1RdmfVpvmFg at 10,30 size 150,226  {
+  			DispatchedGUISIB _pXdSgFwCEeepUPpWd1pktQ at 12,30 size 150,312  {
   				libraryComponentUID "_GWZlUEqwEeeq5uKWWhCwgQ"
   				label "ViewUserProfileGeneric"
-  				ComplexInputPort _FT3fEFD3Eee1RdmfVpvmFg at 5,67 size 90,18 index 2 {
+  				ComplexInputPort _pfJ18FwCEeepUPpWd1pktQ at 5,67 size 90,18  {
   					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   					isList false
   					name "user"
   				}
   				
-  				Branch _FT5UQFD3Eee1RdmfVpvmFg at 5,90 size 100,50 index 0 {
+  				Branch _pfM5QFwCEeepUPpWd1pktQ at 5,90 size 100,50  {
   					name "go to profile"
-  					ComplexOutputPort _FT9lsFD3Eee1RdmfVpvmFg at 5,27 size 90,18  {
+  					ComplexOutputPort _pfQjoFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
   						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   						name "user"
   						isList false
   					}
   				}
   				
-  				Branch _FUApAFD3Eee1RdmfVpvmFg at 5,158 size 100,50 index 1 {
+  				Branch _pfTm8FwCEeepUPpWd1pktQ at 5,158 size 100,50  {
   					name "go to topic"
-  					ComplexOutputPort _FUE6cFD3Eee1RdmfVpvmFg at 5,27 size 90,18  {
+  					ComplexOutputPort _pfX4YFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
   						libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   						name "topic"
   						isList false
+  					}
+  				}
+  				
+  				Branch _pfa7sFwCEeepUPpWd1pktQ at 5,226 size 100,68  {
+  					name "go to bidded users list"
+  					ComplexOutputPort _pfemEFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
+  						libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  						name "topic"
+  						isList false
+  					}
+  					
+  					ComplexOutputPort _pfhpYFwCEeepUPpWd1pktQ at 5,45 size 90,18  {
+  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						name "users"
+  						isList true
   					}
   				}
   			}

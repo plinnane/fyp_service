@@ -1,0 +1,271 @@
+Process _SNBfIFv1EeepUPpWd1pktQ {
+  modelName "FilterBiddedUsers"
+  processType Interactable
+  description "FilterBiddedUsers"
+  isStateful false
+  dataFlowView true
+  DataContext _SOdpkFv1EeepUPpWd1pktQ at 30,50 size 221,601  {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _SOgF0Fv1EeepUPpWd1pktQ at 350,50 size 100,90  {
+  	ComplexOutputPort _IuvNgFv6EeepUPpWd1pktQ at 5,67 size 90,18  {
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		isList true
+  		name "biddings"
+  		-ComplexDirectDataFlow-> _aiLhUFv3EeepUPpWd1pktQ via (330,126) (330,354) decorate "Polyline" at (2,0) {
+  			id _J2tiMFv6EeepUPpWd1pktQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _ahgL4Fv3EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  		id _bRA9QFv3EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  }
+  
+  EndSIB _SOzAwFv1EeepUPpWd1pktQ at 320,586 size 160,108  {
+  	branchName "success"
+  	ComplexInputPort _s_wacFv4EeepUPpWd1pktQ at 5,67 size 150,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList true
+  		name "biddedUsers"
+  	}
+  	
+  	PrimitiveInputPort _8P8qMFv8EeepUPpWd1pktQ at 5,85 size 150,18  {
+  		dataType Text
+  		isList false
+  		name "sizeAsText"
+  	}
+  }
+  
+  IterateSIB _ahgL4Fv3EeepUPpWd1pktQ at 340,278 size 120,90  {
+  	libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  	label "Iterate Biddings"
+  	ComplexInputPort _aiLhUFv3EeepUPpWd1pktQ at 5,67 size 110,18  {
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		isList true
+  		name "list"
+  	}
+  	-BranchConnector-> _aigRcFv3EeepUPpWd1pktQ   {
+  		id _ai6hIFv3EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  	
+  	-BranchConnector-> _ajDrEFv3EeepUPpWd1pktQ   {
+  		id _ajP4UFv3EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  }
+  
+  Branch _aigRcFv3EeepUPpWd1pktQ at 540,200 size 120,50  {
+  	name "next"
+  	ComplexOutputPort _ai8WUFv3EeepUPpWd1pktQ at 5,27 size 110,18  {
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		isList false
+  		name "element"
+  		-ComplexUpdate-> _0xj_UFv3EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  			id _3p3pMFv3EeepUPpWd1pktQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _sGvkQFv3EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  		id _5z87IFv3EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  }
+  
+  Branch _ajDrEFv3EeepUPpWd1pktQ at 340,380 size 120,25  {
+  	name "exit"
+  	-ControlFlow-> _-xYFIFv8EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  		id _BKXVwFv9EeepUPpWd1pktQ
+  		concurrent true
+  	}
+  }
+  
+  EnumSwitchSIB _sGvkQFv3EeepUPpWd1pktQ at 720,180 size 120,90 index 7 {
+  	libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  	label "Switch BiddingValue"
+  	ComplexInputPort _sHEUYFv3EeepUPpWd1pktQ at 5,67 size 110,18  {
+  		libraryComponentUID "_4lMmcDlwEeelR78gw15slQ"
+  		isList false
+  		name "enum"
+  	}
+  	-BranchConnector-> _sHgZQFv3EeepUPpWd1pktQ   {
+  		id _sHhnYFv3EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  	
+  	-BranchConnector-> _sHjckFv3EeepUPpWd1pktQ   {
+  		id _sHlRwFv3EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  	
+  	-BranchConnector-> _sHZEgFv3EeepUPpWd1pktQ   {
+  		id _sHa5sFv3EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  	
+  	-BranchConnector-> _sHcH0Fv3EeepUPpWd1pktQ   {
+  		id _sHd9AFv3EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  }
+  
+  Branch _sHcH0Fv3EeepUPpWd1pktQ at 540,269 size 120,25 index 9 {
+  	name "indifferent"
+  	-ControlFlow-> _ahgL4Fv3EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  		id _u2OCQFv3EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  }
+  
+  Branch _sHgZQFv3EeepUPpWd1pktQ at 540,310 size 120,25 index 10 {
+  	name "rejected"
+  	-ControlFlow-> _ahgL4Fv3EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  		id _vJzsoFv3EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  }
+  
+  Branch _sHjckFv3EeepUPpWd1pktQ at 540,350 size 120,25 index 11 {
+  	name "undefined"
+  	-ControlFlow-> _ahgL4Fv3EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  		id _vZrUoFv3EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  }
+  
+  Branch _sHZEgFv3EeepUPpWd1pktQ at 860,212 size 120,25 index 8 {
+  	name "desired"
+  	-ControlFlow-> _Kx_woFv4EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  		id _M3sR0Fv4EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  }
+  
+  DataContext _pmcKsFv3EeepUPpWd1pktQ at 720,300 size 260,271 index 6 {
+  	dfViewWorkaround true
+  	ComplexVariable _0xj_UFv3EeepUPpWd1pktQ at 10,40 size 241,78  {
+  		expanded false
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "bidding"
+  		isList false
+  		ComplexAttribute _1r6uwFv3EeepUPpWd1pktQ at 20,23 size 201,25 index 1 {
+  			libraryComponentUID "_HT4BYDlxEeelR78gw15slQ"
+  			dfViewWorkaround true
+  			-ComplexRead-> _sHEUYFv3EeepUPpWd1pktQ via (701,376) (701,256) decorate "Polyline" at (2,0) {
+  				id _2dHiMFv3EeepUPpWd1pktQ
+  				dfViewWorkaround true
+  			}
+  		}
+  		
+  		ComplexAttribute _DU2poFv4EeepUPpWd1pktQ at 20,50 size 201,25 index 0 {
+  			libraryComponentUID "_Qyt-MFZsEee7Rq2yitsHaA"
+  			dfViewWorkaround true
+  			-ComplexRead-> _KyXkEFv4EeepUPpWd1pktQ via (993,401) (993,256) decorate "Polyline" at (2,0) {
+  				id _NdIhMFv4EeepUPpWd1pktQ
+  				dfViewWorkaround true
+  			}
+  		}
+  	}
+  	
+  	ComplexVariable _GEsUAFv4EeepUPpWd1pktQ at 21,160 size 220,51  {
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "biddedUsers"
+  		isList true
+  		PrimitiveListAttribute _-IHswFv8EeepUPpWd1pktQ at 20,23 size 180,25  {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  			dfViewWorkaround true
+  			-PrimitiveRead-> _-xZ6UFv8EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  				id _C31kMFv9EeepUPpWd1pktQ
+  				dfViewWorkaround true
+  			}
+  		}
+  		-ComplexRead-> _s_wacFv4EeepUPpWd1pktQ via (850,661) decorate "Polyline" at (2,0) {
+  			id _uYZBUFv4EeepUPpWd1pktQ
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  PutComplexToContextSIB _Kx_woFv4EeepUPpWd1pktQ at 1020,180 size 120,90  {
+  	libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  	label "Put ConcreteUser"
+  	ComplexInputPort _KyXkEFv4EeepUPpWd1pktQ at 5,67 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "in"
+  	}
+  	-BranchConnector-> _KykYYFv4EeepUPpWd1pktQ   {
+  		id _Kym0oFv4EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  }
+  
+  Branch _KykYYFv4EeepUPpWd1pktQ at 1020,100 size 120,50  {
+  	name "success"
+  	ComplexOutputPort _KynbsFv4EeepUPpWd1pktQ at 5,27 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "out"
+  		-ComplexUpdate-> _GEsUAFv4EeepUPpWd1pktQ via (1151,137) (1151,485) decorate "Polyline" at (2,0) {
+  			id _OfIJsFv4EeepUPpWd1pktQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _ahgL4Fv3EeepUPpWd1pktQ via (509,125) decorate "Polyline" at (2,0) {
+  		id _MAarkFv4EeepUPpWd1pktQ
+  		concurrent false
+  	}
+  }
+  
+  AtomicSIB _-xYFIFv8EeepUPpWd1pktQ at 340,420 size 120,90  {
+  	libraryComponentUID "common.IntToString"
+  	label "IntToString"
+  	PrimitiveInputPort _-xZ6UFv8EeepUPpWd1pktQ at 5,67 size 110,18  {
+  		dataType Integer
+  		isList false
+  		name "a"
+  	}
+  	-BranchConnector-> _-xgoAFv8EeepUPpWd1pktQ   {
+  		id _-xidMFv8EeepUPpWd1pktQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _-xpx8Fv8EeepUPpWd1pktQ   {
+  		id _-xrnIFv8EeepUPpWd1pktQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _-xgoAFv8EeepUPpWd1pktQ at 340,521 size 120,50  {
+  	name "success"
+  	PrimitiveOutputPort _-xjrUFv8EeepUPpWd1pktQ at 5,27 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "result"
+  		-PrimitiveDirectDataFlow-> _8P8qMFv8EeepUPpWd1pktQ via (310,557) (310,680) decorate "Polyline" at (2,0) {
+  			id _CXLuMFv9EeepUPpWd1pktQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _SOzAwFv1EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  		id _A1JTsFv9EeepUPpWd1pktQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _-xpx8Fv8EeepUPpWd1pktQ at 479,452 size 120,25  {
+  	name "noresult"
+  	-ControlFlow-> _SOzAwFv1EeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  		id _B160MFv9EeepUPpWd1pktQ
+  		concurrent true
+  	}
+  }
+}

@@ -3,7 +3,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  DataContext _e35wQD-vEeerA7ElzRRObA at 10,10 size 200,1000  {
+  DataContext _e35wQD-vEeerA7ElzRRObA at 10,10 size 226,1000  {
   	dfViewWorkaround true
   	ComplexVariable _hHlecD-wEeerA7ElzRRObA at 20,40 size 160,105  {
   		isLive false
@@ -59,17 +59,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		name "current"
   		isList false
   		isInput false
-  		ComplexAttribute _VICGwD-xEeerA7ElzRRObA at 20,23 size 120,25  {
-  			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
-  			isLive false
-  		}
-  		
-  		ComplexAttribute _VIEjAD-xEeerA7ElzRRObA at 20,50 size 120,25  {
-  			libraryComponentUID "_lqf6MDl0EeelR78gw15slQ"
-  			isLive false
-  		}
-  		
-  		PrimitiveAttribute _VIGYMD-xEeerA7ElzRRObA at 20,77 size 120,25  {
+  		PrimitiveAttribute _VIGYMD-xEeerA7ElzRRObA at 20,23 size 120,25  {
   			libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
   			isLive false
   			-TableColumnLoad-> _AL9ZYEUrEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
@@ -77,31 +67,54 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			}
   		}
   		
-  		PrimitiveAttribute _VIINYD-xEeerA7ElzRRObA at 20,104 size 120,25  {
-  			libraryComponentUID "_BdSTYDlvEeelR78gw15slQ"
-  			isLive false
-  		}
-  		
-  		PrimitiveAttribute _VIJbgD-xEeerA7ElzRRObA at 20,131 size 120,25  {
-  			libraryComponentUID "_CuhRwDlvEeelR78gw15slQ"
-  			isLive false
-  		}
-  		
-  		PrimitiveAttribute _VIKpoD-xEeerA7ElzRRObA at 20,158 size 120,25  {
-  			libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
-  			isLive false
-  		}
-  		
-  		PrimitiveAttribute _VIVowD-xEeerA7ElzRRObA at 20,185 size 120,25  {
+  		PrimitiveAttribute _VIVowD-xEeerA7ElzRRObA at 20,50 size 120,25  {
   			libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
   			isLive false
   			-TableColumnLoad-> _a5ztkD-wEeerA7ElzRRObA  decorate "Polyline" at (2,0) {
   				id _GEZMYEUrEeeKqOBaOG4MmQ
   			}
   		}
+  		
+  		ComplexAttribute _hlvyIFswEeeIM6hYtGvSng at 20,77 size 120,25  {
+  			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _hly1cFswEeeIM6hYtGvSng at 20,104 size 120,25  {
+  			libraryComponentUID "_lqf6MDl0EeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _hl3G4FswEeeIM6hYtGvSng at 20,131 size 120,25  {
+  			libraryComponentUID "_BdSTYDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _hl48EFswEeeIM6hYtGvSng at 20,158 size 120,25  {
+  			libraryComponentUID "_CuhRwDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _hl6KMFswEeeIM6hYtGvSng at 20,185 size 120,25  {
+  			libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
+  			isLive false
+  		}
   		-ComplexAttributeConnector-> __7GSYFAsEeeWJL1zKR4q1g  decorate "Ellipse" at (0,0) {
   			id __7c3sFAsEeeWJL1zKR4q1g
   			associationName "supervisor"
+  		}
+  		
+  		-ComplexAttributeConnector-> _1bw8QFveEeepUPpWd1pktQ via (21,504) (21,624) decorate "Ellipse" at (0,0) {
+  			id _1ceG4FveEeepUPpWd1pktQ
+  			associationName "biddings"
+  		}
+  		
+  		-ComplexRead-> _LAddsFvoEeepUPpWd1pktQ via (921,306) (921,439) decorate "Polyline" at (2,0) {
+  			id _XAZlAFvpEeepUPpWd1pktQ
+  		}
+  		
+  		-ComplexRead-> _DszEAFwCEeepUPpWd1pktQ via (984,306) (984,236) decorate "Polyline" at (2,0) {
+  			id _E0-NAFwCEeepUPpWd1pktQ
   		}
   		
   		-AddComplexToSubmission-> _ukWB8FAsEeeWJL1zKR4q1g via (365,306) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
@@ -113,7 +126,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		}
   	}
   	
-  	ComplexVariable __7GSYFAsEeeWJL1zKR4q1g at 20,450 size 160,105  {
+  	ComplexVariable __7GSYFAsEeeWJL1zKR4q1g at 20,500 size 160,105  {
   		isLive false
   		expanded true
   		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
@@ -143,9 +156,77 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			id _vLfsEFAtEeeWJL1zKR4q1g
   		}
   	}
+  	
+  	ComplexVariable _1bw8QFveEeepUPpWd1pktQ at 20,690 size 160,132  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "biddings"
+  		isList true
+  		isInput false
+  		PrimitiveListAttribute _1dgosFveEeepUPpWd1pktQ at 20,23 size 120,25  {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _1d0KsFveEeepUPpWd1pktQ at 20,50 size 120,25  {
+  			attributeName current
+  			libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _1d6RUFveEeepUPpWd1pktQ at 20,77 size 120,25  {
+  			attributeName first
+  			libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _1d8GgFveEeepUPpWd1pktQ at 20,104 size 120,25  {
+  			attributeName last
+  			libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-TableColumnLoad-> _nhZRMFswEeeIM6hYtGvSng via (847,765) decorate "Polyline" at (2,0) {
+  			id _T-uvUFvfEeepUPpWd1pktQ
+  		}
+  		
+  		-ComplexRead-> _LAKiwFvoEeepUPpWd1pktQ via (956,765) (956,421) decorate "Polyline" at (2,0) {
+  			id _TxvQoFvpEeepUPpWd1pktQ
+  		}
+  	}
+  	
+  	ComplexVariable _0WSYoF2kEee5Bb1RXENunQ at 30,640 size 186,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput false
+  		-IS-> _K_MSYFvoEeepUPpWd1pktQ via (697,661) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _378QsF2kEee5Bb1RXENunQ
+  			negate false
+  			exactMatch true
+  			matchingType "_eWeFMDlvEeelR78gw15slQ"
+  		}
+  		
+  		-IS-> _DsuykFwCEeepUPpWd1pktQ via (688,662) decorate "Polyline" at (2,0) decorate "Text" at (-115,-21) {
+  			id _4lx34F2kEee5Bb1RXENunQ
+  			negate true
+  			exactMatch true
+  			matchingType "_eWeFMDlvEeelR78gw15slQ"
+  		}
+  		
+  		-ComplexRead-> _LAhvIFvoEeepUPpWd1pktQ via (929,662) (929,458) decorate "Polyline" at (2,0) {
+  			id _5b2kQF2kEee5Bb1RXENunQ
+  		}
+  	}
   }
   
-  Template _e4QVkD-vEeerA7ElzRRObA at 260,10 size 780,410  {
+  Template _e4QVkD-vEeerA7ElzRRObA at 260,10 size 960,662  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -153,7 +234,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _e4oJAD-vEeerA7ElzRRObA at 10,30 size 760,350  {
+  	Row _e4oJAD-vEeerA7ElzRRObA at 10,30 size 940,602  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -166,7 +247,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		MoveDown _e42ygD-vEeerA7ElzRRObA at 2,10 size 14,7  {
   		}
   		
-  		Col _e5GDED-vEeerA7ElzRRObA at 10,30 size 730,300  {
+  		Col _e5GDED-vEeerA7ElzRRObA at 10,30 size 910,552  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -185,7 +266,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			MoveRight _e5UFgD-vEeerA7ElzRRObA at 10,2 size 7,14  {
   			}
   			
-  			Table _aeuUED-wEeerA7ElzRRObA at 10,30 size 710,170 index 3 {
+  			Table _aeuUED-wEeerA7ElzRRObA at 10,30 size 890,422 index 3 {
   				striped true
   				bordered true
   				hover false
@@ -206,7 +287,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   				MoveDown _ae1BwD-wEeerA7ElzRRObA at 2,10 size 14,7  {
   				}
   				
-  				TableEntry _a5ztkD-wEeerA7ElzRRObA at 10,30 size 220,120 index 4 {
+  				TableEntry _a5ztkD-wEeerA7ElzRRObA at 10,30 size 220,120 index 5 {
   					label "ID"
   					sortable true
   					defaultSorting ASC
@@ -352,9 +433,98 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   						}
   					}
   				}
+  				
+  				TableEntry _nhZRMFswEeeIM6hYtGvSng at 700,30 size 170,372 index 4 {
+  					label "Bidding"
+  					sortable false
+  					defaultSorting NONE
+  					fullTextSearch false
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _nhjCMFswEeeIM6hYtGvSng at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _nhmFgFswEeeIM6hYtGvSng at 10,2 size 7,14  {
+  					}
+  					
+  					InteractionSIB _K_MSYFvoEeepUPpWd1pktQ at 10,216 size 150,126 index 3 {
+  						libraryComponentUID "_YBCrUFWWEee9Kul9j01mzQ"
+  						label "BiddingComponent"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						ComplexInputPort _LAKiwFvoEeepUPpWd1pktQ at 5,67 size 90,18  {
+  							libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  							isList true
+  							name "biddings"
+  						}
+  						
+  						ComplexInputPort _LAddsFvoEeepUPpWd1pktQ at 5,85 size 90,18  {
+  							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  							isList false
+  							name "topic3"
+  						}
+  						
+  						ComplexInputPort _LAhvIFvoEeepUPpWd1pktQ at 5,103 size 90,18  {
+  							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  							isList false
+  							name "concreteuser2"
+  						}
+  						
+  						MoveUp _LAnOsFvoEeepUPpWd1pktQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _LAoc0FvoEeepUPpWd1pktQ at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					InteractionSIB _DsuykFwCEeepUPpWd1pktQ at 10,30 size 150,176 index 2 {
+  						libraryComponentUID "_muJAgFv6EeepUPpWd1pktQ"
+  						label "BiddedUsersListComponent"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						ComplexInputPort _DszEAFwCEeepUPpWd1pktQ at 5,67 size 90,18  {
+  							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  							isList false
+  							name "topic"
+  						}
+  						
+  						Branch _Ds3VcFwCEeepUPpWd1pktQ at 5,90 size 100,68  {
+  							name "go to bidded users list"
+  							ComplexOutputPort _Ds6_0FwCEeepUPpWd1pktQ at 5,27 size 90,18  {
+  								libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  								name "topic"
+  								isList false
+  							}
+  							
+  							ComplexOutputPort _Ds-qMFwCEeepUPpWd1pktQ at 5,45 size 90,18  {
+  								libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  								name "biddedUsers"
+  								isList true
+  							}
+  						}
+  						
+  						MoveUp _DtFX4FwCEeepUPpWd1pktQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _DtF-8FwCEeepUPpWd1pktQ at 2,10 size 14,7  {
+  						}
+  					}
+  				}
   			}
   			
-  			Text _Dc-tgEp2EeeR8skQQzAlbg at 10,210 size 200,60 index 2 {
+  			Text _Dc-tgEp2EeeR8skQQzAlbg at 10,462 size 200,60 index 2 {
   				content [ StaticContent {
   						rawContent "Currently there are no topics to be displayed here."
   						maxChars 0

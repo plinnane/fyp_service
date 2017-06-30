@@ -1,0 +1,198 @@
+GUI _oJLo4Fv_EeepUPpWd1pktQ {
+  title "ViewBiddedUsers"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _oJQhYFv_EeepUPpWd1pktQ at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _zTJfkFwCEeepUPpWd1pktQ at 20,40 size 160,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "users"
+  		isList true
+  		isInput true
+  		-ComplexRead-> _yZTtgFwCEeepUPpWd1pktQ via (110,235) decorate "Polyline" at (2,0) {
+  			id _1jd8YFwCEeepUPpWd1pktQ
+  		}
+  	}
+  	
+  	ComplexVariable _2xB7sFwCEeepUPpWd1pktQ at 20,260 size 160,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topic"
+  		isList false
+  		isInput true
+  		-AddComplexToSubmission-> _UasIMFwDEeepUPpWd1pktQ  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _VcqikFwDEeepUPpWd1pktQ
+  		}
+  	}
+  }
+  
+  Template _oJRvgFv_EeepUPpWd1pktQ at 260,10 size 370,528  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _oJVZ4Fv_EeepUPpWd1pktQ at 10,30 size 350,468  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _oJXPEFv_EeepUPpWd1pktQ at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _oJYdMFv_EeepUPpWd1pktQ at 2,10 size 14,7  {
+  		}
+  		
+  		Col _oJa5cFv_EeepUPpWd1pktQ at 10,30 size 320,418  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _oJcuoFv_EeepUPpWd1pktQ at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _oJd8wFv_EeepUPpWd1pktQ at 10,2 size 7,14  {
+  			}
+  			
+  			InteractionSIB _yZQDIFwCEeepUPpWd1pktQ at 10,230 size 150,158 index 5 {
+  				libraryComponentUID "_hWhOAFTHEee9p783Cu4DWg"
+  				label "ClickableUserList"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _yZTtgFwCEeepUPpWd1pktQ at 5,67 size 90,18 index 3 {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList true
+  					name "users"
+  				}
+  				
+  				Branch _yZX-8FwCEeepUPpWd1pktQ at 5,90 size 100,50 index 0 {
+  					name "go to profile"
+  					ComplexOutputPort _yZcQYFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
+  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						name "user"
+  						isList false
+  					}
+  				}
+  				
+  				MoveUp _yZgh0FwCEeepUPpWd1pktQ at 2,2 size 14,7 index 1 {
+  				}
+  				
+  				MoveDown _yZhI4FwCEeepUPpWd1pktQ at 2,10 size 14,7 index 2 {
+  				}
+  			}
+  			
+  			Headline _3xw_8FwCEeepUPpWd1pktQ at 10,30 size 300,50 index 2 {
+  				size Normal
+  				content [ StaticContent {
+  						rawContent "Biddings for topic: {{topic.title}}"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _3xy1IFwCEeepUPpWd1pktQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _3xzcMFwCEeepUPpWd1pktQ at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Text _C4Cw0FwDEeepUPpWd1pktQ at 10,90 size 200,60 index 3 {
+  				content [ StaticContent {
+  						rawContent "This page lists all students that chose the option <i>desired</i> for this topic. If you want to view the topic details page, you can go to the "
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _C4EmAFwDEeepUPpWd1pktQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _C4FNEFwDEeepUPpWd1pktQ at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Button _UasIMFwDEeepUPpWd1pktQ at 10,160 size 200,60 index 4 {
+  				label "go to topic"
+  				displayLabel "details page of <b>{{topic.title}}</b>."
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink true
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom Double
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _Uat9YFwDEeepUPpWd1pktQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _UaukcFwDEeepUPpWd1pktQ at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}
