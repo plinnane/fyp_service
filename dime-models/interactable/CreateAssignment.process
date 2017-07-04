@@ -1,0 +1,100 @@
+Process _2BdqIGCbEeexaMFfWo-hMw {
+  modelName "CreateAssignment"
+  processType Interactable
+  description "CreateAssignment"
+  isStateful false
+  dataFlowView true
+  StartSIB _2D7IQGCbEeexaMFfWo-hMw at 350,30 size 100,126  {
+  	PrimitiveOutputPort _CcFiUGCdEeexaMFfWo-hMw at 5,67 size 90,18  {
+  		dataType File
+  		isList false
+  		name "file"
+  		-PrimitiveDirectDataFlow-> _z5ro0GCcEeexaMFfWo-hMw via (288,106) (288,310) decorate "Polyline" at (2,0) {
+  			id _NNCjcGCdEeexaMFfWo-hMw
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexOutputPort _JpeWEGCdEeexaMFfWo-hMw at 5,85 size 90,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  		-ComplexDirectDataFlow-> _DwPuUGCcEeexaMFfWo-hMw via (314,124) (314,292) decorate "Polyline" at (2,0) {
+  			id _L5WuAGCdEeexaMFfWo-hMw
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexOutputPort _KNIcwGCdEeexaMFfWo-hMw at 5,103 size 90,18  {
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		isList false
+  		name "student"
+  		-ComplexDirectDataFlow-> _DQjhoGCcEeexaMFfWo-hMw via (330,142) (330,274) decorate "Polyline" at (2,0) {
+  			id _LDljoGCdEeexaMFfWo-hMw
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> ___tb8GCbEeexaMFfWo-hMw  decorate "Polyline" at (2,0) {
+  		id _K8WvsGCcEeexaMFfWo-hMw
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _2EH8kGCbEeexaMFfWo-hMw at 350,410 size 100,90  {
+  	branchName "success"
+  	ComplexInputPort _IDS34GCcEeexaMFfWo-hMw at 5,67 size 90,18  {
+  		libraryComponentUID "_Nx1RYDlzEeelR78gw15slQ"
+  		isList false
+  		name "assignment1"
+  	}
+  }
+  
+  CreateSIB ___tb8GCbEeexaMFfWo-hMw at 340,180 size 120,144  {
+  	libraryComponentUID "_Nx1RYDlzEeelR78gw15slQ"
+  	label "Create Assignment"
+  	PrimitiveInputPort _AACMEGCcEeexaMFfWo-hMw at 5,67 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "internalName"
+  	}
+  	
+  	ComplexInputPort _DQjhoGCcEeexaMFfWo-hMw at 5,85 size 110,18  {
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		isList false
+  		name "input"
+  	}
+  	
+  	ComplexInputPort _DwPuUGCcEeexaMFfWo-hMw at 5,103 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "input"
+  	}
+  	
+  	PrimitiveInputPort _z5ro0GCcEeexaMFfWo-hMw at 5,121 size 110,18  {
+  		dataType File
+  		isList false
+  		name "file"
+  	}
+  	-BranchConnector-> _AAyaAGCcEeexaMFfWo-hMw   {
+  		id _ABBDgGCcEeexaMFfWo-hMw
+  		concurrent true
+  	}
+  }
+  
+  Branch _AAyaAGCcEeexaMFfWo-hMw at 340,330 size 120,50  {
+  	name "success"
+  	ComplexOutputPort _ABEG0GCcEeexaMFfWo-hMw at 5,27 size 110,18  {
+  		libraryComponentUID "_Nx1RYDlzEeelR78gw15slQ"
+  		isList false
+  		name "created"
+  		-ComplexDirectDataFlow-> _IDS34GCcEeexaMFfWo-hMw via (330,366) (330,486) decorate "Polyline" at (2,0) {
+  			id _Jp2mAGCcEeexaMFfWo-hMw
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _2EH8kGCbEeexaMFfWo-hMw  decorate "Polyline" at (2,0) {
+  		id _HfyiMGCcEeexaMFfWo-hMw
+  		concurrent true
+  	}
+  }
+}
