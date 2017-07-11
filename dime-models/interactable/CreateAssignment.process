@@ -49,7 +49,7 @@ Process _2BdqIGCbEeexaMFfWo-hMw {
   	}
   }
   
-  CreateSIB ___tb8GCbEeexaMFfWo-hMw at 350,370 size 120,126  {
+  CreateSIB ___tb8GCbEeexaMFfWo-hMw at 350,370 size 120,144  {
   	libraryComponentUID "_Nx1RYDlzEeelR78gw15slQ"
   	label "Create Assignment"
   	ComplexInputPort _DQjhoGCcEeexaMFfWo-hMw at 5,67 size 110,18  {
@@ -68,6 +68,11 @@ Process _2BdqIGCbEeexaMFfWo-hMw {
   		dataType File
   		isList false
   		name "file"
+  	}
+  	
+  	TextInputStatic _chlz4GY1EeeG6ttoGRwTHg at 5,121 size 110,18  {
+  		value "assignment"
+  		name "internalName"
   	}
   	-BranchConnector-> _AAyaAGCcEeexaMFfWo-hMw   {
   		id _ABBDgGCcEeexaMFfWo-hMw
