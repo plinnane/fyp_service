@@ -80,7 +80,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   	}
   }
   
-  Template _m9V8wEp4EeeR8skQQzAlbg at 10,230 size 1780,695  {
+  Template _m9V8wEp4EeeR8skQQzAlbg at 10,230 size 1990,695  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -88,7 +88,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _pyXCEEp4EeeR8skQQzAlbg at 10,30 size 1760,635  {
+  	Row _pyXCEEp4EeeR8skQQzAlbg at 10,30 size 1970,635  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -96,7 +96,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   				rawContent "background-color: #0091ba;"
   				attributes [  ]
   			}
-  		Col _pySJkEp4EeeR8skQQzAlbg at 10,30 size 1730,585 index 2 {
+  		Col _pySJkEp4EeeR8skQQzAlbg at 10,30 size 1940,585 index 2 {
   			wideness Full
   			layout Layout {
   					size Default
@@ -115,7 +115,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   			MoveRight _pyWbA0p4EeeR8skQQzAlbg at 10,2 size 7,14  {
   			}
   			
-  			TopNavBar _-_7lgEqYEeeR9rEAwG2f9w at 10,30 size 1710,525  {
+  			TopNavBar _-_7lgEqYEeeR9rEAwG2f9w at 10,30 size 1920,525  {
   				fixed true
   				inverted true
   				generalStyle GeneralStyling {
@@ -131,7 +131,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   				MoveDown _-_-BwEqYEeeR9rEAwG2f9w at 2,10 size 14,7  {
   				}
   				
-  				LeftNavBarPart __AEIYEqYEeeR9rEAwG2f9w at 10,30 size 1420,160 index 3 {
+  				LeftNavBarPart __AEIYEqYEeeR9rEAwG2f9w at 10,30 size 1630,160 index 3 {
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -174,7 +174,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   						}
   					}
   					
-  					ButtonGroup _Q16IkEqZEeeR9rEAwG2f9w at 330,30 size 1070,110 index 4 {
+  					ButtonGroup _Q16IkEqZEeeR9rEAwG2f9w at 330,30 size 1280,110 index 4 {
   						alignment horizontal
   						size Default
   						generalStyle GeneralStyling {
@@ -349,6 +349,37 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   							MoveRight _biEDkFWtEeexC5UrdY-JsA at 10,2 size 7,14  {
   							}
   						}
+  						
+  						Button _46JnMF_aEeeas9jR11xv1Q at 1060,30 size 200,60  {
+  							label "MockupContent"
+  							displayLabel "[DEBUG] Mockup Content"
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveLeft _47GCYF_aEeeas9jR11xv1Q at 2,2 size 7,14  {
+  							}
+  							
+  							MoveRight _47KT0F_aEeeas9jR11xv1Q at 10,2 size 7,14  {
+  							}
+  						}
   					}
   					
   					Image _Jl3d4EqjEeeYWJ9zK_WIRg at 10,30 size 100,90 index 3 {
@@ -373,7 +404,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   					}
   				}
   				
-  				RightNavBarPart __ATY8EqYEeeR9rEAwG2f9w at 1440,30 size 250,475 index 2 {
+  				RightNavBarPart __ATY8EqYEeeR9rEAwG2f9w at 1650,30 size 250,475 index 2 {
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None

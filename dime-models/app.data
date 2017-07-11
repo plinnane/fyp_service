@@ -359,11 +359,17 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _Oj3g0EUwEeeKqOBaOG4MmQ at 760,460 size 140,55  {
+  ConcreteType _Oj3g0EUwEeeKqOBaOG4MmQ at 760,460 size 140,73  {
   	name "GlobalSettings"
   	PrimitiveAttribute _Ow-IsEUwEeeKqOBaOG4MmQ at 5,32 size 130,18  {
   		dataType Integer
   		name "topicsID"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _xSZJUGY1EeeXn5NlBw4GMg at 5,50 size 130,18  {
+  		dataType Boolean
+  		name "mockedUp"
   		isList false
   	}
   }
