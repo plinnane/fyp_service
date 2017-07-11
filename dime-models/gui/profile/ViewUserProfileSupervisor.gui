@@ -79,12 +79,12 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		name "topic"
   		isList true
   		isInput false
-  		-IF-> _ocopAFwCEeepUPpWd1pktQ  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  		-IF-> _xTiqwGYzEeeG6ttoGRwTHg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _YD2pEEqxEeeq5uKWWhCwgQ
   			negate false
   		}
   		
-  		-ComplexRead-> _ocsTYFwCEeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  		-ComplexRead-> _xTqmkGYzEeeG6ttoGRwTHg  decorate "Polyline" at (2,0) {
   			id _t5BBsEq1Eeeq5uKWWhCwgQ
   		}
   		
@@ -93,9 +93,22 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			negate true
   		}
   	}
+  	
+  	ComplexVariable _yHBWIGYzEeeG6ttoGRwTHg at 50,420 size 220,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput false
+  		-ComplexRead-> _xTyiYGYzEeeG6ttoGRwTHg  decorate "Polyline" at (2,0) {
+  			id _zFV_kGYzEeeG6ttoGRwTHg
+  		}
+  	}
   }
   
-  Template _Z8ZrID-lEee9IO1uJfVZdA at 260,10 size 370,712  {
+  Template _Z8ZrID-lEee9IO1uJfVZdA at 260,10 size 370,730  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -103,7 +116,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _Z8dVgD-lEee9IO1uJfVZdA at 10,30 size 350,652  {
+  	Row _Z8dVgD-lEee9IO1uJfVZdA at 10,30 size 350,670  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -116,7 +129,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   		MoveDown _Z8gY0D-lEee9IO1uJfVZdA at 2,10 size 14,7  {
   		}
   		
-  		Col _Z8i1ED-lEee9IO1uJfVZdA at 10,30 size 320,602  {
+  		Col _Z8i1ED-lEee9IO1uJfVZdA at 10,30 size 320,620  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -216,7 +229,7 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   				}
   			}
   			
-  			InteractionSIB _ocopAFwCEeepUPpWd1pktQ at 10,260 size 150,312  {
+  			InteractionSIB _xTiqwGYzEeeG6ttoGRwTHg at 10,260 size 150,330  {
   				libraryComponentUID "_uJLvsD-0EeerA7ElzRRObA"
   				label "FilterUnassignedTopics"
   				generalStyle GeneralStyling {
@@ -225,49 +238,55 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   						tallness Fitting
   						attributes [  ]
   					}
-  				ComplexInputPort _ocsTYFwCEeepUPpWd1pktQ at 5,67 size 90,18  {
+  				ComplexInputPort _xTqmkGYzEeeG6ttoGRwTHg at 5,67 size 90,18  {
   					libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   					isList true
   					name "topics"
   				}
   				
-  				Branch _ocvWsFwCEeepUPpWd1pktQ at 5,90 size 100,50  {
+  				ComplexInputPort _xTyiYGYzEeeG6ttoGRwTHg at 5,85 size 90,18  {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList false
+  					name "currentUser"
+  				}
+  				
+  				Branch _xT7FQGYzEeeG6ttoGRwTHg at 5,108 size 100,50  {
   					name "go to topic"
-  					ComplexOutputPort _oczBEFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
+  					ComplexOutputPort _xUDoIGYzEeeG6ttoGRwTHg at 5,27 size 90,18  {
   						libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   						name "topic"
   						isList false
   					}
   				}
   				
-  				Branch _oc2EYFwCEeepUPpWd1pktQ at 5,158 size 100,50  {
+  				Branch _xUMLAGYzEeeG6ttoGRwTHg at 5,176 size 100,50  {
   					name "go to profile"
-  					ComplexOutputPort _oc5uwFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
+  					ComplexOutputPort _xUUG0GYzEeeG6ttoGRwTHg at 5,27 size 90,18  {
   						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   						name "user"
   						isList false
   					}
   				}
   				
-  				Branch _oc8yEFwCEeepUPpWd1pktQ at 5,226 size 100,68  {
+  				Branch _xUcpsGYzEeeG6ttoGRwTHg at 5,244 size 100,68  {
   					name "go to bidded users list"
-  					ComplexOutputPort _odAccFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
+  					ComplexOutputPort _xUklgGYzEeeG6ttoGRwTHg at 5,27 size 90,18  {
   						libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   						name "topic"
   						isList false
   					}
   					
-  					ComplexOutputPort _odDfwFwCEeepUPpWd1pktQ at 5,45 size 90,18  {
+  					ComplexOutputPort _xUtIYGYzEeeG6ttoGRwTHg at 5,45 size 90,18  {
   						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   						name "users"
   						isList true
   					}
   				}
   				
-  				MoveUp _odIYQFwCEeepUPpWd1pktQ at 2,2 size 14,7  {
+  				MoveUp _xU58sGYzEeeG6ttoGRwTHg at 2,2 size 14,7  {
   				}
   				
-  				MoveDown _odI_UFwCEeepUPpWd1pktQ at 2,10 size 14,7  {
+  				MoveDown _xU6jwGYzEeeG6ttoGRwTHg at 2,10 size 14,7  {
   				}
   			}
   		}

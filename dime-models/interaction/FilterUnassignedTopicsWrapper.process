@@ -4,13 +4,23 @@ Process _uJLvsD-0EeerA7ElzRRObA {
   description "FilterUnassignedTopics"
   isStateful false
   dataFlowView true
-  StartSIB _uJTEcD-0EeerA7ElzRRObA at 420,20 size 100,90  {
+  StartSIB _uJTEcD-0EeerA7ElzRRObA at 420,20 size 100,108  {
   	ComplexOutputPort _ZPtJ8D-1EeeMOLoUoe1Q1Q at 5,67 size 90,18  {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList true
   		name "topics"
   		-ComplexDirectDataFlow-> _LD0LoD-4EeeqK-VQZ1Mj7w via (400,96) (400,236) decorate "Polyline" at (2,0) {
   			id _OS8aED-4EeeqK-VQZ1Mj7w
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexOutputPort _d37moGYzEeeG6ttoGRwTHg at 5,85 size 90,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "currentUser"
+  		-ComplexDirectDataFlow-> _gV0lYGYzEeeG6ttoGRwTHg via (376,114) (376,456) decorate "Polyline" at (2,0) {
+  			id _hH47gGYzEeeG6ttoGRwTHg
   			dfViewWorkaround true
   		}
   	}
@@ -56,11 +66,17 @@ Process _uJLvsD-0EeerA7ElzRRObA {
   	dfViewWorkaround true
   }
   
-  ProcessSIB _0MdkMFAwEeeWJL1zKR4q1g at 410,380 size 120,90  {
+  ProcessSIB _0MdkMFAwEeeWJL1zKR4q1g at 410,380 size 120,108  {
   	minorPage false
   	libraryComponentUID "_gXwqoFAwEeeWJL1zKR4q1g"
   	label "ClickableTopicList"
-  	ComplexInputPort _0PCXEFAwEeeWJL1zKR4q1g at 5,67 size 110,18  {
+  	ComplexInputPort _gV0lYGYzEeeG6ttoGRwTHg at 5,67 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "currentUser"
+  	}
+  	
+  	ComplexInputPort _0PCXEFAwEeeWJL1zKR4q1g at 5,85 size 110,18  {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList true
   		name "topicList"
@@ -162,13 +178,13 @@ Process _uJLvsD-0EeerA7ElzRRObA {
   
   EndSIB _LNQhkFv-EeepUPpWd1pktQ at 550,580 size 161,108  {
   	branchName "go to bidded users list"
-  	ComplexInputPort _MP97wFv-EeepUPpWd1pktQ at 5,67 size 151,18  {
+  	ComplexInputPort _MP97wFv-EeepUPpWd1pktQ at 5,67 size 151,18 index 1 {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList true
   		name "users"
   	}
   	
-  	ComplexInputPort _mzyb4FwCEeepUPpWd1pktQ at 5,85 size 151,18  {
+  	ComplexInputPort _mzyb4FwCEeepUPpWd1pktQ at 5,85 size 151,18 index 0 {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList false
   		name "topic"
