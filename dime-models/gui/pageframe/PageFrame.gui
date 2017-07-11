@@ -3,7 +3,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   additionalStylesheets [  ]
   additionalJavaScript [  ]
   fullWidth false
-  Template _I0-5IEU1EeeKqOBaOG4MmQ at 260,20 size 260,1054  {
+  Template _I0-5IEU1EeeKqOBaOG4MmQ at 260,20 size 260,1097  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -11,7 +11,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _o3YLgEeOEeeJjvdf9GAasg at 10,30 size 240,994  {
+  	Row _o3YLgEeOEeeJjvdf9GAasg at 10,30 size 240,1037  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -24,7 +24,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   		MoveDown _o3b14EeOEeeJjvdf9GAasg at 2,10 size 14,7  {
   		}
   		
-  		Col _o3wmAEeOEeeJjvdf9GAasg at 10,30 size 210,944  {
+  		Col _o3wmAEeOEeeJjvdf9GAasg at 10,30 size 210,987  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -43,7 +43,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   			MoveRight _o32soEeOEeeJjvdf9GAasg at 10,2 size 7,14  {
   			}
   			
-  			Panel _nHapwEeOEeeJjvdf9GAasg at 10,499 size 190,340  {
+  			Panel _nHapwEeOEeeJjvdf9GAasg at 10,542 size 190,340  {
   				collapsable false
   				defaultOpen "true"
   				heading [  ]
@@ -128,7 +128,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   				}
   			}
   			
-  			GUISIB _3qEYwEp4EeeR8skQQzAlbg at 10,849 size 150,65  {
+  			GUISIB _3qEYwEp4EeeR8skQQzAlbg at 10,892 size 150,65  {
   				libraryComponentUID "_wYYT0Ep4EeeR8skQQzAlbg"
   				label "PageFrameFooter"
   				generalStyle GeneralStyling {
@@ -144,7 +144,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   				}
   			}
   			
-  			GUISIB _OACvYFW1EeekqaGythDTkg at 10,30 size 150,459  {
+  			GUISIB _DtOIMF_bEeeas9jR11xv1Q at 10,30 size 150,502  {
   				libraryComponentUID "_m8u4wEp4EeeR8skQQzAlbg"
   				label "PageFrameHeader"
   				generalStyle GeneralStyling {
@@ -153,53 +153,57 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   						tallness Fitting
   						attributes [  ]
   					}
-  				ComplexInputPort _OAT1IFW1EeekqaGythDTkg at 5,67 size 90,18  {
+  				ComplexInputPort _Dt6rwF_bEeeas9jR11xv1Q at 5,67 size 90,18  {
   					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   					isList false
   					name "user"
   				}
   				
-  				Branch _OAmJAFW1EeekqaGythDTkg at 5,90 size 100,50  {
+  				Branch _DuNmsF_bEeeas9jR11xv1Q at 5,90 size 100,50  {
   					name "Edit my profile"
-  					ComplexOutputPort _OAxvMFW1EeekqaGythDTkg at 5,27 size 90,18  {
+  					ComplexOutputPort _Dusu4F_bEeeas9jR11xv1Q at 5,27 size 90,18  {
   						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   						name "user"
   						isList false
   					}
   				}
   				
-  				Branch _OA8HQFW1EeekqaGythDTkg at 5,158 size 100,25  {
+  				Branch _Du9NkF_bEeeas9jR11xv1Q at 5,158 size 100,25  {
   					name "View supervisors"
   				}
   				
-  				Branch _OBGfUFW1EeekqaGythDTkg at 5,201 size 100,25  {
+  				Branch _DvGXgF_bEeeas9jR11xv1Q at 5,201 size 100,25  {
   					name "Create new user"
   				}
   				
-  				Branch _OBPpQFW1EeekqaGythDTkg at 5,244 size 100,25  {
+  				Branch _DvQIgF_bEeeas9jR11xv1Q at 5,244 size 100,25  {
   					name "My profile"
   				}
   				
-  				Branch _OBYzMFW1EeekqaGythDTkg at 5,287 size 100,25  {
+  				Branch _DvZ5gF_bEeeas9jR11xv1Q at 5,287 size 100,25  {
   					name "View topics"
   				}
   				
-  				Branch _OBikMFW1EeekqaGythDTkg at 5,330 size 100,25  {
+  				Branch _DvjqgF_bEeeas9jR11xv1Q at 5,330 size 100,25  {
   					name "View users"
   				}
   				
-  				Branch _OBrHEFW1EeekqaGythDTkg at 5,373 size 100,25  {
+  				Branch _DvtbgF_bEeeas9jR11xv1Q at 5,373 size 100,25  {
   					name "My desired topics"
   				}
   				
-  				Branch _OBzC4FW1EeekqaGythDTkg at 5,416 size 100,25  {
+  				Branch _Dv2lcF_bEeeas9jR11xv1Q at 5,416 size 100,25  {
   					name "Upload new topic"
   				}
   				
-  				MoveUp _OCEvsFW1EeekqaGythDTkg at 2,2 size 14,7  {
+  				Branch _Dv_vYF_bEeeas9jR11xv1Q at 5,459 size 100,25  {
+  					name "MockupContent"
   				}
   				
-  				MoveDown _OCHL8FW1EeekqaGythDTkg at 2,10 size 14,7  {
+  				MoveUp _DzQewF_bEeeas9jR11xv1Q at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _DzS7AF_bEeeas9jR11xv1Q at 2,10 size 14,7  {
   				}
   			}
   		}
@@ -216,7 +220,7 @@ GUI _I04LcEU1EeeKqOBaOG4MmQ {
   		name "currentUser"
   		isList false
   		isInput false
-  		-ComplexRead-> _OAT1IFW1EeekqaGythDTkg  decorate "Polyline" at (2,0) {
+  		-ComplexRead-> _Dt6rwF_bEeeas9jR11xv1Q  decorate "Polyline" at (2,0) {
   			id _O9_lYFW1EeekqaGythDTkg
   		}
   	}
