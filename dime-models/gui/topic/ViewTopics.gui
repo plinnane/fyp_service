@@ -37,13 +37,26 @@ GUI _KcEzwEUqEeeKqOBaOG4MmQ {
   			libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   			isLive false
   		}
-  		-ComplexRead-> _SUcp4FwCEeepUPpWd1pktQ via (224,176) decorate "Polyline" at (2,0) {
+  		-ComplexRead-> _rqG9EGYzEeeG6ttoGRwTHg via (224,176) decorate "Polyline" at (2,0) {
   			id _9KhrYFAwEeeWJL1zKR4q1g
+  		}
+  	}
+  	
+  	ComplexVariable _sNG8cGYzEeeG6ttoGRwTHg at 20,230 size 160,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput false
+  		-ComplexRead-> _rp7W4GYzEeeG6ttoGRwTHg  decorate "Polyline" at (2,0) {
+  			id _tiqaIGYzEeeG6ttoGRwTHg
   		}
   	}
   }
   
-  Template _KcJsQEUqEeeKqOBaOG4MmQ at 260,10 size 220,482  {
+  Template _KcJsQEUqEeeKqOBaOG4MmQ at 260,10 size 220,500  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -51,7 +64,7 @@ GUI _KcEzwEUqEeeKqOBaOG4MmQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _KcMIgEUqEeeKqOBaOG4MmQ at 10,30 size 200,422  {
+  	Row _KcMIgEUqEeeKqOBaOG4MmQ at 10,30 size 200,440  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -64,7 +77,7 @@ GUI _KcEzwEUqEeeKqOBaOG4MmQ {
   		MoveDown _KcNWoEUqEeeKqOBaOG4MmQ at 2,10 size 14,7  {
   		}
   		
-  		Col _KcPL0EUqEeeKqOBaOG4MmQ at 10,30 size 170,372  {
+  		Col _KcPL0EUqEeeKqOBaOG4MmQ at 10,30 size 170,390  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -83,7 +96,7 @@ GUI _KcEzwEUqEeeKqOBaOG4MmQ {
   			MoveRight _KcRBAEUqEeeKqOBaOG4MmQ at 10,2 size 7,14  {
   			}
   			
-  			InteractionSIB _SUY_gFwCEeepUPpWd1pktQ at 10,30 size 150,312  {
+  			InteractionSIB _rpsGUGYzEeeG6ttoGRwTHg at 10,30 size 150,330  {
   				libraryComponentUID "_gXwqoFAwEeeWJL1zKR4q1g"
   				label "ClickableTopicList"
   				generalStyle GeneralStyling {
@@ -92,49 +105,55 @@ GUI _KcEzwEUqEeeKqOBaOG4MmQ {
   						tallness Fitting
   						attributes [  ]
   					}
-  				ComplexInputPort _SUcp4FwCEeepUPpWd1pktQ at 5,67 size 90,18  {
+  				ComplexInputPort _rp7W4GYzEeeG6ttoGRwTHg at 5,67 size 90,18  {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList false
+  					name "currentUser"
+  				}
+  				
+  				ComplexInputPort _rqG9EGYzEeeG6ttoGRwTHg at 5,85 size 90,18  {
   					libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   					isList true
   					name "topicList"
   				}
   				
-  				Branch _SUfGIFwCEeepUPpWd1pktQ at 5,90 size 100,50  {
+  				Branch _rqPf8GYzEeeG6ttoGRwTHg at 5,108 size 100,50  {
   					name "go to topic"
-  					ComplexOutputPort _SUiwgFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
+  					ComplexOutputPort _rqbGIGYzEeeG6ttoGRwTHg at 5,27 size 90,18  {
   						libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   						name "topic"
   						isList false
   					}
   				}
   				
-  				Branch _SUlz0FwCEeepUPpWd1pktQ at 5,158 size 100,50  {
+  				Branch _rqmFQGYzEeeG6ttoGRwTHg at 5,176 size 100,50  {
   					name "go to profile"
-  					ComplexOutputPort _SUo3IFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
+  					ComplexOutputPort _rquBEGYzEeeG6ttoGRwTHg at 5,27 size 90,18  {
   						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   						name "user"
   						isList false
   					}
   				}
   				
-  				Branch _SUshgFwCEeepUPpWd1pktQ at 5,226 size 100,68  {
+  				Branch _rq184GYzEeeG6ttoGRwTHg at 5,244 size 100,68  {
   					name "go to bidded users list"
-  					ComplexOutputPort _SUwy8FwCEeepUPpWd1pktQ at 5,27 size 90,18  {
+  					ComplexOutputPort _rq94sGYzEeeG6ttoGRwTHg at 5,27 size 90,18  {
   						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   						name "users"
   						isList true
   					}
   					
-  					ComplexOutputPort _SUz2QFwCEeepUPpWd1pktQ at 5,45 size 90,18  {
+  					ComplexOutputPort _rrGbkGYzEeeG6ttoGRwTHg at 5,45 size 90,18  {
   						libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   						name "topic"
   						isList false
   					}
   				}
   				
-  				MoveUp _SU584FwCEeepUPpWd1pktQ at 2,2 size 14,7  {
+  				MoveUp _rrWTMGYzEeeG6ttoGRwTHg at 2,2 size 14,7  {
   				}
   				
-  				MoveDown _SU7LAFwCEeepUPpWd1pktQ at 2,10 size 14,7  {
+  				MoveDown _rrYIYGYzEeeG6ttoGRwTHg at 2,10 size 14,7  {
   				}
   			}
   		}
