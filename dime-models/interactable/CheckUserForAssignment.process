@@ -1,0 +1,199 @@
+Process _O4XDIGerEeepyejIV7Vmpw {
+  modelName "CheckUserForAssignment"
+  processType Interactable
+  description "CheckUserForAssignment"
+  isStateful false
+  dataFlowView true
+  DataContext _O4eX4GerEeepyejIV7Vmpw at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  	ComplexVariable _X5UGQGerEeepyejIV7Vmpw at 10,300 size 161,25  {
+  		expanded false
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "student"
+  		isList false
+  		-ComplexAttributeConnector-> _c_8B0GerEeepyejIV7Vmpw  decorate "Ellipse" at (0,0) {
+  			id _dAGZ4GerEeepyejIV7Vmpw
+  			attributeName "assignment"
+  		}
+  	}
+  	
+  	ComplexVariable _c_8B0GerEeepyejIV7Vmpw at 10,350 size 161,25  {
+  		expanded false
+  		libraryComponentUID "_Nx1RYDlzEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "assignment"
+  		isList false
+  		-ComplexRead-> _t0EGUGerEeepyejIV7Vmpw via (140,445) decorate "Polyline" at (2,0) {
+  			id _uJMBwGerEeepyejIV7Vmpw
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _O4fmAGerEeepyejIV7Vmpw at 350,50 size 100,90  {
+  	ComplexOutputPort _Pg_JYGerEeepyejIV7Vmpw at 5,67 size 90,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  		-ComplexDirectDataFlow-> _RJbt4GerEeepyejIV7Vmpw via (330,126) (330,246) decorate "Polyline" at (2,0) {
+  			id _XG_RcGerEeepyejIV7Vmpw
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _RIkLMGerEeepyejIV7Vmpw  decorate "Polyline" at (2,0) {
+  		id _0qBRgGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _O4gNEGerEeepyejIV7Vmpw at 770,289 size 100,65  {
+  	branchName "no assignment"
+  }
+  
+  ProcessSIB _RIkLMGerEeepyejIV7Vmpw at 340,170 size 120,90  {
+  	minorPage false
+  	libraryComponentUID "_gXQhwFZ6Eee7Rq2yitsHaA"
+  	label "SwitchUserRole"
+  	ComplexInputPort _RJbt4GerEeepyejIV7Vmpw at 5,67 size 110,18  {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  	}
+  	-BranchConnector-> _RJqXYGerEeepyejIV7Vmpw   {
+  		id _RJrlgGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _RJ1WgGerEeepyejIV7Vmpw   {
+  		id _RJ2koGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _RJ95YGerEeepyejIV7Vmpw   {
+  		id _RJ_ukGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _RKGcQGerEeepyejIV7Vmpw   {
+  		id _RKIRcGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  }
+  
+  Branch _RKGcQGerEeepyejIV7Vmpw at 500,202 size 120,25 index 7 {
+  	name "unresolvable"
+  	-ControlFlow-> _O4gNEGerEeepyejIV7Vmpw via (819,214) decorate "Polyline" at (2,0) {
+  		id _WjuzYGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  }
+  
+  Branch _RJ1WgGerEeepyejIV7Vmpw at 500,240 size 120,50  {
+  	name "supervisor"
+  	ComplexOutputPort _RJ4Z0GerEeepyejIV7Vmpw at 5,27 size 110,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "supervisor"
+  	}
+  	-ControlFlow-> _O4gNEGerEeepyejIV7Vmpw via (819,264) decorate "Polyline" at (2,0) {
+  		id _WxAaYGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  }
+  
+  Branch _RJqXYGerEeepyejIV7Vmpw at 500,139 size 120,50 index 4 {
+  	name "admin"
+  	ComplexOutputPort _RJuBwGerEeepyejIV7Vmpw at 5,27 size 110,18  {
+  		libraryComponentUID "_fhd4sDlvEeelR78gw15slQ"
+  		isList false
+  		name "admin"
+  	}
+  	-ControlFlow-> _O4gNEGerEeepyejIV7Vmpw via (819,164) decorate "Polyline" at (2,0) {
+  		id _WWTbYGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  }
+  
+  Branch _RJ95YGerEeepyejIV7Vmpw at 340,289 size 120,50 index 6 {
+  	name "student"
+  	ComplexOutputPort _RKA8sGerEeepyejIV7Vmpw at 5,27 size 110,18  {
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		isList false
+  		name "student"
+  		-ComplexUpdate-> _X5UGQGerEeepyejIV7Vmpw via (140,325) decorate "Polyline" at (2,0) {
+  			id _YNtB4GerEeepyejIV7Vmpw
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _fZ9NMGerEeepyejIV7Vmpw  decorate "Polyline" at (2,0) {
+  		id _rCIxQGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  }
+  
+  AtomicSIB _fZ9NMGerEeepyejIV7Vmpw at 340,370 size 120,90  {
+  	libraryComponentUID "common.ObjectExists"
+  	label "ObjectExists"
+  	ComplexInputPort _t0EGUGerEeepyejIV7Vmpw at 5,67 size 110,18  {
+  		libraryComponentUID "_Nx1RYDlzEeelR78gw15slQ"
+  		isList false
+  		name "object"
+  	}
+  	-BranchConnector-> _faFwEGerEeepyejIV7Vmpw   {
+  		id _faG-MGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _faIzYGerEeepyejIV7Vmpw   {
+  		id _faKBgGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _faO6AGerEeepyejIV7Vmpw   {
+  		id _faQIIGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _ka9B4GerEeepyejIV7Vmpw   {
+  		id _ka-QAGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  }
+  
+  Branch _faIzYGerEeepyejIV7Vmpw at 500,402 size 120,25 index 10 {
+  	name "false"
+  	-ControlFlow-> _O4gNEGerEeepyejIV7Vmpw via (819,414) decorate "Polyline" at (2,0) {
+  		id _m1ET4GerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  }
+  
+  Branch _ka9B4GerEeepyejIV7Vmpw at 500,370 size 120,25 index 12 {
+  	name "noresult"
+  	-ControlFlow-> _O4gNEGerEeepyejIV7Vmpw via (820,382) decorate "Polyline" at (2,0) {
+  		id _mjI2YGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  }
+  
+  Branch _faO6AGerEeepyejIV7Vmpw at 500,437 size 120,25  {
+  	name "failure"
+  	-ControlFlow-> _O4gNEGerEeepyejIV7Vmpw via (820,449) decorate "Polyline" at (2,0) {
+  		id _nGuroGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  }
+  
+  Branch _faFwEGerEeepyejIV7Vmpw at 340,490 size 120,25 index 9 {
+  	name "true"
+  	-ControlFlow-> _xh7fMGerEeepyejIV7Vmpw  decorate "Polyline" at (2,0) {
+  		id _z-DjYGerEeepyejIV7Vmpw
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _xh7fMGerEeepyejIV7Vmpw at 350,560 size 100,65  {
+  	branchName "assignment exists"
+  }
+}
