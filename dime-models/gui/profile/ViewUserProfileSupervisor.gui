@@ -178,9 +178,9 @@ GUI _Z8TkgD-lEee9IO1uJfVZdA {
   			}
   			
   			Headline _BOkdsFAzEeelUOscUoWJkw at 10,130 size 300,50  {
-  				size Big
+  				size Normal
   				content [ StaticContent {
-  						rawContent "Topics"
+  						rawContent "Proposed Topics"
   						maxChars 0
   						html false
   						styling TextStyling {

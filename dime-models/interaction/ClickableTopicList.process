@@ -20,22 +20,22 @@ Process _gXwqoFAwEeeWJL1zKR4q1g {
   }
   
   StartSIB _XhzMAFAvEeeWJL1zKR4q1g at 525,-40 size 100,108  {
-  	ComplexOutputPort _jIKyMFAvEeeWJL1zKR4q1g at 5,67 size 90,18  {
+  	ComplexOutputPort _jIKyMFAvEeeWJL1zKR4q1g at 5,67 size 90,18 index 1 {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList true
   		name "topicList"
-  		-ComplexUpdate-> _TfNfUGYzEeeG6ttoGRwTHg  decorate "Polyline" at (2,0) {
+  		-ComplexUpdate-> _TfNfUGYzEeeG6ttoGRwTHg via (418,36) decorate "Polyline" at (2,0) {
   			id _XCmtkGYzEeeG6ttoGRwTHg
   			dfViewWorkaround true
   		}
   	}
   	
-  	ComplexOutputPort _oNvZUGYyEeeG6ttoGRwTHg at 5,85 size 90,18  {
+  	ComplexOutputPort _oNvZUGYyEeeG6ttoGRwTHg at 5,85 size 90,18 index 0 {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
   		name "currentUser"
-  		-ComplexDirectDataFlow-> _yh_FwGYxEeeG6ttoGRwTHg via (447,54) (447,174) decorate "Polyline" at (2,0) {
-  			id _L5S20GYzEeeG6ttoGRwTHg
+  		-ComplexDirectDataFlow-> __BUCEGbSEeeVvIZyQegRiw via (486,54) (486,174) decorate "Polyline" at (2,0) {
+  			id __riDwGbSEeeVvIZyQegRiw
   			dfViewWorkaround true
   		}
   	}
@@ -191,16 +191,16 @@ Process _gXwqoFAwEeeWJL1zKR4q1g {
   	minorPage false
   	libraryComponentUID "_uOZ_cGYrEeeG6ttoGRwTHg"
   	label "CreateBiddingsForStudentAndTopics"
-  	ComplexInputPort _yhvOIGYxEeeG6ttoGRwTHg at 5,67 size 110,18  {
+  	ComplexInputPort __AhX4GbSEeeVvIZyQegRiw at 5,67 size 110,18  {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList true
-  		name "topic3"
+  		name "topics"
   	}
   	
-  	ComplexInputPort _yh_FwGYxEeeG6ttoGRwTHg at 5,85 size 110,18  {
+  	ComplexInputPort __BUCEGbSEeeVvIZyQegRiw at 5,85 size 110,18  {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
-  		name "concreteuser2"
+  		name "user"
   	}
   	-BranchConnector-> _yiSnwGYxEeeG6ttoGRwTHg   {
   		id _yiVrEGYxEeeG6ttoGRwTHg
@@ -224,13 +224,13 @@ Process _gXwqoFAwEeeWJL1zKR4q1g {
   		dfViewWorkaround true
   		name "topics"
   		isList true
-  		-ComplexRead-> _yhvOIGYxEeeG6ttoGRwTHg  decorate "Polyline" at (2,0) {
-  			id _Xf67sGYzEeeG6ttoGRwTHg
+  		-ComplexRead-> _htY2QFAvEeeWJL1zKR4q1g via (341,312) decorate "Polyline" at (2,0) {
+  			id _ZXGfwGYzEeeG6ttoGRwTHg
   			dfViewWorkaround true
   		}
   		
-  		-ComplexRead-> _htY2QFAvEeeWJL1zKR4q1g  decorate "Polyline" at (2,0) {
-  			id _ZXGfwGYzEeeG6ttoGRwTHg
+  		-ComplexRead-> __AhX4GbSEeeVvIZyQegRiw via (341,155) decorate "Polyline" at (2,0) {
+  			id _Ab-CMGbTEeeVvIZyQegRiw
   			dfViewWorkaround true
   		}
   	}

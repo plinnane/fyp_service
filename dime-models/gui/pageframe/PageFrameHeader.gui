@@ -50,6 +50,13 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   			matchingType "_QCBvMDlvEeelR78gw15slQ"
   		}
   		
+  		-IS-> _46JnMF_aEeeas9jR11xv1Q  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _l09KgGbWEeeVvIZyQegRiw
+  			negate false
+  			exactMatch true
+  			matchingType "_fhd4sDlvEeelR78gw15slQ"
+  		}
+  		
   		-IS-> _lSgC4FWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _fTPZsFWuEeexC5UrdY-JsA
   			negate false
@@ -222,7 +229,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   							}
   						}
   						
-  						Button _XsaAoFWtEeexC5UrdY-JsA at 220,30 size 200,60 index 6 {
+  						Button _XsaAoFWtEeexC5UrdY-JsA at 220,30 size 200,60 index 7 {
   							label "View users"
   							displayLabel ""
   							styling ButtonStyling {
@@ -350,7 +357,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   							}
   						}
   						
-  						Button _46JnMF_aEeeas9jR11xv1Q at 1060,30 size 200,60  {
+  						Button _46JnMF_aEeeas9jR11xv1Q at 1060,30 size 200,60 index 6 {
   							label "MockupContent"
   							displayLabel "[DEBUG] Mockup Content"
   							styling ButtonStyling {

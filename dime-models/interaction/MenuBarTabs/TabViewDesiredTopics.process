@@ -140,7 +140,7 @@ Process _eZDYYFZpEee7Rq2yitsHaA {
   	label "NotificationComponent"
   	name "NotificationComponent"
   	TextInputStatic _DM0dUFZ5Eee7Rq2yitsHaA at 5,67 size 110,18  {
-  		value "The current user is no student and therefore has no desired topics."
+  		value "ADMIN The current user is no student and therefore has no desired topics."
   		name "text"
   	}
   }
@@ -212,16 +212,16 @@ Process _eZDYYFZpEee7Rq2yitsHaA {
   		isList false
   		name "supervisor"
   	}
-  	-ControlFlow-> _CbJv0FZ5Eee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
-  		id _97zOoFaDEee7Rq2yitsHaA
+  	-ControlFlow-> _msEPsF_mEeeas9jR11xv1Q  decorate "Polyline" at (2,0) {
+  		id _ruirEF_mEeeas9jR11xv1Q
   		concurrent false
   	}
   }
   
   Branch _yO7-4FaDEee7Rq2yitsHaA at 690,82 size 120,25  {
   	name "unresolvable"
-  	-ControlFlow-> _CbJv0FZ5Eee7Rq2yitsHaA  decorate "Polyline" at (2,0) {
-  		id _9qjGkFaDEee7Rq2yitsHaA
+  	-ControlFlow-> _mOvagF_mEeeas9jR11xv1Q  decorate "Polyline" at (2,0) {
+  		id _sM1JkF_mEeeas9jR11xv1Q
   		concurrent false
   	}
   }
@@ -255,16 +255,38 @@ Process _eZDYYFZpEee7Rq2yitsHaA {
   
   EndSIB _-AS7kFv-EeepUPpWd1pktQ at 690,550 size 160,108  {
   	branchName "go to bidded users list"
-  	ComplexInputPort _AiRwIFv_EeepUPpWd1pktQ at 5,67 size 150,18  {
+  	ComplexInputPort _AiRwIFv_EeepUPpWd1pktQ at 5,67 size 150,18 index 1 {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList true
   		name "users"
   	}
   	
-  	ComplexInputPort _Zchf0FwCEeepUPpWd1pktQ at 5,85 size 150,18  {
+  	ComplexInputPort _Zchf0FwCEeepUPpWd1pktQ at 5,85 size 150,18 index 0 {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList false
   		name "topic"
+  	}
+  }
+  
+  GUISIB _mOvagF_mEeeas9jR11xv1Q at 959,173 size 120,90  {
+  	majorPage true
+  	libraryComponentUID "_7eKIgFZ4Eee7Rq2yitsHaA"
+  	label "NotificationComponent"
+  	name "NotificationComponent"
+  	TextInputStatic _o6q1QF_mEeeas9jR11xv1Q at 5,67 size 110,18  {
+  		value "unresolvable"
+  		name "text"
+  	}
+  }
+  
+  GUISIB _msEPsF_mEeeas9jR11xv1Q at 960,281 size 120,90  {
+  	majorPage true
+  	libraryComponentUID "_7eKIgFZ4Eee7Rq2yitsHaA"
+  	label "NotificationComponent"
+  	name "NotificationComponent"
+  	TextInputStatic _nFtewF_mEeeas9jR11xv1Q at 5,67 size 110,18  {
+  		value "supervisor"
+  		name "text"
   	}
   }
 }

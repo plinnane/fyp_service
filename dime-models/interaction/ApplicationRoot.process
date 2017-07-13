@@ -754,9 +754,8 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   }
   
   ProcessSIB _zUxO4F_hEeeas9jR11xv1Q at 841,49 size 120,65  {
-  	minorPage true
+  	minorPage false
   	libraryComponentUID "_L3rBIF_bEeeas9jR11xv1Q"
-  	majorBranch _E2VsYF_bEeeas9jR11xv1Q
   	label "MockupContent"
   	-BranchConnector-> _zkDoEF_hEeeas9jR11xv1Q   {
   		id _zkFdQF_hEeeas9jR11xv1Q
