@@ -1,0 +1,149 @@
+GUI _MrMFEGhoEeehIbvrpc1Pgg {
+  title "TabViewMyDesiredTopics"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _MstIAGhoEeehIbvrpc1Pgg at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _UXlwEGhoEeehIbvrpc1Pgg at 10,170 size 181,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput false
+  		-ComplexRead-> _SlA_MGhoEeehIbvrpc1Pgg via (110,235) decorate "Polyline" at (2,0) {
+  			id _UxlkcGhoEeehIbvrpc1Pgg
+  		}
+  	}
+  }
+  
+  Template _MtRvwGhoEeehIbvrpc1Pgg at 260,10 size 370,542  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _Mtd9AGhoEeehIbvrpc1Pgg at 10,30 size 350,482  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _MtnuAGhoEeehIbvrpc1Pgg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _Mt8eIGhoEeehIbvrpc1Pgg at 2,10 size 14,7  {
+  		}
+  		
+  		Col _Muw9gGhoEeehIbvrpc1Pgg at 10,30 size 320,432  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _Mu0A0GhoEeehIbvrpc1Pgg at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _Mu2dEGhoEeehIbvrpc1Pgg at 10,2 size 7,14  {
+  			}
+  			
+  			Headline _QKpOgGhoEeehIbvrpc1Pgg at 10,30 size 300,50  {
+  				size Normal
+  				content [ StaticContent {
+  						rawContent "My desired topics"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveDown _QKoncWhoEeehIbvrpc1Pgg at 2,10 size 14,7  {
+  				}
+  				
+  				MoveUp _QKoncGhoEeehIbvrpc1Pgg at 2,2 size 14,7  {
+  				}
+  			}
+  			
+  			InteractionSIB _SgnnYGhoEeehIbvrpc1Pgg at 10,90 size 150,312  {
+  				libraryComponentUID "_eZDYYFZpEee7Rq2yitsHaA"
+  				label "TabViewDesiredTopics"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _SlA_MGhoEeehIbvrpc1Pgg at 5,67 size 90,18  {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList false
+  					name "user"
+  				}
+  				
+  				Branch _SlTTEGhoEeehIbvrpc1Pgg at 5,90 size 100,50  {
+  					name "go to topic"
+  					ComplexOutputPort _SlkY0GhoEeehIbvrpc1Pgg at 5,27 size 90,18  {
+  						libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  						name "topic"
+  						isList false
+  					}
+  				}
+  				
+  				Branch _Sl5I8GhoEeehIbvrpc1Pgg at 5,158 size 100,50  {
+  					name "go to profile"
+  					ComplexOutputPort _SmAdsGhoEeehIbvrpc1Pgg at 5,27 size 90,18  {
+  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						name "user"
+  						isList false
+  					}
+  				}
+  				
+  				Branch _SmHLYGhoEeehIbvrpc1Pgg at 5,226 size 100,68  {
+  					name "go to bidded users list"
+  					ComplexOutputPort _SmMq8GhoEeehIbvrpc1Pgg at 5,27 size 90,18  {
+  						libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  						name "topic"
+  						isList false
+  					}
+  					
+  					ComplexOutputPort _SmQ8YGhoEeehIbvrpc1Pgg at 5,45 size 90,18  {
+  						libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						name "users"
+  						isList true
+  					}
+  				}
+  				
+  				MoveUp _SmXqEGhoEeehIbvrpc1Pgg at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _SmY4MGhoEeehIbvrpc1Pgg at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

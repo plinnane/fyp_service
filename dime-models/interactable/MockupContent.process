@@ -377,7 +377,7 @@ Process _L3rBIF_bEeeas9jR11xv1Q {
   	}
   	
   	TextInputStatic _gbMdoF_dEeeas9jR11xv1Q at 5,85 size 110,18  {
-  		value "Where normal users simply do not survive no longer, topics may be added to the equation in order to stimulate the rate at which users interact with things, like topics. This show a 100% increase of topic-related interaction, compared with studies that do not use topics."
+  		value "Where normal users simply do not suffice no longer, topics may be added to the equation in order to stimulate the rate at which users interact with things, like topics. This show a 100% increase of topic-related interaction, compared with studies that do not use topics."
   		name "abstract"
   	}
   	
@@ -469,6 +469,11 @@ Process _L3rBIF_bEeeas9jR11xv1Q {
   		concurrent true
   	}
   	
+  	-BranchConnector-> _DUNI8GY2EeeXn5NlBw4GMg   {
+  		id _DUO-IGY2EeeXn5NlBw4GMg
+  		concurrent true
+  	}
+  	
   	-BranchConnector-> _DUFNIGY2EeeXn5NlBw4GMg   {
   		id _DUIQcGY2EeeXn5NlBw4GMg
   		concurrent true
@@ -476,11 +481,6 @@ Process _L3rBIF_bEeeas9jR11xv1Q {
   	
   	-BranchConnector-> _DUKFoGY2EeeXn5NlBw4GMg   {
   		id _DULTwGY2EeeXn5NlBw4GMg
-  		concurrent true
-  	}
-  	
-  	-BranchConnector-> _DUNI8GY2EeeXn5NlBw4GMg   {
-  		id _DUO-IGY2EeeXn5NlBw4GMg
   		concurrent true
   	}
   }
@@ -512,13 +512,13 @@ Process _L3rBIF_bEeeas9jR11xv1Q {
   RetrieveOfTypeSIB _5ulSgGY1EeeXn5NlBw4GMg at 490,50 size 120,65 index 21 {
   	libraryComponentUID "_Oj3g0EUwEeeKqOBaOG4MmQ"
   	label "Retrieve from GlobalSettings"
-  	-BranchConnector-> _5u-UEGY1EeeXn5NlBw4GMg   {
-  		id _5vDzoGY1EeeXn5NlBw4GMg
+  	-BranchConnector-> _5vi70GY1EeeXn5NlBw4GMg   {
+  		id _5vlYEGY1EeeXn5NlBw4GMg
   		concurrent true
   	}
   	
-  	-BranchConnector-> _5vi70GY1EeeXn5NlBw4GMg   {
-  		id _5vlYEGY1EeeXn5NlBw4GMg
+  	-BranchConnector-> _5u-UEGY1EeeXn5NlBw4GMg   {
+  		id _5vDzoGY1EeeXn5NlBw4GMg
   		concurrent true
   	}
   }
