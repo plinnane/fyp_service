@@ -1,0 +1,150 @@
+Process _RpPpkGrQEee88s-MzTwcqQ {
+  modelName "CheckTopicForAssignment"
+  processType Interactable
+  description "CheckTopicForAssignment"
+  isStateful false
+  dataFlowView true
+  DataContext _RtLHUGrQEee88s-MzTwcqQ at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  	ComplexVariable _aQOmIGrTEeenGe6kIC3HaQ at 20,40 size 140,267  {
+  		expanded true
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topic"
+  		isList false
+  		ComplexAttribute _bK6swGrTEeenGe6kIC3HaQ at 20,23 size 100,25  {
+  			libraryComponentUID "_leJdEDlwEeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _bK9JAGrTEeenGe6kIC3HaQ at 20,50 size 100,25  {
+  			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
+  			dfViewWorkaround true
+  			-ComplexRead-> _enNNcGrTEeenGe6kIC3HaQ  decorate "Polyline" at (2,0) {
+  				id _f9yl4GrTEeenGe6kIC3HaQ
+  				dfViewWorkaround true
+  			}
+  		}
+  		
+  		ComplexAttribute _bK--MGrTEeenGe6kIC3HaQ at 20,77 size 100,25  {
+  			libraryComponentUID "_lqf6MDl0EeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _bLCBgGrTEeenGe6kIC3HaQ at 20,104 size 100,25  {
+  			libraryComponentUID "_uY6nAFZsEee7Rq2yitsHaA"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _bLLygGrTEeenGe6kIC3HaQ at 20,131 size 100,25  {
+  			libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _bLO10GrTEeenGe6kIC3HaQ at 20,158 size 100,25  {
+  			libraryComponentUID "_BdSTYDlvEeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _bLRSEGrTEeenGe6kIC3HaQ at 20,185 size 100,25  {
+  			libraryComponentUID "_CuhRwDlvEeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _bLTuUGrTEeenGe6kIC3HaQ at 20,212 size 100,25  {
+  			libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _bLWKkGrTEeenGe6kIC3HaQ at 20,239 size 100,25  {
+  			libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _RtsEsGrQEee88s-MzTwcqQ at 440,50 size 100,90  {
+  	ComplexOutputPort _VMbVEGrTEeenGe6kIC3HaQ at 5,67 size 90,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic1"
+  		-ComplexUpdate-> _aQOmIGrTEeenGe6kIC3HaQ  decorate "Polyline" at (2,0) {
+  			id _bCYb0GrTEeenGe6kIC3HaQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _Y2UM4GrTEeenGe6kIC3HaQ  decorate "Polyline" at (2,0) {
+  		id _gbSaMGrTEeenGe6kIC3HaQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _Rt45AGrQEee88s-MzTwcqQ at 250,440 size 100,65  {
+  	branchName "assignment exists"
+  }
+  
+  Branch _ZF_AkGrTEeenGe6kIC3HaQ at 620,333 size 120,25 index 7 {
+  	name "failure"
+  	-ControlFlow-> _jMIKIGrTEeenGe6kIC3HaQ  decorate "Polyline" at (2,0) {
+  		id _pz5vYGrTEeenGe6kIC3HaQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _ZF12oGrTEeenGe6kIC3HaQ at 490,333 size 120,25 index 6 {
+  	name "noresult"
+  	-ControlFlow-> _jMIKIGrTEeenGe6kIC3HaQ  decorate "Polyline" at (2,0) {
+  		id _pUPX4GrTEeenGe6kIC3HaQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _ZFqQcGrTEeenGe6kIC3HaQ at 364,333 size 120,25  {
+  	name "false"
+  	-ControlFlow-> _jMIKIGrTEeenGe6kIC3HaQ  decorate "Polyline" at (2,0) {
+  		id _o_eo0GrTEeenGe6kIC3HaQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _ZFX8kGrTEeenGe6kIC3HaQ at 240,333 size 120,25 index 4 {
+  	name "true"
+  	-ControlFlow-> _Rt45AGrQEee88s-MzTwcqQ  decorate "Polyline" at (2,0) {
+  		id _qpvyQGrTEeenGe6kIC3HaQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _jMIKIGrTEeenGe6kIC3HaQ at 530,440 size 100,65 index 8 {
+  	branchName "no assignment"
+  }
+  
+  AtomicSIB _Y2UM4GrTEeenGe6kIC3HaQ at 430,210 size 120,90 index 3 {
+  	libraryComponentUID "common.ObjectExists"
+  	label "ObjectExists"
+  	ComplexInputPort _enNNcGrTEeenGe6kIC3HaQ at 5,67 size 110,18  {
+  		libraryComponentUID "_Nx1RYDlzEeelR78gw15slQ"
+  		isList false
+  		name "object"
+  	}
+  	-BranchConnector-> _ZFX8kGrTEeenGe6kIC3HaQ   {
+  		id _ZFi7sGrTEeenGe6kIC3HaQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _ZFqQcGrTEeenGe6kIC3HaQ   {
+  		id _ZFwXEGrTEeenGe6kIC3HaQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _ZF12oGrTEeenGe6kIC3HaQ   {
+  		id _ZF6IEGrTEeenGe6kIC3HaQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _ZF_AkGrTEeenGe6kIC3HaQ   {
+  		id _ZGDSAGrTEeenGe6kIC3HaQ
+  		concurrent true
+  	}
+  }
+}
