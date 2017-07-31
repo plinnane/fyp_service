@@ -375,7 +375,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   GUISIB _GmyvQFDmEee1RdmfVpvmFg at 510,630 size 120,90 index 18 {
   	majorPage false
   	libraryComponentUID "_A_z7IEqwEeeq5uKWWhCwgQ"
-  	majorBranch _GHo3cFWvEeexC5UrdY-JsA
+  	majorBranch _VJvwwEqjEeeYWJ9zK_WIRg
   	label "ViewUserProfile"
   	name "ViewUserProfile"
   	ComplexInputPort _GuKikFDmEee1RdmfVpvmFg at 5,67 size 110,18  {
@@ -793,7 +793,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   
   Branch _cfS3AGhoEeehIbvrpc1Pgg at 1260,761 size 120,68 index 53 {
   	name "go to bidded users list"
-  	ComplexOutputPort _cfY9oGhoEeehIbvrpc1Pgg at 5,27 size 110,18  {
+  	ComplexOutputPort _cfY9oGhoEeehIbvrpc1Pgg at 5,27 size 110,18 index 1 {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList false
   		name "topic"
@@ -803,7 +803,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   		}
   	}
   	
-  	ComplexOutputPort _cfoOMGhoEeehIbvrpc1Pgg at 5,45 size 110,18  {
+  	ComplexOutputPort _cfoOMGhoEeehIbvrpc1Pgg at 5,45 size 110,18 index 0 {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList true
   		name "users"
@@ -819,8 +819,9 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   }
   
   GUISIB _cat5AGhoEeehIbvrpc1Pgg at 1180,280 size 120,65 index 50 {
-  	majorPage true
+  	majorPage false
   	libraryComponentUID "_MrMFEGhoEeehIbvrpc1Pgg"
+  	majorBranch _GIl5sFWvEeexC5UrdY-JsA
   	label "TabViewMyDesiredTopics"
   	name "TabViewMyDesiredTopics"
   	-BranchConnector-> _ccTNYGhoEeehIbvrpc1Pgg   {
