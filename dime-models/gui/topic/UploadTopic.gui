@@ -61,12 +61,8 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   			associationName "category"
   		}
   		
-  		-AddComplexToSubmission-> _P8YY0ECDEeeqCfaxU6lZ7A  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  		-AddComplexToSubmission-> _P8YY0ECDEeeqCfaxU6lZ7A  decorate "Polyline" at (2,0) decorate "Text" at (-57,-6) {
   			id _d7deoECKEeeqCfaxU6lZ7A
-  		}
-  		
-  		-AddComplexToSubmission-> _P8YY0ECDEeeqCfaxU6lZ7A  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
-  			id _zP3EcEUsEeeKqOBaOG4MmQ
   		}
   	}
   	
