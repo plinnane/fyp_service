@@ -1,0 +1,2 @@
+207.154.245.135 domain_name=fyp1.fetchandadd.net letsencrypt_email=mail@timtegeler.de ansible_user=root
+207.154.251.113 domain_name=fyp2.fetchandadd.net letsencrypt_email=mail@timtegeler.de ansible_user=root
