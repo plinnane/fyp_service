@@ -1,0 +1,19 @@
+- name: Activate nginx start site
+  file:
+    src: /etc/nginx/sites-available/start
+    dest: /etc/nginx/sites-enabled/start
+    state: link
+  notify: 'reload nginx'
+
+- name: Activate nginx wildfly site
+  file:
+    src: /etc/nginx/sites-available/wildfly
+    dest: /etc/nginx/sites-enabled/wildfly
+    state: link
+  notify: 'reload nginx'
+
+- name: Deactivate nginx maintenance site
+  file:
+    dest: /etc/nginx/sites-enabled/maintencance
+    state: absent
+  notify: 'reload nginx'

@@ -1,0 +1,3 @@
+include: maintenance-mode-on.yml
+include: app-deployment.yml
+include: maintenance-mode-off.yml
