@@ -1,0 +1,2 @@
+fyp1.fetchandadd.net domain_name=fyp1.fetchandadd.net letsencrypt_email=mail@timtegeler.de ansible_user=root
+fyp2.fetchandadd.net domain_name=fyp2.fetchandadd.net letsencrypt_email=mail@timtegeler.de ansible_user=root
