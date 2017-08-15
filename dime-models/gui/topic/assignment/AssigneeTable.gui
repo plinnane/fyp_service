@@ -1,0 +1,439 @@
+GUI _Q-g80HwvEeedDZuImpUmOA {
+  title "AssigneeTable"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _Q-9owHwvEeedDZuImpUmOA at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _UeKTgHwvEeedDZuImpUmOA at 20,40 size 160,105  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "students"
+  		isList true
+  		isInput true
+  		PrimitiveListAttribute _rgkfMHwvEeedDZuImpUmOA at 20,23 size 120,25  {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _rgm7cHwvEeedDZuImpUmOA at 20,50 size 120,25  {
+  			attributeName last
+  			libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _rgowoHwvEeedDZuImpUmOA at 20,77 size 120,25  {
+  			attributeName first
+  			libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-ComplexListAttributeConnector-> _sBFyUHwvEeedDZuImpUmOA  decorate "Ellipse" at (0,0) {
+  			id _sBKq0HwvEeedDZuImpUmOA
+  			attributeName current
+  		}
+  		
+  		-TableLoad-> _ZdDPYHwvEeedDZuImpUmOA  decorate "Polyline" at (2,0) {
+  			id _2xTzoHwvEeedDZuImpUmOA
+  		}
+  		
+  		-IF-> _ZdDPYHwvEeedDZuImpUmOA via (233,180) decorate "Polyline" at (2,0) decorate "Text" at (6,-20) {
+  			id _J9mysIG9EeejfZLQiGwUQQ
+  			negate false
+  		}
+  		
+  		-IF-> __z9CIIG8EeejfZLQiGwUQQ via (235,181) (250,303) decorate "Polyline" at (2,0) decorate "Text" at (0,-35) {
+  			id _Kb7GYIG9EeejfZLQiGwUQQ
+  			negate true
+  		}
+  	}
+  	
+  	ComplexVariable _sBFyUHwvEeedDZuImpUmOA at 20,200 size 160,213 index 2 {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "current"
+  		isList false
+  		isInput false
+  		ComplexAttribute _sBT0wHwvEeedDZuImpUmOA at 20,23 size 120,25  {
+  			libraryComponentUID "_YPKL4DlzEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _sBVC4HwvEeedDZuImpUmOA at 20,50 size 120,25  {
+  			libraryComponentUID "_QzPioFZsEee7Rq2yitsHaA"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _sBW4EHwvEeedDZuImpUmOA at 20,77 size 120,25  {
+  			libraryComponentUID "_er0DEDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _sBYtQHwvEeedDZuImpUmOA at 20,104 size 120,25  {
+  			libraryComponentUID "_OjCMMDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _sBZ7YHwvEeedDZuImpUmOA at 20,131 size 120,25  {
+  			libraryComponentUID "_QMzmYDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _sBbJgHwvEeedDZuImpUmOA at 20,158 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  			-TableColumnLoad-> _gWaT4HwvEeedDZuImpUmOA  decorate "Polyline" at (2,0) {
+  				id _Gs8w8HwwEeedDZuImpUmOA
+  			}
+  		}
+  		
+  		PrimitiveAttribute _sBcXoHwvEeedDZuImpUmOA at 20,185 size 120,25  {
+  			libraryComponentUID "_Is7nIFdOEeedF_BtCbljJQ"
+  			isLive false
+  		}
+  		-AddComplexToSubmission-> _qtZV0HwvEeedDZuImpUmOA via (1099,316) decorate "Polyline" at (2,0) decorate "Text" at (281,1) {
+  			id _syYFUHwvEeedDZuImpUmOA
+  		}
+  		
+  		-ComplexAttributeConnector-> _LWiyQHwwEeedDZuImpUmOA  decorate "Ellipse" at (0,0) {
+  			id _LWvmkHwwEeedDZuImpUmOA
+  			associationName "baseUser"
+  		}
+  	}
+  	
+  	ComplexVariable _LWiyQHwwEeedDZuImpUmOA at 20,450 size 160,186 index 1 {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _LW7MwHwwEeedDZuImpUmOA at 20,23 size 120,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _LW9B8HwwEeedDZuImpUmOA at 20,50 size 120,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _LW-QEHwwEeedDZuImpUmOA at 20,77 size 120,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _LW_eMHwwEeedDZuImpUmOA at 20,104 size 120,25 index 5 {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			isLive false
+  			-TableColumnLoad-> _Z2SOwHwvEeedDZuImpUmOA  decorate "Polyline" at (2,0) {
+  				id _bX6kIHwwEeedDZuImpUmOA
+  			}
+  		}
+  		
+  		PrimitiveAttribute _LXAsUHwwEeedDZuImpUmOA at 20,131 size 120,25 index 3 {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			isLive false
+  			-TableColumnLoad-> _dAdEsHwvEeedDZuImpUmOA  decorate "Polyline" at (2,0) {
+  				id _aMU6wHwwEeedDZuImpUmOA
+  			}
+  		}
+  		
+  		PrimitiveAttribute _LXChgHwwEeedDZuImpUmOA at 20,158 size 120,25 index 4 {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _Q--24HwvEeedDZuImpUmOA at 260,10 size 1010,400  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _Q_GysHwvEeedDZuImpUmOA at 10,30 size 990,340  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _Q_IA0HwvEeedDZuImpUmOA at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _Q_In4HwvEeedDZuImpUmOA at 2,10 size 14,7  {
+  		}
+  		
+  		Col _Q_OHcHwvEeedDZuImpUmOA at 10,30 size 960,290  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _Q_P8oHwvEeedDZuImpUmOA at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _Q_Rx0HwvEeedDZuImpUmOA at 10,2 size 7,14  {
+  			}
+  			
+  			Table _ZdDPYHwvEeedDZuImpUmOA at 10,30 size 940,170  {
+  				striped true
+  				bordered true
+  				hover false
+  				condensed true
+  				responsive true
+  				numbering false
+  				pagination 0
+  				choices NONE
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _ZdFEkHwvEeedDZuImpUmOA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _ZdFroHwvEeedDZuImpUmOA at 2,10 size 14,7  {
+  				}
+  				
+  				TableEntry _Z2SOwHwvEeedDZuImpUmOA at 10,30 size 220,120  {
+  					label "First name"
+  					sortable true
+  					defaultSorting NONE
+  					fullTextSearch true
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _Z2V5IHwvEeedDZuImpUmOA at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _Z2WgMHwvEeedDZuImpUmOA at 10,2 size 7,14  {
+  					}
+  					
+  					Text _NuoD8HwwEeedDZuImpUmOA at 10,30 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "{{current.baseUser.firstName}}"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _NuqgMHwwEeedDZuImpUmOA at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _NuruUHwwEeedDZuImpUmOA at 2,10 size 14,7  {
+  						}
+  					}
+  				}
+  				
+  				TableEntry _dAdEsHwvEeedDZuImpUmOA at 240,30 size 220,120  {
+  					label "Last name"
+  					sortable true
+  					defaultSorting ASC
+  					fullTextSearch true
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _dAeS0HwvEeedDZuImpUmOA at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _dAfg8HwvEeedDZuImpUmOA at 10,2 size 7,14  {
+  					}
+  					
+  					Text _ytRWcHwvEeedDZuImpUmOA at 10,30 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "{{current.baseUser.lastName}}"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _ytTLoHwvEeedDZuImpUmOA at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _ytTysHwvEeedDZuImpUmOA at 2,10 size 14,7  {
+  						}
+  					}
+  				}
+  				
+  				TableEntry _gWaT4HwvEeedDZuImpUmOA at 470,30 size 220,120 index 5 {
+  					label "Mail adress"
+  					sortable true
+  					defaultSorting NONE
+  					fullTextSearch true
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _gWdXMHwvEeedDZuImpUmOA at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _gWelUHwvEeedDZuImpUmOA at 10,2 size 7,14  {
+  					}
+  					
+  					Text _vEl_kHwvEeedDZuImpUmOA at 10,30 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "{{current.email}}"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _vEn0wHwvEeedDZuImpUmOA at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _vEpC4HwvEeedDZuImpUmOA at 2,10 size 14,7  {
+  						}
+  					}
+  				}
+  				
+  				TableEntry _mSR1YHwvEeedDZuImpUmOA at 700,30 size 220,120 index 4 {
+  					label "Assign"
+  					sortable false
+  					defaultSorting NONE
+  					fullTextSearch false
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _mSURoHwvEeedDZuImpUmOA at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _mSU4sHwvEeedDZuImpUmOA at 10,2 size 7,14  {
+  					}
+  					
+  					Button _qtZV0HwvEeedDZuImpUmOA at 10,30 size 200,60  {
+  						label "Assign"
+  						displayLabel ""
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions {
+  								isLink false
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon None
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _qtbLAHwvEeedDZuImpUmOA at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _qtcZIHwvEeedDZuImpUmOA at 2,10 size 14,7  {
+  						}
+  					}
+  				}
+  			}
+  			
+  			Headline __z9CIIG8EeejfZLQiGwUQQ at 10,210 size 300,50  {
+  				size Normal
+  				content [ StaticContent {
+  						rawContent "There are currently no students that may be assigned."
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp __0yIkIG8EeejfZLQiGwUQQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown __06rcIG8EeejfZLQiGwUQQ at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

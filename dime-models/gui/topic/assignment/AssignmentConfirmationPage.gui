@@ -1,0 +1,330 @@
+GUI _ckwVIH25EeebT4zH69gJHQ {
+  title "AssignmentConfirmationPage"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _clZ1YH25EeebT4zH69gJHQ at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _7VBkYH25EeebT4zH69gJHQ at 27,160 size 160,213  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "assignee"
+  		isList false
+  		isInput true
+  		ComplexAttribute _9Og1kH25EeebT4zH69gJHQ at 20,23 size 120,25  {
+  			libraryComponentUID "_YPKL4DlzEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _9OiDsH25EeebT4zH69gJHQ at 20,50 size 120,25  {
+  			libraryComponentUID "_QzPioFZsEee7Rq2yitsHaA"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _9OluEH25EeebT4zH69gJHQ at 20,77 size 120,25  {
+  			libraryComponentUID "_er0DEDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _9OnjQH25EeebT4zH69gJHQ at 20,104 size 120,25  {
+  			libraryComponentUID "_OjCMMDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _9OoxYH25EeebT4zH69gJHQ at 20,131 size 120,25  {
+  			libraryComponentUID "_QMzmYDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _9Op_gH25EeebT4zH69gJHQ at 20,158 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _9OqmkH25EeebT4zH69gJHQ at 20,185 size 120,25  {
+  			libraryComponentUID "_Is7nIFdOEeedF_BtCbljJQ"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _-hk_8H25EeebT4zH69gJHQ  decorate "Ellipse" at (0,0) {
+  			id _-hrtoH25EeebT4zH69gJHQ
+  			associationName "baseUser"
+  		}
+  	}
+  	
+  	ComplexVariable _8XGscH25EeebT4zH69gJHQ at 27,40 size 160,25 index 2 {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topic"
+  		isList false
+  		isInput true
+  	}
+  	
+  	ComplexVariable _-hk_8H25EeebT4zH69gJHQ at 27,400 size 160,186 index 1 {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _-hzpcH25EeebT4zH69gJHQ at 20,23 size 120,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _-h0QgH25EeebT4zH69gJHQ at 20,50 size 120,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _-h1eoH25EeebT4zH69gJHQ at 20,77 size 120,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _-h2swH25EeebT4zH69gJHQ at 20,104 size 120,25  {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _-h3T0H25EeebT4zH69gJHQ at 20,131 size 120,25  {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _-h4h8H25EeebT4zH69gJHQ at 20,158 size 120,25  {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _clcRoH25EeebT4zH69gJHQ at 260,10 size 370,560  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _clriMH25EeebT4zH69gJHQ at 10,30 size 350,500  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _clyP4H25EeebT4zH69gJHQ at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _cl8A4H25EeebT4zH69gJHQ at 2,10 size 14,7  {
+  		}
+  		
+  		Col _cmMfkH25EeebT4zH69gJHQ at 10,30 size 320,450  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _cmO70H25EeebT4zH69gJHQ at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _cmQJ8H25EeebT4zH69gJHQ at 10,2 size 7,14  {
+  			}
+  			
+  			Headline _duI_EH25EeebT4zH69gJHQ at 10,30 size 300,50  {
+  				size Medium
+  				content [ StaticContent {
+  						rawContent "Confirm assignment"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _duMCYH25EeebT4zH69gJHQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _duNQgH25EeebT4zH69gJHQ at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Text _fssWcH25EeebT4zH69gJHQ at 10,90 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "You are about to assign the student <b>{{assignee.baseUser.firstName}} {{assignee.baseUser.lastName}}</b> \nto your topic with the title <i>\"{{topic.title}}\"</i>. "
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _fsvZwH25EeebT4zH69gJHQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _fsxO8H25EeebT4zH69gJHQ at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Headline _udolwH26EeebT4zH69gJHQ at 10,160 size 300,50  {
+  				size Small
+  				content [ StaticContent {
+  						rawContent "Do you want to confirm this assignment?"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _udrCAH26EeebT4zH69gJHQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _udrpEH26EeebT4zH69gJHQ at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Button _8KDScH26EeebT4zH69gJHQ at 10,220 size 200,60  {
+  				label "Confirm and assign"
+  				displayLabel ""
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _8KHj4H26EeebT4zH69gJHQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _8KIyAH26EeebT4zH69gJHQ at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Button _9uKwkH26EeebT4zH69gJHQ at 10,360 size 200,60  {
+  				label "Cancel assignment"
+  				displayLabel ""
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _9uNz4H26EeebT4zH69gJHQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _9uPpEH26EeebT4zH69gJHQ at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Button _lJENoH27EeebT4zH69gJHQ at 10,290 size 200,60  {
+  				label "Select different student"
+  				displayLabel ""
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _lJGC0H27EeebT4zH69gJHQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _lJHQ8H27EeebT4zH69gJHQ at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

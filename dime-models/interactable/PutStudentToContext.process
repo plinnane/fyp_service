@@ -1,0 +1,35 @@
+Process _DvZakH24EeebT4zH69gJHQ {
+  modelName "PutStudentToContext"
+  processType Interactable
+  description "PutStudentToContext"
+  isStateful false
+  dataFlowView true
+  DataContext _Dv_QcH24EeebT4zH69gJHQ at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _DwJBcH24EeebT4zH69gJHQ at 350,50 size 100,90  {
+  	ComplexOutputPort _E9PtwH24EeebT4zH69gJHQ at 5,67 size 90,18  {
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		isList false
+  		name "student"
+  		-ComplexDirectDataFlow-> _FhOkkH24EeebT4zH69gJHQ via (340,126) (340,276) decorate "Polyline" at (2,0) {
+  			id _GsKtsH24EeebT4zH69gJHQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _DwMEwH24EeebT4zH69gJHQ  decorate "Polyline" at (2,0) {
+  		id _GWHlMH24EeebT4zH69gJHQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _DwMEwH24EeebT4zH69gJHQ at 350,200 size 100,90  {
+  	branchName "success"
+  	ComplexInputPort _FhOkkH24EeebT4zH69gJHQ at 5,67 size 90,18  {
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		isList false
+  		name "student"
+  	}
+  }
+}

@@ -1,0 +1,126 @@
+Process _i5NzUHzpEeeXTvzoCY4ZIA {
+  modelName "IsOwner"
+  processType Interactable
+  description "IsOwner"
+  isStateful false
+  dataFlowView true
+  DataContext _i5e5EHzpEeeXTvzoCY4ZIA at 50,50 size 180,351  {
+  	dfViewWorkaround true
+  	ComplexVariable _v5PUEHzpEeeXTvzoCY4ZIA at 20,140 size 140,51  {
+  		expanded false
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topic"
+  		isList false
+  		ComplexAttribute _wC5mYHzpEeeXTvzoCY4ZIA at 20,23 size 100,25  {
+  			libraryComponentUID "_leJdEDlwEeelR78gw15slQ"
+  			dfViewWorkaround true
+  			-ComplexRead-> _6pg_wHzpEeeXTvzoCY4ZIA via (265,225) (265,303) decorate "Polyline" at (2,0) {
+  				id _8sgyQHzpEeeXTvzoCY4ZIA
+  				dfViewWorkaround true
+  			}
+  		}
+  	}
+  }
+  
+  StartSIB _i5gHMHzpEeeXTvzoCY4ZIA at 350,50 size 100,108  {
+  	ComplexOutputPort _mpaugHzpEeeXTvzoCY4ZIA at 5,67 size 90,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "supervisor"
+  		-ComplexDirectDataFlow-> _6UGJYHzpEeeXTvzoCY4ZIA via (330,126) (330,286) decorate "Polyline" at (2,0) {
+  			id _77kdgHzpEeeXTvzoCY4ZIA
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexOutputPort _nrBVcHzpEeeXTvzoCY4ZIA at 5,85 size 90,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  		-ComplexUpdate-> _v5PUEHzpEeeXTvzoCY4ZIA via (140,144) decorate "Polyline" at (2,0) {
+  			id _8THa0HzpEeeXTvzoCY4ZIA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _x5f7oHzpEeeXTvzoCY4ZIA  decorate "Polyline" at (2,0) {
+  		id _5MvfwHzpEeeXTvzoCY4ZIA
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _i5hVUHzpEeeXTvzoCY4ZIA at 350,450 size 100,65  {
+  	branchName "owner"
+  }
+  
+  AtomicSIB _x5f7oHzpEeeXTvzoCY4ZIA at 340,210 size 120,108  {
+  	libraryComponentUID "common.ObjectEquals"
+  	label "ObjectEquals"
+  	ComplexInputPort _6UGJYHzpEeeXTvzoCY4ZIA at 5,67 size 110,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "a"
+  	}
+  	
+  	ComplexInputPort _6pg_wHzpEeeXTvzoCY4ZIA at 5,85 size 110,18  {
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		isList false
+  		name "b"
+  	}
+  	-BranchConnector-> _x5waUHzpEeeXTvzoCY4ZIA   {
+  		id _x5y2kHzpEeeXTvzoCY4ZIA
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _x50rwHzpEeeXTvzoCY4ZIA   {
+  		id _x52g8HzpEeeXTvzoCY4ZIA
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _x549MHzpEeeXTvzoCY4ZIA   {
+  		id _x56yYHzpEeeXTvzoCY4ZIA
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _x58nkHzpEeeXTvzoCY4ZIA   {
+  		id _x5-cwHzpEeeXTvzoCY4ZIA
+  		concurrent true
+  	}
+  }
+  
+  Branch _x5waUHzpEeeXTvzoCY4ZIA at 340,380 size 120,25  {
+  	name "true"
+  	-ControlFlow-> _i5hVUHzpEeeXTvzoCY4ZIA  decorate "Polyline" at (2,0) {
+  		id _42xPwHzpEeeXTvzoCY4ZIA
+  		concurrent true
+  	}
+  }
+  
+  Branch _x50rwHzpEeeXTvzoCY4ZIA at 520,213 size 120,25  {
+  	name "false"
+  	-ControlFlow-> _0vFosHzpEeeXTvzoCY4ZIA  decorate "Polyline" at (2,0) {
+  		id _1ahLUHzpEeeXTvzoCY4ZIA
+  		concurrent true
+  	}
+  }
+  
+  Branch _x549MHzpEeeXTvzoCY4ZIA at 520,251 size 120,25  {
+  	name "noresult"
+  	-ControlFlow-> _0vFosHzpEeeXTvzoCY4ZIA  decorate "Polyline" at (2,0) {
+  		id _1rEIwHzpEeeXTvzoCY4ZIA
+  		concurrent true
+  	}
+  }
+  
+  Branch _x58nkHzpEeeXTvzoCY4ZIA at 520,290 size 120,25  {
+  	name "failure"
+  	-ControlFlow-> _0vFosHzpEeeXTvzoCY4ZIA  decorate "Polyline" at (2,0) {
+  		id _14p40HzpEeeXTvzoCY4ZIA
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _0vFosHzpEeeXTvzoCY4ZIA at 710,231 size 100,65  {
+  	branchName "not owner"
+  }
+}

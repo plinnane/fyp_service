@@ -206,7 +206,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
   		name "user"
-  		-ComplexDirectDataFlow-> _3CNiAE9vEeeWJL1zKR4q1g via (870,847) (870,867) decorate "Polyline" at (2,0) {
+  		-ComplexDirectDataFlow-> _3CNiAE9vEeeWJL1zKR4q1g via (870,847) (870,957) decorate "Polyline" at (2,0) {
   			id _35S7AE9vEeeWJL1zKR4q1g
   			dfViewWorkaround true
   		}
@@ -275,7 +275,6 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   ProcessSIB _cKBe0FD0Eee1RdmfVpvmFg at 670,280 size 120,90 index 23 {
   	minorPage false
   	libraryComponentUID "_WqfUAFD0Eee1RdmfVpvmFg"
-  	majorBranch _VJvwwEqjEeeYWJ9zK_WIRg
   	label "PutUserToContext"
   	name "PutUserToContext"
   	ComplexInputPort _cM3XcFD0Eee1RdmfVpvmFg at 5,67 size 110,18  {
@@ -332,7 +331,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   			dfViewWorkaround true
   		}
   	}
-  	-ControlFlow-> _GmyvQFDmEee1RdmfVpvmFg via (280,430) (569,430) decorate "Polyline" at (2,0) {
+  	-ControlFlow-> _GmyvQFDmEee1RdmfVpvmFg via (269,430) (569,430) decorate "Polyline" at (2,0) {
   		id _H1Km4FDmEee1RdmfVpvmFg
   		concurrent true
   	}
@@ -436,7 +435,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   	}
   }
   
-  Branch _ppZ3QFEDEee1RdmfVpvmFg at 276,770 size 120,50 index 28 {
+  Branch _ppZ3QFEDEee1RdmfVpvmFg at 309,740 size 120,50 index 28 {
   	name "go to profile"
   	ComplexOutputPort _ppdhoFEDEee1RdmfVpvmFg at 5,27 size 110,18  {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -464,6 +463,11 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   		isList false
   		name "topic"
   	}
+  	-BranchConnector-> _oidn4Hz2EeeXTvzoCY4ZIA   {
+  		id _oie2AHz2EeeXTvzoCY4ZIA
+  		concurrent true
+  	}
+  	
   	-BranchConnector-> _ppZ3QFEDEee1RdmfVpvmFg   {
   		id _ppbscFEDEee1RdmfVpvmFg
   		concurrent true
@@ -618,7 +622,7 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
   		name "user"
-  		-ComplexUpdate-> _RmOb0FDnEee1RdmfVpvmFg via (555,935) (446,673) (600,490) decorate "Polyline" at (2,0) {
+  		-ComplexUpdate-> _RmOb0FDnEee1RdmfVpvmFg via (555,935) (446,682) (600,490) decorate "Polyline" at (2,0) {
   			id _bcN0wFwEEeepUPpWd1pktQ
   			dfViewWorkaround true
   		}
@@ -870,6 +874,57 @@ Process _DsgjcEU1EeeKqOBaOG4MmQ {
   	}
   	-ControlFlow-> _ppEgEFEDEee1RdmfVpvmFg via (689,786) decorate "Polyline" at (2,0) {
   		id __uXM0GhoEeehIbvrpc1Pgg
+  		concurrent true
+  	}
+  }
+  
+  Branch _oidn4Hz2EeeXTvzoCY4ZIA at 71,712 size 120,50  {
+  	name "Assign student"
+  	ComplexOutputPort _oihSQHz2EeeXTvzoCY4ZIA at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  		-ComplexDirectDataFlow-> _mPQ5YHz6EeeXTvzoCY4ZIA via (61,748) (61,859) decorate "Polyline" at (2,0) {
+  			id _im7XIH2yEeebT4zH69gJHQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _mB6Z4Hz6EeeXTvzoCY4ZIA  decorate "Polyline" at (2,0) {
+  		id _bDW4AH2yEeebT4zH69gJHQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _mB6Z4Hz6EeeXTvzoCY4ZIA at 71,783 size 120,90  {
+  	minorPage true
+  	libraryComponentUID "_JVzQMHz5EeeXTvzoCY4ZIA"
+  	majorBranch _GIl5sFWvEeexC5UrdY-JsA
+  	label "AssignStudentToTopic"
+  	name "AssignStudent"
+  	ComplexInputPort _mPQ5YHz6EeeXTvzoCY4ZIA at 5,67 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  	}
+  	-BranchConnector-> _mPdtsHz6EeeXTvzoCY4ZIA   {
+  		id _mPgJ8Hz6EeeXTvzoCY4ZIA
+  		concurrent true
+  	}
+  }
+  
+  Branch _mPdtsHz6EeeXTvzoCY4ZIA at 71,888 size 120,50  {
+  	name "success"
+  	ComplexOutputPort _nyEmUH2yEeebT4zH69gJHQ at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  		-ComplexUpdate-> _uJ_GgFEDEee1RdmfVpvmFg via (204,925) (227,805) (446,805) decorate "Polyline" at (2,0) {
+  			id _piOVUH2yEeebT4zH69gJHQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _ppEgEFEDEee1RdmfVpvmFg via (207,902) decorate "Polyline" at (2,0) {
+  		id _ces0oH2yEeebT4zH69gJHQ
   		concurrent true
   	}
   }
