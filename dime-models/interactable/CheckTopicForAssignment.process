@@ -6,58 +6,26 @@ Process _RpPpkGrQEee88s-MzTwcqQ {
   dataFlowView true
   DataContext _RtLHUGrQEee88s-MzTwcqQ at 50,50 size 180,800  {
   	dfViewWorkaround true
-  	ComplexVariable _aQOmIGrTEeenGe6kIC3HaQ at 20,40 size 140,267  {
-  		expanded true
+  	ComplexVariable _aQOmIGrTEeenGe6kIC3HaQ at 20,120 size 140,25  {
+  		expanded false
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		dfViewWorkaround true
   		name "topic"
   		isList false
-  		ComplexAttribute _bK6swGrTEeenGe6kIC3HaQ at 20,23 size 100,25  {
-  			libraryComponentUID "_leJdEDlwEeelR78gw15slQ"
-  			dfViewWorkaround true
+  		-ComplexAttributeConnector-> _FtgJoHXvEee_8dv1Qpx2kw  decorate "Ellipse" at (0,0) {
+  			id _FtrIwHXvEee_8dv1Qpx2kw
+  			attributeName "assignment"
   		}
-  		
-  		ComplexAttribute _bK9JAGrTEeenGe6kIC3HaQ at 20,50 size 100,25  {
-  			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
-  			dfViewWorkaround true
-  			-ComplexRead-> _enNNcGrTEeenGe6kIC3HaQ  decorate "Polyline" at (2,0) {
-  				id _f9yl4GrTEeenGe6kIC3HaQ
-  				dfViewWorkaround true
-  			}
-  		}
-  		
-  		ComplexAttribute _bK--MGrTEeenGe6kIC3HaQ at 20,77 size 100,25  {
-  			libraryComponentUID "_lqf6MDl0EeelR78gw15slQ"
-  			dfViewWorkaround true
-  		}
-  		
-  		ComplexAttribute _bLCBgGrTEeenGe6kIC3HaQ at 20,104 size 100,25  {
-  			libraryComponentUID "_uY6nAFZsEee7Rq2yitsHaA"
-  			dfViewWorkaround true
-  		}
-  		
-  		PrimitiveAttribute _bLLygGrTEeenGe6kIC3HaQ at 20,131 size 100,25  {
-  			libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
-  			dfViewWorkaround true
-  		}
-  		
-  		PrimitiveAttribute _bLO10GrTEeenGe6kIC3HaQ at 20,158 size 100,25  {
-  			libraryComponentUID "_BdSTYDlvEeelR78gw15slQ"
-  			dfViewWorkaround true
-  		}
-  		
-  		PrimitiveAttribute _bLRSEGrTEeenGe6kIC3HaQ at 20,185 size 100,25  {
-  			libraryComponentUID "_CuhRwDlvEeelR78gw15slQ"
-  			dfViewWorkaround true
-  		}
-  		
-  		PrimitiveAttribute _bLTuUGrTEeenGe6kIC3HaQ at 20,212 size 100,25  {
-  			libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
-  			dfViewWorkaround true
-  		}
-  		
-  		PrimitiveAttribute _bLWKkGrTEeenGe6kIC3HaQ at 20,239 size 100,25  {
-  			libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
+  	}
+  	
+  	ComplexVariable _FtgJoHXvEee_8dv1Qpx2kw at 20,180 size 140,25  {
+  		expanded false
+  		libraryComponentUID "_Nx1RYDlzEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "assignment"
+  		isList false
+  		-ComplexRead-> _enNNcGrTEeenGe6kIC3HaQ via (139,286) decorate "Polyline" at (2,0) {
+  			id _GXwAgHXvEee_8dv1Qpx2kw
   			dfViewWorkaround true
   		}
   	}
@@ -67,8 +35,8 @@ Process _RpPpkGrQEee88s-MzTwcqQ {
   	ComplexOutputPort _VMbVEGrTEeenGe6kIC3HaQ at 5,67 size 90,18  {
   		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   		isList false
-  		name "topic1"
-  		-ComplexUpdate-> _aQOmIGrTEeenGe6kIC3HaQ  decorate "Polyline" at (2,0) {
+  		name "topic"
+  		-ComplexUpdate-> _aQOmIGrTEeenGe6kIC3HaQ via (140,125) decorate "Polyline" at (2,0) {
   			id _bCYb0GrTEeenGe6kIC3HaQ
   			dfViewWorkaround true
   		}
@@ -79,11 +47,11 @@ Process _RpPpkGrQEee88s-MzTwcqQ {
   	}
   }
   
-  EndSIB _Rt45AGrQEee88s-MzTwcqQ at 250,440 size 100,65  {
+  EndSIB _Rt45AGrQEee88s-MzTwcqQ at 420,440 size 140,65  {
   	branchName "assignment exists"
   }
   
-  Branch _ZF_AkGrTEeenGe6kIC3HaQ at 620,333 size 120,25 index 7 {
+  Branch _ZF_AkGrTEeenGe6kIC3HaQ at 570,242 size 120,25 index 7 {
   	name "failure"
   	-ControlFlow-> _jMIKIGrTEeenGe6kIC3HaQ  decorate "Polyline" at (2,0) {
   		id _pz5vYGrTEeenGe6kIC3HaQ
@@ -91,7 +59,7 @@ Process _RpPpkGrQEee88s-MzTwcqQ {
   	}
   }
   
-  Branch _ZF12oGrTEeenGe6kIC3HaQ at 490,333 size 120,25 index 6 {
+  Branch _ZF12oGrTEeenGe6kIC3HaQ at 570,275 size 120,25 index 6 {
   	name "noresult"
   	-ControlFlow-> _jMIKIGrTEeenGe6kIC3HaQ  decorate "Polyline" at (2,0) {
   		id _pUPX4GrTEeenGe6kIC3HaQ
@@ -99,7 +67,7 @@ Process _RpPpkGrQEee88s-MzTwcqQ {
   	}
   }
   
-  Branch _ZFqQcGrTEeenGe6kIC3HaQ at 364,333 size 120,25  {
+  Branch _ZFqQcGrTEeenGe6kIC3HaQ at 570,210 size 120,25  {
   	name "false"
   	-ControlFlow-> _jMIKIGrTEeenGe6kIC3HaQ  decorate "Polyline" at (2,0) {
   		id _o_eo0GrTEeenGe6kIC3HaQ
@@ -107,7 +75,7 @@ Process _RpPpkGrQEee88s-MzTwcqQ {
   	}
   }
   
-  Branch _ZFX8kGrTEeenGe6kIC3HaQ at 240,333 size 120,25 index 4 {
+  Branch _ZFX8kGrTEeenGe6kIC3HaQ at 430,350 size 120,25 index 4 {
   	name "true"
   	-ControlFlow-> _Rt45AGrQEee88s-MzTwcqQ  decorate "Polyline" at (2,0) {
   		id _qpvyQGrTEeenGe6kIC3HaQ
@@ -115,7 +83,7 @@ Process _RpPpkGrQEee88s-MzTwcqQ {
   	}
   }
   
-  EndSIB _jMIKIGrTEeenGe6kIC3HaQ at 530,440 size 100,65 index 8 {
+  EndSIB _jMIKIGrTEeenGe6kIC3HaQ at 760,222 size 121,65 index 8 {
   	branchName "no assignment"
   }
   
@@ -137,13 +105,13 @@ Process _RpPpkGrQEee88s-MzTwcqQ {
   		concurrent true
   	}
   	
-  	-BranchConnector-> _ZF12oGrTEeenGe6kIC3HaQ   {
-  		id _ZF6IEGrTEeenGe6kIC3HaQ
+  	-BranchConnector-> _ZF_AkGrTEeenGe6kIC3HaQ   {
+  		id _ZGDSAGrTEeenGe6kIC3HaQ
   		concurrent true
   	}
   	
-  	-BranchConnector-> _ZF_AkGrTEeenGe6kIC3HaQ   {
-  		id _ZGDSAGrTEeenGe6kIC3HaQ
+  	-BranchConnector-> _ZF12oGrTEeenGe6kIC3HaQ   {
+  		id _ZF6IEGrTEeenGe6kIC3HaQ
   		concurrent true
   	}
   }

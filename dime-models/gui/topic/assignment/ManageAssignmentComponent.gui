@@ -1,0 +1,94 @@
+GUI _25zQ8HziEeeXTvzoCY4ZIA {
+  title "ManageAssignmentComponent"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _26JPMHziEeeXTvzoCY4ZIA at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	PrimitiveVariable _6A16YHziEeeXTvzoCY4ZIA at 20,40 size 161,25  {
+  		dataType Boolean
+  		dfViewWorkaround true
+  		name "variable"
+  		isList false
+  		isInput true
+  		-IF-> _8fqtQHziEeeXTvzoCY4ZIA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _Dcf8gHzjEeeXTvzoCY4ZIA
+  			negate false
+  		}
+  	}
+  }
+  
+  Template _26LEYHziEeeXTvzoCY4ZIA at 260,10 size 270,230  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _26TAMHziEeeXTvzoCY4ZIA at 10,30 size 250,170  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _26UOUHziEeeXTvzoCY4ZIA at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _26VccHziEeeXTvzoCY4ZIA at 2,10 size 14,7  {
+  		}
+  		
+  		Col _26gbkHziEeeXTvzoCY4ZIA at 10,30 size 220,120  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _26je4HziEeeXTvzoCY4ZIA at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _26lUEHziEeeXTvzoCY4ZIA at 10,2 size 7,14  {
+  			}
+  			
+  			Button _8fqtQHziEeeXTvzoCY4ZIA at 10,30 size 200,60  {
+  				label "Assign student"
+  				displayLabel ""
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _8fuXoHziEeeXTvzoCY4ZIA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _8fu-sHziEeeXTvzoCY4ZIA at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

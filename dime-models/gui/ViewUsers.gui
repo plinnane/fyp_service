@@ -69,15 +69,15 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   			associationName "baseUser"
   		}
   		
-  		-AddComplexToSubmission-> _Xp5q8FDmEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  		-AddComplexToSubmission-> _Xp5q8FDmEee1RdmfVpvmFg via (226,288) (639,288) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _jrlUIFDmEee1RdmfVpvmFg
   		}
   		
-  		-AddComplexToSubmission-> _XAGgAFDmEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  		-AddComplexToSubmission-> _XAGgAFDmEee1RdmfVpvmFg via (226,288) (410,288) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _jK63EFDmEee1RdmfVpvmFg
   		}
   		
-  		-AddComplexToSubmission-> _fBjN8FDmEee1RdmfVpvmFg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  		-AddComplexToSubmission-> _fBjN8FDmEee1RdmfVpvmFg via (227,288) (869,288) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _ka7tcFDmEee1RdmfVpvmFg
   		}
   	}
@@ -238,7 +238,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   					}
   				}
   				
-  				TableEntry _KUlmgEU8EeetjZy493Al0g at 240,30 size 220,120  {
+  				TableEntry _KUlmgEU8EeetjZy493Al0g at 240,30 size 220,120 index 4 {
   					label "Last name"
   					sortable true
   					defaultSorting ASC
@@ -336,7 +336,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   					}
   				}
   				
-  				TableEntry _sQCaoFdLEeedF_BtCbljJQ at 700,30 size 220,120 index 4 {
+  				TableEntry _sQCaoFdLEeedF_BtCbljJQ at 700,30 size 220,120 index 3 {
   					label "Role"
   					sortable true
   					defaultSorting NONE

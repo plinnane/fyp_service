@@ -1,0 +1,262 @@
+GUI _rSJvIHkCEee9xv2L6HF1-g {
+  title "ManageAssignment"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _rUNkoHkCEee9xv2L6HF1-g at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _sbTvkHkCEee9xv2L6HF1-g at 16,47 size 160,267  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topic"
+  		isList false
+  		isInput true
+  		ComplexAttribute _VhOcUHzaEeeXTvzoCY4ZIA at 20,23 size 120,25  {
+  			libraryComponentUID "_leJdEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _VhQ4kHzaEeeXTvzoCY4ZIA at 20,50 size 120,25  {
+  			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _VhTU0HzaEeeXTvzoCY4ZIA at 20,77 size 120,25  {
+  			libraryComponentUID "_lqf6MDl0EeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _VhUi8HzaEeeXTvzoCY4ZIA at 20,104 size 120,25  {
+  			libraryComponentUID "_uY6nAFZsEee7Rq2yitsHaA"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _VhW_MHzaEeeXTvzoCY4ZIA at 20,131 size 120,25  {
+  			libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _VhYNUHzaEeeXTvzoCY4ZIA at 20,158 size 120,25  {
+  			libraryComponentUID "_BdSTYDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _VhZbcHzaEeeXTvzoCY4ZIA at 20,185 size 120,25  {
+  			libraryComponentUID "_CuhRwDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _VhbQoHzaEeeXTvzoCY4ZIA at 20,212 size 120,25  {
+  			libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _VhdF0HzaEeeXTvzoCY4ZIA at 20,239 size 120,25  {
+  			libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
+  			isLive false
+  		}
+  	}
+  	
+  	ComplexVariable _tVTSoHkCEee9xv2L6HF1-g at 16,330 size 160,132  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "biddedStudents"
+  		isList true
+  		isInput true
+  		PrimitiveListAttribute _HYSe4HwuEeedDZuImpUmOA at 20,23 size 120,25  {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _HYghUHwuEeedDZuImpUmOA at 20,50 size 120,25  {
+  			attributeName last
+  			libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _HYq5YHwuEeedDZuImpUmOA at 20,77 size 120,25  {
+  			attributeName first
+  			libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _HYtVoHwuEeedDZuImpUmOA at 20,104 size 120,25  {
+  			attributeName current
+  			libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  			isLive false
+  		}
+  		-ComplexRead-> _tyg4QH3SEeebT4zH69gJHQ via (247,405) decorate "Polyline" at (2,0) {
+  			id _XN-SAHzaEeeXTvzoCY4ZIA
+  		}
+  	}
+  }
+  
+  Template _rUPZ0HkCEee9xv2L6HF1-g at 260,10 size 370,518  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _rUfRcHkCEee9xv2L6HF1-g at 10,30 size 350,458  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _rUppgHkCEee9xv2L6HF1-g at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _rUw-QHkCEee9xv2L6HF1-g at 2,10 size 14,7  {
+  		}
+  		
+  		Col _rU7WUHkCEee9xv2L6HF1-g at 10,30 size 320,408  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _rU9LgHkCEee9xv2L6HF1-g at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _rU-ZoHkCEee9xv2L6HF1-g at 10,2 size 7,14  {
+  			}
+  			
+  			Headline _BpK_8HwuEeedDZuImpUmOA at 10,30 size 300,50  {
+  				size Medium
+  				content [ StaticContent {
+  						rawContent "Assign student to topic <i>\"{{topic.title}}\"</i>"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _Bp1HQHwuEeedDZuImpUmOA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _Bp-4QHwuEeedDZuImpUmOA at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Text _FQTesHwuEeedDZuImpUmOA at 10,90 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "You are about to assign a student to the topic {{topic.title}}. \nAfter selecting an assignee you will be asked to confirm your choice.\nYou <b>cannot</b> revert this decision once you assigned a student to this topic.\nThe respective student will not be able to be assigned to any other topic."
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _FQWiAHwuEeedDZuImpUmOA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _FQYXMHwuEeedDZuImpUmOA at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Headline _ASNrcHzbEeeXTvzoCY4ZIA at 10,160 size 300,50  {
+  				size Small
+  				content [ StaticContent {
+  						rawContent "Please select one of the following students that bid for this topic."
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _ASPgoHzbEeeXTvzoCY4ZIA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _ASQuwHzbEeeXTvzoCY4ZIA at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			GUISIB _tyC-MH3SEeebT4zH69gJHQ at 10,220 size 150,158  {
+  				libraryComponentUID "_Q-g80HwvEeedDZuImpUmOA"
+  				label "AssigneeTable"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _tyg4QH3SEeebT4zH69gJHQ at 5,67 size 90,18 index 3 {
+  					libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  					isList true
+  					name "students"
+  				}
+  				
+  				Branch _tyqCMH3SEeebT4zH69gJHQ at 5,90 size 100,50 index 0 {
+  					name "Assign"
+  					ComplexOutputPort _tzXM0H3SEeebT4zH69gJHQ at 5,27 size 90,18  {
+  						libraryComponentUID "_eWeFMDlvEeelR78gw15slQ"
+  						name "current"
+  						isList false
+  					}
+  				}
+  				
+  				MoveUp _tzjaEH3SEeebT4zH69gJHQ at 2,2 size 14,7 index 1 {
+  				}
+  				
+  				MoveDown _tzkBIH3SEeebT4zH69gJHQ at 2,10 size 14,7 index 2 {
+  				}
+  			}
+  		}
+  	}
+  }
+}

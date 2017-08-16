@@ -60,8 +60,12 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   			associationName "supervisor"
   		}
   		
-  		-ComplexRead-> _JxbHwFp0EeeWOuVOeqZZPQ via (176,1522) decorate "Polyline" at (2,0) {
+  		-ComplexRead-> _JxbHwFp0EeeWOuVOeqZZPQ via (207,1571) decorate "Polyline" at (2,0) {
   			id _PK0gQFpyEeeWOuVOeqZZPQ
+  		}
+  		
+  		-ComplexRead-> _cIYjQHzqEeeXTvzoCY4ZIA via (217,280) (217,1800) decorate "Polyline" at (2,0) {
+  			id _dn2K4HzqEeeXTvzoCY4ZIA
   		}
   	}
   	
@@ -100,20 +104,24 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   		name "currentUser"
   		isList false
   		isInput false
-  		-ComplexRead-> _JxsNgFp0EeeWOuVOeqZZPQ via (109,1570) decorate "Polyline" at (2,0) {
-  			id _SEKzUFpvEeeWOuVOeqZZPQ
-  		}
-  		
   		-IS-> _mHp3IFpsEeeWOuVOeqZZPQ  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _zaoPcFp0EeeWOuVOeqZZPQ
   			negate false
   			exactMatch true
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
+  		
+  		-ComplexRead-> _JxsNgFp0EeeWOuVOeqZZPQ via (109,1589) decorate "Polyline" at (2,0) {
+  			id _SEKzUFpvEeeWOuVOeqZZPQ
+  		}
+  		
+  		-ComplexRead-> _cIeC0HzqEeeXTvzoCY4ZIA via (109,1817) decorate "Polyline" at (2,0) {
+  			id _htwQUHzqEeeXTvzoCY4ZIA
+  		}
   	}
   }
   
-  Template _TtrR0EqXEeeP2Ykw7b8TLw at 260,10 size 420,1724  {
+  Template _TtrR0EqXEeeP2Ykw7b8TLw at 260,10 size 420,2020  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -121,7 +129,7 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _Tt1p4EqXEeeP2Ykw7b8TLw at 10,30 size 400,1664  {
+  	Row _Tt1p4EqXEeeP2Ykw7b8TLw at 10,30 size 400,1960  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -134,7 +142,7 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   		MoveDown _Tt7JcEqXEeeP2Ykw7b8TLw at 2,10 size 14,7  {
   		}
   		
-  		Col _TuDFQEqXEeeP2Ykw7b8TLw at 10,30 size 370,1614  {
+  		Col _TuDFQEqXEeeP2Ykw7b8TLw at 10,30 size 370,1910  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -663,6 +671,77 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   						}
   						
   						MoveDown _Jx0JUFp0EeeWOuVOeqZZPQ at 2,10 size 14,7 index 3 {
+  						}
+  					}
+  				}
+  			}
+  			
+  			Row _X1ve0HzpEeeXTvzoCY4ZIA at 10,1594 size 200,286  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _X1yiIHzpEeeXTvzoCY4ZIA at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _X10XUHzpEeeXTvzoCY4ZIA at 2,10 size 14,7  {
+  				}
+  				
+  				Col _X2JugHzpEeeXTvzoCY4ZIA at 10,30 size 170,236  {
+  					wideness Full
+  					layout Layout {
+  							size Default
+  							alignment Left
+  							offset None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _X2MKwHzpEeeXTvzoCY4ZIA at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _X2NY4HzpEeeXTvzoCY4ZIA at 10,2 size 7,14  {
+  					}
+  					
+  					InteractionSIB _cINkIHzqEeeXTvzoCY4ZIA at 10,30 size 150,176  {
+  						libraryComponentUID "_GsRoAHzfEeeXTvzoCY4ZIA"
+  						label "ManageAssignmentButton"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						ComplexInputPort _cIYjQHzqEeeXTvzoCY4ZIA at 5,67 size 90,18  {
+  							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  							isList false
+  							name "topic"
+  						}
+  						
+  						ComplexInputPort _cIeC0HzqEeeXTvzoCY4ZIA at 5,85 size 90,18  {
+  							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  							isList false
+  							name "loggedInUser"
+  						}
+  						
+  						Branch _cIkJcHzqEeeXTvzoCY4ZIA at 5,108 size 100,50  {
+  							name "Assign student"
+  							ComplexOutputPort _cIppAHzqEeeXTvzoCY4ZIA at 5,27 size 90,18  {
+  								libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  								name "topic"
+  								isList false
+  							}
+  						}
+  						
+  						MoveUp _cIyL4HzqEeeXTvzoCY4ZIA at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _cIzaAHzqEeeXTvzoCY4ZIA at 2,10 size 14,7  {
   						}
   					}
   				}

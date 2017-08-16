@@ -1,0 +1,140 @@
+GUI _D-Ei0IJlEeekK_5QgfT_9A {
+  title "DisabledBiddingComponent"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _D-OT0IJlEeekK_5QgfT_9A at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _4kjq4IJ6EeeaBaKI9MH-Hw at 20,40 size 160,132  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		dfViewWorkaround true
+  		name "bidding"
+  		isList false
+  		isInput true
+  		ComplexAttribute _5DFZ8IJ6EeeaBaKI9MH-Hw at 20,23 size 120,25  {
+  			libraryComponentUID "_HT4BYDlxEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _5DGoEIJ6EeeaBaKI9MH-Hw at 20,50 size 120,25  {
+  			libraryComponentUID "_Qyt-MFZsEee7Rq2yitsHaA"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _5DH2MIJ6EeeaBaKI9MH-Hw at 20,77 size 120,25  {
+  			libraryComponentUID "_uYaQsFZsEee7Rq2yitsHaA"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _5DPyAIJ6EeeaBaKI9MH-Hw at 20,104 size 120,25  {
+  			libraryComponentUID "_tJ1g8DlxEeelR78gw15slQ"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _D-QwEIJlEeekK_5QgfT_9A at 260,10 size 270,300  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _D-uDEIJlEeekK_5QgfT_9A at 10,30 size 250,240  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _D-0wwIJlEeekK_5QgfT_9A at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _D-2l8IJlEeekK_5QgfT_9A at 2,10 size 14,7  {
+  		}
+  		
+  		Col _D-8skIJlEeekK_5QgfT_9A at 10,30 size 220,190  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _D-_v4IJlEeekK_5QgfT_9A at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _D_HEoIJlEeekK_5QgfT_9A at 10,2 size 7,14  {
+  			}
+  			
+  			Button _MdK2EIJlEeekK_5QgfT_9A at 10,30 size 200,60  {
+  				label "unreachableBranch"
+  				displayLabel "{{bidding.biddingValue}}"
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled true
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _MdN5YIJlEeekK_5QgfT_9A at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _MdPHgIJlEeekK_5QgfT_9A at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Text _vlu7QIJlEeekK_5QgfT_9A at 10,100 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "You are already assigned to a topic!"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _vl_Z8IJlEeekK_5QgfT_9A at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _vmAoEIJlEeekK_5QgfT_9A at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}
