@@ -271,7 +271,7 @@ GUI _ejYg0H3AEeebT4zH69gJHQ {
   			
   			Button _3ToHUH3AEeebT4zH69gJHQ at 10,160 size 200,60  {
   				label "Back to topic"
-  				displayLabel "Click here to go back to the topic details."
+  				displayLabel "<b>Click here</b> to go back to the topic details."
   				styling ButtonStyling {
   						fullWidth false
   						size Default
