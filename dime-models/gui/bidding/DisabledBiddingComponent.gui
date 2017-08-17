@@ -32,6 +32,22 @@ GUI _D-Ei0IJlEeekK_5QgfT_9A {
   			libraryComponentUID "_tJ1g8DlxEeelR78gw15slQ"
   			isLive false
   		}
+  		-IF-> _MdK2EIJlEeekK_5QgfT_9A  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _bFRToIKAEeeaBaKI9MH-Hw
+  			negate false
+  		}
+  	}
+  	
+  	PrimitiveVariable _cp9ZgIKAEeeaBaKI9MH-Hw at 20,200 size 160,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "contentText"
+  		isList false
+  		isInput true
+  		-IF-> _vlu7QIJlEeekK_5QgfT_9A  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _dynDoIKAEeeaBaKI9MH-Hw
+  			negate false
+  		}
   	}
   }
   
@@ -67,6 +83,7 @@ GUI _D-Ei0IJlEeekK_5QgfT_9A {
   					marginTop None
   					marginBottom None
   					tallness Fitting
+  					rawContent ""
   					attributes [  ]
   				}
   			MoveLeft _D-_v4IJlEeekK_5QgfT_9A at 2,2 size 7,14  {
@@ -75,7 +92,7 @@ GUI _D-Ei0IJlEeekK_5QgfT_9A {
   			MoveRight _D_HEoIJlEeekK_5QgfT_9A at 10,2 size 7,14  {
   			}
   			
-  			Button _MdK2EIJlEeekK_5QgfT_9A at 10,30 size 200,60  {
+  			Button _MdK2EIJlEeekK_5QgfT_9A at 10,30 size 200,60 index 3 {
   				label "unreachableBranch"
   				displayLabel "{{bidding.biddingValue}}"
   				styling ButtonStyling {
@@ -106,9 +123,9 @@ GUI _D-Ei0IJlEeekK_5QgfT_9A {
   				}
   			}
   			
-  			Text _vlu7QIJlEeekK_5QgfT_9A at 10,100 size 200,60  {
+  			Text _vlu7QIJlEeekK_5QgfT_9A at 10,100 size 200,60 index 2 {
   				content [ StaticContent {
-  						rawContent "You are already assigned to a topic!"
+  						rawContent "{{contentText}}!"
   						maxChars 0
   						html false
   						styling TextStyling {

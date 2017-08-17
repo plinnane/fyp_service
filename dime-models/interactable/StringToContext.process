@@ -1,0 +1,35 @@
+Process _4j6toINqEee8TuGtVfpUMA {
+  modelName "StringToContext"
+  processType Interactable
+  description "StringToContext"
+  isStateful false
+  dataFlowView true
+  DataContext _4l64wINqEee8TuGtVfpUMA at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _4mF34INqEee8TuGtVfpUMA at 350,50 size 100,90  {
+  	PrimitiveOutputPort _7IF6kINqEee8TuGtVfpUMA at 5,67 size 90,18  {
+  		dataType Text
+  		isList false
+  		name "text"
+  		-PrimitiveDirectDataFlow-> _59GHEINqEee8TuGtVfpUMA via (340,126) (340,346) decorate "Polyline" at (2,0) {
+  			id _79GP8INqEee8TuGtVfpUMA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _4mZZ4INqEee8TuGtVfpUMA  decorate "Polyline" at (2,0) {
+  		id _5rmucINqEee8TuGtVfpUMA
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _4mZZ4INqEee8TuGtVfpUMA at 350,270 size 100,90  {
+  	branchName "success"
+  	PrimitiveInputPort _59GHEINqEee8TuGtVfpUMA at 5,67 size 90,18  {
+  		dataType Text
+  		isList false
+  		name "text"
+  	}
+  }
+}

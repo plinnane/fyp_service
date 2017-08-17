@@ -109,10 +109,6 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			associationName "biddings"
   		}
   		
-  		-ComplexRead-> _LAddsFvoEeepUPpWd1pktQ via (921,306) (921,439) decorate "Polyline" at (2,0) {
-  			id _XAZlAFvpEeepUPpWd1pktQ
-  		}
-  		
   		-ComplexRead-> _DszEAFwCEeepUPpWd1pktQ via (984,306) (984,236) decorate "Polyline" at (2,0) {
   			id _E0-NAFwCEeepUPpWd1pktQ
   		}
@@ -123,6 +119,10 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		
   		-AddComplexToSubmission-> _06JtcFAsEeeWJL1zKR4q1g via (598,306) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _5XATQFAsEeeWJL1zKR4q1g
+  		}
+  		
+  		-ComplexRead-> _RYvh4INaEee8TuGtVfpUMA via (948,307) (948,458) decorate "Polyline" at (2,0) {
+  			id _f9EuAINaEee8TuGtVfpUMA
   		}
   	}
   	
@@ -189,12 +189,12 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
   			isLive false
   		}
-  		-TableColumnLoad-> _nhZRMFswEeeIM6hYtGvSng via (847,765) decorate "Polyline" at (2,0) {
+  		-TableColumnLoad-> _nhZRMFswEeeIM6hYtGvSng via (962,765) decorate "Polyline" at (2,0) {
   			id _T-uvUFvfEeepUPpWd1pktQ
   		}
   		
-  		-ComplexRead-> _LAKiwFvoEeepUPpWd1pktQ via (956,765) (956,421) decorate "Polyline" at (2,0) {
-  			id _TxvQoFvpEeepUPpWd1pktQ
+  		-ComplexRead-> _RYlJ0INaEee8TuGtVfpUMA via (962,766) (962,422) decorate "Polyline" at (2,0) {
+  			id _aJNR8INaEee8TuGtVfpUMA
   		}
   	}
   	
@@ -206,13 +206,6 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		name "currentUser"
   		isList false
   		isInput false
-  		-IS-> _K_MSYFvoEeepUPpWd1pktQ via (697,661) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
-  			id _378QsF2kEee5Bb1RXENunQ
-  			negate false
-  			exactMatch true
-  			matchingType "_eWeFMDlvEeelR78gw15slQ"
-  		}
-  		
   		-IS-> _DsuykFwCEeepUPpWd1pktQ via (688,662) decorate "Polyline" at (2,0) decorate "Text" at (-115,-21) {
   			id _4lx34F2kEee5Bb1RXENunQ
   			negate true
@@ -220,8 +213,15 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   		
-  		-ComplexRead-> _LAhvIFvoEeepUPpWd1pktQ via (929,662) (929,458) decorate "Polyline" at (2,0) {
-  			id _5b2kQF2kEee5Bb1RXENunQ
+  		-IS-> _RYZjoINaEee8TuGtVfpUMA via (692,662) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _StRr4INaEee8TuGtVfpUMA
+  			negate false
+  			exactMatch true
+  			matchingType "_eWeFMDlvEeelR78gw15slQ"
+  		}
+  		
+  		-ComplexRead-> _RYrQcINaEee8TuGtVfpUMA via (978,443) decorate "Polyline" at (2,0) {
+  			id _VzTBoINaEee8TuGtVfpUMA
   		}
   	}
   }
@@ -451,41 +451,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   					MoveRight _nhmFgFswEeeIM6hYtGvSng at 10,2 size 7,14  {
   					}
   					
-  					InteractionSIB _K_MSYFvoEeepUPpWd1pktQ at 10,216 size 150,126 index 3 {
-  						libraryComponentUID "_YBCrUFWWEee9Kul9j01mzQ"
-  						label "BiddingComponent"
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
-  								tallness Fitting
-  								attributes [  ]
-  							}
-  						ComplexInputPort _LAKiwFvoEeepUPpWd1pktQ at 5,67 size 90,18  {
-  							libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
-  							isList true
-  							name "biddings"
-  						}
-  						
-  						ComplexInputPort _LAddsFvoEeepUPpWd1pktQ at 5,85 size 90,18  {
-  							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
-  							isList false
-  							name "topic3"
-  						}
-  						
-  						ComplexInputPort _LAhvIFvoEeepUPpWd1pktQ at 5,103 size 90,18  {
-  							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
-  							isList false
-  							name "concreteuser2"
-  						}
-  						
-  						MoveUp _LAnOsFvoEeepUPpWd1pktQ at 2,2 size 14,7  {
-  						}
-  						
-  						MoveDown _LAoc0FvoEeepUPpWd1pktQ at 2,10 size 14,7  {
-  						}
-  					}
-  					
-  					InteractionSIB _DsuykFwCEeepUPpWd1pktQ at 10,30 size 150,176 index 2 {
+  					InteractionSIB _DsuykFwCEeepUPpWd1pktQ at 10,30 size 150,176  {
   						libraryComponentUID "_muJAgFv6EeepUPpWd1pktQ"
   						label "BiddedUsersListComponent"
   						generalStyle GeneralStyling {
@@ -519,6 +485,40 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   						}
   						
   						MoveDown _DtF-8FwCEeepUPpWd1pktQ at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					InteractionSIB _RYZjoINaEee8TuGtVfpUMA at 10,216 size 150,126  {
+  						libraryComponentUID "_YBCrUFWWEee9Kul9j01mzQ"
+  						label "BiddingComponent"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						ComplexInputPort _RYlJ0INaEee8TuGtVfpUMA at 5,67 size 90,18  {
+  							libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  							isList true
+  							name "biddings"
+  						}
+  						
+  						ComplexInputPort _RYrQcINaEee8TuGtVfpUMA at 5,85 size 90,18  {
+  							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  							isList false
+  							name "concreteuser"
+  						}
+  						
+  						ComplexInputPort _RYvh4INaEee8TuGtVfpUMA at 5,103 size 90,18  {
+  							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  							isList false
+  							name "topic"
+  						}
+  						
+  						MoveUp _RY1ogINaEee8TuGtVfpUMA at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _RY2PkINaEee8TuGtVfpUMA at 2,10 size 14,7  {
   						}
   					}
   				}

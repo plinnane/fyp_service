@@ -26,7 +26,7 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   		ComplexAttribute _lruToFptEeeWOuVOeqZZPQ at 20,77 size 120,25  {
   			libraryComponentUID "_uY6nAFZsEee7Rq2yitsHaA"
   			isLive false
-  			-ComplexRead-> _JxXdYFp0EeeWOuVOeqZZPQ via (223,139) (223,852) (223,1553) decorate "Polyline" at (2,0) {
+  			-ComplexRead-> _XSicQINZEee8TuGtVfpUMA via (223,139) (223,852) (223,1553) decorate "Polyline" at (2,0) {
   				id _UuC_oFpvEeeWOuVOeqZZPQ
   			}
   		}
@@ -60,12 +60,12 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   			associationName "supervisor"
   		}
   		
-  		-ComplexRead-> _JxbHwFp0EeeWOuVOeqZZPQ via (207,1571) decorate "Polyline" at (2,0) {
-  			id _PK0gQFpyEeeWOuVOeqZZPQ
-  		}
-  		
   		-ComplexRead-> _cIYjQHzqEeeXTvzoCY4ZIA via (217,280) (217,1800) decorate "Polyline" at (2,0) {
   			id _dn2K4HzqEeeXTvzoCY4ZIA
+  		}
+  		
+  		-ComplexRead-> _XS0wIINZEee8TuGtVfpUMA via (232,1588) decorate "Polyline" at (2,0) {
+  			id _mpVnIINZEee8TuGtVfpUMA
   		}
   	}
   	
@@ -111,12 +111,12 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   		
-  		-ComplexRead-> _JxsNgFp0EeeWOuVOeqZZPQ via (109,1589) decorate "Polyline" at (2,0) {
-  			id _SEKzUFpvEeeWOuVOeqZZPQ
-  		}
-  		
   		-ComplexRead-> _cIeC0HzqEeeXTvzoCY4ZIA via (109,1817) decorate "Polyline" at (2,0) {
   			id _htwQUHzqEeeXTvzoCY4ZIA
+  		}
+  		
+  		-ComplexRead-> _XSxFwINZEee8TuGtVfpUMA via (110,1572) decorate "Polyline" at (2,0) {
+  			id _aiHWoINZEee8TuGtVfpUMA
   		}
   	}
   }
@@ -608,7 +608,7 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   				}
   			}
   			
-  			Row _mHp3IFpsEeeWOuVOeqZZPQ at 10,1348 size 200,236  {
+  			Row _mHp3IFpsEeeWOuVOeqZZPQ at 10,1348 size 200,236 index 10 {
   				generalStyle GeneralStyling {
   						marginTop None
   						marginBottom None
@@ -640,7 +640,7 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   					MoveRight _mIWasFpsEeeWOuVOeqZZPQ at 10,2 size 7,14  {
   					}
   					
-  					InteractionSIB _JxTL8Fp0EeeWOuVOeqZZPQ at 10,30 size 150,126  {
+  					InteractionSIB _XRzccINZEee8TuGtVfpUMA at 10,30 size 150,126  {
   						libraryComponentUID "_YBCrUFWWEee9Kul9j01mzQ"
   						label "BiddingComponent"
   						generalStyle GeneralStyling {
@@ -649,34 +649,34 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   								tallness Fitting
   								attributes [  ]
   							}
-  						ComplexInputPort _JxXdYFp0EeeWOuVOeqZZPQ at 5,67 size 90,18 index 4 {
+  						ComplexInputPort _XSicQINZEee8TuGtVfpUMA at 5,67 size 90,18  {
   							libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
   							isList true
   							name "biddings"
   						}
   						
-  						ComplexInputPort _JxbHwFp0EeeWOuVOeqZZPQ at 5,85 size 90,18 index 0 {
-  							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
-  							isList false
-  							name "topic3"
-  						}
-  						
-  						ComplexInputPort _JxsNgFp0EeeWOuVOeqZZPQ at 5,103 size 90,18 index 1 {
+  						ComplexInputPort _XSxFwINZEee8TuGtVfpUMA at 5,85 size 90,18  {
   							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   							isList false
-  							name "concreteuser2"
+  							name "concreteuser"
   						}
   						
-  						MoveUp _Jxy7MFp0EeeWOuVOeqZZPQ at 2,2 size 14,7 index 2 {
+  						ComplexInputPort _XS0wIINZEee8TuGtVfpUMA at 5,103 size 90,18  {
+  							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  							isList false
+  							name "topic"
   						}
   						
-  						MoveDown _Jx0JUFp0EeeWOuVOeqZZPQ at 2,10 size 14,7 index 3 {
+  						MoveUp _XTEAsINZEee8TuGtVfpUMA at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _XTF14INZEee8TuGtVfpUMA at 2,10 size 14,7  {
   						}
   					}
   				}
   			}
   			
-  			Row _X1ve0HzpEeeXTvzoCY4ZIA at 10,1594 size 200,286  {
+  			Row _X1ve0HzpEeeXTvzoCY4ZIA at 10,1594 size 200,286 index 9 {
   				generalStyle GeneralStyling {
   						marginTop None
   						marginBottom None
