@@ -108,7 +108,7 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   				Headline _rgv38F-TEea6DvTF5PmsmA at 10,90 size 300,50  {
   					size Small
   					content [ StaticContent {
-  							rawContent "To use the Lero-FYP service, please login."
+  							rawContent "To use the FYP service, please login."
   							maxChars 0
   							html false
   						} ]

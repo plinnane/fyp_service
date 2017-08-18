@@ -51,7 +51,7 @@ GUI _wYYT0Ep4EeeR8skQQzAlbg {
   			
   			Text _wzaC8Ep4EeeR8skQQzAlbg at 10,30 size 200,60  {
   				content [ StaticContent {
-  						rawContent "The Lero FYP Service was created with DIME. \nFor more information on Lero visit "
+  						rawContent "The CSIS FYP Service was created with DIME. \nFor more information on CSIS visit "
   						maxChars 0
   						html false
   						styling TextStyling {
@@ -80,7 +80,7 @@ GUI _wYYT0Ep4EeeR8skQQzAlbg {
   			}
   			
   			Button _uH5bwGfAEeepyejIV7Vmpw at 10,100 size 200,60  {
-  				label "http://www.lero.ie/"
+  				label "http://ulsites.ul.ie/csis/"
   				displayLabel ""
   				styling ButtonStyling {
   						fullWidth false
@@ -89,7 +89,7 @@ GUI _wYYT0Ep4EeeR8skQQzAlbg {
   						color Default
   					}
   				options ButtonOptions {
-  						staticURL "http://www.lero.ie/"
+  						staticURL "http://ulsites.ul.ie/csis/"
   						isLink true
   						submitsForm true
   					}

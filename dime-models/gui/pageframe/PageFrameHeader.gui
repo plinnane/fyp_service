@@ -153,7 +153,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   					
   					Text _YRbe8EqZEeeR9rEAwG2f9w at 120,30 size 200,60  {
   						content [ StaticContent {
-  								rawContent "Lero FYP Service"
+  								rawContent "CSIS FYP Service"
   								maxChars 0
   								html false
   								styling TextStyling {
@@ -390,7 +390,7 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   					}
   					
   					Image _Jl3d4EqjEeeYWJ9zK_WIRg at 10,30 size 100,90 index 3 {
-  						path "asset/lero.png"
+  						path "http://ulsites.ul.ie/csis/sites/default/files/modules/csis_logo2.png"
   						dimensionX 387
   						dimensionY 55
   						styling ImageStyling {
