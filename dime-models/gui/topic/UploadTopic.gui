@@ -254,7 +254,7 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   				}
   				
   				Field _ws3BwECCEeeqCfaxU6lZ7A at 10,100 size 200,60  {
-  					label "Abstract"
+  					label "Topic description"
   					inputType TextArea
   					styling FormFieldStyling {
   							size Default

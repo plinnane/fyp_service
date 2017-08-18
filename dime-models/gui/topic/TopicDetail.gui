@@ -451,7 +451,7 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   					Headline _UhMeMFTDEeePxP3KypW2eA at 10,30 size 300,50  {
   						size Small
   						content [ StaticContent {
-  								rawContent "Abstract"
+  								rawContent "Topic description\n"
   								maxChars 0
   								html false
   								styling TextStyling {
@@ -649,28 +649,28 @@ GUI _TtPM8EqXEeeP2Ykw7b8TLw {
   								tallness Fitting
   								attributes [  ]
   							}
-  						ComplexInputPort _XSicQINZEee8TuGtVfpUMA at 5,67 size 90,18  {
+  						ComplexInputPort _XSicQINZEee8TuGtVfpUMA at 5,67 size 90,18 index 4 {
   							libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
   							isList true
   							name "biddings"
   						}
   						
-  						ComplexInputPort _XSxFwINZEee8TuGtVfpUMA at 5,85 size 90,18  {
+  						ComplexInputPort _XSxFwINZEee8TuGtVfpUMA at 5,85 size 90,18 index 0 {
   							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   							isList false
   							name "concreteuser"
   						}
   						
-  						ComplexInputPort _XS0wIINZEee8TuGtVfpUMA at 5,103 size 90,18  {
+  						ComplexInputPort _XS0wIINZEee8TuGtVfpUMA at 5,103 size 90,18 index 1 {
   							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   							isList false
   							name "topic"
   						}
   						
-  						MoveUp _XTEAsINZEee8TuGtVfpUMA at 2,2 size 14,7  {
+  						MoveUp _XTEAsINZEee8TuGtVfpUMA at 2,2 size 14,7 index 2 {
   						}
   						
-  						MoveDown _XTF14INZEee8TuGtVfpUMA at 2,10 size 14,7  {
+  						MoveDown _XTF14INZEee8TuGtVfpUMA at 2,10 size 14,7 index 3 {
   						}
   					}
   				}
