@@ -1,0 +1,204 @@
+Process _4y7YkIPvEee0rbY3IH9eiw {
+  modelName "RetrieveUnassignedTopics"
+  processType Interactable
+  description "RetrieveUnassignedTopics"
+  isStateful false
+  dataFlowView true
+  DataContext _4zZSoIPvEee0rbY3IH9eiw at 800,379 size 211,251  {
+  	dfViewWorkaround true
+  	ComplexVariable __tMcAIPvEee0rbY3IH9eiw at 7,81 size 194,25  {
+  		expanded false
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "unassignedTopics"
+  		isList true
+  		-ComplexRead-> _9j2J4IPvEee0rbY3IH9eiw  decorate "Polyline" at (2,0) {
+  			id _x92hsIPwEee0rbY3IH9eiw
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexVariable _vQcgQIPwEee0rbY3IH9eiw at 18,31 size 171,25  {
+  		expanded false
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		dfViewWorkaround true
+  		name "topic"
+  		isList false
+  		-ComplexRead-> _R6IGgIPwEee0rbY3IH9eiw  decorate "Polyline" at (2,0) {
+  			id _wa-ZsIPwEee0rbY3IH9eiw
+  			dfViewWorkaround true
+  		}
+  		
+  		-ComplexRead-> _jMx6EIPwEee0rbY3IH9eiw  decorate "Polyline" at (2,0) {
+  			id _w4gDMIPwEee0rbY3IH9eiw
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _4zc9AIPvEee0rbY3IH9eiw at 350,50 size 100,65  {
+  	-ControlFlow-> _7Xp_IIPvEee0rbY3IH9eiw  decorate "Polyline" at (2,0) {
+  		id _8UezwIPvEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _4zgAUIPvEee0rbY3IH9eiw at 350,500 size 100,90  {
+  	branchName "success"
+  	ComplexInputPort _9j2J4IPvEee0rbY3IH9eiw at 5,67 size 90,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "unassignedTopics"
+  	}
+  }
+  
+  RetrieveOfTypeSIB _7Xp_IIPvEee0rbY3IH9eiw at 340,140 size 120,65  {
+  	libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  	label "Retrieve from Topic"
+  	-BranchConnector-> _7X2MYIPvEee0rbY3IH9eiw   {
+  		id _7X_9YIPvEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _7YSRQIPvEee0rbY3IH9eiw   {
+  		id _7YXJwIPvEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+  
+  Branch _7X2MYIPvEee0rbY3IH9eiw at 340,237 size 120,50  {
+  	name "success"
+  	ComplexOutputPort _7YCZoIPvEee0rbY3IH9eiw at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "retrieved"
+  		-ComplexDirectDataFlow-> _CuseIIPwEee0rbY3IH9eiw via (330,273) (330,386) decorate "Polyline" at (2,0) {
+  			id _Io06QIPwEee0rbY3IH9eiw
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _CuEzEIPwEee0rbY3IH9eiw  decorate "Polyline" at (2,0) {
+  		id _DWuHcIPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+  
+  IterateSIB _CuEzEIPwEee0rbY3IH9eiw at 340,310 size 120,90 index 6 {
+  	libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  	label "Iterate Topics"
+  	ComplexInputPort _CuseIIPwEee0rbY3IH9eiw at 5,67 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList true
+  		name "list"
+  	}
+  	-BranchConnector-> _Cu3dQIPwEee0rbY3IH9eiw   {
+  		id _Cu7HoIPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _CvHU4IPwEee0rbY3IH9eiw   {
+  		id _CvK_QIPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+  
+  Branch _CvHU4IPwEee0rbY3IH9eiw at 340,437 size 120,25 index 8 {
+  	name "exit"
+  	-ControlFlow-> _4zgAUIPvEee0rbY3IH9eiw  decorate "Polyline" at (2,0) {
+  		id _D2dXcIPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+  
+  Branch _Cu3dQIPwEee0rbY3IH9eiw at 490,330 size 120,50  {
+  	name "next"
+  	ComplexOutputPort _Cu8VwIPwEee0rbY3IH9eiw at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "element"
+  		-ComplexUpdate-> _vQcgQIPwEee0rbY3IH9eiw  decorate "Polyline" at (2,0) {
+  			id _v8iKMIPwEee0rbY3IH9eiw
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _R56EEIPwEee0rbY3IH9eiw  decorate "Polyline" at (2,0) {
+  		id _U38igIPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+  
+  Branch _7YSRQIPvEee0rbY3IH9eiw at 200,160 size 120,25 index 5 {
+  	name "none found"
+  	-ControlFlow-> _4zgAUIPvEee0rbY3IH9eiw via (260,544) decorate "Polyline" at (2,0) {
+  		id _ExZVsIPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _R56EEIPwEee0rbY3IH9eiw at 490,407 size 120,90  {
+  	minorPage false
+  	libraryComponentUID "_RpPpkGrQEee88s-MzTwcqQ"
+  	label "CheckTopicForAssignment"
+  	ComplexInputPort _R6IGgIPwEee0rbY3IH9eiw at 5,67 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "topic"
+  	}
+  	-BranchConnector-> _R6QCUIPwEee0rbY3IH9eiw   {
+  		id _R6R3gIPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _R6TssIPwEee0rbY3IH9eiw   {
+  		id _R6Vh4IPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+  
+  Branch _R6TssIPwEee0rbY3IH9eiw at 490,514 size 120,25 index 11 {
+  	name "no assignment"
+  	-ControlFlow-> _jMPHgIPwEee0rbY3IH9eiw  decorate "Polyline" at (2,0) {
+  		id _rdSXsIPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+  
+  Branch _R6QCUIPwEee0rbY3IH9eiw at 630,439 size 120,25 index 10 {
+  	name "assignment exists"
+  	-ControlFlow-> _CuEzEIPwEee0rbY3IH9eiw via (780,452) (780,305) (501,305) decorate "Polyline" at (2,0) {
+  		id _WG3MsIPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+  
+  PutComplexToContextSIB _jMPHgIPwEee0rbY3IH9eiw at 490,560 size 120,90  {
+  	libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  	label "Put Topic"
+  	ComplexInputPort _jMx6EIPwEee0rbY3IH9eiw at 5,67 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "in"
+  	}
+  	-BranchConnector-> _jNFcEIPwEee0rbY3IH9eiw   {
+  		id _jNJtgIPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+  
+  Branch _jNFcEIPwEee0rbY3IH9eiw at 490,670 size 120,50  {
+  	name "success"
+  	ComplexOutputPort _jNK7oIPwEee0rbY3IH9eiw at 5,27 size 110,18  {
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		isList false
+  		name "out"
+  		-ComplexUpdate-> __tMcAIPvEee0rbY3IH9eiw  decorate "Polyline" at (2,0) {
+  			id _xoG7MIPwEee0rbY3IH9eiw
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _CuEzEIPwEee0rbY3IH9eiw via (780,695) (780,305) (501,305) decorate "Polyline" at (2,0) {
+  		id _kobYsIPwEee0rbY3IH9eiw
+  		concurrent true
+  	}
+  }
+}

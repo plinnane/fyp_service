@@ -78,6 +78,25 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		ComplexAttribute _hlvyIFswEeeIM6hYtGvSng at 20,77 size 120,25  {
   			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
   			isLive false
+  			-IF-> _strPQIP1Eee0rbY3IH9eiw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  				id _3SqQ8IP1Eee0rbY3IH9eiw
+  				negate false
+  			}
+  			
+  			-IF-> _ukWB8FAsEeeWJL1zKR4q1g  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  				id _31X8cIP1Eee0rbY3IH9eiw
+  				negate true
+  			}
+  			
+  			-IF-> _06JtcFAsEeeWJL1zKR4q1g  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  				id _GswGwIP-Eee0rbY3IH9eiw
+  				negate true
+  			}
+  			
+  			-IF-> _CK6TQIP-Eee0rbY3IH9eiw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  				id _Hx_3kIP-Eee0rbY3IH9eiw
+  				negate false
+  			}
   		}
   		
   		ComplexAttribute _hly1cFswEeeIM6hYtGvSng at 20,104 size 120,25  {
@@ -113,6 +132,10 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			id _E0-NAFwCEeepUPpWd1pktQ
   		}
   		
+  		-ComplexRead-> _RYvh4INaEee8TuGtVfpUMA via (948,307) (948,458) decorate "Polyline" at (2,0) {
+  			id _f9EuAINaEee8TuGtVfpUMA
+  		}
+  		
   		-AddComplexToSubmission-> _ukWB8FAsEeeWJL1zKR4q1g via (365,306) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _4pLj8FAsEeeWJL1zKR4q1g
   		}
@@ -121,8 +144,12 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			id _5XATQFAsEeeWJL1zKR4q1g
   		}
   		
-  		-ComplexRead-> _RYvh4INaEee8TuGtVfpUMA via (948,307) (948,458) decorate "Polyline" at (2,0) {
-  			id _f9EuAINaEee8TuGtVfpUMA
+  		-AddComplexToSubmission-> _strPQIP1Eee0rbY3IH9eiw via (391,306) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _5ncXAIP1Eee0rbY3IH9eiw
+  		}
+  		
+  		-AddComplexToSubmission-> _CK6TQIP-Eee0rbY3IH9eiw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _Cv5PoIP-Eee0rbY3IH9eiw
   		}
   	}
   	
@@ -206,13 +233,6 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		name "currentUser"
   		isList false
   		isInput false
-  		-IS-> _DsuykFwCEeepUPpWd1pktQ via (688,662) decorate "Polyline" at (2,0) decorate "Text" at (-115,-21) {
-  			id _4lx34F2kEee5Bb1RXENunQ
-  			negate true
-  			exactMatch true
-  			matchingType "_eWeFMDlvEeelR78gw15slQ"
-  		}
-  		
   		-IS-> _RYZjoINaEee8TuGtVfpUMA via (692,662) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _StRr4INaEee8TuGtVfpUMA
   			negate false
@@ -222,6 +242,13 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		
   		-ComplexRead-> _RYrQcINaEee8TuGtVfpUMA via (978,443) decorate "Polyline" at (2,0) {
   			id _VzTBoINaEee8TuGtVfpUMA
+  		}
+  		
+  		-IS-> _DsuykFwCEeepUPpWd1pktQ via (688,662) decorate "Polyline" at (2,0) decorate "Text" at (-115,-21) {
+  			id _4lx34F2kEee5Bb1RXENunQ
+  			negate true
+  			exactMatch true
+  			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   	}
   }
@@ -287,7 +314,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   				MoveDown _ae1BwD-wEeerA7ElzRRObA at 2,10 size 14,7  {
   				}
   				
-  				TableEntry _a5ztkD-wEeerA7ElzRRObA at 10,30 size 220,120 index 5 {
+  				TableEntry _a5ztkD-wEeerA7ElzRRObA at 10,30 size 220,190 index 5 {
   					label "ID"
   					sortable true
   					defaultSorting ASC
@@ -326,6 +353,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   								marginTop None
   								marginBottom None
   								tallness Fitting
+  								rawContent "font-weight: bold;"
   								attributes [  ]
   							}
   						MoveUp _ukYeMFAsEeeWJL1zKR4q1g at 2,2 size 14,7  {
@@ -334,9 +362,41 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   						MoveDown _ukZFQFAsEeeWJL1zKR4q1g at 2,10 size 14,7  {
   						}
   					}
+  					
+  					Button _strPQIP1Eee0rbY3IH9eiw at 10,100 size 200,60  {
+  						label "id clicked"
+  						displayLabel "{{current.id}}"
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions {
+  								isLink true
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon None
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								rawContent ""
+  								attributes [  ]
+  							}
+  						MoveUp _sttrgIP1Eee0rbY3IH9eiw at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _stu5oIP1Eee0rbY3IH9eiw at 2,10 size 14,7  {
+  						}
+  					}
   				}
   				
-  				TableEntry _AL9ZYEUrEeeKqOBaOG4MmQ at 240,30 size 220,120 index 2 {
+  				TableEntry _AL9ZYEUrEeeKqOBaOG4MmQ at 240,30 size 220,190 index 2 {
   					label "Title"
   					sortable true
   					defaultSorting NONE
@@ -375,12 +435,45 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   								marginTop None
   								marginBottom None
   								tallness Fitting
+  								rawContent "font-weight: bold;"
   								attributes [  ]
   							}
   						MoveUp _06LioFAsEeeWJL1zKR4q1g at 2,2 size 14,7  {
   						}
   						
   						MoveDown _06MwwFAsEeeWJL1zKR4q1g at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					Button _CK6TQIP-Eee0rbY3IH9eiw at 10,100 size 200,60  {
+  						label "title clicked"
+  						displayLabel "{{current.title}} (assigned)"
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions {
+  								isLink true
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon None
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								rawContent "text-decoration: line-through;"
+  								attributes [  ]
+  							}
+  						MoveUp _CLoE8IP-Eee0rbY3IH9eiw at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _CLosAIP-Eee0rbY3IH9eiw at 2,10 size 14,7  {
   						}
   					}
   				}
