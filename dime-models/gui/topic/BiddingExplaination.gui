@@ -1,0 +1,81 @@
+GUI _xe6dwIQCEee0rbY3IH9eiw {
+  title "BiddingExplaination"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _xf248IQCEee0rbY3IH9eiw at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  }
+  
+  Template _xf5VMIQCEee0rbY3IH9eiw at 260,10 size 270,230  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Row _xgpjIIQCEee0rbY3IH9eiw at 10,30 size 250,170  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _xgrYUIQCEee0rbY3IH9eiw at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _xgsmcIQCEee0rbY3IH9eiw at 2,10 size 14,7  {
+  		}
+  		
+  		Col _xgw34IQCEee0rbY3IH9eiw at 10,30 size 220,120  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Left
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _xg1JUIQCEee0rbY3IH9eiw at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _xg7P8IQCEee0rbY3IH9eiw at 10,2 size 7,14  {
+  			}
+  			
+  			Text _y99OoIQCEee0rbY3IH9eiw at 10,30 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "Bidding for topics marks them for your own overview and signals interest to the supervisor. <br/>\n<br/>\nIn order to be assigned to a topic you bid for, arrange with the corresponding supervisor. \nOnce everything is coordinated and agreed, they will finally assign you to the topic.<br/>"
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _y9_D0IQCEee0rbY3IH9eiw at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _y9_q4IQCEee0rbY3IH9eiw at 2,10 size 14,7  {
+  				}
+  			}
+  		}
+  	}
+  }
+}

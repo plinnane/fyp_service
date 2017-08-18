@@ -43,10 +43,31 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   			exactMatch true
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
+  		
+  		-IS-> _DhT2wIQEEee0rbY3IH9eiw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _ElvIMIQEEee0rbY3IH9eiw
+  			negate false
+  			exactMatch true
+  			matchingType "_eWeFMDlvEeelR78gw15slQ"
+  		}
+  		
+  		-IS-> _GDHsMIQEEee0rbY3IH9eiw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _HHuj0IQEEee0rbY3IH9eiw
+  			negate false
+  			exactMatch true
+  			matchingType "_eWeFMDlvEeelR78gw15slQ"
+  		}
+  		
+  		-IS-> _IFnvcIQEEee0rbY3IH9eiw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _JAgqYIQEEee0rbY3IH9eiw
+  			negate false
+  			exactMatch true
+  			matchingType "_eWeFMDlvEeelR78gw15slQ"
+  		}
   	}
   }
   
-  Template _7j4dMEU5EeetjZy493Al0g at 260,10 size 1410,652  {
+  Template _7j4dMEU5EeetjZy493Al0g at 260,10 size 1410,727  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -54,7 +75,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _7kBnIEU5EeetjZy493Al0g at 10,30 size 1390,592  {
+  	Row _7kBnIEU5EeetjZy493Al0g at 10,30 size 1390,667  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -67,7 +88,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   		MoveDown _7kIU0EU5EeetjZy493Al0g at 2,10 size 14,7  {
   		}
   		
-  		Col _7kNNUEU5EeetjZy493Al0g at 10,30 size 1360,542  {
+  		Col _7kNNUEU5EeetjZy493Al0g at 10,30 size 1360,617  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -86,7 +107,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   			MoveRight _7kSs4EU5EeetjZy493Al0g at 10,2 size 7,14  {
   			}
   			
-  			Tabbing _DFzpoFZpEee7Rq2yitsHaA at 10,30 size 1340,482  {
+  			Tabbing _DFzpoFZpEee7Rq2yitsHaA at 10,30 size 1340,557  {
   				tabtype Tab
   				justified false
   				generalStyle GeneralStyling {
@@ -101,7 +122,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   				MoveDown _DHFcAFZpEee7Rq2yitsHaA at 2,10 size 14,7  {
   				}
   				
-  				Tab _DIUyIFZpEee7Rq2yitsHaA at 10,30 size 320,407  {
+  				Tab _DIUyIFZpEee7Rq2yitsHaA at 10,30 size 320,482  {
   					label "All topics"
   					generalStyle GeneralStyling {
   							marginTop None
@@ -145,7 +166,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   						}
   					}
   					
-  					InteractionSIB _dqjmgFwCEeepUPpWd1pktQ at 10,90 size 150,287  {
+  					InteractionSIB _dqjmgFwCEeepUPpWd1pktQ at 10,165 size 150,287  {
   						libraryComponentUID "_-g8EMEU5EeetjZy493Al0g"
   						label "TabViewAllTopics"
   						generalStyle GeneralStyling {
@@ -193,9 +214,25 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   						MoveDown _drFK8FwCEeepUPpWd1pktQ at 2,10 size 14,7  {
   						}
   					}
+  					
+  					GUISIB _DhT2wIQEEee0rbY3IH9eiw at 10,90 size 150,65  {
+  						libraryComponentUID "_xe6dwIQCEee0rbY3IH9eiw"
+  						label "BiddingExplaination"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _DhjHUIQEEee0rbY3IH9eiw at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _DhjuYIQEEee0rbY3IH9eiw at 2,10 size 14,7  {
+  						}
+  					}
   				}
   				
-  				Tab _EoOeoFZpEee7Rq2yitsHaA at 340,30 size 320,407  {
+  				Tab _EoOeoFZpEee7Rq2yitsHaA at 340,30 size 320,482  {
   					label "Unassigned topics"
   					generalStyle GeneralStyling {
   							marginTop None
@@ -239,7 +276,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   						}
   					}
   					
-  					InteractionSIB _d9QgEFwCEeepUPpWd1pktQ at 10,90 size 150,287  {
+  					InteractionSIB _d9QgEFwCEeepUPpWd1pktQ at 10,165 size 150,287  {
   						libraryComponentUID "_aye6UFZpEee7Rq2yitsHaA"
   						label "TabViewUnassignedTopics"
   						generalStyle GeneralStyling {
@@ -287,9 +324,25 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   						MoveDown _d9yrkFwCEeepUPpWd1pktQ at 2,10 size 14,7  {
   						}
   					}
+  					
+  					GUISIB _GDHsMIQEEee0rbY3IH9eiw at 10,90 size 150,65  {
+  						libraryComponentUID "_xe6dwIQCEee0rbY3IH9eiw"
+  						label "BiddingExplaination"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _GDPA8IQEEee0rbY3IH9eiw at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _GDPoAIQEEee0rbY3IH9eiw at 2,10 size 14,7  {
+  						}
+  					}
   				}
   				
-  				Tab _pi9FAFZpEee7Rq2yitsHaA at 670,30 size 320,432 index 5 {
+  				Tab _pi9FAFZpEee7Rq2yitsHaA at 670,30 size 320,507 index 5 {
   					label "My desired topics"
   					generalStyle GeneralStyling {
   							marginTop None
@@ -333,7 +386,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   						}
   					}
   					
-  					InteractionSIB _ech2AFwCEeepUPpWd1pktQ at 10,90 size 150,312  {
+  					InteractionSIB _ech2AFwCEeepUPpWd1pktQ at 10,165 size 150,312  {
   						libraryComponentUID "_eZDYYFZpEee7Rq2yitsHaA"
   						label "TabViewDesiredTopics"
   						generalStyle GeneralStyling {
@@ -342,13 +395,13 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   								tallness Fitting
   								attributes [  ]
   							}
-  						ComplexInputPort _ecmugFwCEeepUPpWd1pktQ at 5,67 size 90,18  {
+  						ComplexInputPort _ecmugFwCEeepUPpWd1pktQ at 5,67 size 90,18 index 5 {
   							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   							isList false
   							name "user"
   						}
   						
-  						Branch _ecq_8FwCEeepUPpWd1pktQ at 5,90 size 100,50  {
+  						Branch _ecq_8FwCEeepUPpWd1pktQ at 5,90 size 100,50 index 0 {
   							name "go to topic"
   							ComplexOutputPort _ecvRYFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
   								libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
@@ -357,7 +410,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   							}
   						}
   						
-  						Branch _ecy7wFwCEeepUPpWd1pktQ at 5,158 size 100,50  {
+  						Branch _ecy7wFwCEeepUPpWd1pktQ at 5,158 size 100,50 index 1 {
   							name "go to profile"
   							ComplexOutputPort _ec30QFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
   								libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -366,7 +419,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   							}
   						}
   						
-  						Branch _ec63kFwCEeepUPpWd1pktQ at 5,226 size 100,68  {
+  						Branch _ec63kFwCEeepUPpWd1pktQ at 5,226 size 100,68 index 2 {
   							name "go to bidded users list"
   							ComplexOutputPort _ec_JAFwCEeepUPpWd1pktQ at 5,27 size 90,18  {
   								libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
@@ -381,10 +434,26 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   							}
   						}
   						
-  						MoveUp _edIS8FwCEeepUPpWd1pktQ at 2,2 size 14,7  {
+  						MoveUp _edIS8FwCEeepUPpWd1pktQ at 2,2 size 14,7 index 3 {
   						}
   						
-  						MoveDown _edJhEFwCEeepUPpWd1pktQ at 2,10 size 14,7  {
+  						MoveDown _edJhEFwCEeepUPpWd1pktQ at 2,10 size 14,7 index 4 {
+  						}
+  					}
+  					
+  					GUISIB _IFnvcIQEEee0rbY3IH9eiw at 10,90 size 150,65  {
+  						libraryComponentUID "_xe6dwIQCEee0rbY3IH9eiw"
+  						label "BiddingExplaination"
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _IFvrQIQEEee0rbY3IH9eiw at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _IFwSUIQEEee0rbY3IH9eiw at 2,10 size 14,7  {
   						}
   					}
   				}
