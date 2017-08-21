@@ -1,24 +1,18 @@
 package info.scce.dime.app.service;
 
+import org.apache.commons.lang3.StringUtils;
+
+import javax.mail.*;
+import javax.mail.internet.AddressException;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeUtility;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.IDN;
 import java.util.Properties;
 import java.util.regex.Pattern;
-
-import javax.mail.Authenticator;
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.PasswordAuthentication;
-import javax.mail.Session;
-import javax.mail.Transport;
-import javax.mail.internet.AddressException;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
-import javax.mail.internet.MimeUtility;
-
-import org.apache.commons.lang3.StringUtils;
 
 public class NativeServiceLibrary {
 	public static boolean sendMail(String subject, String body) {
@@ -120,15 +114,13 @@ public class NativeServiceLibrary {
 		props.setProperty("mail.smtp.auth", "false");
 		props.setProperty("mail.smtp.starttls.enable", "false");
 
-		InputStream is = NativeServiceLibrary.class.getClassLoader().getResourceAsStream("mail.properties");
-		if (is != null) {
-			try {
-				props.load(is);
-			}
-			catch (IOException e) {
-				// TODO use a logger!
-				System.err.println("Failed to load mail properties, using defaults: " + e.getMessage());
-			}
+		String fileName = System.getProperty("jboss.server.config.dir") + "/mail.properties";
+		try {
+			InputStream is = new FileInputStream(fileName);
+			props.load(is);
+		} catch (IOException e) {
+			// TODO use a logger!
+			System.err.println("Failed to load mail properties, using defaults: " + e.getMessage());
 		}
 
 		// noinspection UseOfPropertiesAsHashtable
