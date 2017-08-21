@@ -1,0 +1,14 @@
+package lero.fyp
+
+ /**
+ * Sends a mail
+ * @param subject: The subject of a mail
+ * @param body: The body of a mail
+ * @return : Returns true or false if the sending was successful
+ */
+sib SendMail : info.scce.dime.app.service.NativeServiceLibrary#sendMail
+	subject: text
+	body: text
+	-> true
+	-> false
+	-> noresult
