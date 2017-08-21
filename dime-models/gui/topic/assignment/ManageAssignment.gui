@@ -138,7 +138,7 @@ GUI _rSJvIHkCEee9xv2L6HF1-g {
   			}
   			
   			Headline _BpK_8HwuEeedDZuImpUmOA at 10,30 size 300,50  {
-  				size Medium
+  				size Normal
   				content [ StaticContent {
   						rawContent "Assign student to topic <i>\"{{topic.title}}\"</i>"
   						maxChars 0

@@ -103,7 +103,7 @@ GUI _ckwVIH25EeebT4zH69gJHQ {
   	}
   }
   
-  Template _clcRoH25EeebT4zH69gJHQ at 260,10 size 370,560  {
+  Template _clcRoH25EeebT4zH69gJHQ at 260,10 size 370,490  {
   	blockName "body"
   	generalStyle GeneralStyling {
   			marginTop None
@@ -111,7 +111,7 @@ GUI _ckwVIH25EeebT4zH69gJHQ {
   			tallness Fitting
   			attributes [  ]
   		}
-  	Row _clriMH25EeebT4zH69gJHQ at 10,30 size 350,500  {
+  	Row _clriMH25EeebT4zH69gJHQ at 10,30 size 350,430  {
   		generalStyle GeneralStyling {
   				marginTop None
   				marginBottom None
@@ -124,7 +124,7 @@ GUI _ckwVIH25EeebT4zH69gJHQ {
   		MoveDown _cl8A4H25EeebT4zH69gJHQ at 2,10 size 14,7  {
   		}
   		
-  		Col _cmMfkH25EeebT4zH69gJHQ at 10,30 size 320,450  {
+  		Col _cmMfkH25EeebT4zH69gJHQ at 10,30 size 320,380  {
   			wideness Full
   			layout Layout {
   					size Default
@@ -263,7 +263,7 @@ GUI _ckwVIH25EeebT4zH69gJHQ {
   				}
   			}
   			
-  			Button _9uKwkH26EeebT4zH69gJHQ at 10,360 size 200,60  {
+  			Button _9uKwkH26EeebT4zH69gJHQ at 10,290 size 200,60  {
   				label "Cancel assignment"
   				displayLabel ""
   				styling ButtonStyling {
@@ -291,37 +291,6 @@ GUI _ckwVIH25EeebT4zH69gJHQ {
   				}
   				
   				MoveDown _9uPpEH26EeebT4zH69gJHQ at 2,10 size 14,7  {
-  				}
-  			}
-  			
-  			Button _lJENoH27EeebT4zH69gJHQ at 10,290 size 200,60  {
-  				label "Select different student"
-  				displayLabel ""
-  				styling ButtonStyling {
-  						fullWidth false
-  						size Default
-  						disabled false
-  						color Default
-  					}
-  				options ButtonOptions {
-  						isLink false
-  						submitsForm true
-  					}
-  				disabled false
-  				icon Icon {
-  						preIcon None
-  						postIcon None
-  					}
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				MoveUp _lJGC0H27EeebT4zH69gJHQ at 2,2 size 14,7  {
-  				}
-  				
-  				MoveDown _lJHQ8H27EeebT4zH69gJHQ at 2,10 size 14,7  {
   				}
   			}
   		}

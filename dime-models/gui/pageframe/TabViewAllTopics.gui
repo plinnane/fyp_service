@@ -26,19 +26,8 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   			id _GKFpQFaFEee7Rq2yitsHaA
   		}
   		
-  		-ComplexRead-> _etTc8FwCEeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
-  			id _1n9gIFpoEeeWOuVOeqZZPQ
-  		}
-  		
-  		-IS-> _p2UF4FZpEee7Rq2yitsHaA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
-  			id _SMRBsFaFEee7Rq2yitsHaA
-  			negate false
-  			exactMatch true
-  			matchingType "_QCBvMDlvEeelR78gw15slQ"
-  		}
-  		
-  		-IS-> _pi9FAFZpEee7Rq2yitsHaA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
-  			id _QkTlYFaFEee7Rq2yitsHaA
+  		-IS-> _IFnvcIQEEee0rbY3IH9eiw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _JAgqYIQEEee0rbY3IH9eiw
   			negate false
   			exactMatch true
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
@@ -58,8 +47,19 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   		
-  		-IS-> _IFnvcIQEEee0rbY3IH9eiw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
-  			id _JAgqYIQEEee0rbY3IH9eiw
+  		-ComplexRead-> _etTc8FwCEeepUPpWd1pktQ  decorate "Polyline" at (2,0) {
+  			id _1n9gIFpoEeeWOuVOeqZZPQ
+  		}
+  		
+  		-IS-> _p2UF4FZpEee7Rq2yitsHaA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _SMRBsFaFEee7Rq2yitsHaA
+  			negate false
+  			exactMatch true
+  			matchingType "_QCBvMDlvEeelR78gw15slQ"
+  		}
+  		
+  		-IS-> _pi9FAFZpEee7Rq2yitsHaA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _QkTlYFaFEee7Rq2yitsHaA
   			negate false
   			exactMatch true
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
@@ -122,7 +122,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   				MoveDown _DHFcAFZpEee7Rq2yitsHaA at 2,10 size 14,7  {
   				}
   				
-  				Tab _DIUyIFZpEee7Rq2yitsHaA at 10,30 size 320,482  {
+  				Tab _DIUyIFZpEee7Rq2yitsHaA at 1000,30 size 320,482  {
   					label "All topics"
   					generalStyle GeneralStyling {
   							marginTop None
@@ -386,7 +386,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   						}
   					}
   					
-  					InteractionSIB _ech2AFwCEeepUPpWd1pktQ at 10,165 size 150,312  {
+  					InteractionSIB _ech2AFwCEeepUPpWd1pktQ at 10,165 size 150,312 index 4 {
   						libraryComponentUID "_eZDYYFZpEee7Rq2yitsHaA"
   						label "TabViewDesiredTopics"
   						generalStyle GeneralStyling {
@@ -441,7 +441,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   						}
   					}
   					
-  					GUISIB _IFnvcIQEEee0rbY3IH9eiw at 10,90 size 150,65  {
+  					GUISIB _IFnvcIQEEee0rbY3IH9eiw at 10,90 size 150,65 index 3 {
   						libraryComponentUID "_xe6dwIQCEee0rbY3IH9eiw"
   						label "BiddingExplaination"
   						generalStyle GeneralStyling {
@@ -458,7 +458,7 @@ GUI _7jmJUEU5EeetjZy493Al0g {
   					}
   				}
   				
-  				Tab _p2UF4FZpEee7Rq2yitsHaA at 1000,30 size 320,432 index 4 {
+  				Tab _p2UF4FZpEee7Rq2yitsHaA at 10,30 size 320,432 index 4 {
   					label "My uploaded topics"
   					generalStyle GeneralStyling {
   							marginTop None

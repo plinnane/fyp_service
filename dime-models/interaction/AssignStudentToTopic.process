@@ -21,11 +21,6 @@ Process _JVzQMHz5EeeXTvzoCY4ZIA {
   			dfViewWorkaround true
   		}
   		
-  		-ComplexRead-> _l_8hYH2yEeebT4zH69gJHQ via (360,424) (1103,424) (1103,494) decorate "Polyline" at (2,0) {
-  			id _4AmUUH27EeebT4zH69gJHQ
-  			dfViewWorkaround true
-  		}
-  		
   		-ComplexRead-> _iEissH27EeebT4zH69gJHQ via (360,424) (706,424) (707,325) decorate "Polyline" at (2,0) {
   			id _C2L90H28EeebT4zH69gJHQ
   			dfViewWorkaround true
@@ -59,15 +54,6 @@ Process _JVzQMHz5EeeXTvzoCY4ZIA {
   	}
   }
   
-  EndSIB _JWLDoHz5EeeXTvzoCY4ZIA at 1130,419 size 100,90  {
-  	branchName "success"
-  	ComplexInputPort _l_8hYH2yEeebT4zH69gJHQ at 5,67 size 90,18  {
-  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
-  		isList false
-  		name "topic"
-  	}
-  }
-  
   GUISIB _oq-VgH24EeebT4zH69gJHQ at 390,230 size 151,108  {
   	majorPage true
   	libraryComponentUID "_rSJvIHkCEee9xv2L6HF1-g"
@@ -90,15 +76,15 @@ Process _JVzQMHz5EeeXTvzoCY4ZIA {
   	}
   }
   
-  Branch _wgbHcH27EeebT4zH69gJHQ at 755,362 size 140,25 index 7 {
+  Branch _wgbHcH27EeebT4zH69gJHQ at 755,362 size 140,25 index 5 {
   	name "Cancel assignment"
-  	-ControlFlow-> _JWLDoHz5EeeXTvzoCY4ZIA via (1177,374) decorate "Polyline" at (2,0) {
-  		id _zbJzMH27EeebT4zH69gJHQ
+  	-ControlFlow-> _oq-VgH24EeebT4zH69gJHQ via (464,378) decorate "Polyline" at (2,0) {
+  		id _b9-zQIZwEeepCdvwOIQIEA
   		concurrent true
   	}
   }
   
-  GUISIB _iEJrIH27EeebT4zH69gJHQ at 725,230 size 200,108 index 4 {
+  GUISIB _iEJrIH27EeebT4zH69gJHQ at 725,230 size 200,108 index 3 {
   	majorPage true
   	libraryComponentUID "_ckwVIH25EeebT4zH69gJHQ"
   	label "AssignmentConfirmationPage"
@@ -119,18 +105,13 @@ Process _JVzQMHz5EeeXTvzoCY4ZIA {
   		concurrent true
   	}
   	
-  	-BranchConnector-> _tS5bgH27EeebT4zH69gJHQ   {
-  		id _tS6CkH27EeebT4zH69gJHQ
-  		concurrent true
-  	}
-  	
   	-BranchConnector-> _wgbHcH27EeebT4zH69gJHQ   {
   		id _wgbugH27EeebT4zH69gJHQ
   		concurrent true
   	}
   }
   
-  Branch _iExWMH27EeebT4zH69gJHQ at 940,271 size 141,25 index 5 {
+  Branch _iExWMH27EeebT4zH69gJHQ at 940,271 size 141,25 index 4 {
   	name "Confirm and assign"
   	-ControlFlow-> _8RO7sH2-EeebT4zH69gJHQ  decorate "Polyline" at (2,0) {
   		id _DJOuQH2_EeebT4zH69gJHQ
@@ -138,7 +119,7 @@ Process _JVzQMHz5EeeXTvzoCY4ZIA {
   	}
   }
   
-  ProcessSIB _8RO7sH2-EeebT4zH69gJHQ at 1120,230 size 120,108 index 8 {
+  ProcessSIB _8RO7sH2-EeebT4zH69gJHQ at 1120,230 size 120,108  {
   	minorPage false
   	libraryComponentUID "_bdn3MGugEee-xJiA3dQhPQ"
   	label "AssignUser"
@@ -164,7 +145,7 @@ Process _JVzQMHz5EeeXTvzoCY4ZIA {
   	}
   }
   
-  DataContext _Eexk4H2_EeebT4zH69gJHQ at 790,60 size 220,109 index 11 {
+  DataContext _Eexk4H2_EeebT4zH69gJHQ at 790,60 size 220,109 index 9 {
   	dfViewWorkaround true
   	ComplexVariable _FqoUAH2_EeebT4zH69gJHQ at 20,40 size 190,25  {
   		expanded false
@@ -181,14 +162,6 @@ Process _JVzQMHz5EeeXTvzoCY4ZIA {
   			id _L2yUQH2_EeebT4zH69gJHQ
   			dfViewWorkaround true
   		}
-  	}
-  }
-  
-  Branch _tS5bgH27EeebT4zH69gJHQ at 745,184 size 160,25 index 6 {
-  	name "Select different student"
-  	-ControlFlow-> _oq-VgH24EeebT4zH69gJHQ via (464,196) decorate "Polyline" at (2,0) {
-  		id _jLY4oH2-EeebT4zH69gJHQ
-  		concurrent true
   	}
   }
   
@@ -209,7 +182,7 @@ Process _JVzQMHz5EeeXTvzoCY4ZIA {
   	}
   }
   
-  GUISIB _PvTzEH3BEeebT4zH69gJHQ at 1276,337 size 120,90 index 13 {
+  GUISIB _PvTzEH3BEeebT4zH69gJHQ at 1276,337 size 120,90 index 11 {
   	majorPage true
   	libraryComponentUID "_ejYg0H3AEeebT4zH69gJHQ"
   	label "SuccessfulAssignment"
@@ -219,21 +192,9 @@ Process _JVzQMHz5EeeXTvzoCY4ZIA {
   		isList false
   		name "assignment"
   	}
-  	-BranchConnector-> _PvwfAH3BEeebT4zH69gJHQ   {
-  		id _PvyUMH3BEeebT4zH69gJHQ
-  		concurrent true
-  	}
   }
   
-  Branch _PvwfAH3BEeebT4zH69gJHQ at 1276,451 size 120,25 index 14 {
-  	name "Back to topic"
-  	-ControlFlow-> _JWLDoHz5EeeXTvzoCY4ZIA  decorate "Polyline" at (2,0) {
-  		id _Rw-I0H3BEeebT4zH69gJHQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _8Ruq8H2-EeebT4zH69gJHQ at 1089,160 size 181,25 index 9 {
+  Branch _8Ruq8H2-EeebT4zH69gJHQ at 1089,160 size 181,25 index 7 {
   	name "assignment already exists"
   	-ControlFlow-> _e6VdsH2_EeebT4zH69gJHQ  decorate "Polyline" at (2,0) {
   		id _inTesH2_EeebT4zH69gJHQ
@@ -241,7 +202,7 @@ Process _JVzQMHz5EeeXTvzoCY4ZIA {
   	}
   }
   
-  GUISIB _e6VdsH2_EeebT4zH69gJHQ at 1300,128 size 151,90 index 12 {
+  GUISIB _e6VdsH2_EeebT4zH69gJHQ at 1300,128 size 151,90 index 10 {
   	majorPage true
   	libraryComponentUID "_7eKIgFZ4Eee7Rq2yitsHaA"
   	label "NotificationComponent"
