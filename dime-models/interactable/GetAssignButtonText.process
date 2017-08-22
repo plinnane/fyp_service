@@ -91,8 +91,8 @@ Process _nvREcIZ6EeepCdvwOIQIEA {
   
   Branch _iHMzQIZ7EeepCdvwOIQIEA at 490,208 size 120,25 index 9 {
   	name "noresult"
-  	-ControlFlow-> _fOmRoIZ_EeepCdvwOIQIEA  decorate "Polyline" at (2,0) {
-  		id _fyoLwIZ_EeepCdvwOIQIEA
+  	-ControlFlow-> _UWXj0IZ_EeepCdvwOIQIEA via (1010,220) decorate "Polyline" at (2,0) {
+  		id _O6ylUIcWEeeACLWLkSLQYQ
   		concurrent true
   	}
   }
@@ -145,16 +145,16 @@ Process _nvREcIZ6EeepCdvwOIQIEA {
   
   Branch _g8PcAIZ7EeepCdvwOIQIEA at 490,380 size 120,25 index 5 {
   	name "noresult"
-  	-ControlFlow-> _b9fGMIZ_EeepCdvwOIQIEA  decorate "Polyline" at (2,0) {
-  		id _dQ6c8IZ_EeepCdvwOIQIEA
+  	-ControlFlow-> _UWXj0IZ_EeepCdvwOIQIEA via (1010,393) decorate "Polyline" at (2,0) {
+  		id _M1iJAIcWEeeACLWLkSLQYQ
   		concurrent true
   	}
   }
   
   Branch _g8TGYIZ7EeepCdvwOIQIEA at 490,430 size 120,25 index 6 {
   	name "failure"
-  	-ControlFlow-> _b9fGMIZ_EeepCdvwOIQIEA  decorate "Polyline" at (2,0) {
-  		id _c_Z2MIZ_EeepCdvwOIQIEA
+  	-ControlFlow-> _UWXj0IZ_EeepCdvwOIQIEA via (1010,442) decorate "Polyline" at (2,0) {
+  		id _MKlHgIcWEeeACLWLkSLQYQ
   		concurrent true
   	}
   }
@@ -194,7 +194,7 @@ Process _nvREcIZ6EeepCdvwOIQIEA {
   		dataType Text
   		isList false
   		name "result"
-  		-PrimitiveUpdate-> _ZZam8IZ_EeepCdvwOIQIEA  decorate "Polyline" at (2,0) {
+  		-PrimitiveUpdate-> _ZZam8IZ_EeepCdvwOIQIEA via (327,736) (327,942) decorate "Polyline" at (2,0) {
   			id _a6btwIZ_EeepCdvwOIQIEA
   			dfViewWorkaround true
   		}
@@ -230,12 +230,12 @@ Process _nvREcIZ6EeepCdvwOIQIEA {
   	}
   }
   
-  ProcessSIB _UWXj0IZ_EeepCdvwOIQIEA at 767,590 size 120,90  {
+  ProcessSIB _UWXj0IZ_EeepCdvwOIQIEA at 950,579 size 120,90  {
   	minorPage false
   	libraryComponentUID "_4j6toINqEee8TuGtVfpUMA"
   	label "StringToContext"
   	TextInputStatic _WqoFcIZ_EeepCdvwOIQIEA at 5,67 size 110,18  {
-  		value "drittes"
+  		value "Assign"
   		name "text"
   	}
   	-BranchConnector-> _UWuJIIZ_EeepCdvwOIQIEA   {
@@ -244,96 +244,34 @@ Process _nvREcIZ6EeepCdvwOIQIEA {
   	}
   }
   
-  Branch _UWuJIIZ_EeepCdvwOIQIEA at 767,700 size 120,50  {
+  Branch _UWuJIIZ_EeepCdvwOIQIEA at 950,700 size 120,50  {
   	name "success"
   	PrimitiveOutputPort _UWyakIZ_EeepCdvwOIQIEA at 5,27 size 110,18  {
   		dataType Text
   		isList false
   		name "text"
-  		-PrimitiveUpdate-> _ZZam8IZ_EeepCdvwOIQIEA  decorate "Polyline" at (2,0) {
+  		-PrimitiveUpdate-> _ZZam8IZ_EeepCdvwOIQIEA via (936,735) (936,942) decorate "Polyline" at (2,0) {
   			id _Z9pVYIZ_EeepCdvwOIQIEA
   			dfViewWorkaround true
   		}
   	}
-  	-ControlFlow-> _VzqlEIZ7EeepCdvwOIQIEA  decorate "Polyline" at (2,0) {
+  	-ControlFlow-> _VzqlEIZ7EeepCdvwOIQIEA via (669,724) decorate "Polyline" at (2,0) {
   		id _YGj38IZ_EeepCdvwOIQIEA
   		concurrent true
   	}
   }
   
-  DataContext _YX9J8IZ_EeepCdvwOIQIEA at 810,800 size 180,201  {
+  DataContext _YX9J8IZ_EeepCdvwOIQIEA at 750,870 size 180,201  {
   	dfViewWorkaround true
   	PrimitiveVariable _ZZam8IZ_EeepCdvwOIQIEA at 20,60 size 140,25  {
   		dataType Text
   		dfViewWorkaround true
   		name "variable"
   		isList false
-  		-PrimitiveRead-> _ZDvOsIZ7EeepCdvwOIQIEA  decorate "Polyline" at (2,0) {
+  		-PrimitiveRead-> _ZDvOsIZ7EeepCdvwOIQIEA via (839,847) decorate "Polyline" at (2,0) {
   			id _aiyCwIZ_EeepCdvwOIQIEA
   			dfViewWorkaround true
   		}
-  	}
-  }
-  
-  ProcessSIB _b9fGMIZ_EeepCdvwOIQIEA at 853,385 size 120,90  {
-  	minorPage false
-  	libraryComponentUID "_4j6toINqEee8TuGtVfpUMA"
-  	label "StringToContext"
-  	TextInputStatic _eTq6cIZ_EeepCdvwOIQIEA at 5,67 size 110,18  {
-  		value "zweites"
-  		name "text"
-  	}
-  	-BranchConnector-> _b9tvsIZ_EeepCdvwOIQIEA   {
-  		id _b9u90IZ_EeepCdvwOIQIEA
-  		concurrent true
-  	}
-  }
-  
-  Branch _b9tvsIZ_EeepCdvwOIQIEA at 853,485 size 120,50  {
-  	name "success"
-  	PrimitiveOutputPort _b9wL8IZ_EeepCdvwOIQIEA at 5,27 size 110,18  {
-  		dataType Text
-  		isList false
-  		name "text"
-  		-PrimitiveUpdate-> _ZZam8IZ_EeepCdvwOIQIEA  decorate "Polyline" at (2,0) {
-  			id _d5Bl0IZ_EeepCdvwOIQIEA
-  			dfViewWorkaround true
-  		}
-  	}
-  	-ControlFlow-> _VzqlEIZ7EeepCdvwOIQIEA  decorate "Polyline" at (2,0) {
-  		id _cT2XwIZ_EeepCdvwOIQIEA
-  		concurrent true
-  	}
-  }
-  
-  ProcessSIB _fOmRoIZ_EeepCdvwOIQIEA at 710,190 size 120,90  {
-  	minorPage false
-  	libraryComponentUID "_4j6toINqEee8TuGtVfpUMA"
-  	label "StringToContext"
-  	TextInputStatic _hodsAIZ_EeepCdvwOIQIEA at 5,67 size 110,18  {
-  		value "erstes"
-  		name "text"
-  	}
-  	-BranchConnector-> _fOx30IZ_EeepCdvwOIQIEA   {
-  		id _fOztAIZ_EeepCdvwOIQIEA
-  		concurrent true
-  	}
-  }
-  
-  Branch _fOx30IZ_EeepCdvwOIQIEA at 670,314 size 120,50  {
-  	name "success"
-  	PrimitiveOutputPort _fO07IIZ_EeepCdvwOIQIEA at 5,27 size 110,18  {
-  		dataType Text
-  		isList false
-  		name "text"
-  		-PrimitiveUpdate-> _ZZam8IZ_EeepCdvwOIQIEA  decorate "Polyline" at (2,0) {
-  			id _hQssQIZ_EeepCdvwOIQIEA
-  			dfViewWorkaround true
-  		}
-  	}
-  	-ControlFlow-> _VzqlEIZ7EeepCdvwOIQIEA  decorate "Polyline" at (2,0) {
-  		id _gzyGwIZ_EeepCdvwOIQIEA
-  		concurrent true
   	}
   }
 }
