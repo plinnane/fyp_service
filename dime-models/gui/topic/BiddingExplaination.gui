@@ -49,7 +49,7 @@ GUI _xe6dwIQCEee0rbY3IH9eiw {
   			
   			Text _y99OoIQCEee0rbY3IH9eiw at 10,30 size 200,60  {
   				content [ StaticContent {
-  						rawContent "Bidding for topics marks them for your own overview and signals interest to the supervisor. <br/>\n<br/>\nIn order to be assigned to a topic you bid for, arrange with the corresponding supervisor. \nOnce everything is coordinated and agreed, they will finally assign you to the topic.<br/>"
+  						rawContent "How to get an FYP topic: <br/>\n1) Read carefully all FYP topic descriptions<br/>\n2) Bid for the topics you are most interested in. To bid for a topic, <br/>\n	a) click on the  “” button for that topic.<br/>\n	b) send an e-mail to the supervisor asking for a meeting about this topic (ESSENTIAL!)<br/>\n3) If in the meeting the supervisor and you agree that you will take this topic, <br/>\n	a) you both sign the supervision agreement <br/>\n	b) the supervisor will assign this topic to you in the system. <br/>\n4) This topic is not anymore available to anyone else."
   						maxChars 0
   						html false
   						styling TextStyling {

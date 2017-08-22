@@ -194,6 +194,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   					sortable true
   					defaultSorting NONE
   					fullTextSearch true
+  					filterPlaceholder "filter by first name"
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -243,6 +244,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   					sortable true
   					defaultSorting ASC
   					fullTextSearch true
+  					filterPlaceholder "filter by last name"
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -288,10 +290,11 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   				}
   				
   				TableEntry _OdptoEU8EeetjZy493Al0g at 470,30 size 220,120 index 2 {
-  					label "Mail adress"
+  					label "Mail address"
   					sortable true
   					defaultSorting NONE
   					fullTextSearch true
+  					filterPlaceholder "filter by mail address"
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -341,6 +344,7 @@ GUI _DZT2cEU8EeetjZy493Al0g {
   					sortable true
   					defaultSorting NONE
   					fullTextSearch false
+  					filterPlaceholder "filter by role"
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
