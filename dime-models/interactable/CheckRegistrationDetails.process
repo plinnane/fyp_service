@@ -1,0 +1,464 @@
+Process _dgYY4IcaEeeACLWLkSLQYQ {
+  modelName "CheckRegistrationDetails"
+  processType Interactable
+  description "CheckRegistrationDetails"
+  isStateful false
+  dataFlowView true
+  DataContext _dg9AoIcaEeeACLWLkSLQYQ at 50,50 size 180,800  {
+  	dfViewWorkaround true
+  	PrimitiveVariable _kV1NwIcaEeeACLWLkSLQYQ at 10,160 size 160,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "mailadress"
+  		isList false
+  		-PrimitiveRead-> _2VJTAIcaEeeACLWLkSLQYQ via (302,222) (302,276) decorate "Polyline" at (2,0) {
+  			id _8v7lIIcaEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  		
+  		-PrimitiveRead-> _xna_oIcaEeeACLWLkSLQYQ via (302,222) (302,436) decorate "Polyline" at (2,0) {
+  			id _N6soAIcbEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	PrimitiveVariable _ku-tkIcaEeeACLWLkSLQYQ at 10,250 size 160,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "password"
+  		isList false
+  		-PrimitiveRead-> _JeilwIcbEeeACLWLkSLQYQ via (289,311) (289,596) decorate "Polyline" at (2,0) {
+  			id _MqhZkIcbEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  		
+  		-PrimitiveRead-> _X7EgwIcbEeeACLWLkSLQYQ via (290,311) (290,764) decorate "Polyline" at (2,0) {
+  			id _bGWxAIcbEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	PrimitiveVariable _k_TokIcaEeeACLWLkSLQYQ at 10,310 size 160,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "passwordrepeat"
+  		isList false
+  		-PrimitiveRead-> _X7NDoIcbEeeACLWLkSLQYQ via (270,371) (270,781) decorate "Polyline" at (2,0) {
+  			id _bjR9kIcbEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _dg-10IcaEeeACLWLkSLQYQ at 350,50 size 100,126  {
+  	PrimitiveOutputPort _d2Dt8IcaEeeACLWLkSLQYQ at 5,67 size 90,18 index 2 {
+  		dataType Text
+  		isList false
+  		name "mailadress"
+  		-PrimitiveUpdate-> _kV1NwIcaEeeACLWLkSLQYQ via (297,126) decorate "Polyline" at (2,0) {
+  			id _psSVEIcaEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	PrimitiveOutputPort _d8V8IIcaEeeACLWLkSLQYQ at 5,85 size 90,18 index 0 {
+  		dataType Text
+  		isList false
+  		name "password"
+  		-PrimitiveUpdate-> _ku-tkIcaEeeACLWLkSLQYQ via (295,144) decorate "Polyline" at (2,0) {
+  			id _p_QUYIcaEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	PrimitiveOutputPort _eNzfkIcaEeeACLWLkSLQYQ at 5,103 size 90,18 index 1 {
+  		dataType Text
+  		isList false
+  		name "passwordrepeat"
+  		-PrimitiveUpdate-> _k_TokIcaEeeACLWLkSLQYQ via (295,162) decorate "Polyline" at (2,0) {
+  			id _qQvtAIcaEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _2UyGoIcaEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _-tEnQIcaEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _dhArAIcaEeeACLWLkSLQYQ at 350,930 size 100,65  {
+  	branchName "success"
+  }
+  
+  AtomicSIB _2UyGoIcaEeeACLWLkSLQYQ at 340,200 size 120,90 index 7 {
+  	libraryComponentUID "common.TextIsNull"
+  	label "TextIsNull"
+  	PrimitiveInputPort _2VJTAIcaEeeACLWLkSLQYQ at 5,67 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "a"
+  	}
+  	-BranchConnector-> _2VR14IcaEeeACLWLkSLQYQ   {
+  		id _2VUSIIcaEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _2VaYwIcaEeeACLWLkSLQYQ   {
+  		id _2VcN8IcaEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _2VeDIIcaEeeACLWLkSLQYQ   {
+  		id _2Vf4UIcaEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _2VWuYIcaEeeACLWLkSLQYQ   {
+  		id _2VYjkIcaEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _2VaYwIcaEeeACLWLkSLQYQ at 500,232 size 120,25 index 10 {
+  	name "noresult"
+  	-ControlFlow-> _pIBU8IcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _1LqF8IcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _2VeDIIcaEeeACLWLkSLQYQ at 500,265 size 120,25 index 11 {
+  	name "failure"
+  	-ControlFlow-> _pIBU8IcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _0_6wAIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _2VR14IcaEeeACLWLkSLQYQ at 500,200 size 120,25 index 8 {
+  	name "true"
+  	-ControlFlow-> _pIBU8IcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _1XUjYIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _2VWuYIcaEeeACLWLkSLQYQ at 340,310 size 120,25 index 9 {
+  	name "false"
+  	-ControlFlow-> _xnAv8IcaEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _CpfZgIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _xnAv8IcaEeeACLWLkSLQYQ at 340,360 size 120,90 index 4 {
+  	minorPage false
+  	libraryComponentUID "_Gn1j4FdDEeedF_BtCbljJQ"
+  	label "CheckForUsername"
+  	PrimitiveInputPort _xna_oIcaEeeACLWLkSLQYQ at 5,67 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "username"
+  	}
+  	-BranchConnector-> _xnxk8IcaEeeACLWLkSLQYQ   {
+  		id _xnyzEIcaEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _xn1PUIcaEeeACLWLkSLQYQ   {
+  		id _xn3rkIcaEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _xnxk8IcaEeeACLWLkSLQYQ at 340,470 size 120,25 index 5 {
+  	name "unused"
+  	-ControlFlow-> _JeficIcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _koPW8IcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _xn1PUIcaEeeACLWLkSLQYQ at 500,392 size 120,25 index 6 {
+  	name "in use"
+  	-ControlFlow-> _qqsBkIcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _1p9ykIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  AtomicSIB _JeficIcbEeeACLWLkSLQYQ at 340,520 size 120,90 index 12 {
+  	libraryComponentUID "common.TextIsNull"
+  	label "TextIsNull"
+  	PrimitiveInputPort _JeilwIcbEeeACLWLkSLQYQ at 5,67 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "a"
+  	}
+  	-BranchConnector-> _Jep6gIcbEeeACLWLkSLQYQ   {
+  		id _JervsIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _Jetk4IcbEeeACLWLkSLQYQ   {
+  		id _JeuzAIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _JexPQIcbEeeACLWLkSLQYQ   {
+  		id _JeydYIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _Je0SkIcbEeeACLWLkSLQYQ   {
+  		id _Je2HwIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _Jep6gIcbEeeACLWLkSLQYQ at 500,552 size 120,25 index 13 {
+  	name "true"
+  	-ControlFlow-> _rzYH8IcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _2cfbsIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _JexPQIcbEeeACLWLkSLQYQ at 500,520 size 120,25 index 15 {
+  	name "noresult"
+  	-ControlFlow-> _rzYH8IcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _17JCIIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _Je0SkIcbEeeACLWLkSLQYQ at 500,585 size 120,25 index 16 {
+  	name "failure"
+  	-ControlFlow-> _rzYH8IcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _2pq8EIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _Jetk4IcbEeeACLWLkSLQYQ at 340,630 size 120,25 index 14 {
+  	name "false"
+  	-ControlFlow-> _X7BdcIcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _kTQlcIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _X7afAIcbEeeACLWLkSLQYQ at 510,688 size 120,25 index 19 {
+  	name "false"
+  	-ControlFlow-> _s6VI8IcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _28XOkIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _X7eJYIcbEeeACLWLkSLQYQ at 510,729 size 120,25 index 20 {
+  	name "noresult"
+  	-ControlFlow-> _s6VI8IcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _3JVTkIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _X7hzwIcbEeeACLWLkSLQYQ at 510,771 size 120,25 index 21 {
+  	name "failure"
+  	-ControlFlow-> _s6VI8IcbEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _3WLcwIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  AtomicSIB _X7BdcIcbEeeACLWLkSLQYQ at 340,688 size 120,108 index 17 {
+  	libraryComponentUID "common.TextEquals"
+  	label "TextEquals"
+  	PrimitiveInputPort _X7EgwIcbEeeACLWLkSLQYQ at 5,67 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "a"
+  	}
+  	
+  	PrimitiveInputPort _X7NDoIcbEeeACLWLkSLQYQ at 5,85 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "b"
+  	}
+  	-BranchConnector-> _X7XbsIcbEeeACLWLkSLQYQ   {
+  		id _X7Yp0IcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _X7eJYIcbEeeACLWLkSLQYQ   {
+  		id _X7f-kIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _X7hzwIcbEeeACLWLkSLQYQ   {
+  		id _X7jo8IcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _X7afAIcbEeeACLWLkSLQYQ   {
+  		id _X7btIIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _X7XbsIcbEeeACLWLkSLQYQ at 340,820 size 120,25 index 18 {
+  	name "true"
+  	-ControlFlow-> _dhArAIcaEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  		id _lhodEIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _pIBU8IcbEeeACLWLkSLQYQ at 710,200 size 120,90 index 22 {
+  	minorPage false
+  	libraryComponentUID "_4j6toINqEee8TuGtVfpUMA"
+  	label "StringToContext"
+  	TextInputStatic _35pWMIcbEeeACLWLkSLQYQ at 5,67 size 110,18  {
+  		value "No account name was provided!"
+  		name "text"
+  	}
+  	-BranchConnector-> _pIOJQIcbEeeACLWLkSLQYQ   {
+  		id _pIP-cIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _pIOJQIcbEeeACLWLkSLQYQ at 850,220 size 120,50 index 23 {
+  	name "success"
+  	PrimitiveOutputPort _pIRMkIcbEeeACLWLkSLQYQ at 5,27 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "text"
+  		-PrimitiveUpdate-> _9wi4IIcbEeeACLWLkSLQYQ via (840,256) decorate "Polyline" at (2,0) {
+  			id _HaSZkIccEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _h0ui8IcaEeeACLWLkSLQYQ via (1040,245) decorate "Polyline" at (2,0) {
+  		id _z5MYgIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _qqsBkIcbEeeACLWLkSLQYQ at 710,360 size 120,90 index 24 {
+  	minorPage false
+  	libraryComponentUID "_4j6toINqEee8TuGtVfpUMA"
+  	label "StringToContext"
+  	TextInputStatic _4KengIcbEeeACLWLkSLQYQ at 5,67 size 110,18  {
+  		value "This account is already in use!"
+  		name "text"
+  	}
+  	-BranchConnector-> _qq75MIcbEeeACLWLkSLQYQ   {
+  		id _qq9uYIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _qq75MIcbEeeACLWLkSLQYQ at 850,380 size 120,50 index 25 {
+  	name "success"
+  	PrimitiveOutputPort _qq-8gIcbEeeACLWLkSLQYQ at 5,27 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "text"
+  		-PrimitiveUpdate-> _9wi4IIcbEeeACLWLkSLQYQ via (840,416) decorate "Polyline" at (2,0) {
+  			id _Ggd1oIccEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _h0ui8IcaEeeACLWLkSLQYQ via (1040,404) decorate "Polyline" at (2,0) {
+  		id _ytv5EIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _rzYH8IcbEeeACLWLkSLQYQ at 710,520 size 120,90 index 26 {
+  	minorPage false
+  	libraryComponentUID "_4j6toINqEee8TuGtVfpUMA"
+  	label "StringToContext"
+  	TextInputStatic _4ijwUIcbEeeACLWLkSLQYQ at 5,67 size 110,18  {
+  		value "No password was provided!"
+  		name "text"
+  	}
+  	-BranchConnector-> _rzp0wIcbEeeACLWLkSLQYQ   {
+  		id _rzrp8IcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _rzp0wIcbEeeACLWLkSLQYQ at 850,540 size 120,50 index 27 {
+  	name "success"
+  	PrimitiveOutputPort _rzs4EIcbEeeACLWLkSLQYQ at 5,27 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "text"
+  		-PrimitiveUpdate-> _9wi4IIcbEeeACLWLkSLQYQ via (840,576) decorate "Polyline" at (2,0) {
+  			id _Fb72gIccEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _h0ui8IcaEeeACLWLkSLQYQ via (1040,565) decorate "Polyline" at (2,0) {
+  		id _waCxEIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _s6VI8IcbEeeACLWLkSLQYQ at 710,697 size 120,90 index 28 {
+  	minorPage false
+  	libraryComponentUID "_4j6toINqEee8TuGtVfpUMA"
+  	label "StringToContext"
+  	TextInputStatic _40l7gIcbEeeACLWLkSLQYQ at 5,67 size 110,18  {
+  		value "The given passwords do not match!"
+  		name "text"
+  	}
+  	-BranchConnector-> _s6ikUIcbEeeACLWLkSLQYQ   {
+  		id _s6jycIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _s6ikUIcbEeeACLWLkSLQYQ at 850,717 size 120,50 index 29 {
+  	name "success"
+  	PrimitiveOutputPort _s6lnoIcbEeeACLWLkSLQYQ at 5,27 size 110,18  {
+  		dataType Text
+  		isList false
+  		name "text"
+  		-PrimitiveUpdate-> _9wi4IIcbEeeACLWLkSLQYQ via (840,752) decorate "Polyline" at (2,0) {
+  			id _AOsVkIccEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _h0ui8IcaEeeACLWLkSLQYQ via (1040,742) decorate "Polyline" at (2,0) {
+  		id _wErlEIcbEeeACLWLkSLQYQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _h0ui8IcaEeeACLWLkSLQYQ at 990,930 size 100,90 index 3 {
+  	branchName "invalid"
+  	PrimitiveInputPort _iksnUIcaEeeACLWLkSLQYQ at 5,67 size 90,18  {
+  		dataType Text
+  		isList false
+  		name "error"
+  	}
+  }
+  
+  DataContext _6_UtsIcbEeeACLWLkSLQYQ at 740,810 size 201,106  {
+  	dfViewWorkaround true
+  	PrimitiveVariable _9wi4IIcbEeeACLWLkSLQYQ at 10,40 size 181,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "errorMessage"
+  		isList false
+  		-PrimitiveRead-> _iksnUIcaEeeACLWLkSLQYQ via (840,1006) decorate "Polyline" at (2,0) {
+  			id __cfckIcbEeeACLWLkSLQYQ
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+}

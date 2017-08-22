@@ -1,0 +1,239 @@
+GUI _ElSPcIcpEeeACLWLkSLQYQ {
+  title "RegistrationSuccess"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _CqD44IcpEeeACLWLkSLQYQ at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	ComplexVariable _GujMkIcqEeeACLWLkSLQYQ at 20,50 size 160,78  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "created"
+  		isList false
+  		isInput true
+  		PrimitiveAttribute _HB_F8IcqEeeACLWLkSLQYQ at 20,23 size 120,25  {
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _HCAUEIcqEeeACLWLkSLQYQ at 20,50 size 120,25  {
+  			libraryComponentUID "_Is7nIFdOEeedF_BtCbljJQ"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _HbGJgIcqEeeACLWLkSLQYQ  decorate "Ellipse" at (0,0) {
+  			id _HbLCAIcqEeeACLWLkSLQYQ
+  			associationName "baseUser"
+  		}
+  	}
+  	
+  	ComplexVariable _HbGJgIcqEeeACLWLkSLQYQ at 20,170 size 160,186  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "baseUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _HbQhkIcqEeeACLWLkSLQYQ at 20,23 size 120,25  {
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _HbRvsIcqEeeACLWLkSLQYQ at 20,50 size 120,25  {
+  			libraryComponentUID "_YIIgUMwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _HbSWwIcqEeeACLWLkSLQYQ at 20,77 size 120,25  {
+  			libraryComponentUID "_3QnzMM46EeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _HbS90IcqEeeACLWLkSLQYQ at 20,104 size 120,25  {
+  			libraryComponentUID "_VE6ToM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _HbTk4IcqEeeACLWLkSLQYQ at 20,131 size 120,25  {
+  			libraryComponentUID "_WYcYEM5BEeWKGIrSDzlNog"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _HbUzAIcqEeeACLWLkSLQYQ at 20,158 size 120,25  {
+  			libraryComponentUID "_1aiCkG_QEeaqHezD6-M0AA"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _CqFHAIcpEeeACLWLkSLQYQ at 260,10 size 410,510  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Panel _6HpuwIcvEeeszrodgUxImg at 10,30 size 390,450  {
+  		collapsable false
+  		defaultOpen "true"
+  		heading [  ]
+  		footer [  ]
+  		coloring ComponentColoring {
+  				color Default
+  			}
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _6HtZIIcvEeeszrodgUxImg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _6HuAMIcvEeeszrodgUxImg at 2,10 size 14,7  {
+  		}
+  		
+  		Box _6dnXsIcvEeeszrodgUxImg at 10,30 size 370,390  {
+  			invisible false
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveUp _6dpM4IcvEeeszrodgUxImg at 2,2 size 14,7  {
+  			}
+  			
+  			MoveDown _6dqbAIcvEeeszrodgUxImg at 2,10 size 14,7  {
+  			}
+  			
+  			Row _CqIKUIcpEeeACLWLkSLQYQ at 10,60 size 350,300  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _CqJYcIcpEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _CqJ_gIcpEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  				}
+  				
+  				Col _CqL0sIcpEeeACLWLkSLQYQ at 10,30 size 320,250  {
+  					wideness Full
+  					layout Layout {
+  							size Default
+  							alignment Left
+  							offset None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _CqNC0IcpEeeACLWLkSLQYQ at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _CqNp4IcpEeeACLWLkSLQYQ at 10,2 size 7,14  {
+  					}
+  					
+  					Headline _DH3ZwIcqEeeACLWLkSLQYQ at 10,30 size 300,50  {
+  						size Normal
+  						content [ StaticContent {
+  								rawContent "Registration successful"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _DH5O8IcqEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _DH6dEIcqEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					Text _FBP9QIcqEeeACLWLkSLQYQ at 10,90 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "You successfully registered. <br/>\nPlease log in using your mail adress {{created.baseUser.username}} and make sure to add all the required information to your student profile."
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _FBSZgIcqEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _FBTAkIcqEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					Button __QS10IcqEeeACLWLkSLQYQ at 10,160 size 200,60  {
+  						label "login"
+  						displayLabel "Go to login"
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions {
+  								isLink false
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon None
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp __QV5IIcqEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown __QWgMIcqEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  						}
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

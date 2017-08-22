@@ -22,13 +22,13 @@ GUI _AIQFAEz1Eee_89yPXsYmRg {
   			negate false
   		}
   		
+  		-AddComplexToSubmission-> _FqkooEz2Eee_89yPXsYmRg via (230,289) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _2TFgQE9xEeeWJL1zKR4q1g
+  		}
+  		
   		-ComplexAttributeConnector-> _52zDIEz2Eee_89yPXsYmRg  decorate "Ellipse" at (0,0) {
   			id _528NEEz2Eee_89yPXsYmRg
   			associationName "baseUser"
-  		}
-  		
-  		-AddComplexToSubmission-> _FqkooEz2Eee_89yPXsYmRg  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
-  			id _2TFgQE9xEeeWJL1zKR4q1g
   		}
   	}
   	

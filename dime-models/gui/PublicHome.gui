@@ -7,7 +7,7 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   	dfViewWorkaround true
   }
   
-  Template _Lm3gEEj8EeaK4_MRcoLfnw at 270,30 size 390,470  {
+  Template _Lm3gEEj8EeaK4_MRcoLfnw at 270,30 size 390,720  {
   	blockName "body"
   	Jumbotron _6CcloEmAEeaUSpYQeYyxnQ at 10,30 size 370,410  {
   		generalStyle GeneralStyling {
@@ -153,6 +153,100 @@ GUI _LmrS0Ej8EeaK4_MRcoLfnw {
   					
   					MoveDown _sEab4Ez3Eee_89yPXsYmRg at 2,10 size 14,7  {
   					}
+  				}
+  			}
+  		}
+  	}
+  	
+  	Row _H2qJUIcYEeeACLWLkSLQYQ at 10,450 size 250,240  {
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _H2r-gIcYEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _H2tzsIcYEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  		}
+  		
+  		Col _H3LtwIcYEeeACLWLkSLQYQ at 10,30 size 220,190  {
+  			wideness Full
+  			layout Layout {
+  					size Default
+  					alignment Center
+  					offset None
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop Double
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveLeft _H3R0YIcYEeeACLWLkSLQYQ at 2,2 size 7,14  {
+  			}
+  			
+  			MoveRight _H3Ws4IcYEeeACLWLkSLQYQ at 10,2 size 7,14  {
+  			}
+  			
+  			Button _kIbzUIcMEeeACLWLkSLQYQ at 10,100 size 200,60  {
+  				label "Registration"
+  				displayLabel "Register as new student"
+  				styling ButtonStyling {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon {
+  						preIcon None
+  						postIcon None
+  					}
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _kJRg0IcMEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _kJXAYIcMEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  				}
+  			}
+  			
+  			Text _Qv7QEIcYEeeACLWLkSLQYQ at 10,30 size 200,60  {
+  				content [ StaticContent {
+  						rawContent "Not yet registered?   "
+  						maxChars 0
+  						html false
+  						styling TextStyling {
+  								alignment Left
+  								bold false
+  								small false
+  								italic false
+  								highlight false
+  								deleted false
+  								underline false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _Qv9sUIcYEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _Qv-TYIcYEeeACLWLkSLQYQ at 2,10 size 14,7  {
   				}
   			}
   		}

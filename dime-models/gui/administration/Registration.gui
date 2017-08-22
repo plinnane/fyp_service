@@ -1,0 +1,317 @@
+GUI _YTHUsIcYEeeACLWLkSLQYQ {
+  title "Registration"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _YUXR4IcYEeeACLWLkSLQYQ at 36,10 size 200,1000  {
+  	dfViewWorkaround true
+  	PrimitiveVariable _xwFo4IcZEeeACLWLkSLQYQ at 10,210 size 181,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "mailadress"
+  		isList false
+  		isInput true
+  		-FormLoadSubmit-> _gVLRMIcZEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) decorate "Polyline" at (2,0) {
+  			id _5-TngIcZEeeACLWLkSLQYQ
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _enbV8IcZEeeACLWLkSLQYQ via (18,230) (18,429) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id __0ySsIcZEeeACLWLkSLQYQ
+  		}
+  	}
+  	
+  	PrimitiveVariable _yGDR0IcZEeeACLWLkSLQYQ at 10,280 size 181,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "password"
+  		isList false
+  		isInput false
+  		-FormSubmit-> _hlRAEIcZEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  			id _6qW1MIcZEeeACLWLkSLQYQ
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _enbV8IcZEeeACLWLkSLQYQ via (19,302) (19,429) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _8xaBQIcZEeeACLWLkSLQYQ
+  		}
+  	}
+  	
+  	PrimitiveVariable _yaOLAIcZEeeACLWLkSLQYQ at 10,360 size 181,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "passwordrepeat"
+  		isList false
+  		isInput false
+  		-FormSubmit-> _rO-sUIcZEeeACLWLkSLQYQ  decorate "Polyline" at (2,0) {
+  			id _7Gsy8IcZEeeACLWLkSLQYQ
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _enbV8IcZEeeACLWLkSLQYQ via (19,381) (19,429) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _8H6YUIcZEeeACLWLkSLQYQ
+  		}
+  	}
+  }
+  
+  Template _YUZuIIcYEeeACLWLkSLQYQ at 260,10 size 410,710  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Panel _ryBtAIcvEeeszrodgUxImg at 10,30 size 390,650  {
+  		collapsable false
+  		defaultOpen "true"
+  		heading [  ]
+  		footer [  ]
+  		coloring ComponentColoring {
+  				color Default
+  			}
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _rykfkIcvEeeszrodgUxImg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _rym70IcvEeeszrodgUxImg at 2,10 size 14,7  {
+  		}
+  		
+  		Box _sJ5acIcvEeeszrodgUxImg at 10,30 size 370,590  {
+  			invisible false
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveUp _sJ7PoIcvEeeszrodgUxImg at 2,2 size 14,7  {
+  			}
+  			
+  			MoveDown _sJ8dwIcvEeeszrodgUxImg at 2,10 size 14,7  {
+  			}
+  			
+  			Row _YUspEIcYEeeACLWLkSLQYQ at 10,60 size 350,500  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _YUueQIcYEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _YUvFUIcYEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  				}
+  				
+  				Col _YUw6gIcYEeeACLWLkSLQYQ at 10,30 size 320,450  {
+  					wideness Full
+  					layout Layout {
+  							size Default
+  							alignment Left
+  							offset None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _YUyIoIcYEeeACLWLkSLQYQ at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _YUzWwIcYEeeACLWLkSLQYQ at 10,2 size 7,14  {
+  					}
+  					
+  					Headline __TCF8IcYEeeACLWLkSLQYQ at 10,30 size 300,50  {
+  						size Normal
+  						content [ StaticContent {
+  								rawContent "Register student account"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp __TDUEIcYEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown __TD7IIcYEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					Form _em38UIcZEeeACLWLkSLQYQ at 10,90 size 220,330  {
+  						inline false
+  						errorMessage ""
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _em6YkIcZEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _em6_oIcZEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  						}
+  						
+  						Button _enbV8IcZEeeACLWLkSLQYQ at 10,240 size 200,60  {
+  							label "Register"
+  							displayLabel ""
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _enckEIcZEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _endyMIcZEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  							}
+  						}
+  						
+  						Field _gVLRMIcZEeeACLWLkSLQYQ at 10,30 size 200,60 index 5 {
+  							label "Email"
+  							inputType Email
+  							styling FormFieldStyling {
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							validation FormFieldValidation {
+  									required false
+  									min 0
+  									max -1
+  									errorText "Please enter a valid mail adress"
+  								}
+  							additionalOptions FormFieldAdditionalOptions {
+  									emptyValue "your studentmail adress"
+  									readonly false
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _gVOUgIcZEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _gVQJsIcZEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  							}
+  						}
+  						
+  						Field _hlRAEIcZEeeACLWLkSLQYQ at 10,100 size 200,60 index 3 {
+  							label "Password"
+  							inputType Password
+  							styling FormFieldStyling {
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							validation FormFieldValidation {
+  									required false
+  									min 0
+  									max -1
+  									errorText "Please provide a valid password"
+  								}
+  							additionalOptions FormFieldAdditionalOptions {
+  									emptyValue "choose a password"
+  									readonly false
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _hlTcUIcZEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _hlUDYIcZEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  							}
+  						}
+  						
+  						Field _rO-sUIcZEeeACLWLkSLQYQ at 10,170 size 200,60 index 4 {
+  							label "Password (repeat)"
+  							inputType Password
+  							styling FormFieldStyling {
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							validation FormFieldValidation {
+  									required false
+  									min 0
+  									max -1
+  									errorText "Please repeat your chosen password"
+  								}
+  							additionalOptions FormFieldAdditionalOptions {
+  									emptyValue "repeat password"
+  									readonly false
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon None
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveUp _rPAhgIcZEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  							}
+  							
+  							MoveDown _rPBvoIcZEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  							}
+  						}
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

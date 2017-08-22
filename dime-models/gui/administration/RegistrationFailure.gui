@@ -1,0 +1,219 @@
+GUI _Cp-ZUIcpEeeACLWLkSLQYQ {
+  title "RegistrationFailure"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  DataContext _ElWg4IcpEeeACLWLkSLQYQ at 10,10 size 200,1000  {
+  	dfViewWorkaround true
+  	PrimitiveVariable _NiOVQIcpEeeACLWLkSLQYQ at 20,50 size 161,25  {
+  		dataType Text
+  		dfViewWorkaround true
+  		name "errorMessage"
+  		isList false
+  		isInput true
+  		-IF-> _FN-9cIdFEeeSJNpCw12ZGw via (183,345) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _IhxCYIdFEeeSJNpCw12ZGw
+  			negate false
+  		}
+  	}
+  }
+  
+  Template _ElXvAIcpEeeACLWLkSLQYQ at 260,10 size 410,570  {
+  	blockName "body"
+  	generalStyle GeneralStyling {
+  			marginTop None
+  			marginBottom None
+  			tallness Fitting
+  			attributes [  ]
+  		}
+  	Panel _164MUIcvEeeszrodgUxImg at 10,30 size 390,510  {
+  		collapsable false
+  		defaultOpen "true"
+  		heading [  ]
+  		footer [  ]
+  		coloring ComponentColoring {
+  				color Default
+  			}
+  		generalStyle GeneralStyling {
+  				marginTop None
+  				marginBottom None
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _167PoIcvEeeszrodgUxImg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _168dwIcvEeeszrodgUxImg at 2,10 size 14,7  {
+  		}
+  		
+  		Box _2PdVMIcvEeeszrodgUxImg at 10,30 size 370,450  {
+  			invisible false
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveUp _2PfKYIcvEeeszrodgUxImg at 2,2 size 14,7  {
+  			}
+  			
+  			MoveDown _2PfxcIcvEeeszrodgUxImg at 2,10 size 14,7  {
+  			}
+  			
+  			Row _ElayUIcpEeeACLWLkSLQYQ at 10,60 size 350,360  {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _ElcngIcpEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _EldOkIcpEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  				}
+  				
+  				Col _Elfq0IcpEeeACLWLkSLQYQ at 10,30 size 320,310  {
+  					wideness Full
+  					layout Layout {
+  							size Default
+  							alignment Left
+  							offset None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _Elg48IcpEeeACLWLkSLQYQ at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _ElhgAIcpEeeACLWLkSLQYQ at 10,2 size 7,14  {
+  					}
+  					
+  					Headline _Fd-yAIcpEeeACLWLkSLQYQ at 10,30 size 300,50  {
+  						size Normal
+  						content [ StaticContent {
+  								rawContent "Registration failed!"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _FeAAIIcpEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _FeBOQIcpEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					Text _IivjgIcpEeeACLWLkSLQYQ at 10,90 size 200,60  {
+  						content [ StaticContent {
+  								rawContent "Your registration could not be completed."
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _IixYsIcpEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _Iix_wIcpEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					Button _YGaFsIcpEeeACLWLkSLQYQ at 10,220 size 200,60  {
+  						label "register"
+  						displayLabel "Go back to registration"
+  						styling ButtonStyling {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions {
+  								isLink false
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon {
+  								preIcon None
+  								postIcon None
+  							}
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _YGbT0IcpEeeACLWLkSLQYQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _YGch8IcpEeeACLWLkSLQYQ at 2,10 size 14,7  {
+  						}
+  					}
+  					
+  					Headline _FN-9cIdFEeeSJNpCw12ZGw at 10,160 size 300,50  {
+  						size Small
+  						content [ StaticContent {
+  								rawContent "{{errorMessage}}"
+  								maxChars 0
+  								html false
+  								styling TextStyling {
+  										alignment Left
+  										bold false
+  										small false
+  										italic false
+  										highlight false
+  										deleted false
+  										underline false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _FPpKUIdFEeeSJNpCw12ZGw at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _FPy7UIdFEeeSJNpCw12ZGw at 2,10 size 14,7  {
+  						}
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

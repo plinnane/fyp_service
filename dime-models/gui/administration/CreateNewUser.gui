@@ -37,7 +37,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   			}
   		}
   		
-  		PrimitiveAttribute _t0D2UFdEEeedF_BtCbljJQ at 20,104 size 120,25  {
+  		PrimitiveAttribute _t0D2UFdEEeedF_BtCbljJQ at 20,104 size 120,25 index 4 {
   			libraryComponentUID "_gnUIMFdEEeedF_BtCbljJQ"
   			isLive false
   			-FormSubmit-> _lf_90EUOEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
@@ -45,7 +45,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   			}
   		}
   		
-  		PrimitiveAttribute _t0QDkFdEEeedF_BtCbljJQ at 20,131 size 120,25  {
+  		PrimitiveAttribute _t0QDkFdEEeedF_BtCbljJQ at 20,131 size 120,25 index 3 {
   			libraryComponentUID "_kGSwgFdEEeedF_BtCbljJQ"
   			isLive false
   			-FormSubmit-> _lJ3VwEUOEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
@@ -149,7 +149,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   						MoveRight _EWAeIEUOEeeKqOBaOG4MmQ at 10,2 size 7,14  {
   						}
   						
-  						Field _mi4MkEUNEeeKqOBaOG4MmQ at 10,30 size 200,60  {
+  						Field _mi4MkEUNEeeKqOBaOG4MmQ at 10,30 size 200,60 index 6 {
   							label "First name"
   							inputType Text
   							styling FormFieldStyling {
@@ -184,7 +184,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   							}
   						}
   						
-  						Field _kENVQEUOEeeKqOBaOG4MmQ at 10,100 size 200,60 index 4 {
+  						Field _kENVQEUOEeeKqOBaOG4MmQ at 10,100 size 200,60 index 2 {
   							label "Last name"
   							inputType Text
   							styling FormFieldStyling {
@@ -219,7 +219,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   							}
   						}
   						
-  						Field _kyglsEUOEeeKqOBaOG4MmQ at 10,170 size 200,60 index 6 {
+  						Field _kyglsEUOEeeKqOBaOG4MmQ at 10,170 size 200,60 index 3 {
   							label "Email"
   							inputType Text
   							styling FormFieldStyling {
@@ -254,7 +254,7 @@ GUI _gE-VAEUNEeeKqOBaOG4MmQ {
   							}
   						}
   						
-  						Field _lJ3VwEUOEeeKqOBaOG4MmQ at 10,310 size 200,60 index 3 {
+  						Field _lJ3VwEUOEeeKqOBaOG4MmQ at 10,310 size 200,60 index 4 {
   							label "Password"
   							inputType Password
   							styling FormFieldStyling {
