@@ -128,6 +128,10 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			associationName "biddings"
   		}
   		
+  		-ComplexRead-> _OOAjoIZtEeepCdvwOIQIEA via (947,306) (947,254) decorate "Polyline" at (2,0) {
+  			id _YbfEQIZtEeepCdvwOIQIEA
+  		}
+  		
   		-ComplexRead-> _RYvh4INaEee8TuGtVfpUMA via (948,307) (948,458) decorate "Polyline" at (2,0) {
   			id _f9EuAINaEee8TuGtVfpUMA
   		}
@@ -146,10 +150,6 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		
   		-AddComplexToSubmission-> _CK6TQIP-Eee0rbY3IH9eiw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _Cv5PoIP-Eee0rbY3IH9eiw
-  		}
-  		
-  		-ComplexRead-> _OOAjoIZtEeepCdvwOIQIEA via (947,306) (947,254) decorate "Polyline" at (2,0) {
-  			id _YbfEQIZtEeepCdvwOIQIEA
   		}
   	}
   	
@@ -240,10 +240,6 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   		
-  		-ComplexRead-> _RYrQcINaEee8TuGtVfpUMA via (978,443) decorate "Polyline" at (2,0) {
-  			id _VzTBoINaEee8TuGtVfpUMA
-  		}
-  		
   		-IS-> _ONY4kIZtEeepCdvwOIQIEA via (693,662) decorate "Polyline" at (2,0) decorate "Text" at (-75,-21) {
   			id _RWcUMIZtEeepCdvwOIQIEA
   			negate false
@@ -253,6 +249,10 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		
   		-ComplexRead-> _ONxTEIZtEeepCdvwOIQIEA via (926,457) (976,234) decorate "Polyline" at (2,0) {
   			id _XCTDwIZtEeepCdvwOIQIEA
+  		}
+  		
+  		-ComplexRead-> _RYrQcINaEee8TuGtVfpUMA via (978,443) decorate "Polyline" at (2,0) {
+  			id _VzTBoINaEee8TuGtVfpUMA
   		}
   	}
   }
@@ -323,6 +323,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   					sortable true
   					defaultSorting ASC
   					fullTextSearch false
+  					filterPlaceholder "filter by Id"
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -405,6 +406,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   					sortable true
   					defaultSorting NONE
   					fullTextSearch true
+  					filterPlaceholder "filter by Title"
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -487,6 +489,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   					sortable true
   					defaultSorting NONE
   					fullTextSearch true
+  					filterPlaceholder "filter by Supervisor"
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -536,6 +539,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   					sortable false
   					defaultSorting NONE
   					fullTextSearch false
+  					filterPlaceholder "filter by Bidding"
   					generalStyle GeneralStyling {
   							marginTop None
   							marginBottom None
@@ -548,7 +552,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   					MoveRight _nhmFgFswEeeIM6hYtGvSng at 10,2 size 7,14  {
   					}
   					
-  					InteractionSIB _RYZjoINaEee8TuGtVfpUMA at 10,216 size 150,126  {
+  					InteractionSIB _RYZjoINaEee8TuGtVfpUMA at 10,216 size 150,126 index 3 {
   						libraryComponentUID "_YBCrUFWWEee9Kul9j01mzQ"
   						label "BiddingComponent"
   						generalStyle GeneralStyling {
@@ -582,7 +586,7 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   						}
   					}
   					
-  					InteractionSIB _ONY4kIZtEeepCdvwOIQIEA at 10,30 size 150,176  {
+  					InteractionSIB _ONY4kIZtEeepCdvwOIQIEA at 10,30 size 150,176 index 2 {
   						libraryComponentUID "_muJAgFv6EeepUPpWd1pktQ"
   						label "BiddedUsersListComponent"
   						generalStyle GeneralStyling {
