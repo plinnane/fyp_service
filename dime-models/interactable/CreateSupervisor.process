@@ -1,6 +1,6 @@
 Process _wsrgoERpEeejtrEn8Aq9wA {
   modelName "CreateSupervisor"
-  processType Basic
+  processType Interactable
   description "CreateSupervisor"
   isStateful false
   dataFlowView true

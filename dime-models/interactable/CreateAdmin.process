@@ -1,6 +1,6 @@
 Process _lStE0FTJEee9p783Cu4DWg {
   modelName "CreateAdmin"
-  processType Basic
+  processType Interactable
   description "CreateAdmin"
   isStateful false
   dataFlowView true

@@ -1,6 +1,6 @@
 Process _cBxicNzDEeW2rv4DARGjjw {
   modelName "CreateStudent"
-  processType Basic
+  processType Interactable
   description "CreateStudent"
   isStateful false
   dataFlowView true
