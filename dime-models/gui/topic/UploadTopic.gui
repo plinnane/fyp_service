@@ -359,7 +359,7 @@ GUI _QnZeAEB-EeeqCfaxU6lZ7A {
   				
   				Field _3uJ14IcxEeeAgbRwtNDv9w at 10,240 size 200,60  {
   					label "File"
-  					inputType File
+  					inputType SimpleFile
   					styling FormFieldStyling {
   							size Default
   							disabled false
