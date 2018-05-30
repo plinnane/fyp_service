@@ -177,7 +177,7 @@
 										<artifactItem>
 											<groupId>de.ls5.dywa</groupId>
 											<artifactId>app</artifactId>
-											<version>0.7-SNAPSHOT</version>
+											<version>0.8-SNAPSHOT</version>
 											<type>ear</type>
 											<overWrite>true</overWrite>
 											<outputDirectory>${wildfly.path}/standalone/deployments</outputDirectory>
@@ -203,5 +203,10 @@
                                 <enabled>true</enabled>
                         </snapshots>
                 </repository>
+				<repository>
+		            <id>public-ls5-snapshot</id>
+		            <name>LS5 Public Snapshot Repository</name>
+		            <url>https://ls5download.cs.tu-dortmund.de/cinco/m2/</url>
+		        </repository>
         </repositories>
 </project>

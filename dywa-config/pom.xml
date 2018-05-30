@@ -27,6 +27,11 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
+		<repository>
+            <id>public-ls5-snapshot</id>
+            <name>LS5 Public Snapshot Repository</name>
+            <url>https://ls5download.cs.tu-dortmund.de/cinco/m2/</url>
+        </repository>		
 	</repositories>
 
 </project>
