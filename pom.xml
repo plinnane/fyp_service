@@ -40,7 +40,7 @@
 							<archetypeGroupId>info.scce.dime</archetypeGroupId>
 							<archetypeArtifactId>dywa-app-archetype</archetypeArtifactId>
 							<archetypeVersion>1.0-SNAPSHOT</archetypeVersion>
-							<!--<archetypeCatalog>https://ls5svn.cs.tu-dortmund.de/maven-public/</archetypeCatalog>-->
+							<!--archetypeCatalog>https://ls5svn.cs.tu-dortmund.de/maven-public/</archetypeCatalog-->
 						</configuration>
 					</plugin>
 					<plugin>
@@ -86,5 +86,11 @@
 			</build>
 		</profile>
 	</profiles>
-
+	<repositories>
+		<repository>
+			<id>ls5-public-snapshot</id>
+			<name>LS5 Public Snapshot Repository</name>
+			<url>https://ls5download.cs.tu-dortmund.de/cinco/m2/</url>
+		</repository>
+	</repositories>
 </project>
