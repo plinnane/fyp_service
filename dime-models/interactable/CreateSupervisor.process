@@ -1,39 +1,39 @@
 Process _wsrgoERpEeejtrEn8Aq9wA {
   modelName "CreateSupervisor"
-  processType Interactable
   description "CreateSupervisor"
-  isStateful false
   dataFlowView true
-  DataContext _cCGSkNzDEeW2rv4DARGjjw at 280,400 size 211,261  {
+  processType Interactable
+  isStateful false
+  DataContext _cCGSkNzDEeW2rv4DARGjjw at 280,400 size 211,261 {
   	dfViewWorkaround true
-  	ComplexVariable __RSHsNzEEeW2rv4DARGjjw at 10,40 size 191,51  {
+  	ComplexVariable __RSHsNzEEeW2rv4DARGjjw at 10,40 size 191,51 {
   		expanded false
-  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
-  		dfViewWorkaround true
   		name "baseuser"
+  		dfViewWorkaround true
   		isList false
-  		ComplexAttribute _Dd4rANzFEeW2rv4DARGjjw at 20,23 size 151,25  {
-  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		ComplexAttribute _Dd4rANzFEeW2rv4DARGjjw at 20,23 size 171,25 {
   			dfViewWorkaround true
+  			libraryComponentUID "_fOkXgMwNEeWZVvvwxpYu8A"
   		}
   	}
   }
   
-  EndSIB _cCXYUNzDEeW2rv4DARGjjw at 568,510 size 108,90  {
+  EndSIB _cCXYUNzDEeW2rv4DARGjjw at 568,510 size 108,90 {
   	branchName "success"
-  	ComplexInputPort _fFBtcERpEeejtrEn8Aq9wA at 5,67 size 98,18  {
-  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
-  		isList false
+  	ComplexInputPort _fFBtcERpEeejtrEn8Aq9wA at 5,67 size 98,18 {
   		name "newSupervisor"
+  		isList false
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
   	}
   }
   
-  Branch _eLCVANzDEeW2rv4DARGjjw at 280,256 size 104,50  {
+  Branch _eLCVANzDEeW2rv4DARGjjw at 280,256 size 104,50 {
   	name "success"
-  	ComplexOutputPort _eLOiQNzDEeW2rv4DARGjjw at 5,27 size 94,18  {
-  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
-  		isList false
+  	ComplexOutputPort _eLOiQNzDEeW2rv4DARGjjw at 5,27 size 94,18 {
   		name "created"
+  		isList false
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
   		-ComplexUpdate-> __RSHsNzEEeW2rv4DARGjjw via (264,291) (264,422) (264,463) decorate "Polyline" at (2,0) {
   			id _ACwA4NzFEeW2rv4DARGjjw
   			dfViewWorkaround true
@@ -45,37 +45,37 @@ Process _wsrgoERpEeejtrEn8Aq9wA {
   	}
   }
   
-  CreateUserSIB _eKUjUNzDEeW2rv4DARGjjw at 80,200 size 144,162  {
-  	libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  CreateUserSIB _eKUjUNzDEeW2rv4DARGjjw at 80,200 size 144,162 {
   	label "Create BaseUser"
-  	PrimitiveInputPort _eKmQINzDEeW2rv4DARGjjw at 5,67 size 134,18  {
+  	libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  	PrimitiveInputPort _eKmQINzDEeW2rv4DARGjjw at 5,67 size 134,18 {
   		dataType Text
-  		isList false
   		name "internalName"
+  		isList false
   	}
   	
   	PrimitiveInputPort _8NmTQNzPEeWtAOZsxPLKSA at 5,121 size 134,18 index 4 {
   		dataType Text
-  		isList false
   		name "firstName"
+  		isList false
   	}
   	
   	PrimitiveInputPort _BzgL0NzQEeWtAOZsxPLKSA at 5,85 size 134,18 index 1 {
   		dataType Text
-  		isList false
   		name "lastName"
+  		isList false
   	}
   	
   	PrimitiveInputPort _DP4qQNzQEeWtAOZsxPLKSA at 5,103 size 134,18 index 2 {
   		dataType Text
-  		isList false
   		name "password"
+  		isList false
   	}
   	
   	PrimitiveInputPort _tRBPcFEJEee1RdmfVpvmFg at 5,139 size 134,18 index 3 {
   		dataType Text
-  		isList false
   		name "username"
+  		isList false
   	}
   	-BranchConnector-> _eLCVANzDEeW2rv4DARGjjw   {
   		id _eLMtENzDEeW2rv4DARGjjw
@@ -83,11 +83,11 @@ Process _wsrgoERpEeejtrEn8Aq9wA {
   	}
   }
   
-  StartSIB _cCRRsNzDEeW2rv4DARGjjw at 87,10 size 130,162  {
+  StartSIB _cCRRsNzDEeW2rv4DARGjjw at 87,10 size 130,162 {
   	PrimitiveOutputPort _mEu1INzDEeW2rv4DARGjjw at 5,121 size 120,18 index 4 {
   		dataType Text
-  		isList false
   		name "username"
+  		isList false
   		-PrimitiveDirectDataFlow-> _SJZkgERpEeejtrEn8Aq9wA via (438,139) (438,294) decorate "Polyline" at (2,0) {
   			id _4vmiYFTJEee9p783Cu4DWg
   			dfViewWorkaround true
@@ -106,8 +106,8 @@ Process _wsrgoERpEeejtrEn8Aq9wA {
   	
   	PrimitiveOutputPort _pEmfkNzDEeW2rv4DARGjjw at 5,67 size 120,18 index 0 {
   		dataType Text
-  		isList false
   		name "firstName"
+  		isList false
   		-PrimitiveDirectDataFlow-> _8NmTQNzPEeWtAOZsxPLKSA via (15,86) (15,329) decorate "Polyline" at (2,0) {
   			id _KM3DcNzQEeWtAOZsxPLKSA
   			dfViewWorkaround true
@@ -116,8 +116,8 @@ Process _wsrgoERpEeejtrEn8Aq9wA {
   	
   	PrimitiveOutputPort _qNqZYNzDEeW2rv4DARGjjw at 5,85 size 120,18 index 1 {
   		dataType Text
-  		isList false
   		name "lastName"
+  		isList false
   		-PrimitiveDirectDataFlow-> _BzgL0NzQEeWtAOZsxPLKSA via (20,104) (20,294) decorate "Polyline" at (2,0) {
   			id _P5f2INzQEeWtAOZsxPLKSA
   			dfViewWorkaround true
@@ -126,47 +126,47 @@ Process _wsrgoERpEeejtrEn8Aq9wA {
   	
   	PrimitiveOutputPort _0H7qINzDEeW2rv4DARGjjw at 5,103 size 120,18 index 2 {
   		dataType Text
-  		isList false
   		name "password"
-  		-PrimitiveDirectDataFlow-> _DP4qQNzQEeWtAOZsxPLKSA via (25,122) (25,312) decorate "Polyline" at (2,0) {
-  			id _RtQ50NzQEeWtAOZsxPLKSA
+  		isList false
+  		-PrimitiveDirectDataFlow-> _MVfc0XXxEeixSKCdp4MthQ  decorate "" at (0,0) {
+  			id _RJy5UXXxEeixSKCdp4MthQ
   			dfViewWorkaround true
   		}
   	}
   	
   	PrimitiveOutputPort _ovsdMFdHEeedF_BtCbljJQ at 5,139 size 120,18 index 3 {
   		dataType Text
-  		isList false
   		name "email"
+  		isList false
   		-PrimitiveDirectDataFlow-> _q8tuYFdHEeedF_BtCbljJQ via (535,157) (535,312) decorate "Polyline" at (2,0) {
   			id _r-cRIFdHEeedF_BtCbljJQ
   			dfViewWorkaround true
   		}
   	}
-  	-ControlFlow-> _eKUjUNzDEeW2rv4DARGjjw  decorate "Polyline" at (2,0) {
-  		id _RtVMQNzFEeW2rv4DARGjjw
+  	-ControlFlow-> _MUv18XXxEeixSKCdp4MthQ  decorate "" at (0,0) {
+  		id _N1BV4XXxEeixSKCdp4MthQ
   		concurrent true
   	}
   }
   
-  CreateSIB _SJWhMERpEeejtrEn8Aq9wA at 562,218 size 120,126  {
-  	libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  CreateSIB _SJWhMERpEeejtrEn8Aq9wA at 562,218 size 120,126 {
   	label "Create Supervisor"
-  	PrimitiveInputPort _SJZkgERpEeejtrEn8Aq9wA at 5,67 size 110,18  {
+  	libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  	PrimitiveInputPort _SJZkgERpEeejtrEn8Aq9wA at 5,67 size 110,18 {
   		dataType Text
-  		isList false
   		name "internalName"
-  	}
-  	
-  	PrimitiveInputPort _q8tuYFdHEeedF_BtCbljJQ at 5,85 size 110,18  {
-  		dataType Text
   		isList false
-  		name "email"
   	}
   	
-  	TextInputStatic _dlX1oFdOEeedF_BtCbljJQ at 5,103 size 110,18  {
-  		value "Supervisor"
+  	PrimitiveInputPort _q8tuYFdHEeedF_BtCbljJQ at 5,85 size 110,18 {
+  		dataType Text
+  		name "email"
+  		isList false
+  	}
+  	
+  	TextInputStatic _dlX1oFdOEeedF_BtCbljJQ at 5,103 size 110,18 {
   		name "roleName"
+  		value "Supervisor"
   	}
   	-BranchConnector-> _SJjVgERpEeejtrEn8Aq9wA   {
   		id _SJlKsERpEeejtrEn8Aq9wA
@@ -174,12 +174,12 @@ Process _wsrgoERpEeejtrEn8Aq9wA {
   	}
   }
   
-  Branch _SJjVgERpEeejtrEn8Aq9wA at 562,370 size 120,50  {
+  Branch _SJjVgERpEeejtrEn8Aq9wA at 562,370 size 120,50 {
   	name "success"
-  	ComplexOutputPort _SJmY0ERpEeejtrEn8Aq9wA at 5,27 size 110,18  {
-  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
-  		isList false
+  	ComplexOutputPort _SJmY0ERpEeejtrEn8Aq9wA at 5,27 size 110,18 {
   		name "created"
+  		isList false
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
   		-ComplexUpdate-> _Dd4rANzFEeW2rv4DARGjjw via (552,407) (552,475) decorate "Polyline" at (2,0) {
   			id _UPpfUERpEeejtrEn8Aq9wA
   			dfViewWorkaround true
@@ -192,6 +192,37 @@ Process _wsrgoERpEeejtrEn8Aq9wA {
   	}
   	-ControlFlow-> _cCXYUNzDEeW2rv4DARGjjw  decorate "Polyline" at (2,0) {
   		id _VB2YUERpEeejtrEn8Aq9wA
+  		concurrent true
+  	}
+  }
+  
+  AtomicSIB _MUv18XXxEeixSKCdp4MthQ at 310,46 size 120,90 {
+  	label "HashPassword"
+  	libraryComponentUID "common.HashPassword"
+  	PrimitiveInputPort _MVfc0XXxEeixSKCdp4MthQ at 5,67 size 110,18 {
+  		dataType Text
+  		name "password"
+  		isList false
+  	}
+  	-BranchConnector-> _MWBoUXXxEeixSKCdp4MthQ   {
+  		id _MWHH4XXxEeixSKCdp4MthQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _MWBoUXXxEeixSKCdp4MthQ at 310,160 size 120,50 {
+  	name "success"
+  	PrimitiveOutputPort _MWSHAXXxEeixSKCdp4MthQ at 5,27 size 110,18 {
+  		dataType Text
+  		name "hashedPassword"
+  		isList false
+  		-PrimitiveDirectDataFlow-> _DP4qQNzQEeWtAOZsxPLKSA via (61,195) (61,312) decorate "" at (0,0) {
+  			id _PJJ3QXXxEeixSKCdp4MthQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _eKUjUNzDEeW2rv4DARGjjw  decorate "" at (0,0) {
+  		id _OsoTUXXxEeixSKCdp4MthQ
   		concurrent true
   	}
   }

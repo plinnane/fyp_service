@@ -308,3 +308,13 @@ sib SleepForSomeTime: info.scce.dime.common.CommonNativeServices#sleepForSomeTim
 	-> success
 	-> failure
 
+/**
+ * Hashes the given text using the SHA 512 algorithm in conjunction with a randomly generated salt.
+ * @param password: the password to hash
+ * @return the hashed password in the form of <hashedPassword>:<salt>, both base64 encoded.
+ */
+sib HashPassword: info.scce.dime.common.CommonNativeServiceLibrary#createSaltedSHA512Hash
+	password: text
+	-> success
+		hashedPassword: text
+
