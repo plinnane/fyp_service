@@ -1,0 +1,951 @@
+Data _zgK9gXrcEei3i-x_ey40rA {
+  modelName "ProcessContexts"
+  AbstractType pc-_9G1SoMwLEeWZVvvwxpYu8A at 0,0 size -1,-1 {
+  	name "ProcessContext"
+  }
+  
+  AbstractType ii-_9G1SoMwLEeWZVvvwxpYu8A at 0,0 size -1,-1 {
+  	name "InteractionInputs"
+  }
+  
+  AbstractType si-_9G1SoMwLEeWZVvvwxpYu8A at 0,0 size -1,-1 {
+  	name "SecurityInputs"
+  }
+  
+  AbstractType interact-_9G1SoMwLEeWZVvvwxpYu8A at 0,0 size -1,127 {
+  	name "Interaction"
+  	PrimitiveAttribute interactId-_9G1SoMwLEeWZVvvwxpYu8A at 5,32 size -11,-1 {
+  		dataType Text
+  		name "interactId"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute guardContainerId-_9G1SoMwLEeWZVvvwxpYu8A at 5,50 size -11,-1 {
+  		dataType Text
+  		name "guardContainerId"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute usageCount-_9G1SoMwLEeWZVvvwxpYu8A at 5,68 size -11,-1 {
+  		dataType Integer
+  		name "usageCount"
+  		isList false
+  	}
+  	
+  	ComplexAttribute abstracPCAttr-_9G1SoMwLEeWZVvvwxpYu8A at 5,86 size -11,-1 {
+  		name "processContext"
+  		isList false
+  		dataType pc-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	
+  	ComplexAttribute abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Association-> pc-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zgZnAHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr abstracPCAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	
+  	-Association-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zgaOEHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  }
+  
+  ConcreteType ii-_MxZSEEU6EeetjZy493Al0g at 0,0 size -1,-1 {
+  	name "InteractionInputsForTabCreateUser"
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zgdRYHrcEei3i-x_ey40rA
+  	}
+  }
+  
+  ConcreteType ii-_LWgagF-SEeakMeYoloYxpg at 0,0 size -1,-1 {
+  	name "InteractionInputsForHome"
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zgdRYXrcEei3i-x_ey40rA
+  	}
+  }
+  
+  ConcreteType ii-_y-h4UEU2EeeKqOBaOG4MmQ at 0,0 size -1,-1 {
+  	name "InteractionInputsForTabUploadTopic"
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zgd4cHrcEei3i-x_ey40rA
+  	}
+  }
+  
+  ConcreteType ii-_uJLvsD-0EeerA7ElzRRObA at 0,0 size -1,73 {
+  	name "InteractionInputsForFilterUnassignedTopics"
+  	ComplexAttribute attr-ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q at 5,32 size -11,-1 {
+  		name "topics"
+  		isList true
+  		dataType ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q
+  	}
+  	
+  	ComplexAttribute attr-ii-_d37moGYzEeeG6ttoGRwTHg at 1,1 size -1,-1 {
+  		name "currentUser"
+  		isList false
+  		dataType ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zgd4cXrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q   {
+  		id _zgsh8HrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q
+  	}
+  	
+  	-Association-> ii-_d37moGYzEeeG6ttoGRwTHg   {
+  		id _zgwzYHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  }
+  
+  ReferencedType ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q at 0,0 size -1,199 {
+  	name "Topic"
+  	libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  	ReferencedBidirectionalAttribute _zgefgHrcEei3i-x_ey40rA at 5,32 size -11,-1 {
+  		name "supervisor"
+  		isList false
+  		libraryComponentUID "_leJdEDlwEeelR78gw15slQ"
+  	}
+  	
+  	ReferencedBidirectionalAttribute _zgg7wHrcEei3i-x_ey40rA at 5,50 size -11,-1 {
+  		name "assignment"
+  		isList false
+  		libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
+  	}
+  	
+  	ReferencedComplexAttribute _zghi0HrcEei3i-x_ey40rA at 5,68 size -11,-1 {
+  		name "category"
+  		isList false
+  		libraryComponentUID "_lqf6MDl0EeelR78gw15slQ"
+  	}
+  	
+  	ReferencedBidirectionalAttribute _zgiJ4HrcEei3i-x_ey40rA at 5,86 size -11,-1 {
+  		name "biddings"
+  		isList false
+  		libraryComponentUID "_uY6nAFZsEee7Rq2yitsHaA"
+  	}
+  	
+  	ReferencedPrimitiveAttribute _zgiw8HrcEei3i-x_ey40rA at 5,104 size -11,-1 {
+  		dataType Text
+  		name "title"
+  		isList false
+  		libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
+  	}
+  	
+  	ReferencedPrimitiveAttribute _zgj_EHrcEei3i-x_ey40rA at 5,122 size -11,-1 {
+  		dataType Text
+  		name "abstract"
+  		isList false
+  		libraryComponentUID "_BdSTYDlvEeelR78gw15slQ"
+  	}
+  	
+  	ReferencedPrimitiveAttribute _zglNMHrcEei3i-x_ey40rA at 5,140 size -11,-1 {
+  		dataType Text
+  		name "keywords"
+  		isList false
+  		libraryComponentUID "_CuhRwDlvEeelR78gw15slQ"
+  	}
+  	
+  	ReferencedPrimitiveAttribute _zgmbUHrcEei3i-x_ey40rA at 5,158 size -11,-1 {
+  		dataType Text
+  		name "file"
+  		isList false
+  		libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
+  	}
+  	
+  	ReferencedPrimitiveAttribute _zgnCYHrcEei3i-x_ey40rA at 5,176 size -11,-1 {
+  		dataType Text
+  		name "id"
+  		isList false
+  		libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
+  	}
+  }
+  
+  ReferencedType ii-_d37moGYzEeeG6ttoGRwTHg at 0,0 size -1,91 {
+  	name "ConcreteUser"
+  	libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  	ReferencedUserAttribute _zgu-MHrcEei3i-x_ey40rA at 5,32 size -11,-1 {
+  		name "baseUser"
+  		isList false
+  		libraryComponentUID "_fPY24MwNEeWZVvvwxpYu8A"
+  	}
+  	
+  	ReferencedPrimitiveAttribute _zgvlQHrcEei3i-x_ey40rA at 5,50 size -11,-1 {
+  		dataType Text
+  		name "email"
+  		isList false
+  		libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  	}
+  	
+  	ReferencedPrimitiveAttribute _zgwMUHrcEei3i-x_ey40rA at 5,68 size -11,-1 {
+  		dataType Text
+  		name "roleName"
+  		isList false
+  		libraryComponentUID "_Is7nIFdOEeedF_BtCbljJQ"
+  	}
+  }
+  
+  ConcreteType ii-_gXwqoFAwEeeWJL1zKR4q1g at 0,0 size -1,73 {
+  	name "InteractionInputsForClickableTopicList"
+  	ComplexAttribute attr-ii-_oNvZUGYyEeeG6ttoGRwTHg at 5,32 size -11,-1 {
+  		name "currentUser"
+  		isList false
+  		dataType ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  	
+  	ComplexAttribute attr-ii-_jIKyMFAvEeeWJL1zKR4q1g at 1,1 size -1,-1 {
+  		name "topicList"
+  		isList true
+  		dataType ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zgyBgHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_d37moGYzEeeG6ttoGRwTHg   {
+  		id _zgyokHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_oNvZUGYyEeeG6ttoGRwTHg
+  	}
+  	
+  	-Association-> ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q   {
+  		id _zgzPoHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_jIKyMFAvEeeWJL1zKR4q1g
+  	}
+  }
+  
+  ConcreteType ii-_-g8EMEU5EeetjZy493Al0g at 0,0 size -1,-1 {
+  	name "InteractionInputsForTabViewAllTopics"
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zgz2sHrcEei3i-x_ey40rA
+  	}
+  }
+  
+  ConcreteType ii-_eL7r4FTIEee9p783Cu4DWg at 0,0 size -1,-1 {
+  	name "InteractionInputsForTabViewAllSupervisors"
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zg0dwHrcEei3i-x_ey40rA
+  	}
+  }
+  
+  ConcreteType ii-_muJAgFv6EeepUPpWd1pktQ at 0,0 size -1,73 {
+  	name "InteractionInputsForBiddedUsersListComponent"
+  	ComplexAttribute attr-ii-_wkaeAIZrEeepCdvwOIQIEA at 5,32 size -11,-1 {
+  		name "concreteuser"
+  		isList false
+  		dataType ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  	
+  	ComplexAttribute attr-ii-_qm2-gFv6EeepUPpWd1pktQ at 1,1 size -1,-1 {
+  		name "topic"
+  		isList false
+  		dataType ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zg0dwXrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_d37moGYzEeeG6ttoGRwTHg   {
+  		id _zg1E0HrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_wkaeAIZrEeepCdvwOIQIEA
+  	}
+  	
+  	-Association-> ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q   {
+  		id _zg1r4HrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_qm2-gFv6EeepUPpWd1pktQ
+  	}
+  }
+  
+  ConcreteType ii-_YBCrUFWWEee9Kul9j01mzQ at 0,0 size -1,91 {
+  	name "InteractionInputsForBiddingComponent"
+  	ComplexAttribute attr-ii-_j9aWsFWWEee9Kul9j01mzQ at 5,32 size -11,-1 {
+  		name "biddings"
+  		isList true
+  		dataType ii-_j9aWsFWWEee9Kul9j01mzQ
+  	}
+  	
+  	ComplexAttribute attr-ii-_I0hskFpyEeeWOuVOeqZZPQ at 5,50 size -11,-1 {
+  		name "topic"
+  		isList false
+  		dataType ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q
+  	}
+  	
+  	ComplexAttribute attr-ii-_X16k8FpuEeeWOuVOeqZZPQ at 1,1 size -1,-1 {
+  		name "concreteuser"
+  		isList false
+  		dataType ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zg2S8HrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_j9aWsFWWEee9Kul9j01mzQ   {
+  		id _zg5WQHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_j9aWsFWWEee9Kul9j01mzQ
+  	}
+  	
+  	-Association-> ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q   {
+  		id _zhBSEHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_I0hskFpyEeeWOuVOeqZZPQ
+  	}
+  	
+  	-Association-> ii-_d37moGYzEeeG6ttoGRwTHg   {
+  		id _zhDuUHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_X16k8FpuEeeWOuVOeqZZPQ
+  	}
+  }
+  
+  ReferencedType ii-_j9aWsFWWEee9Kul9j01mzQ at 0,0 size -1,109 {
+  	name "Bidding"
+  	libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  	ReferencedComplexAttribute _zg26AHrcEei3i-x_ey40rA at 5,32 size -11,-1 {
+  		name "biddingValue"
+  		isList false
+  		libraryComponentUID "_HT4BYDlxEeelR78gw15slQ"
+  	}
+  	
+  	ReferencedBidirectionalAttribute _zg3hEHrcEei3i-x_ey40rA at 5,50 size -11,-1 {
+  		name "student"
+  		isList false
+  		libraryComponentUID "_Qyt-MFZsEee7Rq2yitsHaA"
+  	}
+  	
+  	ReferencedBidirectionalAttribute _zg3hEXrcEei3i-x_ey40rA at 5,68 size -11,-1 {
+  		name "topic"
+  		isList false
+  		libraryComponentUID "_uYaQsFZsEee7Rq2yitsHaA"
+  	}
+  	
+  	ReferencedPrimitiveAttribute _zg4IIHrcEei3i-x_ey40rA at 5,86 size -11,-1 {
+  		dataType Text
+  		name "final"
+  		isList false
+  		libraryComponentUID "_tJ1g8DlxEeelR78gw15slQ"
+  	}
+  }
+  
+  ConcreteType ii-_eZDYYFZpEee7Rq2yitsHaA at 0,0 size -1,55 {
+  	name "InteractionInputsForTabViewDesiredTopics"
+  	ComplexAttribute attr-ii-_rfeeQFZ4Eee7Rq2yitsHaA at 1,1 size -1,-1 {
+  		name "user"
+  		isList false
+  		dataType ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhE8cHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_d37moGYzEeeG6ttoGRwTHg   {
+  		id _zhE8cXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_rfeeQFZ4Eee7Rq2yitsHaA
+  	}
+  }
+  
+  ConcreteType ii-_aye6UFZpEee7Rq2yitsHaA at 0,0 size -1,-1 {
+  	name "InteractionInputsForTabViewUnassignedTopics"
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhFjgHrcEei3i-x_ey40rA
+  	}
+  }
+  
+  ConcreteType ii-_w7QFoEqfEeeP2Ykw7b8TLw at 0,0 size -1,55 {
+  	name "InteractionInputsForRetrieveTopic"
+  	ComplexAttribute attr-ii-_37l74EqfEeeP2Ykw7b8TLw at 1,1 size -1,-1 {
+  		name "topic"
+  		isList false
+  		dataType ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhHYsHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q   {
+  		id _zhHYsXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_37l74EqfEeeP2Ykw7b8TLw
+  	}
+  }
+  
+  ConcreteType ii-_DsgjcEU1EeeKqOBaOG4MmQ at 0,0 size -1,55 {
+  	name "InteractionInputsForApplicationRoot"
+  	ComplexAttribute attr-ii-_36bRgE9xEeeWJL1zKR4q1g at 1,1 size -1,-1 {
+  		name "currentUser"
+  		isList false
+  		dataType ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhJN4HrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_d37moGYzEeeG6ttoGRwTHg   {
+  		id _zhJN4XrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_36bRgE9xEeeWJL1zKR4q1g
+  	}
+  }
+  
+  ConcreteType ii-_lJrEgEU6EeetjZy493Al0g at 0,0 size -1,-1 {
+  	name "InteractionInputsForTabViewAllUsers"
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhKcAHrcEei3i-x_ey40rA
+  	}
+  }
+  
+  ConcreteType ii-_gSrMcFZpEee7Rq2yitsHaA at 0,0 size -1,55 {
+  	name "InteractionInputsForTabViewUploadedTopics"
+  	ComplexAttribute attr-ii-_XEqV4FpoEeeWOuVOeqZZPQ at 1,1 size -1,-1 {
+  		name "user"
+  		isList false
+  		dataType ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhKcAXrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_d37moGYzEeeG6ttoGRwTHg   {
+  		id _zhLDEHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_XEqV4FpoEeeWOuVOeqZZPQ
+  	}
+  }
+  
+  ConcreteType ii-_JVzQMHz5EeeXTvzoCY4ZIA at 0,0 size -1,55 {
+  	name "InteractionInputsForAssignStudentToTopic"
+  	ComplexAttribute attr-ii-_Mp1MwHz5EeeXTvzoCY4ZIA at 1,1 size -1,-1 {
+  		name "topic"
+  		isList false
+  		dataType ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhLqIHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q   {
+  		id _zhLqIXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_Mp1MwHz5EeeXTvzoCY4ZIA
+  	}
+  }
+  
+  ConcreteType ii-_JfJBIFEBEee1RdmfVpvmFg at 0,0 size -1,73 {
+  	name "InteractionInputsForCheckForEditButton"
+  	ComplexAttribute attr-ii-_nk4FoFEBEee1RdmfVpvmFg at 5,32 size -11,-1 {
+  		name "loggedInUser"
+  		isList false
+  		dataType ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  	
+  	ComplexAttribute attr-ii-_nMOVEFEBEee1RdmfVpvmFg at 1,1 size -1,-1 {
+  		name "userToBeEdited"
+  		isList false
+  		dataType ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhMRMHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_d37moGYzEeeG6ttoGRwTHg   {
+  		id _zhM4QHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_nk4FoFEBEee1RdmfVpvmFg
+  	}
+  	
+  	-Association-> ii-_d37moGYzEeeG6ttoGRwTHg   {
+  		id _zhNfUHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_nMOVEFEBEee1RdmfVpvmFg
+  	}
+  }
+  
+  ConcreteType ii-_R3_Y8FAxEeeWJL1zKR4q1g at 0,0 size -1,55 {
+  	name "InteractionInputsForDisplaySupervisorComponent"
+  	ComplexAttribute attr-ii-_c3S_IFAxEeeWJL1zKR4q1g at 1,1 size -1,-1 {
+  		name "supervisor"
+  		isList false
+  		dataType ii-_c3S_IFAxEeeWJL1zKR4q1g
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhOGYHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_c3S_IFAxEeeWJL1zKR4q1g   {
+  		id _zhRJsHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_c3S_IFAxEeeWJL1zKR4q1g
+  	}
+  }
+  
+  ReferencedType ii-_c3S_IFAxEeeWJL1zKR4q1g at 0,0 size -1,109 {
+  	name "Supervisor"
+  	libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  	ReferencedBidirectionalAttribute _zhOtcHrcEei3i-x_ey40rA at 5,50 size -11,-1 {
+  		name "topic"
+  		isList false
+  		libraryComponentUID "_lfF4QDlwEeelR78gw15slQ"
+  	}
+  	
+  	ReferencedUserAttribute _zhPUgHrcEei3i-x_ey40rA at 5,32 size -11,-1 {
+  		name "baseUser"
+  		isList false
+  		libraryComponentUID "_fPY24MwNEeWZVvvwxpYu8A"
+  	}
+  	
+  	ReferencedPrimitiveAttribute _zhPUgXrcEei3i-x_ey40rA at 5,68 size -11,-1 {
+  		dataType Text
+  		name "email"
+  		isList false
+  		libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  	}
+  	
+  	ReferencedPrimitiveAttribute _zhP7kHrcEei3i-x_ey40rA at 5,86 size -11,-1 {
+  		dataType Text
+  		name "roleName"
+  		isList false
+  		libraryComponentUID "_Is7nIFdOEeedF_BtCbljJQ"
+  	}
+  }
+  
+  ConcreteType ii-_GsRoAHzfEeeXTvzoCY4ZIA at 0,0 size -1,73 {
+  	name "InteractionInputsForManageAssignmentButton"
+  	ComplexAttribute attr-ii-_PY6A8HzfEeeXTvzoCY4ZIA at 5,32 size -11,-1 {
+  		name "topic"
+  		isList false
+  		dataType ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q
+  	}
+  	
+  	ComplexAttribute attr-ii-_JGCUsHzfEeeXTvzoCY4ZIA at 1,1 size -1,-1 {
+  		name "loggedInUser"
+  		isList false
+  		dataType ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhRwwHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_ZPtJ8D-1EeeMOLoUoe1Q1Q   {
+  		id _zhRwwXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_PY6A8HzfEeeXTvzoCY4ZIA
+  	}
+  	
+  	-Association-> ii-_d37moGYzEeeG6ttoGRwTHg   {
+  		id _zhS-4HrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_JGCUsHzfEeeXTvzoCY4ZIA
+  	}
+  }
+  
+  ConcreteType ii-_hWhOAFTHEee9p783Cu4DWg at 0,0 size -1,55 {
+  	name "InteractionInputsForClickableUserList"
+  	ComplexAttribute attr-ii-_iUlYwFTHEee9p783Cu4DWg at 1,1 size -1,-1 {
+  		name "users"
+  		isList true
+  		dataType ii-_d37moGYzEeeG6ttoGRwTHg
+  	}
+  	-Inheritance-> ii-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhU0EHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_d37moGYzEeeG6ttoGRwTHg   {
+  		id _zhU0EXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr attr-ii-_iUlYwFTHEee9p783Cu4DWg
+  	}
+  }
+  
+  AbstractType interact-_MxZSEEU6EeetjZy493Al0g at 0,0 size -1,55 {
+  	name "InteractionTabCreateUser"
+  	ComplexAttribute iiAttr-_MxZSEEU6EeetjZy493Al0g at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_MxZSEEU6EeetjZy493Al0g
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhVbIHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_MxZSEEU6EeetjZy493Al0g   {
+  		id _zhWCMHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_MxZSEEU6EeetjZy493Al0g
+  	}
+  }
+  
+  AbstractType interact-_LWgagF-SEeakMeYoloYxpg at 0,0 size -1,55 {
+  	name "InteractionHome"
+  	ComplexAttribute iiAttr-_LWgagF-SEeakMeYoloYxpg at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_LWgagF-SEeakMeYoloYxpg
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhXQUHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_LWgagF-SEeakMeYoloYxpg   {
+  		id _zhXQUXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_LWgagF-SEeakMeYoloYxpg
+  	}
+  }
+  
+  AbstractType interact-_y-h4UEU2EeeKqOBaOG4MmQ at 0,0 size -1,55 {
+  	name "InteractionTabUploadTopic"
+  	ComplexAttribute iiAttr-_y-h4UEU2EeeKqOBaOG4MmQ at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_y-h4UEU2EeeKqOBaOG4MmQ
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhYecHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_y-h4UEU2EeeKqOBaOG4MmQ   {
+  		id _zhYecXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_y-h4UEU2EeeKqOBaOG4MmQ
+  	}
+  }
+  
+  AbstractType interact-_uJLvsD-0EeerA7ElzRRObA at 0,0 size -1,55 {
+  	name "InteractionFilterUnassignedTopics"
+  	ComplexAttribute iiAttr-_uJLvsD-0EeerA7ElzRRObA at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_uJLvsD-0EeerA7ElzRRObA
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhZskHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_uJLvsD-0EeerA7ElzRRObA   {
+  		id _zhZskXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_uJLvsD-0EeerA7ElzRRObA
+  	}
+  }
+  
+  AbstractType interact-_gXwqoFAwEeeWJL1zKR4q1g at 0,0 size -1,55 {
+  	name "InteractionClickableTopicList"
+  	ComplexAttribute iiAttr-_gXwqoFAwEeeWJL1zKR4q1g at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_gXwqoFAwEeeWJL1zKR4q1g
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhcI0HrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_gXwqoFAwEeeWJL1zKR4q1g   {
+  		id _zhcI0XrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_gXwqoFAwEeeWJL1zKR4q1g
+  	}
+  }
+  
+  AbstractType interact-_-g8EMEU5EeetjZy493Al0g at 0,0 size -1,55 {
+  	name "InteractionTabViewAllTopics"
+  	ComplexAttribute iiAttr-_-g8EMEU5EeetjZy493Al0g at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_-g8EMEU5EeetjZy493Al0g
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhdW8HrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_-g8EMEU5EeetjZy493Al0g   {
+  		id _zhdW8XrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_-g8EMEU5EeetjZy493Al0g
+  	}
+  }
+  
+  AbstractType interact-_eL7r4FTIEee9p783Cu4DWg at 0,0 size -1,55 {
+  	name "InteractionTabViewAllSupervisors"
+  	ComplexAttribute iiAttr-_eL7r4FTIEee9p783Cu4DWg at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_eL7r4FTIEee9p783Cu4DWg
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhd-AHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_eL7r4FTIEee9p783Cu4DWg   {
+  		id _zhelEHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_eL7r4FTIEee9p783Cu4DWg
+  	}
+  }
+  
+  AbstractType interact-_muJAgFv6EeepUPpWd1pktQ at 0,0 size -1,55 {
+  	name "InteractionBiddedUsersListComponent"
+  	ComplexAttribute iiAttr-_muJAgFv6EeepUPpWd1pktQ at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_muJAgFv6EeepUPpWd1pktQ
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhfMIHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_muJAgFv6EeepUPpWd1pktQ   {
+  		id _zhfMIXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_muJAgFv6EeepUPpWd1pktQ
+  	}
+  }
+  
+  AbstractType interact-_YBCrUFWWEee9Kul9j01mzQ at 0,0 size -1,55 {
+  	name "InteractionBiddingComponent"
+  	ComplexAttribute iiAttr-_YBCrUFWWEee9Kul9j01mzQ at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_YBCrUFWWEee9Kul9j01mzQ
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhrZYHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_YBCrUFWWEee9Kul9j01mzQ   {
+  		id _zhsAcHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_YBCrUFWWEee9Kul9j01mzQ
+  	}
+  }
+  
+  AbstractType interact-_eZDYYFZpEee7Rq2yitsHaA at 0,0 size -1,55 {
+  	name "InteractionTabViewDesiredTopics"
+  	ComplexAttribute iiAttr-_eZDYYFZpEee7Rq2yitsHaA at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_eZDYYFZpEee7Rq2yitsHaA
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zht1oHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_eZDYYFZpEee7Rq2yitsHaA   {
+  		id _zht1oXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_eZDYYFZpEee7Rq2yitsHaA
+  	}
+  }
+  
+  AbstractType interact-_aye6UFZpEee7Rq2yitsHaA at 0,0 size -1,55 {
+  	name "InteractionTabViewUnassignedTopics"
+  	ComplexAttribute iiAttr-_aye6UFZpEee7Rq2yitsHaA at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_aye6UFZpEee7Rq2yitsHaA
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhvq0HrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_aye6UFZpEee7Rq2yitsHaA   {
+  		id _zhvq0XrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_aye6UFZpEee7Rq2yitsHaA
+  	}
+  }
+  
+  AbstractType interact-_w7QFoEqfEeeP2Ykw7b8TLw at 0,0 size -1,55 {
+  	name "InteractionRetrieveTopic"
+  	ComplexAttribute iiAttr-_w7QFoEqfEeeP2Ykw7b8TLw at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_w7QFoEqfEeeP2Ykw7b8TLw
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhw48HrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_w7QFoEqfEeeP2Ykw7b8TLw   {
+  		id _zhw48XrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_w7QFoEqfEeeP2Ykw7b8TLw
+  	}
+  }
+  
+  AbstractType interact-_DsgjcEU1EeeKqOBaOG4MmQ at 0,0 size -1,55 {
+  	name "InteractionApplicationRoot"
+  	ComplexAttribute iiAttr-_DsgjcEU1EeeKqOBaOG4MmQ at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_DsgjcEU1EeeKqOBaOG4MmQ
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhyHEHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_DsgjcEU1EeeKqOBaOG4MmQ   {
+  		id _zhyHEXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_DsgjcEU1EeeKqOBaOG4MmQ
+  	}
+  }
+  
+  AbstractType interact-_lJrEgEU6EeetjZy493Al0g at 0,0 size -1,55 {
+  	name "InteractionTabViewAllUsers"
+  	ComplexAttribute iiAttr-_lJrEgEU6EeetjZy493Al0g at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_lJrEgEU6EeetjZy493Al0g
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zhzVMHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_lJrEgEU6EeetjZy493Al0g   {
+  		id _zhzVMXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_lJrEgEU6EeetjZy493Al0g
+  	}
+  }
+  
+  AbstractType interact-_gSrMcFZpEee7Rq2yitsHaA at 0,0 size -1,55 {
+  	name "InteractionTabViewUploadedTopics"
+  	ComplexAttribute iiAttr-_gSrMcFZpEee7Rq2yitsHaA at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_gSrMcFZpEee7Rq2yitsHaA
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zh0jUHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_gSrMcFZpEee7Rq2yitsHaA   {
+  		id _zh0jUXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_gSrMcFZpEee7Rq2yitsHaA
+  	}
+  }
+  
+  AbstractType interact-_JVzQMHz5EeeXTvzoCY4ZIA at 0,0 size -1,55 {
+  	name "InteractionAssignStudentToTopic"
+  	ComplexAttribute iiAttr-_JVzQMHz5EeeXTvzoCY4ZIA at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_JVzQMHz5EeeXTvzoCY4ZIA
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zh1xcHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_JVzQMHz5EeeXTvzoCY4ZIA   {
+  		id _zh1xcXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_JVzQMHz5EeeXTvzoCY4ZIA
+  	}
+  }
+  
+  AbstractType interact-_JfJBIFEBEee1RdmfVpvmFg at 0,0 size -1,55 {
+  	name "InteractionCheckForEditButton"
+  	ComplexAttribute iiAttr-_JfJBIFEBEee1RdmfVpvmFg at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_JfJBIFEBEee1RdmfVpvmFg
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zh2_kHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_JfJBIFEBEee1RdmfVpvmFg   {
+  		id _zh2_kXrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_JfJBIFEBEee1RdmfVpvmFg
+  	}
+  }
+  
+  AbstractType interact-_R3_Y8FAxEeeWJL1zKR4q1g at 0,0 size -1,55 {
+  	name "InteractionDisplaySupervisorComponent"
+  	ComplexAttribute iiAttr-_R3_Y8FAxEeeWJL1zKR4q1g at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_R3_Y8FAxEeeWJL1zKR4q1g
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zh4NsHrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_R3_Y8FAxEeeWJL1zKR4q1g   {
+  		id _zh40wHrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_R3_Y8FAxEeeWJL1zKR4q1g
+  	}
+  }
+  
+  AbstractType interact-_GsRoAHzfEeeXTvzoCY4ZIA at 0,0 size -1,55 {
+  	name "InteractionManageAssignmentButton"
+  	ComplexAttribute iiAttr-_GsRoAHzfEeeXTvzoCY4ZIA at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_GsRoAHzfEeeXTvzoCY4ZIA
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zh5b0HrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_GsRoAHzfEeeXTvzoCY4ZIA   {
+  		id _zh5b0XrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_GsRoAHzfEeeXTvzoCY4ZIA
+  	}
+  }
+  
+  AbstractType interact-_hWhOAFTHEee9p783Cu4DWg at 0,0 size -1,55 {
+  	name "InteractionClickableUserList"
+  	ComplexAttribute iiAttr-_hWhOAFTHEee9p783Cu4DWg at 1,1 size -1,-1 {
+  		name "interactionInputs"
+  		isList false
+  		dataType ii-_hWhOAFTHEee9p783Cu4DWg
+  		superAttr abstractIIAttr-_9G1SoMwLEeWZVvvwxpYu8A
+  	}
+  	-Inheritance-> interact-_9G1SoMwLEeWZVvvwxpYu8A   {
+  		id _zh6p8HrcEei3i-x_ey40rA
+  	}
+  	
+  	-Association-> ii-_hWhOAFTHEee9p783Cu4DWg   {
+  		id _zh6p8XrcEei3i-x_ey40rA
+  		isHidden false
+  		sourceAttr iiAttr-_hWhOAFTHEee9p783Cu4DWg
+  	}
+  }
+}
