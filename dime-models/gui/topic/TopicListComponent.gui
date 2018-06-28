@@ -1,35 +1,36 @@
 GUI _e1xpUD-vEeerA7ElzRRObA {
-  title "TopicListComponent"
-  additionalStylesheets [  ]
-  additionalJavaScript [  ]
   fullWidth false
-  DataContext _e35wQD-vEeerA7ElzRRObA at 10,10 size 226,1000  {
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "TopicListComponent"
+  DataContext _e35wQD-vEeerA7ElzRRObA at 10,10 size 226,1000 {
   	dfViewWorkaround true
-  	ComplexVariable _hHlecD-wEeerA7ElzRRObA at 20,40 size 160,105  {
-  		isLive false
+  	ComplexVariable _hHlecD-wEeerA7ElzRRObA at 20,40 size 160,105 {
   		expanded true
-  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
-  		dfViewWorkaround true
-  		name "topics"
-  		isList true
+  		isLive false
   		isInput true
-  		PrimitiveListAttribute _KfcXcD-xEeerA7ElzRRObA at 20,23 size 120,25  {
+  		name "topics"
+  		dfViewWorkaround true
+  		isList true
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		PrimitiveListAttribute _KfcXcD-xEeerA7ElzRRObA at 20,23 size 140,25 {
+  			isLive false
   			attributeName size
   			primitiveType Integer
   			libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
-  			isLive false
   		}
   		
-  		ComplexListAttribute _Kfk6UD-xEeerA7ElzRRObA at 20,50 size 120,25  {
+  		ComplexListAttribute _Kfk6UD-xEeerA7ElzRRObA at 20,50 size 140,25 {
+  			isLive false
   			attributeName first
   			libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
-  			isLive false
   		}
   		
-  		ComplexListAttribute _KfnWkD-xEeerA7ElzRRObA at 20,77 size 120,25  {
+  		ComplexListAttribute _KfnWkD-xEeerA7ElzRRObA at 20,77 size 140,25 {
+  			isLive false
   			attributeName last
   			libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
-  			isLive false
   		}
   		-TableLoad-> _aeuUED-wEeerA7ElzRRObA  decorate "Polyline" at (2,0) {
   			id _Bpki8D-xEeerA7ElzRRObA
@@ -51,33 +52,33 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		}
   	}
   	
-  	ComplexVariable _LMLhoD-xEeerA7ElzRRObA at 20,190 size 160,213  {
-  		isLive false
+  	ComplexVariable _LMLhoD-xEeerA7ElzRRObA at 20,190 size 160,213 {
   		expanded true
-  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
-  		dfViewWorkaround true
-  		name "current"
-  		isList false
+  		isLive false
   		isInput false
-  		PrimitiveAttribute _VIGYMD-xEeerA7ElzRRObA at 20,23 size 120,25  {
-  			libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
+  		name "current"
+  		dfViewWorkaround true
+  		isList false
+  		libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  		PrimitiveAttribute _VIGYMD-xEeerA7ElzRRObA at 20,23 size 140,25 {
   			isLive false
+  			libraryComponentUID "_-sIhMC84EeeRkP4audC_CA"
   			-TableColumnLoad-> _AL9ZYEUrEeeKqOBaOG4MmQ  decorate "Polyline" at (2,0) {
   				id _Fe7u4EUrEeeKqOBaOG4MmQ
   			}
   		}
   		
-  		PrimitiveAttribute _VIVowD-xEeerA7ElzRRObA at 20,50 size 120,25  {
-  			libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
+  		PrimitiveAttribute _VIVowD-xEeerA7ElzRRObA at 20,50 size 140,25 {
   			isLive false
+  			libraryComponentUID "_RvOX4D-xEeerA7ElzRRObA"
   			-TableColumnLoad-> _a5ztkD-wEeerA7ElzRRObA  decorate "Polyline" at (2,0) {
   				id _GEZMYEUrEeeKqOBaOG4MmQ
   			}
   		}
   		
-  		ComplexAttribute _hlvyIFswEeeIM6hYtGvSng at 20,77 size 120,25 index 6 {
-  			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
+  		ComplexAttribute _hlvyIFswEeeIM6hYtGvSng at 20,77 size 140,25 index 6 {
   			isLive false
+  			libraryComponentUID "_ZLhtgDlzEeelR78gw15slQ"
   			-IF-> _strPQIP1Eee0rbY3IH9eiw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   				id _3SqQ8IP1Eee0rbY3IH9eiw
   				negate false
@@ -99,24 +100,24 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   			}
   		}
   		
-  		ComplexAttribute _hly1cFswEeeIM6hYtGvSng at 20,104 size 120,25 index 2 {
+  		ComplexAttribute _hly1cFswEeeIM6hYtGvSng at 20,104 size 140,25 index 2 {
+  			isLive false
   			libraryComponentUID "_lqf6MDl0EeelR78gw15slQ"
-  			isLive false
   		}
   		
-  		PrimitiveAttribute _hl3G4FswEeeIM6hYtGvSng at 20,131 size 120,25 index 3 {
+  		PrimitiveAttribute _hl3G4FswEeeIM6hYtGvSng at 20,131 size 140,25 index 3 {
+  			isLive false
   			libraryComponentUID "_BdSTYDlvEeelR78gw15slQ"
-  			isLive false
   		}
   		
-  		PrimitiveAttribute _hl48EFswEeeIM6hYtGvSng at 20,158 size 120,25 index 4 {
+  		PrimitiveAttribute _hl48EFswEeeIM6hYtGvSng at 20,158 size 140,25 index 4 {
+  			isLive false
   			libraryComponentUID "_CuhRwDlvEeelR78gw15slQ"
-  			isLive false
   		}
   		
-  		PrimitiveAttribute _hl6KMFswEeeIM6hYtGvSng at 20,185 size 120,25 index 5 {
-  			libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
+  		PrimitiveAttribute _hl6KMFswEeeIM6hYtGvSng at 20,185 size 140,25 index 5 {
   			isLive false
+  			libraryComponentUID "_FMZpcDlvEeelR78gw15slQ"
   		}
   		-ComplexAttributeConnector-> __7GSYFAsEeeWJL1zKR4q1g  decorate "Ellipse" at (0,0) {
   			id __7c3sFAsEeeWJL1zKR4q1g
@@ -153,27 +154,27 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		}
   	}
   	
-  	ComplexVariable __7GSYFAsEeeWJL1zKR4q1g at 20,500 size 160,105  {
-  		isLive false
+  	ComplexVariable __7GSYFAsEeeWJL1zKR4q1g at 20,500 size 160,105 {
   		expanded true
-  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
-  		dfViewWorkaround true
-  		name "supervisor"
-  		isList false
+  		isLive false
   		isInput false
-  		ComplexAttribute __8DUoFAsEeeWJL1zKR4q1g at 20,23 size 120,25  {
+  		name "supervisor"
+  		dfViewWorkaround true
+  		isList false
+  		libraryComponentUID "_QCBvMDlvEeelR78gw15slQ"
+  		ComplexAttribute __8DUoFAsEeeWJL1zKR4q1g at 20,23 size 140,25 {
+  			isLive false
   			libraryComponentUID "_lfF4QDlwEeelR78gw15slQ"
-  			isLive false
   		}
   		
-  		ComplexAttribute __8EiwFAsEeeWJL1zKR4q1g at 20,50 size 120,25  {
+  		ComplexAttribute __8EiwFAsEeeWJL1zKR4q1g at 20,50 size 140,25 {
+  			isLive false
   			libraryComponentUID "_fPY24MwNEeWZVvvwxpYu8A"
-  			isLive false
   		}
   		
-  		PrimitiveAttribute __8TMQFAsEeeWJL1zKR4q1g at 20,77 size 120,25  {
-  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  		PrimitiveAttribute __8TMQFAsEeeWJL1zKR4q1g at 20,77 size 140,25 {
   			isLive false
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
   		}
   		-AddComplexToSubmission-> _6BWQwFAsEeeWJL1zKR4q1g via (673,512) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _Al_CcFAtEeeWJL1zKR4q1g
@@ -184,37 +185,37 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		}
   	}
   	
-  	ComplexVariable _1bw8QFveEeepUPpWd1pktQ at 20,690 size 160,132  {
-  		isLive false
+  	ComplexVariable _1bw8QFveEeepUPpWd1pktQ at 20,690 size 160,132 {
   		expanded true
-  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
-  		dfViewWorkaround true
-  		name "biddings"
-  		isList true
+  		isLive false
   		isInput false
-  		PrimitiveListAttribute _1dgosFveEeepUPpWd1pktQ at 20,23 size 120,25  {
+  		name "biddings"
+  		dfViewWorkaround true
+  		isList true
+  		libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
+  		PrimitiveListAttribute _1dgosFveEeepUPpWd1pktQ at 20,23 size 140,25 {
+  			isLive false
   			attributeName size
   			primitiveType Integer
   			libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
-  			isLive false
   		}
   		
-  		ComplexListAttribute _1d0KsFveEeepUPpWd1pktQ at 20,50 size 120,25  {
+  		ComplexListAttribute _1d0KsFveEeepUPpWd1pktQ at 20,50 size 140,25 {
+  			isLive false
   			attributeName current
   			libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
-  			isLive false
   		}
   		
-  		ComplexListAttribute _1d6RUFveEeepUPpWd1pktQ at 20,77 size 120,25  {
+  		ComplexListAttribute _1d6RUFveEeepUPpWd1pktQ at 20,77 size 140,25 {
+  			isLive false
   			attributeName first
   			libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
-  			isLive false
   		}
   		
-  		ComplexListAttribute _1d8GgFveEeepUPpWd1pktQ at 20,104 size 120,25  {
+  		ComplexListAttribute _1d8GgFveEeepUPpWd1pktQ at 20,104 size 140,25 {
+  			isLive false
   			attributeName last
   			libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
-  			isLive false
   		}
   		-TableColumnLoad-> _nhZRMFswEeeIM6hYtGvSng via (962,765) decorate "Polyline" at (2,0) {
   			id _T-uvUFvfEeepUPpWd1pktQ
@@ -225,25 +226,25 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   		}
   	}
   	
-  	ComplexVariable _0WSYoF2kEee5Bb1RXENunQ at 30,640 size 186,25  {
-  		isLive false
+  	ComplexVariable _0WSYoF2kEee5Bb1RXENunQ at 30,640 size 186,25 {
   		expanded false
-  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
-  		dfViewWorkaround true
-  		name "currentUser"
-  		isList false
+  		isLive false
   		isInput false
+  		name "currentUser"
+  		dfViewWorkaround true
+  		isList false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		-IS-> _RYZjoINaEee8TuGtVfpUMA via (692,662) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _StRr4INaEee8TuGtVfpUMA
+  			exactMatch false
   			negate false
-  			exactMatch true
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   		
   		-IS-> _ONY4kIZtEeepCdvwOIQIEA via (693,662) decorate "Polyline" at (2,0) decorate "Text" at (-75,-21) {
   			id _RWcUMIZtEeepCdvwOIQIEA
+  			exactMatch false
   			negate false
-  			exactMatch true
   			matchingType "_QCBvMDlvEeelR78gw15slQ"
   		}
   		
@@ -257,400 +258,403 @@ GUI _e1xpUD-vEeerA7ElzRRObA {
   	}
   }
   
-  Template _e4QVkD-vEeerA7ElzRRObA at 260,10 size 960,662  {
+  Template _e4QVkD-vEeerA7ElzRRObA at 260,10 size 960,662 {
   	blockName "body"
-  	generalStyle GeneralStyling {
-  			marginTop None
-  			marginBottom None
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _DVIAqXq0EeiJdqsti47xBA {
   			tallness Fitting
+  			marginBottom None
   			attributes [  ]
+  			marginTop None
   		}
-  	Row _e4oJAD-vEeerA7ElzRRObA at 10,30 size 940,602  {
-  		generalStyle GeneralStyling {
-  				marginTop None
-  				marginBottom None
+  	Row _e4oJAD-vEeerA7ElzRRObA at 10,30 size 940,602 {
+  		generalStyle GeneralStyling _DVIAq3q0EeiJdqsti47xBA {
   				tallness Fitting
+  				marginBottom None
   				attributes [  ]
+  				marginTop None
   			}
-  		MoveUp _e4wr4D-vEeerA7ElzRRObA at 2,2 size 14,7  {
+  		MoveUp _e4wr4D-vEeerA7ElzRRObA at 2,2 size 14,7 {
   		}
   		
-  		MoveDown _e42ygD-vEeerA7ElzRRObA at 2,10 size 14,7  {
+  		MoveDown _e42ygD-vEeerA7ElzRRObA at 2,10 size 14,7 {
   		}
   		
-  		Col _e5GDED-vEeerA7ElzRRObA at 10,30 size 910,552  {
+  		Col _e5GDED-vEeerA7ElzRRObA at 10,30 size 910,552 {
   			wideness Full
-  			layout Layout {
+  			layout Layout _DVInsXq0EeiJdqsti47xBA {
   					size Default
-  					alignment Left
   					offset None
+  					alignment Left
   				}
-  			generalStyle GeneralStyling {
-  					marginTop None
-  					marginBottom None
+  			generalStyle GeneralStyling _DVIns3q0EeiJdqsti47xBA {
   					tallness Fitting
+  					marginBottom None
   					attributes [  ]
+  					marginTop None
   				}
-  			MoveLeft _e5NX0D-vEeerA7ElzRRObA at 2,2 size 7,14  {
+  			MoveLeft _e5NX0D-vEeerA7ElzRRObA at 2,2 size 7,14 {
   			}
   			
-  			MoveRight _e5UFgD-vEeerA7ElzRRObA at 10,2 size 7,14  {
+  			MoveRight _e5UFgD-vEeerA7ElzRRObA at 10,2 size 7,14 {
   			}
   			
   			Table _aeuUED-wEeerA7ElzRRObA at 10,30 size 890,422 index 3 {
   				striped true
-  				bordered true
   				hover false
-  				condensed true
-  				responsive true
   				numbering false
   				pagination 0
+  				autoSorted true
+  				responsive true
+  				condensed true
+  				bordered true
   				choices NONE
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
+  				generalStyle GeneralStyling _DVIntXq0EeiJdqsti47xBA {
   						tallness Fitting
+  						marginBottom None
   						attributes [  ]
+  						marginTop None
   					}
-  				MoveUp _aezMkD-wEeerA7ElzRRObA at 2,2 size 14,7  {
+  				MoveUp _aezMkD-wEeerA7ElzRRObA at 2,2 size 14,7 {
   				}
   				
-  				MoveDown _ae1BwD-wEeerA7ElzRRObA at 2,10 size 14,7  {
+  				MoveDown _ae1BwD-wEeerA7ElzRRObA at 2,10 size 14,7 {
   				}
   				
   				TableEntry _a5ztkD-wEeerA7ElzRRObA at 10,30 size 220,190 index 5 {
+  					fullTextSearch false
+  					defaultSorting ASC
+  					filterPlaceholder "filter by Id"
   					label "ID"
   					sortable true
-  					defaultSorting ASC
-  					fullTextSearch false
-  					filterPlaceholder "filter by Id"
-  					generalStyle GeneralStyling {
-  							marginTop None
-  							marginBottom None
+  					generalStyle GeneralStyling _DVInt3q0EeiJdqsti47xBA {
   							tallness Fitting
+  							marginBottom None
   							attributes [  ]
+  							marginTop None
   						}
-  					MoveLeft _a57pYD-wEeerA7ElzRRObA at 2,2 size 7,14  {
+  					MoveLeft _a57pYD-wEeerA7ElzRRObA at 2,2 size 7,14 {
   					}
   					
-  					MoveRight _a583gD-wEeerA7ElzRRObA at 10,2 size 7,14  {
+  					MoveRight _a583gD-wEeerA7ElzRRObA at 10,2 size 7,14 {
   					}
   					
-  					Button _ukWB8FAsEeeWJL1zKR4q1g at 10,30 size 200,60  {
-  						label "id clicked"
+  					Button _ukWB8FAsEeeWJL1zKR4q1g at 10,30 size 200,60 {
   						displayLabel "{{current.id}}"
-  						styling ButtonStyling {
-  								fullWidth false
-  								size Default
-  								disabled false
-  								color Default
-  							}
-  						options ButtonOptions {
-  								isLink true
-  								submitsForm true
-  							}
   						disabled false
-  						icon Icon {
-  								preIcon None
-  								postIcon None
-  							}
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
+  						label "id clicked"
+  						generalStyle GeneralStyling _DVInv3q0EeiJdqsti47xBA {
   								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
   								rawContent "font-weight: bold;"
-  								attributes [  ]
   							}
-  						MoveUp _ukYeMFAsEeeWJL1zKR4q1g at 2,2 size 14,7  {
-  						}
-  						
-  						MoveDown _ukZFQFAsEeeWJL1zKR4q1g at 2,10 size 14,7  {
-  						}
-  					}
-  					
-  					Button _strPQIP1Eee0rbY3IH9eiw at 10,100 size 200,60  {
-  						label "id clicked"
-  						displayLabel "{{current.id}}"
-  						styling ButtonStyling {
+  						styling ButtonStyling _DVInuXq0EeiJdqsti47xBA {
   								fullWidth false
+  								color Default
   								size Default
   								disabled false
-  								color Default
   							}
-  						options ButtonOptions {
+  						icon Icon _DVInvXq0EeiJdqsti47xBA {
+  								postIcon None
+  								preIcon None
+  							}
+  						options ButtonOptions _DVInu3q0EeiJdqsti47xBA {
   								isLink true
   								submitsForm true
   							}
-  						disabled false
-  						icon Icon {
-  								preIcon None
-  								postIcon None
-  							}
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
-  								tallness Fitting
-  								rawContent ""
-  								attributes [  ]
-  							}
-  						MoveUp _sttrgIP1Eee0rbY3IH9eiw at 2,2 size 14,7  {
+  						MoveUp _ukYeMFAsEeeWJL1zKR4q1g at 2,2 size 14,7 {
   						}
   						
-  						MoveDown _stu5oIP1Eee0rbY3IH9eiw at 2,10 size 14,7  {
+  						MoveDown _ukZFQFAsEeeWJL1zKR4q1g at 2,10 size 14,7 {
+  						}
+  					}
+  					
+  					Button _strPQIP1Eee0rbY3IH9eiw at 10,100 size 200,60 {
+  						displayLabel "{{current.id}}"
+  						disabled false
+  						label "id clicked"
+  						generalStyle GeneralStyling _DVJOwHq0EeiJdqsti47xBA {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  								rawContent ""
+  							}
+  						styling ButtonStyling _DVInwXq0EeiJdqsti47xBA {
+  								fullWidth false
+  								color Default
+  								size Default
+  								disabled false
+  							}
+  						icon Icon _DVInxXq0EeiJdqsti47xBA {
+  								postIcon None
+  								preIcon None
+  							}
+  						options ButtonOptions _DVInw3q0EeiJdqsti47xBA {
+  								isLink true
+  								submitsForm true
+  							}
+  						MoveUp _sttrgIP1Eee0rbY3IH9eiw at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _stu5oIP1Eee0rbY3IH9eiw at 2,10 size 14,7 {
   						}
   					}
   				}
   				
   				TableEntry _AL9ZYEUrEeeKqOBaOG4MmQ at 240,30 size 220,190 index 2 {
+  					fullTextSearch true
+  					defaultSorting NONE
+  					filterPlaceholder "filter by Title"
   					label "Title"
   					sortable true
-  					defaultSorting NONE
-  					fullTextSearch true
-  					filterPlaceholder "filter by Title"
-  					generalStyle GeneralStyling {
-  							marginTop None
-  							marginBottom None
+  					generalStyle GeneralStyling _DVJOwnq0EeiJdqsti47xBA {
   							tallness Fitting
+  							marginBottom None
   							attributes [  ]
+  							marginTop None
   						}
-  					MoveLeft _AL_1oEUrEeeKqOBaOG4MmQ at 2,2 size 7,14  {
+  					MoveLeft _AL_1oEUrEeeKqOBaOG4MmQ at 2,2 size 7,14 {
   					}
   					
-  					MoveRight _AMBDwEUrEeeKqOBaOG4MmQ at 10,2 size 7,14  {
+  					MoveRight _AMBDwEUrEeeKqOBaOG4MmQ at 10,2 size 7,14 {
   					}
   					
-  					Button _06JtcFAsEeeWJL1zKR4q1g at 10,30 size 200,60  {
-  						label "title clicked"
+  					Button _06JtcFAsEeeWJL1zKR4q1g at 10,30 size 200,60 {
   						displayLabel "{{current.title}}"
-  						styling ButtonStyling {
+  						disabled false
+  						label "title clicked"
+  						generalStyle GeneralStyling _DVJOynq0EeiJdqsti47xBA {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  								rawContent "font-weight: bold;"
+  							}
+  						styling ButtonStyling _DVJOxHq0EeiJdqsti47xBA {
   								fullWidth false
+  								color Default
   								size Default
   								disabled false
-  								color Default
   							}
-  						options ButtonOptions {
+  						icon Icon _DVJOyHq0EeiJdqsti47xBA {
+  								postIcon None
+  								preIcon None
+  							}
+  						options ButtonOptions _DVJOxnq0EeiJdqsti47xBA {
   								isLink true
   								submitsForm true
   							}
-  						disabled false
-  						icon Icon {
-  								preIcon None
-  								postIcon None
-  							}
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
-  								tallness Fitting
-  								rawContent "font-weight: bold;"
-  								attributes [  ]
-  							}
-  						MoveUp _06LioFAsEeeWJL1zKR4q1g at 2,2 size 14,7  {
+  						MoveUp _06LioFAsEeeWJL1zKR4q1g at 2,2 size 14,7 {
   						}
   						
-  						MoveDown _06MwwFAsEeeWJL1zKR4q1g at 2,10 size 14,7  {
+  						MoveDown _06MwwFAsEeeWJL1zKR4q1g at 2,10 size 14,7 {
   						}
   					}
   					
-  					Button _CK6TQIP-Eee0rbY3IH9eiw at 10,100 size 200,60  {
-  						label "title clicked"
+  					Button _CK6TQIP-Eee0rbY3IH9eiw at 10,100 size 200,60 {
   						displayLabel "{{current.title}} (assigned)"
-  						styling ButtonStyling {
+  						disabled false
+  						label "title clicked"
+  						generalStyle GeneralStyling _DVJO0nq0EeiJdqsti47xBA {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  								rawContent "text-decoration: line-through;"
+  							}
+  						styling ButtonStyling _DVJOzHq0EeiJdqsti47xBA {
   								fullWidth false
+  								color Default
   								size Default
   								disabled false
-  								color Default
   							}
-  						options ButtonOptions {
+  						icon Icon _DVJO0Hq0EeiJdqsti47xBA {
+  								postIcon None
+  								preIcon None
+  							}
+  						options ButtonOptions _DVJOznq0EeiJdqsti47xBA {
   								isLink true
   								submitsForm true
   							}
-  						disabled false
-  						icon Icon {
-  								preIcon None
-  								postIcon None
-  							}
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
-  								tallness Fitting
-  								rawContent "text-decoration: line-through;"
-  								attributes [  ]
-  							}
-  						MoveUp _CLoE8IP-Eee0rbY3IH9eiw at 2,2 size 14,7  {
+  						MoveUp _CLoE8IP-Eee0rbY3IH9eiw at 2,2 size 14,7 {
   						}
   						
-  						MoveDown _CLosAIP-Eee0rbY3IH9eiw at 2,10 size 14,7  {
+  						MoveDown _CLosAIP-Eee0rbY3IH9eiw at 2,10 size 14,7 {
   						}
   					}
   				}
   				
   				TableEntry _Amy7QEUrEeeKqOBaOG4MmQ at 470,30 size 220,120 index 3 {
+  					fullTextSearch true
+  					defaultSorting NONE
+  					filterPlaceholder "filter by Supervisor"
   					label "Supervisor"
   					sortable true
-  					defaultSorting NONE
-  					fullTextSearch true
-  					filterPlaceholder "filter by Supervisor"
-  					generalStyle GeneralStyling {
-  							marginTop None
-  							marginBottom None
+  					generalStyle GeneralStyling _DVJO1Hq0EeiJdqsti47xBA {
   							tallness Fitting
+  							marginBottom None
   							attributes [  ]
+  							marginTop None
   						}
-  					MoveLeft _Am0wcEUrEeeKqOBaOG4MmQ at 2,2 size 7,14  {
+  					MoveLeft _Am0wcEUrEeeKqOBaOG4MmQ at 2,2 size 7,14 {
   					}
   					
-  					MoveRight _Am1XgEUrEeeKqOBaOG4MmQ at 10,2 size 7,14  {
+  					MoveRight _Am1XgEUrEeeKqOBaOG4MmQ at 10,2 size 7,14 {
   					}
   					
-  					Button _6BWQwFAsEeeWJL1zKR4q1g at 10,30 size 200,60  {
-  						label "supervisor clicked"
+  					Button _6BWQwFAsEeeWJL1zKR4q1g at 10,30 size 200,60 {
   						displayLabel "{{current.supervisor.baseUser.firstName}} {{current.supervisor.baseUser.lastName}}"
-  						styling ButtonStyling {
+  						disabled false
+  						label "supervisor clicked"
+  						generalStyle GeneralStyling _DVJO3Hq0EeiJdqsti47xBA {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						styling ButtonStyling _DVJO1nq0EeiJdqsti47xBA {
   								fullWidth false
+  								color Default
   								size Default
   								disabled false
-  								color Default
   							}
-  						options ButtonOptions {
+  						icon Icon _DVJO2nq0EeiJdqsti47xBA {
+  								postIcon None
+  								preIcon None
+  							}
+  						options ButtonOptions _DVJO2Hq0EeiJdqsti47xBA {
   								isLink true
   								submitsForm true
   							}
-  						disabled false
-  						icon Icon {
-  								preIcon None
-  								postIcon None
-  							}
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
-  								tallness Fitting
-  								attributes [  ]
-  							}
-  						MoveUp _6BYF8FAsEeeWJL1zKR4q1g at 2,2 size 14,7  {
+  						MoveUp _6BYF8FAsEeeWJL1zKR4q1g at 2,2 size 14,7 {
   						}
   						
-  						MoveDown _6BYtAFAsEeeWJL1zKR4q1g at 2,10 size 14,7  {
+  						MoveDown _6BYtAFAsEeeWJL1zKR4q1g at 2,10 size 14,7 {
   						}
   					}
   				}
   				
   				TableEntry _nhZRMFswEeeIM6hYtGvSng at 700,30 size 170,372 index 4 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					filterPlaceholder "filter by Bidding"
   					label "Bidding"
   					sortable false
-  					defaultSorting NONE
-  					fullTextSearch false
-  					filterPlaceholder "filter by Bidding"
-  					generalStyle GeneralStyling {
-  							marginTop None
-  							marginBottom None
+  					generalStyle GeneralStyling _DVJ10Xq0EeiJdqsti47xBA {
   							tallness Fitting
+  							marginBottom None
   							attributes [  ]
+  							marginTop None
   						}
-  					MoveLeft _nhjCMFswEeeIM6hYtGvSng at 2,2 size 7,14  {
+  					MoveLeft _nhjCMFswEeeIM6hYtGvSng at 2,2 size 7,14 {
   					}
   					
-  					MoveRight _nhmFgFswEeeIM6hYtGvSng at 10,2 size 7,14  {
+  					MoveRight _nhmFgFswEeeIM6hYtGvSng at 10,2 size 7,14 {
   					}
   					
   					InteractionSIB _RYZjoINaEee8TuGtVfpUMA at 10,216 size 150,126 index 3 {
-  						libraryComponentUID "_YBCrUFWWEee9Kul9j01mzQ"
   						label "BiddingComponent"
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
+  						libraryComponentUID "_YBCrUFWWEee9Kul9j01mzQ"
+  						generalStyle GeneralStyling _DVJ103q0EeiJdqsti47xBA {
   								tallness Fitting
+  								marginBottom None
   								attributes [  ]
+  								marginTop None
   							}
-  						ComplexInputPort _RYlJ0INaEee8TuGtVfpUMA at 5,67 size 90,18  {
-  							libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
-  							isList true
+  						ComplexInputPort _RYlJ0INaEee8TuGtVfpUMA at 5,67 size 90,18 {
   							name "biddings"
+  							isList true
+  							libraryComponentUID "_pnmlwDlwEeelR78gw15slQ"
   						}
   						
-  						ComplexInputPort _RYrQcINaEee8TuGtVfpUMA at 5,85 size 90,18  {
-  							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
-  							isList false
+  						ComplexInputPort _RYrQcINaEee8TuGtVfpUMA at 5,85 size 90,18 {
   							name "concreteuser"
-  						}
-  						
-  						ComplexInputPort _RYvh4INaEee8TuGtVfpUMA at 5,103 size 90,18  {
-  							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   							isList false
+  							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  						}
+  						
+  						ComplexInputPort _RYvh4INaEee8TuGtVfpUMA at 5,103 size 90,18 {
   							name "topic"
+  							isList false
+  							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   						}
   						
-  						MoveUp _RY1ogINaEee8TuGtVfpUMA at 2,2 size 14,7  {
+  						MoveUp _RY1ogINaEee8TuGtVfpUMA at 2,2 size 14,7 {
   						}
   						
-  						MoveDown _RY2PkINaEee8TuGtVfpUMA at 2,10 size 14,7  {
+  						MoveDown _RY2PkINaEee8TuGtVfpUMA at 2,10 size 14,7 {
   						}
   					}
   					
   					InteractionSIB _ONY4kIZtEeepCdvwOIQIEA at 10,30 size 150,176 index 2 {
-  						libraryComponentUID "_muJAgFv6EeepUPpWd1pktQ"
   						label "BiddedUsersListComponent"
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
+  						libraryComponentUID "_muJAgFv6EeepUPpWd1pktQ"
+  						generalStyle GeneralStyling _DVJ11Xq0EeiJdqsti47xBA {
   								tallness Fitting
+  								marginBottom None
   								attributes [  ]
+  								marginTop None
   							}
-  						ComplexInputPort _ONxTEIZtEeepCdvwOIQIEA at 5,67 size 90,18  {
-  							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
-  							isList false
+  						ComplexInputPort _ONxTEIZtEeepCdvwOIQIEA at 5,67 size 90,18 {
   							name "concreteuser"
-  						}
-  						
-  						ComplexInputPort _OOAjoIZtEeepCdvwOIQIEA at 5,85 size 90,18  {
-  							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   							isList false
-  							name "topic"
+  							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   						}
   						
-  						Branch _OOIfcIZtEeepCdvwOIQIEA at 5,108 size 100,50  {
+  						ComplexInputPort _OOAjoIZtEeepCdvwOIQIEA at 5,85 size 90,18 {
+  							name "topic"
+  							isList false
+  							libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  						}
+  						
+  						Branch _OOIfcIZtEeepCdvwOIQIEA at 5,108 size 100,50 {
   							name "assignButtonClicked"
-  							ComplexOutputPort _OOtuQIZtEeepCdvwOIQIEA at 5,27 size 90,18  {
-  								libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
+  							ComplexOutputPort _OOtuQIZtEeepCdvwOIQIEA at 5,27 size 90,18 {
   								name "topic"
   								isList false
+  								libraryComponentUID "_k5NVsC84EeeRkP4audC_CA"
   							}
   						}
   						
-  						MoveUp _OPFhsIZtEeepCdvwOIQIEA at 2,2 size 14,7  {
+  						MoveUp _OPFhsIZtEeepCdvwOIQIEA at 2,2 size 14,7 {
   						}
   						
-  						MoveDown _OPHW4IZtEeepCdvwOIQIEA at 2,10 size 14,7  {
+  						MoveDown _OPHW4IZtEeepCdvwOIQIEA at 2,10 size 14,7 {
   						}
   					}
   				}
   			}
   			
   			Text _Dc-tgEp2EeeR8skQQzAlbg at 10,462 size 200,60 index 2 {
-  				content [ StaticContent {
-  						rawContent "Currently there are no topics to be displayed here."
+  				generalStyle GeneralStyling _DVJ123q0EeiJdqsti47xBA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				content [ StaticContent _DVJ12Xq0EeiJdqsti47xBA {
+  						renderMarkdown false
   						maxChars 0
   						html false
-  						styling TextStyling {
-  								alignment Left
-  								bold false
+  						rawContent "Currently there are no topics to be displayed here."
+  						styling TextStyling _DVJ113q0EeiJdqsti47xBA {
   								small false
-  								italic false
   								highlight false
   								deleted false
-  								underline false
   								color Default
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
   							}
   					} ]
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
-  						tallness Fitting
-  						attributes [  ]
-  					}
-  				MoveUp _DeqvkEp2EeeR8skQQzAlbg at 2,2 size 14,7  {
+  				MoveUp _DeqvkEp2EeeR8skQQzAlbg at 2,2 size 14,7 {
   				}
   				
-  				MoveDown _DeskwEp2EeeR8skQQzAlbg at 2,10 size 14,7  {
+  				MoveDown _DeskwEp2EeeR8skQQzAlbg at 2,10 size 14,7 {
   				}
   			}
   		}

@@ -1,21 +1,22 @@
 GUI _m8u4wEp4EeeR8skQQzAlbg {
-  title "PageFrameHeader"
-  additionalStylesheets [  ]
-  additionalJavaScript [  ]
   fullWidth false
-  DataContext _m9TggEp4EeeR8skQQzAlbg at 10,10 size 1251,201  {
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "PageFrameHeader"
+  DataContext _m9TggEp4EeeR8skQQzAlbg at 10,10 size 1251,201 {
   	dfViewWorkaround true
-  	ComplexVariable _2xAU4EqbEeeYWJ9zK_WIRg at 1060,77 size 160,51  {
-  		isLive false
+  	ComplexVariable _2xAU4EqbEeeYWJ9zK_WIRg at 1060,77 size 160,51 {
   		expanded true
-  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
-  		dfViewWorkaround true
-  		name "user"
-  		isList false
+  		isLive false
   		isInput true
-  		PrimitiveAttribute _3Rz74EqbEeeYWJ9zK_WIRg at 20,23 size 120,25  {
-  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
+  		name "user"
+  		dfViewWorkaround true
+  		isList false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		PrimitiveAttribute _3Rz74EqbEeeYWJ9zK_WIRg at 20,23 size 140,25 {
   			isLive false
+  			libraryComponentUID "_Z-rJEDlwEeelR78gw15slQ"
   		}
   		-ComplexAttributeConnector-> _3mDtkEqbEeeYWJ9zK_WIRg  decorate "Ellipse" at (0,0) {
   			id _3mLpYEqbEeeYWJ9zK_WIRg
@@ -24,587 +25,589 @@ GUI _m8u4wEp4EeeR8skQQzAlbg {
   		
   		-IS-> _XsaAoFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _AdvsMFWuEeexC5UrdY-JsA
+  			exactMatch false
   			negate true
-  			exactMatch true
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   		
   		-IS-> _YlQUMFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _TFaK4FWuEeexC5UrdY-JsA
+  			exactMatch false
   			negate false
-  			exactMatch true
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   		
   		-IS-> _aLrfcFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _c4-WsFWuEeexC5UrdY-JsA
+  			exactMatch false
   			negate false
-  			exactMatch true
   			matchingType "_fhd4sDlvEeelR78gw15slQ"
   		}
   		
   		-IS-> _biBAQFWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _bLLYIFWuEeexC5UrdY-JsA
+  			exactMatch false
   			negate false
-  			exactMatch true
   			matchingType "_QCBvMDlvEeelR78gw15slQ"
   		}
   		
   		-IS-> _46JnMF_aEeeas9jR11xv1Q  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _l09KgGbWEeeVvIZyQegRiw
+  			exactMatch false
   			negate false
-  			exactMatch true
   			matchingType "_fhd4sDlvEeelR78gw15slQ"
   		}
   		
-  		-IS-> _lSgC4FWtEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  		-IS-> _lSgC4FWtEeexC5UrdY-JsA via (1458,239) decorate "Polyline" at (2,0) decorate "Text" at (-47,-41) {
   			id _fTPZsFWuEeexC5UrdY-JsA
+  			exactMatch false
   			negate false
-  			exactMatch true
   			matchingType "_QCBvMDlvEeelR78gw15slQ"
   		}
   		
-  		-AddComplexToSubmission-> _lGt0MFWuEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  		-AddComplexToSubmission-> _lGt0MFWuEeexC5UrdY-JsA via (1508,228) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
   			id _p_EqQFWuEeexC5UrdY-JsA
   		}
   		
-  		-IS-> _t_Dt4FWuEeexC5UrdY-JsA  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  		-IS-> _t_Dt4FWuEeexC5UrdY-JsA via (1422,258) decorate "Polyline" at (2,0) decorate "Text" at (-65,-69) {
   			id _yqMAQFWuEeexC5UrdY-JsA
+  			exactMatch false
   			negate false
-  			exactMatch true
   			matchingType "_eWeFMDlvEeelR78gw15slQ"
   		}
   	}
   	
-  	ComplexVariable _3mDtkEqbEeeYWJ9zK_WIRg at 660,90 size 160,25  {
-  		isLive false
+  	ComplexVariable _3mDtkEqbEeeYWJ9zK_WIRg at 660,90 size 160,25 {
   		expanded false
-  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
-  		dfViewWorkaround true
-  		name "baseUser"
-  		isList false
+  		isLive false
   		isInput false
+  		name "baseUser"
+  		dfViewWorkaround true
+  		isList false
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
   	}
   }
   
-  Template _m9V8wEp4EeeR8skQQzAlbg at 10,230 size 1990,695  {
+  Template _m9V8wEp4EeeR8skQQzAlbg at 10,230 size 1990,695 {
   	blockName "body"
-  	generalStyle GeneralStyling {
-  			marginTop None
-  			marginBottom None
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _jemwc3qyEeiJdqsti47xBA {
   			tallness Fitting
+  			marginBottom None
   			attributes [  ]
+  			marginTop None
   		}
-  	Row _pyXCEEp4EeeR8skQQzAlbg at 10,30 size 1970,635  {
-  		generalStyle GeneralStyling {
-  				marginTop None
-  				marginBottom None
+  	Row _pyXCEEp4EeeR8skQQzAlbg at 10,30 size 1970,635 {
+  		generalStyle GeneralStyling _jemwdXqyEeiJdqsti47xBA {
   				tallness Fitting
-  				rawContent "background-color: #0091ba;"
+  				marginBottom None
   				attributes [  ]
+  				marginTop None
+  				rawContent "background-color: #0091ba;"
   			}
   		Col _pySJkEp4EeeR8skQQzAlbg at 10,30 size 1940,585 index 2 {
   			wideness Full
-  			layout Layout {
+  			layout Layout _jemwd3qyEeiJdqsti47xBA {
   					size Default
-  					alignment Left
   					offset None
+  					alignment Left
   				}
-  			generalStyle GeneralStyling {
-  					marginTop None
-  					marginBottom None
+  			generalStyle GeneralStyling _jemweXqyEeiJdqsti47xBA {
   					tallness Fitting
+  					marginBottom None
   					attributes [  ]
+  					marginTop None
   				}
-  			MoveLeft _pyWbBEp4EeeR8skQQzAlbg at 2,2 size 7,14  {
+  			MoveLeft _pyWbBEp4EeeR8skQQzAlbg at 2,2 size 7,14 {
   			}
   			
-  			MoveRight _pyWbA0p4EeeR8skQQzAlbg at 10,2 size 7,14  {
+  			MoveRight _pyWbA0p4EeeR8skQQzAlbg at 10,2 size 7,14 {
   			}
   			
-  			TopNavBar _-_7lgEqYEeeR9rEAwG2f9w at 10,30 size 1920,525  {
+  			TopNavBar _-_7lgEqYEeeR9rEAwG2f9w at 10,30 size 1920,525 {
   				fixed true
   				inverted true
-  				generalStyle GeneralStyling {
-  						marginTop None
-  						marginBottom None
+  				generalStyle GeneralStyling _jemwe3qyEeiJdqsti47xBA {
   						tallness Fitting
-  						rawContent "background-color: #0091ba;\ncolor: #fff;"
+  						marginBottom None
   						attributes [  ]
+  						marginTop None
+  						rawContent "background-color: #0091ba;\ncolor: #fff;"
   					}
-  				MoveUp _-_8zoEqYEeeR9rEAwG2f9w at 2,2 size 14,7  {
+  				MoveUp _-_8zoEqYEeeR9rEAwG2f9w at 2,2 size 14,7 {
   				}
   				
-  				MoveDown _-_-BwEqYEeeR9rEAwG2f9w at 2,10 size 14,7  {
+  				MoveDown _-_-BwEqYEeeR9rEAwG2f9w at 2,10 size 14,7 {
   				}
   				
   				LeftNavBarPart __AEIYEqYEeeR9rEAwG2f9w at 10,30 size 1630,160 index 3 {
-  					generalStyle GeneralStyling {
-  							marginTop None
-  							marginBottom None
+  					generalStyle GeneralStyling _jenXgXqyEeiJdqsti47xBA {
   							tallness Fitting
+  							marginBottom None
   							attributes [  ]
+  							marginTop None
   						}
-  					MoveLeft __AHLsEqYEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  					MoveLeft __AHLsEqYEeeR9rEAwG2f9w at 2,2 size 7,14 {
   					}
   					
-  					MoveRight __AIZ0EqYEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  					MoveRight __AIZ0EqYEeeR9rEAwG2f9w at 10,2 size 7,14 {
   					}
   					
-  					Text _YRbe8EqZEeeR9rEAwG2f9w at 120,30 size 200,60  {
-  						content [ StaticContent {
-  								rawContent "CSIS FYP Service"
+  					Text _YRbe8EqZEeeR9rEAwG2f9w at 120,30 size 200,60 {
+  						generalStyle GeneralStyling _jenXh3qyEeiJdqsti47xBA {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  								rawContent "color: #fff;"
+  							}
+  						content [ StaticContent _jenXhXqyEeiJdqsti47xBA {
+  								renderMarkdown false
   								maxChars 0
   								html false
-  								styling TextStyling {
-  										alignment Left
-  										bold true
+  								rawContent "CSIS FYP Service"
+  								styling TextStyling _jenXg3qyEeiJdqsti47xBA {
   										small false
-  										italic false
   										highlight false
   										deleted false
-  										underline false
   										color Default
+  										underline false
+  										bold true
+  										alignment Left
+  										italic false
   									}
   							} ]
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
-  								tallness Fitting
-  								rawContent "color: #fff;"
-  								attributes [  ]
-  							}
-  						MoveLeft _YRdUIEqZEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  						MoveLeft _YRdUIEqZEeeR9rEAwG2f9w at 2,2 size 7,14 {
   						}
   						
-  						MoveRight _YReiQEqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  						MoveRight _YReiQEqZEeeR9rEAwG2f9w at 10,2 size 7,14 {
   						}
   					}
   					
   					ButtonGroup _Q16IkEqZEeeR9rEAwG2f9w at 330,30 size 1280,110 index 4 {
-  						alignment horizontal
   						size Default
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
+  						alignment horizontal
+  						generalStyle GeneralStyling _jenXiXqyEeiJdqsti47xBA {
   								tallness Fitting
-  								rawContent ""
+  								marginBottom None
   								attributes [  ]
+  								marginTop None
+  								rawContent ""
   							}
-  						MoveUp _Q146ekqZEeeR9rEAwG2f9w at 2,2 size 14,7  {
+  						MoveUp _Q146ekqZEeeR9rEAwG2f9w at 2,2 size 14,7 {
   						}
   						
-  						MoveDown _Q146c0qZEeeR9rEAwG2f9w at 2,10 size 14,7  {
+  						MoveDown _Q146c0qZEeeR9rEAwG2f9w at 2,10 size 14,7 {
   						}
   						
-  						Button _Q14TYUqZEeeR9rEAwG2f9w at 10,30 size 200,60  {
-  							label "View topics"
+  						Button _Q14TYUqZEeeR9rEAwG2f9w at 10,30 size 200,60 {
   							displayLabel ""
-  							styling ButtonStyling {
+  							disabled false
+  							label "View topics"
+  							generalStyle GeneralStyling _jenXkXqyEeiJdqsti47xBA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  									rawContent "color: #fff;"
+  								}
+  							styling ButtonStyling _jenXi3qyEeiJdqsti47xBA {
   									fullWidth false
+  									color Default
   									size Default
   									disabled false
-  									color Default
   								}
-  							options ButtonOptions {
+  							icon Icon _jenXj3qyEeiJdqsti47xBA {
+  									postIcon None
+  									preIcon None
+  								}
+  							options ButtonOptions _jenXjXqyEeiJdqsti47xBA {
   									isLink false
   									submitsForm true
   								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									rawContent "color: #fff;"
-  									attributes [  ]
-  								}
-  							MoveRight _Q14TYkqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  							MoveRight _Q14TYkqZEeeR9rEAwG2f9w at 10,2 size 7,14 {
   							}
   							
-  							MoveLeft _Q14TY0qZEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  							MoveLeft _Q14TY0qZEeeR9rEAwG2f9w at 2,2 size 7,14 {
   							}
   						}
   						
   						Button _XsaAoFWtEeexC5UrdY-JsA at 220,30 size 200,60 index 7 {
-  							label "View users"
   							displayLabel ""
-  							styling ButtonStyling {
+  							disabled false
+  							label "View users"
+  							generalStyle GeneralStyling _jen-knqyEeiJdqsti47xBA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  									rawContent "color: #fff;"
+  								}
+  							styling ButtonStyling _jenXk3qyEeiJdqsti47xBA {
   									fullWidth false
+  									color Default
   									size Default
   									disabled false
-  									color Default
   								}
-  							options ButtonOptions {
+  							icon Icon _jen-kHqyEeiJdqsti47xBA {
+  									postIcon None
+  									preIcon None
+  								}
+  							options ButtonOptions _jenXlXqyEeiJdqsti47xBA {
   									isLink false
   									submitsForm true
   								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									rawContent "color: #fff;"
-  									attributes [  ]
-  								}
-  							MoveLeft _Xs5I0FWtEeexC5UrdY-JsA at 2,2 size 7,14  {
+  							MoveLeft _Xs5I0FWtEeexC5UrdY-JsA at 2,2 size 7,14 {
   							}
   							
-  							MoveRight _Xs6-AFWtEeexC5UrdY-JsA at 10,2 size 7,14  {
+  							MoveRight _Xs6-AFWtEeexC5UrdY-JsA at 10,2 size 7,14 {
   							}
   						}
   						
   						Button _YlQUMFWtEeexC5UrdY-JsA at 430,30 size 200,60 index 3 {
-  							label "View supervisors"
   							displayLabel ""
-  							styling ButtonStyling {
+  							disabled false
+  							label "View supervisors"
+  							generalStyle GeneralStyling _jen-mnqyEeiJdqsti47xBA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  									rawContent "color: #fff;"
+  								}
+  							styling ButtonStyling _jen-lHqyEeiJdqsti47xBA {
   									fullWidth false
+  									color Default
   									size Default
   									disabled false
-  									color Default
   								}
-  							options ButtonOptions {
+  							icon Icon _jen-mHqyEeiJdqsti47xBA {
+  									postIcon None
+  									preIcon None
+  								}
+  							options ButtonOptions _jen-lnqyEeiJdqsti47xBA {
   									isLink false
   									submitsForm true
   								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									rawContent "color: #fff;"
-  									attributes [  ]
-  								}
-  							MoveLeft _YlSwcFWtEeexC5UrdY-JsA at 2,2 size 7,14  {
+  							MoveLeft _YlSwcFWtEeexC5UrdY-JsA at 2,2 size 7,14 {
   							}
   							
-  							MoveRight _YlTXgFWtEeexC5UrdY-JsA at 10,2 size 7,14  {
+  							MoveRight _YlTXgFWtEeexC5UrdY-JsA at 10,2 size 7,14 {
   							}
   						}
   						
   						Button _aLrfcFWtEeexC5UrdY-JsA at 850,30 size 200,60 index 4 {
-  							label "Create new user"
   							displayLabel ""
-  							styling ButtonStyling {
+  							disabled false
+  							label "Create new user"
+  							generalStyle GeneralStyling _jen-onqyEeiJdqsti47xBA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  									rawContent "color: #fff;"
+  								}
+  							styling ButtonStyling _jen-nHqyEeiJdqsti47xBA {
   									fullWidth false
+  									color Default
   									size Default
   									disabled false
-  									color Default
   								}
-  							options ButtonOptions {
+  							icon Icon _jen-oHqyEeiJdqsti47xBA {
+  									postIcon None
+  									preIcon None
+  								}
+  							options ButtonOptions _jen-nnqyEeiJdqsti47xBA {
   									isLink false
   									submitsForm true
   								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									rawContent "color: #fff;"
-  									attributes [  ]
-  								}
-  							MoveLeft _aLuiwFWtEeexC5UrdY-JsA at 2,2 size 7,14  {
+  							MoveLeft _aLuiwFWtEeexC5UrdY-JsA at 2,2 size 7,14 {
   							}
   							
-  							MoveRight _aLvw4FWtEeexC5UrdY-JsA at 10,2 size 7,14  {
+  							MoveRight _aLvw4FWtEeexC5UrdY-JsA at 10,2 size 7,14 {
   							}
   						}
   						
   						Button _biBAQFWtEeexC5UrdY-JsA at 640,30 size 200,60 index 5 {
-  							label "Upload new topic"
   							displayLabel ""
-  							styling ButtonStyling {
+  							disabled false
+  							label "Upload new topic"
+  							generalStyle GeneralStyling _jen-qnqyEeiJdqsti47xBA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  									rawContent "color: #fff;"
+  								}
+  							styling ButtonStyling _jen-pHqyEeiJdqsti47xBA {
   									fullWidth false
+  									color Default
   									size Default
   									disabled false
-  									color Default
   								}
-  							options ButtonOptions {
+  							icon Icon _jen-qHqyEeiJdqsti47xBA {
+  									postIcon None
+  									preIcon None
+  								}
+  							options ButtonOptions _jen-pnqyEeiJdqsti47xBA {
   									isLink false
   									submitsForm true
   								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									rawContent "color: #fff;"
-  									attributes [  ]
-  								}
-  							MoveLeft _biC1cFWtEeexC5UrdY-JsA at 2,2 size 7,14  {
+  							MoveLeft _biC1cFWtEeexC5UrdY-JsA at 2,2 size 7,14 {
   							}
   							
-  							MoveRight _biEDkFWtEeexC5UrdY-JsA at 10,2 size 7,14  {
+  							MoveRight _biEDkFWtEeexC5UrdY-JsA at 10,2 size 7,14 {
   							}
   						}
   						
   						Button _46JnMF_aEeeas9jR11xv1Q at 1060,30 size 200,60 index 6 {
-  							label "MockupContent"
   							displayLabel "[DEBUG] Mockup Content"
-  							styling ButtonStyling {
+  							disabled false
+  							label "MockupContent"
+  							generalStyle GeneralStyling _jeolo3qyEeiJdqsti47xBA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							styling ButtonStyling _jen-rHqyEeiJdqsti47xBA {
   									fullWidth false
+  									color Default
   									size Default
   									disabled false
-  									color Default
   								}
-  							options ButtonOptions {
+  							icon Icon _jeoloXqyEeiJdqsti47xBA {
+  									postIcon None
+  									preIcon None
+  								}
+  							options ButtonOptions _jen-rnqyEeiJdqsti47xBA {
   									isLink false
   									submitsForm true
   								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									attributes [  ]
-  								}
-  							MoveLeft _47GCYF_aEeeas9jR11xv1Q at 2,2 size 7,14  {
+  							MoveLeft _47GCYF_aEeeas9jR11xv1Q at 2,2 size 7,14 {
   							}
   							
-  							MoveRight _47KT0F_aEeeas9jR11xv1Q at 10,2 size 7,14  {
+  							MoveRight _47KT0F_aEeeas9jR11xv1Q at 10,2 size 7,14 {
   							}
   						}
   					}
   					
   					Image _Jl3d4EqjEeeYWJ9zK_WIRg at 10,30 size 100,90 index 3 {
-  						path "http://ulsites.ul.ie/csis/sites/default/files/modules/csis_logo2.png"
   						dimensionX 387
+  						path "http://ulsites.ul.ie/csis/sites/default/files/modules/csis_logo2.png"
   						dimensionY 55
-  						styling ImageStyling {
+  						generalStyle GeneralStyling _jeolp3qyEeiJdqsti47xBA {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						styling ImageStyling _jeolpXqyEeiJdqsti47xBA {
   								border Default
   								responsive true
   							}
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
-  								tallness Fitting
-  								attributes [  ]
-  							}
-  						MoveLeft _Jl6hMEqjEeeYWJ9zK_WIRg at 2,2 size 7,14  {
+  						MoveLeft _Jl6hMEqjEeeYWJ9zK_WIRg at 2,2 size 7,14 {
   						}
   						
-  						MoveRight _Jl8WYEqjEeeYWJ9zK_WIRg at 10,2 size 7,14  {
+  						MoveRight _Jl8WYEqjEeeYWJ9zK_WIRg at 10,2 size 7,14 {
   						}
   					}
   				}
   				
   				RightNavBarPart __ATY8EqYEeeR9rEAwG2f9w at 1650,30 size 250,475 index 2 {
-  					generalStyle GeneralStyling {
-  							marginTop None
-  							marginBottom None
+  					generalStyle GeneralStyling _jeolqXqyEeiJdqsti47xBA {
   							tallness Fitting
+  							marginBottom None
   							attributes [  ]
+  							marginTop None
   						}
-  					MoveLeft __AUnEEqYEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  					MoveLeft __AUnEEqYEeeR9rEAwG2f9w at 2,2 size 7,14 {
   					}
   					
-  					MoveRight __AVOIEqYEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  					MoveRight __AVOIEqYEeeR9rEAwG2f9w at 10,2 size 7,14 {
   					}
   					
-  					Dropdown _iiBlAEqZEeeR9rEAwG2f9w at 10,30 size 220,425  {
-  						label "{{user.baseUser.firstName}} {{user.baseUser.lastName}}"
+  					Dropdown _iiBlAEqZEeeR9rEAwG2f9w at 10,30 size 220,425 {
   						dropUp false
-  						styling ButtonStyling {
+  						disabled false
+  						label "{{user.baseUser.firstName}} {{user.baseUser.lastName}}"
+  						generalStyle GeneralStyling _jeolr3qyEeiJdqsti47xBA {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  								rawContent "color: #fff;"
+  							}
+  						styling ButtonStyling _jeolq3qyEeiJdqsti47xBA {
   								fullWidth false
+  								color Default
   								size Default
   								disabled false
-  								color Default
   							}
-  						disabled false
-  						icon Icon {
-  								preIcon User
+  						icon Icon _jeolrXqyEeiJdqsti47xBA {
   								postIcon None
+  								preIcon User
   							}
-  						generalStyle GeneralStyling {
-  								marginTop None
-  								marginBottom None
-  								tallness Fitting
-  								rawContent "color: #fff;"
-  								attributes [  ]
-  							}
-  						MoveLeft _iigGIEqZEeeR9rEAwG2f9w at 2,2 size 7,14  {
+  						MoveLeft _iigGIEqZEeeR9rEAwG2f9w at 2,2 size 7,14 {
   						}
   						
-  						MoveRight _iigtMEqZEeeR9rEAwG2f9w at 10,2 size 7,14  {
+  						MoveRight _iigtMEqZEeeR9rEAwG2f9w at 10,2 size 7,14 {
   						}
   						
-  						Button _iirsUEqZEeeR9rEAwG2f9w at 10,335 size 200,60  {
+  						Button _iirsUEqZEeeR9rEAwG2f9w at 10,335 size 200,60 {
+  							displayLabel "Logout"
+  							disabled false
   							label "Logout"
-  							displayLabel ""
-  							styling ButtonStyling {
-  									fullWidth false
-  									size Default
-  									disabled false
-  									color Default
-  								}
-  							options ButtonOptions {
-  									staticURL "logout"
-  									isLink false
-  									submitsForm true
-  								}
-  							disabled false
-  							icon Icon {
-  									preIcon LogOut
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
+  							generalStyle GeneralStyling _jeolt3qyEeiJdqsti47xBA {
   									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
   									rawContent ""
-  									attributes [  ]
   								}
-  							MoveUp _iithgEqZEeeR9rEAwG2f9w at 2,2 size 14,7  {
+  							styling ButtonStyling _jeolsXqyEeiJdqsti47xBA {
+  									fullWidth false
+  									color Default
+  									size Default
+  									disabled false
+  								}
+  							icon Icon _jeoltXqyEeiJdqsti47xBA {
+  									postIcon None
+  									preIcon LogOut
+  								}
+  							options ButtonOptions _jeols3qyEeiJdqsti47xBA {
+  									isLink false
+  									submitsForm true
+  									staticURL "logout"
+  								}
+  							MoveUp _iithgEqZEeeR9rEAwG2f9w at 2,2 size 14,7 {
   							}
   							
-  							MoveDown _iiuIkEqZEeeR9rEAwG2f9w at 2,10 size 14,7  {
+  							MoveDown _iiuIkEqZEeeR9rEAwG2f9w at 2,10 size 14,7 {
   							}
   						}
   						
-  						Button _nwKuwEqiEeeYWJ9zK_WIRg at 10,55 size 200,60  {
-  							label "My profile"
+  						Button _nwKuwEqiEeeYWJ9zK_WIRg at 10,55 size 200,60 {
   							displayLabel ""
-  							styling ButtonStyling {
+  							disabled false
+  							label "My profile"
+  							generalStyle GeneralStyling _jepMt3qyEeiJdqsti47xBA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							styling ButtonStyling _jepMsXqyEeiJdqsti47xBA {
   									fullWidth false
+  									color Default
   									size Default
   									disabled false
-  									color Default
   								}
-  							options ButtonOptions {
+  							icon Icon _jepMtXqyEeiJdqsti47xBA {
+  									postIcon None
+  									preIcon None
+  								}
+  							options ButtonOptions _jepMs3qyEeiJdqsti47xBA {
   									isLink false
   									submitsForm true
   								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									attributes [  ]
-  								}
-  							MoveUp _nwOZIEqiEeeYWJ9zK_WIRg at 2,2 size 14,7  {
+  							MoveUp _nwOZIEqiEeeYWJ9zK_WIRg at 2,2 size 14,7 {
   							}
   							
-  							MoveDown _nwPnQEqiEeeYWJ9zK_WIRg at 2,10 size 14,7  {
+  							MoveDown _nwPnQEqiEeeYWJ9zK_WIRg at 2,10 size 14,7 {
   							}
   						}
   						
-  						Button _lSgC4FWtEeexC5UrdY-JsA at 10,195 size 200,60  {
-  							label "My profile"
+  						Button _lSgC4FWtEeexC5UrdY-JsA at 10,195 size 200,60 {
   							displayLabel "My uploaded topics"
-  							styling ButtonStyling {
+  							disabled false
+  							label "My profile"
+  							generalStyle GeneralStyling _jepMv3qyEeiJdqsti47xBA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							styling ButtonStyling _jepMuXqyEeiJdqsti47xBA {
   									fullWidth false
+  									color Default
   									size Default
   									disabled false
-  									color Default
   								}
-  							options ButtonOptions {
+  							icon Icon _jepMvXqyEeiJdqsti47xBA {
+  									postIcon None
+  									preIcon None
+  								}
+  							options ButtonOptions _jepMu3qyEeiJdqsti47xBA {
   									isLink false
   									submitsForm true
   								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									attributes [  ]
-  								}
-  							MoveUp _lSjtQFWtEeexC5UrdY-JsA at 2,2 size 14,7  {
+  							MoveUp _lSjtQFWtEeexC5UrdY-JsA at 2,2 size 14,7 {
   							}
   							
-  							MoveDown _lSmJgFWtEeexC5UrdY-JsA at 2,10 size 14,7  {
+  							MoveDown _lSmJgFWtEeexC5UrdY-JsA at 2,10 size 14,7 {
   							}
   						}
   						
-  						Button _lGt0MFWuEeexC5UrdY-JsA at 10,125 size 200,60  {
+  						Button _lGt0MFWuEeexC5UrdY-JsA at 10,125 size 200,60 {
+  							displayLabel ""
+  							disabled false
   							label "Edit my profile"
-  							displayLabel ""
-  							styling ButtonStyling {
+  							generalStyle GeneralStyling _jepMx3qyEeiJdqsti47xBA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							styling ButtonStyling _jepMwXqyEeiJdqsti47xBA {
   									fullWidth false
+  									color Default
   									size Default
   									disabled false
-  									color Default
   								}
-  							options ButtonOptions {
+  							icon Icon _jepMxXqyEeiJdqsti47xBA {
+  									postIcon None
+  									preIcon None
+  								}
+  							options ButtonOptions _jepMw3qyEeiJdqsti47xBA {
   									isLink false
   									submitsForm true
   								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									attributes [  ]
-  								}
-  							MoveUp _lGvpYFWuEeexC5UrdY-JsA at 2,2 size 14,7  {
+  							MoveUp _lGvpYFWuEeexC5UrdY-JsA at 2,2 size 14,7 {
   							}
   							
-  							MoveDown _lGw3gFWuEeexC5UrdY-JsA at 2,10 size 14,7  {
+  							MoveDown _lGw3gFWuEeexC5UrdY-JsA at 2,10 size 14,7 {
   							}
   						}
   						
-  						Button _t_Dt4FWuEeexC5UrdY-JsA at 10,265 size 200,60  {
-  							label "My desired topics"
+  						Button _t_Dt4FWuEeexC5UrdY-JsA at 10,265 size 200,60 {
   							displayLabel ""
-  							styling ButtonStyling {
+  							disabled false
+  							label "My desired topics"
+  							generalStyle GeneralStyling _jepMz3qyEeiJdqsti47xBA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							styling ButtonStyling _jepMyXqyEeiJdqsti47xBA {
   									fullWidth false
+  									color Default
   									size Default
   									disabled false
-  									color Default
   								}
-  							options ButtonOptions {
+  							icon Icon _jepMzXqyEeiJdqsti47xBA {
+  									postIcon None
+  									preIcon None
+  								}
+  							options ButtonOptions _jepMy3qyEeiJdqsti47xBA {
   									isLink false
   									submitsForm true
   								}
-  							disabled false
-  							icon Icon {
-  									preIcon None
-  									postIcon None
-  								}
-  							generalStyle GeneralStyling {
-  									marginTop None
-  									marginBottom None
-  									tallness Fitting
-  									attributes [  ]
-  								}
-  							MoveUp _t_FjEFWuEeexC5UrdY-JsA at 2,2 size 14,7  {
+  							MoveUp _t_FjEFWuEeexC5UrdY-JsA at 2,2 size 14,7 {
   							}
   							
-  							MoveDown _t_GxMFWuEeexC5UrdY-JsA at 2,10 size 14,7  {
+  							MoveDown _t_GxMFWuEeexC5UrdY-JsA at 2,10 size 14,7 {
   							}
   						}
   					}
